@@ -1,0 +1,1959 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "some_assembly_required"
+	group: "18F0ED1F9A002C08"
+	icon: "gtceu:assembly_line"
+	id: "058B7FE882875343"
+	order_index: 5
+	quest_links: [
+		{
+			id: "4AB71382C803BD92"
+			linked_quest: "1DFF7C35B5B26B80"
+			shape: "hexagon"
+			x: -12.25d
+			y: -8.0d
+		}
+		{
+			id: "1596B621A4F022CC"
+			linked_quest: "2DD1E2391DA3170C"
+			shape: "hexagon"
+			x: -10.25d
+			y: -8.0d
+		}
+		{
+			id: "68CD175ED7E7E9FE"
+			linked_quest: "4DB622A78605A2EB"
+			shape: "gear"
+			size: 1.5d
+			x: -8.25d
+			y: -8.0d
+		}
+		{
+			id: "760BD8D5E0B0FE24"
+			linked_quest: "57A6FE885489C3ED"
+			x: -7.5d
+			y: -6.75d
+		}
+		{
+			id: "1C267CF4E1689C85"
+			linked_quest: "4E63CE9607E3B792"
+			shape: "hexagon"
+			size: 1.5d
+			x: -6.25d
+			y: -8.0d
+		}
+		{
+			id: "7E828413AC5F2CE2"
+			linked_quest: "47D092CBA484C0DE"
+			shape: "hexagon"
+			x: -6.25d
+			y: -6.0d
+		}
+		{
+			id: "7A8ECF14A7DB76F8"
+			linked_quest: "1FF5C2A3CAB76088"
+			shape: "hexagon"
+			x: -6.25d
+			y: -4.0d
+		}
+		{
+			id: "2DAEEE4673ACDE81"
+			linked_quest: "6CE6674C20500023"
+			shape: "hexagon"
+			x: -6.25d
+			y: -2.0d
+		}
+		{
+			id: "69D9E5D2192FE218"
+			linked_quest: "521977C7165229F1"
+			shape: "gear"
+			size: 1.5d
+			x: -6.25d
+			y: 0.0d
+		}
+		{
+			id: "3580707E636655C2"
+			linked_quest: "11154356854B64DA"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "1C4EBBFDD443BAE7"
+			linked_quest: "53EC3831D66769CA"
+			shape: "hexagon"
+			x: 5.75d
+			y: 0.75d
+		}
+		{
+			id: "24BED0E27BD54DB6"
+			linked_quest: "0BB798ACFE684AA9"
+			shape: "hexagon"
+			size: 1.5d
+			x: -3.25d
+			y: 0.0d
+		}
+		{
+			id: "7DFA3535BA3EEDFC"
+			linked_quest: "54C3B1B782FDF57F"
+			x: -10.25d
+			y: 2.75d
+		}
+		{
+			id: "618C6CA76FB63461"
+			linked_quest: "6A76B3DCA599B9B5"
+			shape: "hexagon"
+			size: 1.5d
+			x: 16.0d
+			y: 7.25d
+		}
+		{
+			id: "43E9A85C57CF1C7D"
+			linked_quest: "044553423097C3C7"
+			x: 12.25d
+			y: -2.75d
+		}
+		{
+			id: "1E75CED3B4A1296A"
+			linked_quest: "3DD8D9EEA7189186"
+			shape: "hexagon"
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			id: "4A7A31C3C07C98F9"
+			linked_quest: "27A80F018F59EF1E"
+			shape: "hexagon"
+			size: 1.1d
+			x: 14.75d
+			y: 4.675d
+		}
+		{
+			id: "171E1089E43EE76B"
+			linked_quest: "1405D08C6A87B3BB"
+			size: 1.25d
+			x: -8.25d
+			y: 6.75d
+		}
+		{
+			id: "431DA0890FF11DE1"
+			linked_quest: "63C3077124BC81FD"
+			x: -8.5d
+			y: -5.25d
+		}
+		{
+			id: "53D04354B8061A41"
+			linked_quest: "6B80737C5E1359F7"
+			shape: "hexagon"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "3260188D1D1543AC"
+			linked_quest: "424413BBCE3FD3BF"
+			shape: "hexagon"
+			x: 7.25d
+			y: 4.75d
+		}
+		{
+			id: "57D9AB6BFC44C8FE"
+			linked_quest: "28CA4E5308EC0BB9"
+			shape: "hexagon"
+			size: 1.25d
+			x: 4.25d
+			y: 2.75d
+		}
+		{
+			id: "1280D62386BC2C4E"
+			linked_quest: "15FAEE3F625265F4"
+			shape: "hexagon"
+			x: 0.75d
+			y: 6.75d
+		}
+		{
+			id: "6A0F4CBB58BE6D22"
+			linked_quest: "7A65459E4DFAAC2D"
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.75d
+			y: 8.75d
+		}
+		{
+			id: "3FF813B417BA0F0C"
+			linked_quest: "15DBB22E3DC0AFB7"
+			shape: "hexagon"
+			size: 2.0d
+			x: 13.25d
+			y: 4.75d
+		}
+		{
+			id: "357D1A1342B62C34"
+			linked_quest: "023197AB7CDBDD6E"
+			shape: "hexagon"
+			size: 2.0d
+			x: 10.75d
+			y: 4.75d
+		}
+		{
+			id: "73970F01D2A201B5"
+			linked_quest: "49B872B193268554"
+			shape: "hexagon"
+			size: 1.5d
+			x: 4.25d
+			y: -1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"77582C534A994D7C"
+				"7E09D4E00BFA4970"
+				"386DB3C9E646764D"
+			]
+			description: [
+				"&3発展型マイクロバース投影機&rは、&6Tier 4&rから&6Tier 6のマイクロマイナー&rをマイクロバースに送り込むのに必要な、より強力な投影機だ。"
+				""
+				"さらに、レシピの要求ティアより上の投影機を使うと、1ティア上がるごとに無料のパーフェクトオーバークロックが1回得られる。&3電気高炉&rが温度に応じてパーフェクトオーバークロックを与えるのと似た仕組みだ。"
+				""
+				"このティアには&6EV空間発生器&rが必要で、つまり&6ウラン&rも必要になる。ウランは&6閃ウラン鉱&rを処理すれば入手できる。"
+				""
+				"初期のミッションは&eIV電力&rで動かせるが、後のミッションには&eLuV電力&rが必要だ。前の投影機と同様に、この構造体はオーバークロックに対応しており、バスとハッチの位置は任意の&6マイクロバース投影機外装&rと入れ替えられる。"
+				""
+				"コントローラーを&6スニーク右クリック&rすると、ワールド内プレビューが有効になる。"
+			]
+			icon: "monilabs:advanced_microverse_projector"
+			id: "52F1953ED72A8AA6"
+			rewards: [{
+				id: "5AE89BD5E0053CAD"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2AC4B505FA1D3CD7"
+					item: "monilabs:advanced_microverse_projector"
+					type: "item"
+				}
+				{
+					count: 49L
+					id: "078732970112DE64"
+					item: "monilabs:microverse_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "75F7637F2A28B88D"
+					item: "gtceu:tempered_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "47AE5E0A855FB7CF"
+					item: "gtceu:assembly_line_grating"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "32E17E2541B4A6AA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2BFE29E8F92DF014"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6986DF3E1F245C79"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "188AD96703592BAB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "発展型マイクロバース投影機"
+			x: 12.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["53C00EA9D9BEE776"]
+			description: [
+				"&6インジウム&rは希少な素材で、入手には専用の大規模な鉱石処理が必要だ。&6リン化インジウムガリウム&r（InGaP）を作るのに役立つ。"
+				""
+				"（&3鉱石洗浄機&rか&3化学槽&rで）&6方鉛鉱&rと&6閃亜鉛鉱&rを洗浄して、&6洗浄済み&rの粉砕鉱石にする必要がある。これらを&9硫酸&rと一緒に&3ミキサー&rに入れると、&9インジウム濃縮液&rができる。"
+				""
+				"これをさらに&3化学反応器&rで&6アルミニウム&rと反応させると、&2小さなインジウムの粉、硫酸アルミニウム、&9鉛-亜鉛溶液&rができる。後の2つは遠心分離で様々な有用素材にでき、小さなインジウムの粉はまとめて通常の粉にできる。"
+				""
+				"後になると、&6方鉛鉱&rや&6閃亜鉛鉱&rの代わりに&6輝銀鉱&rを使えるようになる。&2インジウムはLuVのナクアダ処理チェーンからも得られる。"
+			]
+			id: "6E5343E45E99CBAD"
+			rewards: [{
+				id: "6655983AB054E8EA"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "76BD7DC9E8DFF0C6"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			title: "インジウム"
+			x: -4.5d
+			y: -4.75d
+		}
+		{
+			dependencies: [
+				"6E5343E45E99CBAD"
+				"11154356854B64DA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6QBit CPU&rは、&6量子回路&rに欠かせない発展的な回路ウェハーだ。"
+				""
+				"作り方は2通りある："
+				""
+				"簡単なレシピでは、&6クアンタムアイ&r2個とインゴット2個分の溶融&9ヒ化ガリウム&rを使って&6Nano CPUウェハー&rを強化する。このレシピは遅く、1回のクラフトにかなり多くの&9ラドン&rを必要とする。"
+				""
+				"もう一方のルートでは、代わりに&6リン化インジウムガリウム&rとごく少量のラドンを使う。クラフトの遅いクアンタムアイを省けてラドンの使用量もずっと少なくなるが、&6インジウム&rを入手するための設備が必要になる。"
+				""
+				"全体的には2つ目のルートのほうが優れているし、パックをクリアするにはどのみちインジウム処理が必要になるので、ついでにやってしまおう。"
+			]
+			id: "1903B26C95DD325A"
+			rewards: [{
+				id: "6AC4AD3CD3FE51B3"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1A7AA84791A76177"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			title: "QBitプロセッシングユニット"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"672D43BD113251EA"
+				"605062720747B482"
+			]
+			description: [
+				"&3組立ライン&rは、&3組立機&rのように複雑な素材をクラフトする大型のマルチブロック構造体だ。今後、様々な部品や機械を作るのに欠かせなくなる。"
+				""
+				"発電量と回路の生産量がこの難題に耐えられるか確認しよう。&2組立ラインのレシピはどれもプログラム回路を必要としない。&r"
+				""
+				"他の機械とは違い、&3組立ライン&rはアイテム入力が順番通りで、使わない入力が空である必要がある。エキスパートモードでは流体入力も順番通りでなければならない。レシピの最初のアイテムは、コントローラーに最も近い入力バスに入れる。このため、自動化がかなり複雑になる。"
+				""
+				"このクエストでは長さ10ユニット、つまり入力9個と出力1個の組立ラインが必要だ。&6LuVコンポーネント&rを作るにはこの大きさで十分だが、後のプロジェクトではさらに入力を増やす必要がある。"
+				"{@pagebreak}"
+				"組立ラインの構造は、他のマルチブロックより少し厳格だ："
+				""
+				"- &a入力バス&rは底面にしか置けず、すべて&8ULV&rティアで、下向きでなければならない。&a出力バス&rは入力バスの列の一番端に置く必要があり、ティアは問わない。"
+				""
+				"- &a流体ハッチ&rは底面の&6スチール製マシン外装&rとしか置き換えられない。"
+				""
+				"- &aエネルギーハッチ&rは&6スチール製マシン外装&rの最上段にしか置けない。"
+				""
+				"- &2データアクセスハッチ&rは、組立ラインのコントローラーブロックと同じ側の&6格子マシン外装&rと置き換える必要がある。後でこれを&2光学データ受付ハッチ&rに置き換えられる。組立ラインのデータシステムの仕組みについては、隣のクエストを参照しよう。"
+				""
+				"レシピが動かないときは、そのレシピに対応する&eデータ&rが&2データアクセスハッチ&rか接続された&3データバンク&rにあるか確認しよう。"
+			]
+			icon: "gtceu:assembly_line"
+			id: "6DAB13A7BDECE94E"
+			rewards: [{
+				id: "42076303CC86ECC9"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "17A506152F4D9582"
+					item: "gtceu:assembly_line"
+					type: "item"
+				}
+				{
+					count: 29L
+					id: "7497F00CED97F4DA"
+					item: "gtceu:solid_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "65DBFA3899B0BF69"
+					item: "gtceu:assembly_line_unit"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "034A6892C4736EE2"
+					item: "gtceu:assembly_line_grating"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "13EA465FE104347C"
+					item: "gtceu:laminated_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6D2A69F8627ECAB4"
+					item: "gtceu:assembly_line_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1CAF65797B20AC6F"
+					item: "gtceu:data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 9L
+					disable_toast: true
+					id: "65BD8613A3E3515C"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "794423EB8C96C999"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "387214B8A372DF36"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:iv_energy_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iv_energy_input_hatch_4a"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iv_energy_input_hatch_16a"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "任意のIVエネルギーハッチ"
+					type: "item"
+				}
+			]
+			title: "&2組立ライン"
+			x: 0.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39FD6F1076559156"]
+			description: [
+				"&3組立ライン&rがアイテムをクラフトするには、事前にクラフト方法の&eデータ&rを与える必要がある。各アイテムのクラフト方法のデータは&6データスティック&rに保存され、&aデータアクセスハッチ&rで読み取られる。このデータは、&6LuVコンポーネント&rや&3核融合炉&rなどのクラフトに必要だ。"
+				"{@pagebreak}"
+				"まずは&3スキャナー&rと&6データスティック&rを数本クラフトしよう。初期のスキャナーのレシピは&6HV&rで動くが、比較的すぐに&9IV&rが必要になるので、どうせならIVのものを作ろう。"
+				""
+				"&bEMI&rでクラフトしたいアイテムにカーソルを合わせて&8R&rを押し、&bスキャナーのタブ&rに移動しよう。新しいアイテムのデータを作るためにどのアイテムをスキャンすればよいかがわかる。例えば、&dLuV &6電動モーター&rには&9IV&r &6電動モーター&rのスキャンが必要だ。"
+				"{@pagebreak}"
+				"&6データスティック&rとスキャンするアイテムを&3スキャナー&rに入れよう。アイテムは&c消費&rされ、そのデータが&6データスティック&rに書き込まれる。各&6データアイテム&rには&c1つのレシピ&rしか保存できない。"
+				""
+				"最後に、&6データスティック&rを&3組立ライン&rの&aデータアクセスハッチ&rに入れよう。これでそのアイテムをクラフトできるようになる。"
+				""
+				"後には、データを保存するためにより高度な&6データオーブ&rや&6データモジュール&rが、それらを読み取るために&3データバンク&rが必要になる。"
+				""
+				"データアイテムの複製が必要な場合は、スキャナーを使って同じ種類の空のデータアイテムにデータをコピーできる。"
+			]
+			icon: "gtceu:data_stick"
+			id: "672D43BD113251EA"
+			rewards: [{
+				id: "3212CC0C2E024DDC"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7BFFD184B42E366A"
+				type: "checkmark"
+			}]
+			title: "&9組立ラインのデータ"
+			x: 0.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["424413BBCE3FD3BF"]
+			description: [
+				"&6ナクアダ添加シリコン単結晶&rは、1個あたりさらに多くのウェハーを生産できる。また、&eTier 5マイクロマイナーミッション&rで得られる豊富なナクアダのおかげで比較的安価だ。"
+				""
+				"この単結晶からは&6発展型システムオンチップ&rのウェハーも生産できる。"
+			]
+			id: "0889C9E0DD0FDF06"
+			rewards: [{
+				id: "37D14FC615EBCCD2"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "513763D6DD3E629A"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			title: "ナクアダ単結晶"
+			x: 7.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28CA4E5308EC0BB9"]
+			description: [
+				"&bThermal Expansion&rの複雑な素材で、&3電気高炉&rまたは&2合金溶融高炉&rで焼き上げる。"
+				""
+				"&6エンダリウム&rは多くの熱を必要とし、オーバークロックなしではかなり遅い。&2エンドの液体空気の蒸留で得られるクリプトンを少量使えば、精錬時間を大幅に短縮できる。&r"
+				""
+				"&9エンダリウムにはタンタルも必要だ。タンタルは&6ドラゴンの鱗&9を粉砕・処理すれば再生可能に作れる。&r"
+				""
+				"後半の高炉素材すべてに言えることだが、在庫を保つための炉を1台専用にして常時稼働させ、安定供給を確保するのもいいだろう（十分すぎるほどの備蓄ができたら止めればいい）。"
+				""
+				"エンダリウムは他の用途に加えて、機械用の&aレゾナント統合コンポーネント&rを解放する。これらのクエストは&e進行&rタブにある。"
+			]
+			id: "7DB174443D7FAFA0"
+			rewards: [{
+				id: "66C7F991AB382AC8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4466DE68C3A06C65"
+				item: "gtceu:enderium_ingot"
+				type: "item"
+			}]
+			title: "&9エンダリウム"
+			x: 4.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["424413BBCE3FD3BF"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6ナクアダ&rの処理から必要になる素材は3つある：&6濃縮ナクアダ&r（Nq+）、&6ナクアドリア&r（Nq*）、&6トリニウム&r（Ke）だ。 "
+				""
+				"ナクアダの処理方法は2通りあり、それぞれ異なる素材が得られる。&r"
+				""
+				"1つ目の方法は、&6Tier 5マイクロマイナー&rの鉱石を処理することだ。&6ナクアダ鉱石&rからは（&3電磁分離機&rで）Nq+が、&6カエマナイト鉱石&rからはKeが得られる。"
+				""
+				"2つ目の方法は、&6ナクアダの粉&rを&6フルオロアンチモン酸&rで完全に処理することだ。かなり手間のかかる工程だが、他の2つのNq素材が両方得られるだけでなく、&6チタン、硫黄、インジウム、リン、バリウム、ガリウム&rの副産物も得られる。 "
+			]
+			icon: "gtceu:enriched_naquadah_dust"
+			id: "0508D3CCB6C876A3"
+			rewards: [{
+				id: "67B0A4C33D2EDC21"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "15E690653306B02C"
+					item: "gtceu:trinium_sulfide_dust"
+					type: "item"
+				}
+				{
+					id: "35C5447F3A7F3A87"
+					item: "gtceu:enriched_naquadah_sulfate_dust"
+					type: "item"
+				}
+				{
+					id: "1A54942E18E330D7"
+					item: "gtceu:naquadria_sulfate_dust"
+					type: "item"
+				}
+			]
+			title: "ナクアダ処理"
+			x: 4.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["15FAEE3F625265F4"]
+			description: ["&6ナクアダ合金&rにはナクアダ、オスミリジウム、トリニウムが必要だ。&6ZPMマシン筐体&rの製作に使われる。"]
+			id: "1B07DB4D58D43B7C"
+			rewards: [{
+				id: "0A307605C7249051"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "643EAAB3956473B9"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			title: "&2ナクアダ合金"
+			x: -0.25d
+			y: 7.75d
+		}
+		{
+			dependencies: [
+				"15FAEE3F625265F4"
+				"521977C7165229F1"
+			]
+			description: [
+				"&3核融合炉&rは、膨大なエネルギーを使って流体を融合し、新しい元素を作るマルチブロックだ。プレビューが示す場所にしかハッチを置けないので、これまでのGregTechマルチブロックより柔軟性に欠ける。コントローラーを&6スニーク右クリック&rすると、ワールド内プレビューが有効になる。"
+				""
+				"&bEMI&rのプレビューには&e有効なハッチの位置がすべて&r表示されるが、実際にはそれほど多くの流体ハッチは必要ない。&a流体入力ハッチ2個&rと&a流体出力ハッチ1個&rが最低限あれば、構造体のどのハッチ位置も&2核融合マシン外装&rに置き換えられる。好みであれば、有効な位置すべてに入出力ハッチを使ってもいい。"
+				"{@pagebreak}"
+				"そのため、このクエストでは&2核融合マシン外装48個&rしか要求しない。流体ハッチを最小限にする場合は、追加で&2核融合マシン外装29個&rをクラフトする必要がある。&a核融合マシン外装48個&rに加えて、&6核融合炉ガラス31個&rか&6核融合マシン外装31個&rも必要だ。&b核融合炉ガラスのほうが安く、見た目もかっこいい&rが、どちらにするかは自由だ。"
+				""
+				"&aエネルギーハッチ&rを1個増やすごとに、炉の電力バッファが増える。マルチアンペアハッチも使えるが、炉の充電が速くなるだけだ。Mark 1のすべてのレシピを処理し、&e160M EU&rの電力バッファを得るには、&a16個すべてのエネルギーハッチ&rが必要だ。&2ただし、すべてのエネルギーハッチを電源につなぐ必要はない。例えば、LuVの消費電力が必要なレシピなら電源につながったハッチが1個以上あればよいが、ZPMの消費電力が必要なレシピなら少なくとも2個のハッチを電源につなぐ必要がある。&r &cそれでも、ハッチ自体は構造体に設置しておく必要がある！&r"
+				"{@pagebreak}"
+				"レシピの電力消費に加えて、核融合炉にはレシピの&e「開始EU」&rに関連する&e熱&rの仕組みがある。この量の電力は、炉を必要な温度まで加熱するためにレシピ開始前に炉のバッファから消費され、レシピのEU/tコストとは無関係だ。そのため、これによってレシピに必要な炉の最低ティアが決まる。"
+				""
+				"炉が処理を止めると、ソフトマレットで一時停止した場合でも&e急速に熱を失う&r。一方で、炉がすでにレシピに必要な温度に達していれば、炉を加熱するための&e追加の電力は不要&rだ！これは別のレシピに切り替えた場合でも同じだ。この仕組みにより、炉を連続稼働させるメリットが生まれる。"
+				""
+				"さらに、&9炉は同じレシピを連続で実行するほど速くなる。&rすべてのレシピは最初は&32倍の所要時間&rで始まるが、時間とともに最終的には&bEMI&rに記載された速度の&32倍の速さ&rになる。"
+				"{@pagebreak}"
+				"より多くの熱を必要とするレシピに切り替えた場合、目標の熱に達するためにEUとして消費されるのは熱量の&e差分だけ&rだ（最大熱量は炉の現在のバッファと同じ）。"
+				""
+				"核融合炉はオーバークロックするが、エネルギー入力ではなく&e炉の電圧ティアまで&rしかオーバークロックしない。例えば、&9IV&rのレシピはMk1では1回、Mk2では2回オーバークロックする。ただし、核融合炉のオーバークロックは&a2倍の電力で2倍の速度&rになる。\n\n核融合からは非常に重要な素材が数多く生産されるので、炉をたくさん作ることを恐れないように！"
+			]
+			icon: "gtceu:luv_fusion_reactor"
+			id: "2D10F2E538486624"
+			rewards: [{
+				count: 10
+				id: "171F25E6D91ECD8C"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "さあ、融合の時間だ！"
+			tasks: [
+				{
+					id: "58C69AD21BA53BEB"
+					item: "gtceu:luv_fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "71DEB9E939BE5342"
+					item: "gtceu:fusion_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 31L
+					id: "3679617A11A13CF0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:fusion_casing"
+								}
+								{
+									Count: 1b
+									id: "gtceu:fusion_glass"
+								}
+							]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3B725EE9F9263150"
+					item: "gtceu:superconducting_coil"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "696B8CE2A4872407"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3901C623BB44467A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2CC02870B2315C8C"
+					item: "gtceu:luv_energy_input_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2核融合炉MK I"
+			x: -6.25d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"4DB622A78605A2EB"
+				"458FF3F9BC8E025B"
+			]
+			description: [
+				"&3アクティブ変圧器&rは、任意の数と種類の&9GTエネルギー入力&rを、任意の数と種類の&9GTエネルギー出力&rに変換できる装置だ。これには&6大型蓄電器用64Aハッチ&rや&aレーザーハッチ&rも含まれる。詳しくは近くのクエストを参照しよう。"
+				""
+				"アクティブ変圧器が有効で電力が流れている状態で、構造体の&cブロックを&lどれか1つでも&r&c壊すと、コントローラーが破壊される。&rハード／エキスパートモードでは、さらに&c激しい爆発&rも起こる。"
+				""
+				"大容量の電力転送と分配には、これが最良の選択肢だ。使えるようになったら、すぐに設置を始めることを強く推奨する。"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:active_transformer"
+			id: "2BBAF93506DD79C1"
+			rewards: [{
+				id: "3248AEB7F7568507"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "4690FCEE96F1452A"
+					item: "gtceu:active_transformer"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "64797C42E28DEEA5"
+					item: "gtceu:high_power_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "24698CBDDEC3C8FB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:substation_input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "721634118A52925F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:substation_output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7995224A01F711F0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:laser_source_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "36A9BAA9763B14AA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:laser_target_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2アクティブ変圧器"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0889C9E0DD0FDF06"]
+			description: [
+				"&6発展型システムオンチップ&r（&6ASoC&r）は、&6ナノプロセッサー&rと&6量子プロセッサー&rの最も効率的なレシピを解放する。"
+				""
+				"後者は&cZPM &3回路作成機&rで作る必要がある。"
+			]
+			id: "7ECA688A91A1392A"
+			rewards: [{
+				id: "57F1601344CCFD75"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D3D6B5AEB319758"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			title: "発展型システムオンチップ"
+			x: 7.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["15DBB22E3DC0AFB7"]
+			description: [
+				"すべてのミッションで&6エアロジウムの粉&rが必要だ。このマイクロマイナーは、&9Tier 2.5マイクロマイナー&rより高度な&6モブのドロップ&rを集めるのに使える。"
+				""
+				"このマイナーは&6ウィザーの地のデータ、ディープダークのデータ、ドラゴンの巣窟のデータ&rの唯一の入手源であり、&6ドラゴンの鱗&rのようなボスドロップもすべてここから手に入る。"
+				""
+				"&6ネザースター&rや&6ドラゴンブレス&rの入手源としても非常に優秀だ。"
+			]
+			id: "19C2D208A2FC9968"
+			rewards: [{
+				id: "7003E20DD8EE9891"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "0A014ADA1BC753F1"
+				item: "kubejs:microminer_t4half"
+				type: "item"
+			}]
+			title: "Tier 4.5 マイクロマイナー"
+			x: 14.5d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"044553423097C3C7"
+				"2C4500569586EBC7"
+			]
+			description: [
+				"&9IV &6エネルギーハッチ&rを2つ使えば、&6希少金属混合物の粉&rを分解するのに必要な&dLuV&rレシピを動かせるようになる。これは既存のプラチナ処理ラインから手に入っているはずだ。"
+				""
+				"希少金属混合物の粉からは、今後のティアに欠かせない素材である&6イリジウム&rと&6オスミウム&rを抽出できる。"
+				""
+				"これには大量の&6希少金属混合物の粉&rが必要になるので、まだなら今のうちに&6白金族汚泥&rの処理ラインをマルチブロック機械でアップグレードしておくといい。"
+			]
+			id: "05F7C3F397B329F5"
+			rewards: [{
+				count: 4
+				id: "01E80F1B37C6A00E"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "01229A2F5C98A469"
+					item: "gtceu:iridium_dust"
+					type: "item"
+				}
+				{
+					id: "7E22CB63A59CD5CF"
+					item: "gtceu:osmium_dust"
+					type: "item"
+				}
+			]
+			title: "希少金属混合物の処理"
+			x: 10.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["78DCEF2FF2E1AC8C"]
+			description: ["&2薄いポリフェニレンサルファイドシートは、&dLuV&2から&3UV&2までのすべてのティアのケーブルの被覆に必要だ。&r"]
+			icon: "gtceu:polyphenylene_sulfide_foil"
+			id: "6BE1CD77618EC6C7"
+			rewards: [{
+				id: "2327DD1CE3C56AB2"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "674ADD4BEFC6B52D"
+				item: "gtceu:polyphenylene_sulfide_foil"
+				type: "item"
+			}]
+			title: "&2ポリフェニレンサルファイド"
+			x: -3.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["54C3B1B782FDF57F"]
+			description: ["&2ロジウムメッキルミウムパラジウムは、ロジウム、ルミウム、パラジウムの混合物だ。LuVマシン筐体の基礎となる。"]
+			id: "2B336FD89B15F98E"
+			rewards: [{
+				id: "0954DEB837B61435"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0A1E55B5F54F0B7B"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			title: "&2ロジウムメッキルミウムパラジウム"
+			x: -5.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["2D10F2E538486624"]
+			description: [
+				"&3核融合炉&rがあれば、ユーロピウムを作れる！"
+				""
+				"この元素は&9スカルク関連のアイテム&rの作成に必要なほか、&6核融合炉 MK II&r、&2クリスタルチップの培養&r、&6ウェットウェアスーパーコンピュータ&rにも使う。"
+				""
+				"溶融した&6ネオジム&rと&6水素&rを核融合させて作る。"
+			]
+			id: "2A6E9E7C80754936"
+			rewards: [{
+				id: "6240C217129EEDE9"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7448593DF760F9B0"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			title: "&2ユーロピウムインゴット"
+			x: -6.25d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"2A6E9E7C80754936"
+				"46A56A5E3CC2403F"
+			]
+			description: ["Ludicrous Voltageティアの&bGregTech&rバッテリー。"]
+			id: "5199E6FAA4B699CD"
+			rewards: [{
+				id: "627320094BB964B3"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14C7B5FF0EC19030"
+				item: "gtceu:lapotronic_energy_orb_cluster"
+				type: "item"
+			}]
+			title: "LuVの電力貯蔵"
+			x: -8.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5199E6FAA4B699CD"]
+			description: ["&6重力エンジンユニット2つ&rとさらに多くのバッテリーを背中に括り付ければ、とてつもなく速く飛び、新たな高みに到達し、神に一歩近づける。"]
+			id: "6FA5A5D424F8ADA1"
+			rewards: [{
+				count: 2
+				id: "6AEE91C03E9C1048"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			subtitle: "空の王者！"
+			tasks: [{
+				id: "4D42D65928F19EAD"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_quarktech_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "止められない"
+			x: -10.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["2BBAF93506DD79C1"]
+			description: [
+				"&aレーザー&rは、大容量の電力輸送のための&9GregTech&r純正の解決策だ。&9IV&r以降の各電力ティアには、その電圧の電力を&9256A&r、&91,024A&r、&94,096A&r輸送できる&aレーザーハッチ&rがある！"
+				""
+				"レーザーネットワークのエネルギーは、&aレーザー照射ハッチ&rから&6レーザーパイプ&rを通って&aレーザー照準ハッチ&rへと流れる。これらはすべて一直線上に並べる必要がある。なにしろレーザーは曲がらないのだから。他の電力関連ブロックと同様に、&aレーザー照準ハッチ&rのティアは&aレーザー照射ハッチ&rのティアより低くしてはいけない。"
+				""
+				"&3アクティブ変圧器&rと&3大型蓄電器&rの間で電力を送るときや、&a電力幹線&rの一部として使うことをおすすめする。"
+			]
+			hide_dependency_lines: false
+			id: "20745EB9A695E365"
+			rewards: [{
+				id: "15899CA6F8B8B442"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "70194E2E6210DDEF"
+				item: "gtceu:normal_laser_pipe"
+				type: "item"
+			}]
+			title: "&2レーザーネットワーク"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"6DC635766CD40FFF"
+				"05F7C3F397B329F5"
+			]
+			description: [
+				"&dLudicrous Voltage&rに入ると、アイテムや部品のクラフトに多くの新しい先進素材が必要になる。これらの素材のほとんどは&6RTM合金コイル&rを必要とする。"
+				""
+				"&6ルリジット&rはルテニウムとイリジウムの合金だ。&6HSS-S&rとともにLuVの部品に使われる。"
+				""
+				"&6ニオブチタン&rはLuVの主要なケーブル素材だ。後に&6ウェットウェア回路&rのために大量に必要になる。"
+				""
+				"&6オスミリジウム&r（鉱石から採れるものではない）は、LuVティアのエネルギー入出力に使う&6LuV電圧コイル&rの作成に使われる。後にZPMの部品にも使う。"
+				""
+				"最後に、&6サマリウム&rはLuV以上のモーターに使われる。&6レアアース&rから得られる。"
+				""
+				"これらの素材は高温で長時間かけないと精錬できないので、在庫を確保しておく方法を見つけよう。"
+			]
+			id: "458FF3F9BC8E025B"
+			rewards: [{
+				count: 3
+				id: "30C3AED9A388CD32"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "60852255D5701524"
+					item: "gtceu:ruridit_ingot"
+					type: "item"
+				}
+				{
+					id: "4A735EA6993A72D7"
+					item: "gtceu:niobium_titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "3A171C4B127DD56D"
+					item: "gtceu:osmiridium_ingot"
+					type: "item"
+				}
+				{
+					id: "71D6ED6A4EAA1968"
+					item: "gtceu:samarium_ingot"
+					type: "item"
+				}
+			]
+			title: "&2発展型LuV素材"
+			x: -1.5d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"0508D3CCB6C876A3"
+				"28CA4E5308EC0BB9"
+			]
+			description: [
+				"&2より高い核反応性を持つ、重いナクアダの同位体。"
+				""
+				"&6濃縮ナクアダ&rは、&3トリニウムコイルブロック&rや一部の終盤の合金に少量使われるほか、&6ナクアドリア&rとともに固体の&6ナクアダ燃料棒&rの生産にも使われる。"
+				""
+				"少なくとも入手は一番簡単で、ナクアダの完全な処理ラインか、&6精製ナクアダの粉&rを&3電磁分離機&rに通すことで手に入る。"
+			]
+			id: "41FA85A3920EB334"
+			rewards: [{
+				id: "0EE4E2D847DF531E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C09CC813DF2E695"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			title: "&2濃縮ナクアダ"
+			x: 4.25d
+			y: 4.75d
+		}
+		{
+			dependencies: [
+				"5732018AA35D69B6"
+				"6E5343E45E99CBAD"
+				"1CEFFF8EE1E4B6EE"
+			]
+			description: [
+				"このエネルギーハッチに必要な&6IV電圧コイル&rには、&9IV&rの&3組立機&rと&6ネプツニウム&rが必要だ。"
+				""
+				"&6HPICチップ&rも必要で、これには&6インジウム&rと&9IV&rティアの&3切断機&rが要る。"
+				""
+				"このハッチを2つ使えば、ほとんどのマルチブロックを&dLuV&r電圧で動かせる。"
+			]
+			id: "2C4500569586EBC7"
+			rewards: [{
+				id: "16699F5E79A243A4"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71509E2C21AAF211"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "IVエネルギーハッチ"
+			x: 10.75d
+			y: -4.75d
+		}
+		{
+			dependencies: [
+				"2A6E9E7C80754936"
+				"776886E9296912DD"
+			]
+			description: [
+				"&3無線エネルギーブリッジ&r（略してWEB）には&3ハブ&rと&3レシーバー&rの2種類がある。ハブはレシーバーへ無線で電力を送る。"
+				""
+				"WEBのどちら側も特定の番号の周波数に設定できる。同じ周波数のとき、ハブ内の電力はレシーバーに分配される。"
+				""
+				"&cアクティブ変圧器と同様に、WEBハブも稼働中に構造が崩れると爆発する。"
+				""
+				"WEBハブは動作のために毎秒&6量子冷却材&rを消費する。消費量はハブが受け入れられる最大電力に応じて増える。"
+				""
+				"&c量子冷却材がないとハブは爆発する。"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "gtmutils:web_hub"
+			id: "069D243B809E0D5D"
+			optional: true
+			rewards: [{
+				id: "05346384A9F2EAF1"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "遠く離れた場所からの不気味な電力。"
+			tasks: [
+				{
+					id: "68377567726F542C"
+					item: "gtmutils:web_hub"
+					type: "item"
+				}
+				{
+					id: "385F41E1232A30C1"
+					item: "gtmutils:web_receiver"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "24F2A65FC87AC06E"
+					item: "gtceu:palladium_substation"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 82L
+					id: "0FE1D5A3165173C5"
+					item: "gtceu:high_power_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "1420E116039DDBB5"
+					item: "gtceu:superconducting_coil"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "6959DC32078B79AF"
+					item: "gtceu:europium_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0F86B8E141C2B3A9"
+					item: "gtceu:naquadah_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0AEC9886FA970981"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "307AC340B102FE7C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:substation_input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "24D051F83867B268"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:substation_output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4C7552A6B8056F1E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:laser_source_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0262061AAB1B8E6E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:laser_target_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2無線エネルギーブリッジ"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2A6E9E7C80754936"
+				"0412D46926C075FF"
+			]
+			description: [
+				"&3無線エネルギーブリッジ&r（略してWEB）には&3ハブ&rと&3レシーバー&rの2種類がある。ハブはレシーバーへ無線で電力を送る。"
+				""
+				"WEBのどちら側も特定の番号の周波数に設定できる。同じ周波数のとき、ハブ内の電力はレシーバーに分配される。"
+				""
+				"&cアクティブ変圧器と同様に、WEBハブも稼働中に構造が崩れると爆発する。"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "gtmutils:web_hub"
+			id: "10E63A0428E6BA25"
+			optional: true
+			size: 2.0d
+			subtitle: "遠く離れた場所からの不気味な電力。"
+			tasks: [
+				{
+					id: "12926B03245B5C5B"
+					item: "gtmutils:web_hub"
+					type: "item"
+				}
+				{
+					id: "44186257F4A41DBC"
+					item: "gtmutils:web_receiver"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "49F7B3A4BAD92078"
+					item: "gtceu:palladium_substation"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 82L
+					id: "3F1F71F05E8870DB"
+					item: "gtceu:high_power_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "5CF63C90F1C12F36"
+					item: "gtceu:superconducting_coil"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "534561F5D62386A4"
+					item: "gtceu:europium_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4C02D84C3465B44C"
+					item: "gtceu:naquadah_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1822D62B1382D71E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "478170EE889BA5FA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:substation_input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "39AD81CB89858880"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:substation_output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "746E4D2B1D1F87F0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:laser_source_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "289C2709FEA98B72"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:laser_target_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2無線エネルギーブリッジ"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"6BE1CD77618EC6C7"
+				"2B336FD89B15F98E"
+			]
+			description: ["&6&2ロジウムメッキルミウムパラジウム&r、&6ニオブチタン&r、&2ポリフェニレンサルファイド&rがあれば、Ludicrous Voltage（LuV）の&bGregTech&r機械用の筐体を作れるようになる。"]
+			id: "76BAC72CC89F390E"
+			rewards: [{
+				id: "566D0537EF1F4803"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4B5AA5E05B42308C"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			title: "&2LuVマシン筐体"
+			x: -3.25d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"76BAC72CC89F390E"
+				"6DAB13A7BDECE94E"
+				"458FF3F9BC8E025B"
+			]
+			description: ["&3精鋭型組立機 II&rでは、&6ナクアダコイル&rや&6LuV電圧コイル&rなど、&dLuV&rティアのレシピが使えるようになる。"]
+			icon: "gtceu:luv_circuit_assembler"
+			id: "254D6D1470BC197E"
+			rewards: [{
+				id: "263E5B2C35C3D9F4"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5B95FCADCA0B7A5D"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			title: "LuV組立機"
+			x: -1.5d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"217F85D6FE2A467D"
+				"2A6E9E7C80754936"
+			]
+			description: [
+				"&6ZPM電動モーター&rを作るには&6細いユーロピウムワイヤー&rが必要なので、安定して供給できるようにしておこう。"
+				""
+				"&3精鋭型組立機 III&rで、&6トリニウムコイル&rが作れるようになる。"
+			]
+			id: "5A31EEF439212D6E"
+			rewards: [{
+				id: "2298AABA390AF4ED"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F54B2C910090F5B"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			title: "ZPM組立機"
+			x: -2.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["1B07DB4D58D43B7C"]
+			description: [
+				"&6ZPMマシン筐体&rは&2ナクアダ合金プレート&rで作るが、&2ポリベンゾイミダゾール&rも必要なことに気づくだろう。"
+				""
+				"ZPMはZero Point Module（ゼロ点モジュール）の略だ。"
+			]
+			id: "217F85D6FE2A467D"
+			rewards: [{
+				id: "603150815EBC60F3"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64DD484503E452DD"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			title: "&2ZPMマシン筐体"
+			x: -1.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["52F1953ED72A8AA6"]
+			description: [
+				"&3発展型マイクロバース投影機&rを必要とするティア4以上のマイクロマイナー任務は、投影されたマイクロバースにかなりの負担をかける。レシピが進むにつれて、マイクロバースの完全性が減っていく。レシピ1回あたりの減少量の合計は&bEMI&rで確認できる。"
+				""
+				"この劣化に対抗するには、&6量子フラックス&rを使ってマイクロバースを修復できる。任意の入力バスに入れておけば、レシピが動いているかどうかに関係なく自動的に消費されてマイクロバースを修復する。1個につき1%修復し、1%を超えて減っているときにだけ消費される。"
+				""
+				"なお、上記の挙動は通常のマイクロバース特有のものだ。&eマイクロバースの種類ごとに修復方法が異なる&rので、それぞれのクエストを必ず読もう！"
+				""
+				"マイクロバースの完全性が0になると崩壊し、任務中のマイクロマイナーは戻ってくるが、それ以外は何も返ってこない。さらにレシピを動かすには、新しいマイクロバースを投影し直す必要がある。"
+				""
+				"マイクロバースの安定性は、&6マイクロバース安定センサーハッチ&rを使ってレッドストーン信号として読み取れる。"
+			]
+			icon: "monilabs:quantum_flux"
+			id: "1EA5F30C5ACADBA9"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3105E94F99354675"
+				type: "checkmark"
+			}]
+			title: "マイクロバースの劣化"
+			x: 10.5d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"0B9D5F865C3F8B31"
+				"1349044BF8C04A12"
+			]
+			description: ["&3三等級ロケット&rがあれば&e水星&rと&e金星&rに行ける。行く前に&eネザライトの宇宙服&rを作っておこう。さもないと大気で&c焼け死んでしまう&r。\n\n水星には&eインジウム&r用の&6輝銀鉱&r、&6プルトニウム&r、&6ラウラ鉱&rがあり、さらに&9燃え盛るパイロジウム&r、&9過硫酸ナトリウム&r、そして…&9水銀&rの液体鉱脈もある。\n金星には&6燐イットリウム鉱&r、&6硫化銅鉛鉱&r、&9硫酸&rの液体鉱脈、そして大量の&6白金族鉱石&rがある。"]
+			id: "299CCE5C8C2219C8"
+			rewards: [{
+				id: "4AEACF669F40EC9B"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "415F24B92C756DBE"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"05F7C3F397B329F5"
+				"3DD8D9EEA7189186"
+			]
+			description: ["&6HSS-G&rに&6イリジウム&rと&6オスミウム&rを加えて作る。"]
+			id: "0B9D5F865C3F8B31"
+			rewards: [{
+				id: "4C8CAEEEAB645B5E"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0BAD9D80B9357E77"
+				item: "gtceu:hsss_ingot"
+				type: "item"
+			}]
+			title: "高速度鋼タイプS"
+			x: 8.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["15DBB22E3DC0AFB7"]
+			dependency_requirement: "one_completed"
+			description: ["&6ネプツニウム&rは&6ティア4マイクロマイナー&rの任務で入手できる。ずっと後になれば、より良い入手源としてナクアダ化学を利用できる。"]
+			id: "1CEFFF8EE1E4B6EE"
+			shape: "hexagon"
+			tasks: [{
+				id: "0FCD30F8DAA5A913"
+				item: "gtceu:neptunium_ingot"
+				type: "item"
+			}]
+			title: "ネプツニウム"
+			x: 13.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["3DD8D9EEA7189186"]
+			description: ["HSS-Gにコバルト、マンガン、シリコンを加えて作る。"]
+			id: "798889BE3819EB4D"
+			rewards: [{
+				id: "564DD63763022D42"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E4BC0F99B0B1EFC"
+				item: "gtceu:hsse_ingot"
+				type: "item"
+			}]
+			title: "高速度鋼タイプE"
+			x: 5.75d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"51A463024F35DC2E"
+				"798889BE3819EB4D"
+				"0B9D5F865C3F8B31"
+				"5732018AA35D69B6"
+			]
+			description: [
+				"&6発展型SMD部品&rは&6クリスタル回路、ウェットウェア回路、光学回路&rに必要だ。また、ナノ回路やクアンタム回路では通常のSMD部品4個分の代わりとしても使える。"
+				""
+				"これらの部品はすべて&9IV&rの電力と&6液体PBI&rを必要とする。"
+				""
+				"最後に解放されるSMDはコンデンサーで、&6HSS-S&rのために&6イリジウム&rと&6オスミウム&rが必要になる。"
+				""
+				"通常のSMD部品と同様に、これらにも非常に堅牢な自動化システムを用意しよう。この先ずっと必要になるからだ。"
+			]
+			id: "38791476E970C57D"
+			rewards: [{
+				id: "70C66EF123AE5DD5"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "324B41AEBA8927FF"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "6A346D6C9F058C51"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "7104BC98E07A23E5"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "73E28039FDD9B214"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "6E9FACCF49E451FB"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			title: "&2発展型SMDコンポーネント"
+			x: 7.25d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"023197AB7CDBDD6E"
+				"299CCE5C8C2219C8"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6ナクアダ&rの入手に必要な&6安定したプルトニウム&rは、&6プルトニウム239&rか&6プルトニウム241&rのどちらからでも作れる。"
+				""
+				"プルトニウム239は&6T5マイクロマイナー&rの任務で粉として手に入るほか、惑星水星で鉱石として採掘することもできる。後者には&6三等級ロケット&rが必要だ。"
+				""
+				"プルトニウム241はプルトニウム239の粉を遠心分離すると得られる。後には&6核融合炉 MK II&rでも入手できる。"
+			]
+			id: "1BADB230EB1BEA4D"
+			shape: "hexagon"
+			tasks: [{
+				id: "279C7B688A20DE05"
+				item: "kubejs:stabilized_plutonium"
+				type: "item"
+			}]
+			title: "プルトニウム"
+			x: 8.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["672D43BD113251EA"]
+			description: [
+				"&2光学繊維ケーブル&rは、&3データバンク&rと&3組立ライン&rの間で&e研究データ&r&rを、あるいは&3高機能計算アレイ&r、&3ネットワークスイッチ&r、&3研究ステーション&rの間で&e計算データ&rを転送するのに使う。"
+				""
+				"光学接続は&a送信ハッチ&r1つにつき&a受信ハッチ&r1つに限られることに注意しよう。"
+			]
+			id: "3A69EE21B3089929"
+			rewards: [{
+				id: "3F51DC3B35CA6470"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C1D0A754607F817"
+				item: "gtceu:normal_optical_pipe"
+				type: "item"
+			}]
+			title: "&2光学繊維ケーブル"
+			x: 2.75d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3A69EE21B3089929"
+				"28CA4E5308EC0BB9"
+			]
+			description: [
+				"&3データバンク&rは&6データスティック&rや&6データオーブ&rの大容量ストレージとして機能する。&6データモジュール&rを読み取るのにも必要だ。"
+				""
+				"データバンクの&3光学データ伝送ハッチ&rを、&3組立ライン&rの&3光学データ受付ハッチ&r（&3データアクセスハッチ&rの代わりに設置）に&a光学ケーブル&rで接続すれば、データバンク内のすべてのデータアイテムのデータを読み取れるようになる。"
+				""
+				"1つのデータバンクに複数の&3組立ライン&rを接続できるが、それぞれにデータバンク側の専用の&3送信ハッチ&rが必要になる。"
+				"{@pagebreak}"
+				"&3データアクセスハッチ&rと&3光学ハッチ&rは構造内の任意の&aコンピューター用外装&rと置き換えられるが、&aコンピューター用外装&rは最低&e3&r個必要だ。構造内の&3データアクセスハッチ&rと&3光学ハッチ&rは、使用状況に関係なく1つにつき&d1,920 EU/t&rを消費する。"
+				""
+				"&aメンテナンスハッチ&rと&aエネルギーハッチ&rも必要で、これらは前面の&a高出力外装&rと置き換えられる。"
+				""
+				"{@pagebreak}"
+				""
+				"&6データモジュール&rを作って読み取る必要が出てくるまでは厳密には必須ではないが、そうでなくても&3組立ライン&rの&3データアクセスハッチ&r1つだけでは、クラフトに必要なアイテムをすべて収める空きが足りなくなる。"
+				""
+				"組立ラインの設備が十分に大きくなったら、データバンクを&e連結&rする必要が出てくるかもしれない。データを持つデータバンクの&3送信ハッチ&rを、2台目のデータバンクの&3受信ハッチ&rに接続しよう。&e受信側&rのデータバンクは送信側のデータバンク内のすべてのデータを読み取れ、そのデータをさらに別の組立ラインやデータバンクへ送れる。ただし、送信側のデータバンクのエネルギー消費が大幅に増える。"
+			]
+			icon: "gtceu:data_bank"
+			id: "57C75A5756F62D17"
+			rewards: [{
+				count: 3
+				id: "31E3AF2900571CAE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39BC10CE928DDE14"
+					item: "gtceu:data_bank"
+					type: "item"
+				}
+				{
+					id: "2B4D7DC825D1307C"
+					item: "gtceu:data_transmitter_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "5841BA5408F05A8A"
+					item: "gtceu:computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3F2108F11943B202"
+					item: "gtceu:high_power_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "7262E610DF6D4DD7"
+					item: "gtceu:computer_heat_vent"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FC7A92C7326FB27"
+					item: "gtceu:data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6CE26DC41EC163F8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "51E6DAAB5ABEDDEC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2データバンク"
+			x: 2.75d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"46A56A5E3CC2403F"
+				"05F7C3F397B329F5"
+			]
+			description: [
+				"ピースフル愛好家には、&6QuarkTech™アーマーセット&rが燃焼、凍結、溺れ、その他の有害な効果を無効化し、&6ネザライトの宇宙服&rとしても使える。"
+				""
+				"ピースフル以外でプレイしている人には、このスーツはフル充電時に&6ネザライトの防具&rより多くの防御ポイントを持つ。さらにお腹が空くとインベントリの食料を食べさせてくれる"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:quarktech_helmet"
+				tag: {
+					Charge: 99993579L
+					nightVision: 1b
+					nightVisionTimer: 254
+					toggleTimer: 0b
+				}
+			}
+			id: "044EBE36128FBB01"
+			rewards: [{
+				id: "5C26603B3D2DC88B"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "大いなる力には、大いなる責任とコストが伴う。"
+			tasks: [
+				{
+					id: "5B9361A16A3E50C9"
+					item: {
+						Count: 1
+						id: "gtceu:quarktech_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "423B5AC18AFDDD7B"
+					item: "gtceu:quarktech_chestplate"
+					type: "item"
+				}
+				{
+					id: "22B65244B9B07F25"
+					item: "gtceu:quarktech_leggings"
+					type: "item"
+				}
+				{
+					id: "7AC5135E14F22733"
+					item: "gtceu:quarktech_boots"
+					type: "item"
+				}
+			]
+			title: "QuarkTech™アーマー"
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63C3077124BC81FD"]
+			description: [
+				"前段階の&6はんだ合金&rと同様に、&6発展型はんだ合金&rは&3組立機&rや&3回路作成機&rで回路やその他の電気機械を作るのに使われる。"
+				""
+				"ただしはんだ合金とは違い、発展型はんだ合金は2倍効率が良い。対応するレシピでは、通常のはんだ合金と比べて半分、&6液体スズ&rと比べて4分の1の量しか消費しない。"
+			]
+			icon: "gtceu:advanced_soldering_alloy_bucket"
+			id: "70FD95AEA44548B0"
+			rewards: [{
+				id: "39A3488F3C1EEF77"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4554FBB55F422385"
+					item: "gtceu:advanced_soldering_alloy_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "67937E0AF20C61E6"
+					item: "gtceu:advanced_soldering_alloy_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "発展型はんだ合金"
+			x: -7.5d
+			y: -5.25d
+		}
+	]
+	title: "要組み立て"
+}

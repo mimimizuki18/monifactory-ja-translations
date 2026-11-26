@@ -1,0 +1,22 @@
+{
+  "_comment": "Waila",
+  "block.telepastries.custom_cake": "%sケーキ",
+  "block.telepastries.custom_cake2": "%sケーキ",
+  "block.telepastries.custom_cake3": "%sケーキ",
+  "block.telepastries.end_cake": "エンドケーキ",
+  "block.telepastries.hunting_dimension_cake": "ハンティングディメンションケーキ",
+  "block.telepastries.lost_city_cake": "ロストシティケーキ",
+  "block.telepastries.nether_cake": "ネザーケーキ",
+  "block.telepastries.overworld_cake": "オーバーワールドケーキ",
+  "block.telepastries.twilight_cake": "トワイライトケーキ",
+  "config.jade.plugin_telepastries.bites": "ケーキのかじり数",
+  "itemGroup.tele_tab": "TelePastries",
+  "telepastries.config.title": "TelePastries 設定",
+  "telepastries.pastry.custom.invalid": "ケーキの行き先が無効だ: %s",
+  "telepastries.pastry.custom.unbound": "カスタムケーキにはコンフィグでディメンションが設定されていない ",
+  "telepastries.pastry.reset.complete": "ディメンション %s の保存位置をリセットした。",
+  "telepastries.pastry.reset.failed": "ディメンション %s には保存された位置がない。",
+  "telepastries.pastry.support.disabled": "%s がインストールされていないため、ケーキは無効だ",
+  "telepastries.same_dimension": "同じディメンションにはテレポートできない",
+  "telepastries.teleport_restricted": "オーバーワールド以外のディメンションにはテレポートできない"
+}

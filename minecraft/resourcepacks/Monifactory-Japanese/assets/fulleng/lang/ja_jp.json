@@ -1,0 +1,4 @@
+{
+  "config.jade.plugin_fulleng.storage_monitor": "フルブロックストレージモニター",
+  "gui.fulleng.RequesterNotInstalled": "MEリクエスターがインストールされていない。"
+}

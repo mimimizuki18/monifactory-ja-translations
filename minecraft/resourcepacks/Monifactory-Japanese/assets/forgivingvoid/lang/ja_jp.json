@@ -1,0 +1,23 @@
+{
+  "config.forgivingvoid.damageOnFall": "落下時のダメージ",
+  "config.forgivingvoid.damageOnFall.tooltip": "着地したときにプレイヤーへ与えるダメージ量。",
+  "config.forgivingvoid.dimensionAllowList": "ディメンション許可リスト",
+  "config.forgivingvoid.dimensionAllowList.tooltip": "Forgiving Voidを許可するディメンションIDのリスト。triggerInOverworldなどのオプションが優先される。",
+  "config.forgivingvoid.dimensionDenyList": "ディメンション拒否リスト",
+  "config.forgivingvoid.dimensionDenyList.tooltip": "Forgiving Voidの対象から追加で除外するディメンションIDのリスト。triggerInOverworldなどのオプションが優先される。dimensionAllowListが設定されている場合は無視される。",
+  "config.forgivingvoid.disableVanillaAntiCheatWhileFalling": "落下中はバニラのアンチチートを無効化",
+  "config.forgivingvoid.disableVanillaAntiCheatWhileFalling.tooltip": "奈落を落下中にプレイヤーがラバーバンドする場合はtrueにする。公開サーバーを運用している場合は、適切なアンチチートを導入している場合に限ってこれを行うこと。",
+  "config.forgivingvoid.fallingHeight": "落下開始の高さ",
+  "config.forgivingvoid.fallingHeight.tooltip": "奈落に落ちた後、プレイヤーが落下してくる高さ。",
+  "config.forgivingvoid.preventDeath": "死亡防止",
+  "config.forgivingvoid.preventDeath.tooltip": "奈落落下での死亡を防ぐ(ダメージを、ハートが最低0.5個残る範囲に制限する)",
+  "config.forgivingvoid.title": "Forgiving Void",
+  "config.forgivingvoid.triggerAtDistanceBelow": "発動する距離の下限",
+  "config.forgivingvoid.triggerAtDistanceBelow.tooltip": "最低Y座標からこの距離だけ下まで落ちたとき、Forgiving Voidがプレイヤーを許して空へ送り返す。",
+  "config.forgivingvoid.triggerInEnd": "エンドで発動",
+  "config.forgivingvoid.triggerInEnd.tooltip": "falseにすると、エンドの奈落(ディメンション1)ではForgiving Voidが発動しない。",
+  "config.forgivingvoid.triggerInNether": "ネザーで発動",
+  "config.forgivingvoid.triggerInNether.tooltip": "falseにすると、ネザーの奈落(ディメンション-1)ではForgiving Voidが発動しない。",
+  "config.forgivingvoid.triggerInOverworld": "オーバーワールドで発動",
+  "config.forgivingvoid.triggerInOverworld.tooltip": "falseにすると、オーバーワールドの奈落(ディメンション0)ではForgiving Voidが発動しない。"
+}

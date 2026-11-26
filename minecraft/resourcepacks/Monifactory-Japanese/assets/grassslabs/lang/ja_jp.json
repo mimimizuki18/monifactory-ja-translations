@@ -1,0 +1,17 @@
+{
+  "block.grassslabs.dirt_carpet": "土のカーペット",
+  "block.grassslabs.dirt_path_carpet": "土の道のカーペット",
+  "block.grassslabs.dirt_path_slab": "土の道のハーフブロック",
+  "block.grassslabs.dirt_path_stairs": "土の道の階段",
+  "block.grassslabs.dirt_slab": "土のハーフブロック",
+  "block.grassslabs.dirt_stairs": "土の階段",
+  "block.grassslabs.grass_carpet": "草ブロックのカーペット",
+  "block.grassslabs.grass_slab": "草ブロックのハーフブロック",
+  "block.grassslabs.grass_stairs": "草ブロックの階段",
+  "block.grassslabs.mycelium_carpet": "菌糸のカーペット",
+  "block.grassslabs.mycelium_slab": "菌糸のハーフブロック",
+  "block.grassslabs.mycelium_stairs": "菌糸の階段",
+  "block.grassslabs.podzol_carpet": "ポドゾルのカーペット",
+  "block.grassslabs.podzol_slab": "ポドゾルのハーフブロック",
+  "block.grassslabs.podzol_stairs": "ポドゾルの階段"
+}

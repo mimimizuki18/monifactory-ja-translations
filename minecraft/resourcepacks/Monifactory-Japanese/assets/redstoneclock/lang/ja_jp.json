@@ -1,0 +1,16 @@
+{
+  "block.redstoneclock.pulse_divider": "パルス分周器",
+  "block.redstoneclock.redstone_clock": "Redstone Clock",
+  "itemGroup.redstoneclock": "Redstone Clock",
+  "language": "日本語",
+  "language.code": "ja_jp",
+  "language.region": "日本",
+  "screen.redstoneclock.pulse_divider.every_pulse": "出力までのパルス数",
+  "screen.redstoneclock.pulse_divider.signal_strength": "信号強度",
+  "screen.redstoneclock.redstone_clock.active_interval": "アクティブのティック数",
+  "screen.redstoneclock.redstone_clock.idle_interval": "非アクティブのティック数",
+  "screen.redstoneclock.redstone_clock.multiplier": "倍率:",
+  "screen.redstoneclock.redstone_clock.signal_strength": "信号強度",
+  "screen.redstoneclock.redstone_clock.tooltip.time": "時間: %s時間 %s分 %s秒 %sミリ秒",
+  "screen.redstoneclock.redstone_clock.tooltip.total_ticks": "合計ティック: %s"
+}

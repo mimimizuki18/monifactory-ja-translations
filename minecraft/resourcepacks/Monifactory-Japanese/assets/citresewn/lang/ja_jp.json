@@ -1,0 +1,20 @@
+{
+  "config.citresewn.broken_paths.title": "リソースパックの不正なパスを許可",
+  "config.citresewn.broken_paths.tooltip": "不正なリソースパスを持つパックの読み込みを許可する。\n問題が起きる可能性あり！",
+  "config.citresewn.cache_ms.ticks.0": "リアルタイム",
+  "config.citresewn.cache_ms.ticks.1": "毎ティック",
+  "config.citresewn.cache_ms.ticks.any": "%s ティックごと",
+  "config.citresewn.cache_ms.title": "キャッシュ",
+  "config.citresewn.cache_ms.tooltip": "CIT キャッシュの更新頻度。\n値を大きくするとパフォーマンスが向上する。\n値を小さくすると CIT の更新が速くなる。\nREALTIME はキャッシュを完全に無効にし、\n 毎フレーム CIT をチェックする。",
+  "config.citresewn.citenchantment_scroll_multiplier.title": "CIT エンチャント：スクロール倍率",
+  "config.citresewn.citenchantment_scroll_multiplier.tooltip": "エンチャント CIT が追加する発光テクスチャのスクロール速度に対する全体倍率。",
+  "config.citresewn.enabled.title": "有効",
+  "config.citresewn.enabled.tooltip": "CIT Resewn がリソースパックから CIT を読み込んで適用するか",
+  "config.citresewn.mute_errors.title": "読み込みエラーを非表示",
+  "config.citresewn.mute_errors.tooltip": "CIT Resewn が CIT のエラーをログに出力しないか",
+  "config.citresewn.mute_warns.title": "読み込み警告を非表示",
+  "config.citresewn.mute_warns.tooltip": "CIT Resewn が CIT の警告をログに出力しないか",
+  "config.citresewn.title": "CIT Resewn 設定",
+  "pack.incompatible.broken_paths": "（不正なパスを含む）",
+  "pack.incompatible.confirm.broken_paths": "このパックには不正なパスが含まれており、将来サポートが打ち切られる可能性がある。この警告を消すには、パック作者に連絡してパスを修正してもらおう。(~ CIT Resewn)"
+}

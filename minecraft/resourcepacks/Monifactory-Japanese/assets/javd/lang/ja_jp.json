@@ -1,0 +1,6 @@
+{
+  "biome.javd.void": "虚無",
+  "block.javd.portal_block": "ヴォイドポータル",
+  "javd.invalid.pos": "有効なポータルの位置が見つかりません",
+  "javd.invalid.world": "ワールド '%s' が見つかりません"
+}

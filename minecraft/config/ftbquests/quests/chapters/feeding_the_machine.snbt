@@ -1,0 +1,2366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "feeding_the_machine"
+	group: "18F0ED1F9A002C08"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "15E8BBD0CD310663"
+	order_index: 6
+	quest_links: [
+		{
+			id: "688ACEE0FD0E5FED"
+			linked_quest: "115B96B2092D671E"
+			shape: "gear"
+			size: 1.5d
+			x: -3.0d
+			y: -1.75d
+		}
+		{
+			id: "357D42CDD60D4A44"
+			linked_quest: "4FABACAB7C4A74AC"
+			shape: "hexagon"
+			x: -3.0d
+			y: 0.25d
+		}
+		{
+			id: "24661D5DD2B4EE0E"
+			linked_quest: "5ECF0A787D861C89"
+			shape: "hexagon"
+			x: -5.0d
+			y: 0.25d
+		}
+		{
+			id: "3F02009E39E9934C"
+			linked_quest: "1289F9FE461BFE01"
+			shape: "hexagon"
+			x: -5.0d
+			y: 2.25d
+		}
+		{
+			id: "7602F121648F676B"
+			linked_quest: "67663B49B80849C1"
+			shape: "hexagon"
+			x: -5.0d
+			y: 4.25d
+		}
+		{
+			id: "7D8282F098F3A0F6"
+			linked_quest: "01E542E1C9DAF5B4"
+			shape: "gear"
+			size: 2.0d
+			x: -5.0d
+			y: 11.75d
+		}
+		{
+			id: "51714F7845582B70"
+			linked_quest: "38791476E970C57D"
+			shape: "hexagon"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			id: "08ED407C598A9039"
+			linked_quest: "2A6E9E7C80754936"
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			id: "2F00B9AF68AA27B9"
+			linked_quest: "49E9A178F6A52A62"
+			shape: "hexagon"
+			size: 2.0d
+			x: -5.0d
+			y: -1.75d
+		}
+		{
+			id: "68CD20CF674D7CC0"
+			linked_quest: "7E51D15F38C3B356"
+			x: -1.5d
+			y: -7.75d
+		}
+		{
+			id: "3E8AD2962C885A40"
+			linked_quest: "64C33333ECCAABC7"
+			shape: "hexagon"
+			x: -3.0d
+			y: -5.75d
+		}
+		{
+			id: "207E26A342B05F89"
+			linked_quest: "26CA20E74A62FA6E"
+			shape: "hexagon"
+			x: -3.0d
+			y: -3.75d
+		}
+		{
+			id: "37E71BAD3A4303A6"
+			linked_quest: "3C3B5875FCD6B5B7"
+			shape: "hexagon"
+			x: -3.0d
+			y: -7.75d
+		}
+		{
+			id: "746F746973A97FE6"
+			linked_quest: "7A65459E4DFAAC2D"
+			shape: "hexagon"
+			size: 1.5d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "03BAC1C5A779EFAE"
+			linked_quest: "425D1C34A82B054D"
+			shape: "hexagon"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "4CF75DD71CC7BF7C"
+			linked_quest: "7DB174443D7FAFA0"
+			shape: "hexagon"
+			x: -4.5d
+			y: -3.75d
+		}
+		{
+			id: "72AB40B2D5F508E6"
+			linked_quest: "61301FBD825F8280"
+			shape: "hexagon"
+			x: 0.0d
+			y: 7.25d
+		}
+		{
+			id: "2C75892426FCF3CF"
+			linked_quest: "5FE96C30454A0374"
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.75d
+			y: 3.5d
+		}
+		{
+			id: "0235B280EA62E904"
+			linked_quest: "2D47BFA44BDB5E6A"
+			shape: "hexagon"
+			size: 1.5d
+			x: 2.0d
+			y: 9.25d
+		}
+		{
+			id: "6769FF4B998F524C"
+			linked_quest: "6BF4A76C5B84EEE9"
+			shape: "hexagon"
+			x: 4.0d
+			y: 7.25d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["79EFCD8E01384C0C"]
+			description: [
+				"有機的なプロセスには、別種の滅菌が必要だ。"
+				""
+				"クリーンルームと同様にフィルター外装を作る必要があるが、今回防ぐのは粒子ではなく微生物だ。その材料の&6トリタニウム&rを得るには&3核融合炉 MK II&rが必要になる。"
+				""
+				"残念ながら、このフィルターは人が入れるクリーンルームには使えない。入った瞬間に汚染してしまうからだ。代わりにスカルクバットで使われる。"
+				""
+				"通常のマルチブロック内で滅菌クリーンルームのレシピを動かすには、&6滅菌洗浄メンテナンスハッチ&rが必要だ。"
+				""
+				"&c注意: 滅菌洗浄ハッチでは通常のクリーンルームレシピは動かせない。また、それを付けたマルチブロック機械を通常のクリーンルームに入れても変わらない。&r"
+			]
+			id: "04EABD3D2C72D2C5"
+			rewards: [{
+				id: "75F9C602EE54F24E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2E25B07192462553"
+					item: "gtceu:sterilizing_filter_casing"
+					type: "item"
+				}
+				{
+					id: "5A9B41BE40B77111"
+					item: "gtmutils:sterile_cleaning_maintenance_hatch"
+					type: "item"
+				}
+			]
+			title: "&2一味違うクリーン"
+			x: 3.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["12E06D4D898F3E58"]
+			description: [
+				"&6細菌性汚泥&rはウェットウェアの工程で使われる。また、&6結晶チップ&rを再成長させる際に&6ユーロピウム&rの代わりにもなる。"
+				""
+				"&6バイオマス&rと&6細菌培養液&rを組み合わせると細菌性汚泥ができる。"
+				""
+				"後で&6幹細胞&rを育てるときにも少し戻ってくる。"
+			]
+			icon: "gtceu:bacterial_sludge_bucket"
+			id: "1AC91A3E05215569"
+			rewards: [{
+				id: "56DD546737A03A44"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1DDC0F9C01889F1E"
+					item: "gtceu:bacterial_sludge_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B3866629D62E0F1"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2細菌性汚泥"
+			x: 1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["1AC91A3E05215569"]
+			description: [
+				"&6ウラン238&r（より効率的には&6ウラン235&r）で&6細菌性汚泥&rを濃縮し、蒸留して&6変異原&rにしよう。&6ナクアドリア&rを使えば&6濃縮細菌性汚泥&rの収量を2倍にできる。"
+				""
+				"変異原は&6加熱処理をした培養地&rの生産に使われる。"
+			]
+			icon: "gtceu:mutagen_bucket"
+			id: "35D128D56DAFDFAA"
+			rewards: [{
+				id: "319936E497A27220"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "43383D2F3008596B"
+					item: "gtceu:mutagen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7926B6762D5A1A26"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2変異原"
+			x: 0.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["35D128D56DAFDFAA"]
+			description: [
+				"&9加熱処理をした培養地&rは&6ウェットウェア回路&rに必要だ。"
+				""
+				"ミキサーで&6ミンチ肉&r、&2カルシウム、塩、寒天、変異原&rを混ぜて&9粗培養地&rを作り、&3液体加熱機&rで滅菌しよう。&2これまでよりかなり手間のかかる工程だ。&r"
+				""
+				"ミンチ肉はあらゆる動物の肉を粉砕すると得られる。&a魚釣り機&rが役立つかもしれない。特に&bThermal&rの&6水資源投網機&rは放置で稼働でき、&6魚&rだけを生産し、&e強化パーツ（オーグメント）を受け付ける&r。"
+				""
+				"あるいは、&6腐った肉&rを浄化して有用な産物を得られるかもしれない。"
+				""
+				"&2寒天はミンチ肉から複数の工程を経て作られる。"
+			]
+			icon: "gtceu:sterilized_growth_medium_bucket"
+			id: "2F6EC962007FA9FB"
+			rewards: [{
+				id: "570C87C6AB20D17E"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "25516F711598DF6D"
+					item: "gtceu:sterilized_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5B9EC715FC008008"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2加熱処理をした培養地"
+			x: -0.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0F6B344C265D1FBB"]
+			description: [
+				"最先端のバイオエンジニアリング技術向けに用意された、利用可能な中で最も高度な基板。"
+				""
+				"&6ウェットウェア回路基板&rは&6神経処理ユニット&rの基礎だ。"
+			]
+			icon: "gtceu:wetware_printed_circuit_board"
+			id: "4AC51394FB5152E5"
+			rewards: [{
+				id: "3155328DEAA5495A"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "579DADB2CAAA15FF"
+					item: "gtceu:wetware_circuit_board"
+					type: "item"
+				}
+				{
+					id: "15980E7D9EAF8DA8"
+					item: "gtceu:wetware_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2F6EC962007FA9FB"
+				"039F70814051413E"
+				"7D4B29BA4D8CB153"
+			]
+			description: ["&dLuV &3化学反応器&rでの1回のクラフトに5分かかるので、このレシピを放置で回し続ける機械を用意しておくとよいだろう。少なくとも1回のクラフトで確実に&264個手に入る。"]
+			id: "0F6B344C265D1FBB"
+			rewards: [{
+				id: "2197DF9CB672D42E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "基地の外のデモ隊は気にしないでおこう。"
+			tasks: [{
+				id: "360EB81FFBAF3EFD"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49B872B193268554"]
+			description: [
+				"「&6ドラゴンの卵&r？」と思うかもしれない。そう、その通り。"
+				""
+				"次の回路テーマであるウェットウェアでは、これが大量に必要になる。"
+				""
+				"&6Tier 6マイクロマイナー&rが卵を手に入れる最初の手段だ（ちょうどこのクエストに足りる量）。後には&6Tier 8マイクロマイナー&rを使った、ずっと良いミッションも手に入る。"
+			]
+			id: "039F70814051413E"
+			rewards: [{
+				id: "520DF324FC7B83F9"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 32L
+				id: "6E850ABED9B35D45"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "卵を割らねば"
+			x: -1.75d
+			y: 0.25d
+		}
+		{
+			dependencies: [
+				"1CC092A2F2CD4589"
+				"7D4B29BA4D8CB153"
+				"37DC6C37EA24BF4D"
+			]
+			description: [
+				"&6バチヤルエネルギーコア&rは、初めての本格的な&6エネルギーコア&rだ。"
+				""
+				"今後のエネルギーコアと同様に、スカルクで満たしてから充電する必要がある。"
+				""
+				"充電は&bGregTech Modern Utilities&rの&3自動充電器&rで行える。通常の&bGregTech&rの&3高速充電器&rと同じように機能するが、充電済みアイテムを搬出できる。"
+			]
+			id: "7C89BC235C988689"
+			rewards: [{
+				count: 2
+				id: "7E797523F3F19768"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "712064FEEFCC29AA"
+				item: "kubejs:bathyal_energy_core"
+				type: "item"
+			}]
+			title: "&9バチヤルエネルギーコア"
+			x: 5.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FE96C30454A0374"]
+			description: ["&6ウォーデンの心臓&rは&6クリオコッカス&rの製作に必要だ。"]
+			id: "7FAB6FD0A054443E"
+			rewards: [{
+				id: "2AA894050D239DEE"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "宿主から取り出された後も、鼓動を続けている。"
+			tasks: [{
+				id: "7615C990816E6132"
+				item: "kubejs:warden_heart"
+				type: "item"
+			}]
+			title: "&9ウォーデンの心臓"
+			x: 2.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["7C89BC235C988689"]
+			description: ["このマルチブロックは&6エネルギーコア&rを使い、一度に非常に大量のエネルギーを放出してクラフトを行う。"]
+			icon: "gtceu:discharger"
+			id: "713FAECEE5046121"
+			rewards: [{
+				id: "1334EFA413965845"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "使わないバッテリーに何の意味がある？"
+			tasks: [
+				{
+					id: "3C9333ECA3F6B5F9"
+					item: "gtceu:discharger"
+					type: "item"
+				}
+				{
+					count: 85L
+					id: "3591B233996BC2B6"
+					item: "monilabs:cryolobus_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "73CD482971E80137"
+					item: "gtceu:laminated_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "10132D5DCDBACC11"
+					item: "gtceu:nonconducting_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1BE6E450ED926496"
+					item: "gtceu:electrolytic_cell"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1E168A2DB47A2CE2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "177DD054417034DE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5D02D72348BE8C3B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2109D42D23BE8BD9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&9放電機"
+			x: 3.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["28CA4E5308EC0BB9"]
+			description: [
+				"&3精鋭型マイクロバース投影機&rはさらに強力な投影機で、&6Tier 7&rから&6Tier 10のマイクロマイナー&rをマイクロバースへ送り込むのに必要だ。"
+				""
+				"3段階目の投影機により、マイクロバースのレシピで最大2回のパーフェクトオーバークロックが可能になった。"
+			]
+			icon: "monilabs:elite_microverse_projector"
+			id: "7E3A179376673590"
+			rewards: [{
+				id: "685F19529C786FAC"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "547C12265211338D"
+					item: "monilabs:elite_microverse_projector"
+					type: "item"
+				}
+				{
+					count: 132L
+					id: "55A32096AC5F3262"
+					item: "monilabs:microverse_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 69L
+					id: "6F3A77D019086AE2"
+					item: "gtceu:tempered_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2FC22F81CD746C9E"
+					item: "gtceu:titanium_pipe_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7F9B106DDEC373C4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "59FEFFE2E73EA881"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0415B296D1C40752"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "35D08602C9B3A9E0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7FAB6FD0A054443E"
+				"713FAECEE5046121"
+			]
+			description: [
+				"&6クリオコッカス&rは、&9スカルク&rから高品位の部品、アイテム、機械を作るのに使われる強力な素材だ。また、&4UHV&rの電力をかなりのアンペア数伝導できる。"
+				""
+				"&6クリオロバスブロック&r5個を放電機で処理すると、同数の5個の&6クリオコッカスブロック&rができる。"
+			]
+			id: "0562D9F4C441EAF9"
+			rewards: [{
+				id: "770D7F5115A71602"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50929C3F5F044E40"
+				item: "gtceu:cryococcus_block"
+				type: "item"
+			}]
+			title: "&9クリオコッカス"
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"0562D9F4C441EAF9"
+				"641B049C71B3EB34"
+			]
+			description: [
+				"&6クリオコッカス&rと少しの&6アメリシウム&rで、次のティアのエネルギーコアである&6アビサルエネルギーコア&rが作れる。"
+				""
+				"このコアは&6ユニバーサルワープコア&rと&6ハダルワープエンジン&rに直接使われるが、より重要なのは&6ハダルエネルギーコア&rへアップグレードできることだ。"
+			]
+			id: "6ABD83B58FADD4DF"
+			rewards: [{
+				id: "3835B0C85300B9AF"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69DC07184B74DB07"
+				item: "kubejs:abyssal_energy_core"
+				type: "item"
+			}]
+			title: "&9アビサルエネルギーコア"
+			x: 2.0d
+			y: 6.25d
+		}
+		{
+			dependencies: [
+				"2D47BFA44BDB5E6A"
+				"7D29C79DE1CCA2A2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6ニュートロニウム&rは、通常は中性子星の中心部に存在する超高密度の物質だ。中性子星とは、太陽の10〜30倍の大きさの恒星が崩壊した核のことである。"
+				""
+				"豆知識: ニュートロニウムブロック1個は約28億8400万トン、温度は60万K前後もあるのに、なぜか素手で持てる。あまり深く考えないように。"
+				""
+				"最初のニュートロニウムは&6T8&rか&6T9マイクロマイナー&r、または&3MK3核融合炉&rから得られる。"
+				""
+				"後には&3ナクアダ化学&rや&6エイリアンスクラップ&rの処理で、ニュートロニウムの生産量を増やすことも検討しよう。"
+			]
+			id: "22E50A6923EBF5CB"
+			rewards: [{
+				count: 5
+				id: "5A61462892D564CB"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "67E4E186D212226D"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			title: "&2ニュートロニウムインゴット"
+			x: -2.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["22E50A6923EBF5CB"]
+			description: [
+				"&6ニュートロニウム&rのブールを使うと、ブール1個あたりのウェハー数がさらに増え、レーザー刻印での収量もさらに高くなる。"
+				""
+				"このブールは&6HASoC&rと&6UXPICウェハー&rに必要になる。 "
+				""
+				"HASoCを使えばより安価に&6ウェットウェアプロセッサー&rを作れるが、&4UHV&rで動く&3回路作成機&rが必要だ。"
+			]
+			id: "485CEA4199AAD352"
+			rewards: [{
+				id: "223E9ECE8A5FA09D"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5DDE773859BDF9DC"
+					item: "gtceu:neutronium_boule"
+					type: "item"
+				}
+				{
+					id: "57390DF5C20196C5"
+					item: "gtceu:neutronium_wafer"
+					type: "item"
+				}
+			]
+			title: "ニュートロニウムのブールとウェハー"
+			x: -2.75d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"1349044BF8C04A12"
+				"41F1837D7C131898"
+			]
+			description: [
+				"&9ソウルバインダーの強化版。&r"
+				""
+				"あらゆる&6並列制御ハッチ&rを受け付け、最高のハッチなら最大&e4096倍&rまで並列化できる！"
+			]
+			icon: "gtceu:quintessence_infuser"
+			id: "0608EE0A3BDE58D5"
+			rewards: [{
+				id: "61D7174842FE7D36"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "0235FA500D9F953C"
+					item: "gtceu:quintessence_infuser"
+					type: "item"
+				}
+				{
+					count: 67L
+					id: "2E43A58DB1519CB2"
+					item: "kubejs:dark_soularium_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "5BF59752E9522F50"
+					item: "gtceu:fusion_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "7375E5C90B542A1E"
+					item: "gtceu:tungsten_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "181FE76CD595DF04"
+					item: "enderio:ensouled_chassis"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "47FEFD33C0AFB1A0"
+					item: "gtceu:tungstensteel_pipe_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5DAAF0E79FE953C1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3608CDF10AC6BB3D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2B0F9FECA343A6C4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6398A2D304D7BBF8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "02AEBDE898532AD5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&9クインテッセンスインフューザー"
+			x: 4.25d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"01E542E1C9DAF5B4"
+				"22E50A6923EBF5CB"
+				"0B51A633811472A2"
+			]
+			description: [
+				"&3合金溶融高炉&rの強化版。"
+				""
+				"あらゆる&6並列制御ハッチ&rを受け付け、最高のハッチなら最大&e4096倍&rまで並列化できる！"
+				""
+				"まだ&6ニュートロニウム&rを持っていないなら、これを作るために入手する必要がある。"
+			]
+			id: "1CF77095C203454F"
+			rewards: [{
+				id: "665BEDA5781B8237"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4EB383E90CD0EFE4"
+				item: "gtceu:mega_alloy_blast_smelter"
+				type: "item"
+			}]
+			title: "&2メガ・合金溶融高炉"
+			x: -4.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["0F6B344C265D1FBB"]
+			description: ["はんだ合金の最終ティア。&6幹細胞&rが必要なので、生化学にしばらく取り組んで手に入れる必要がある。"]
+			icon: "gtceu:living_soldering_alloy_bucket"
+			id: "0B51A633811472A2"
+			shape: "hexagon"
+			subtitle: "機械に血を"
+			tasks: [
+				{
+					id: "0CC9E1168FF66AB9"
+					item: "gtceu:living_soldering_alloy_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "516955CA10698E22"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "生けるはんだ"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"227F448DFCC3E8C3"
+				"56FB624B384FFAF5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"クリオロバスは膨大な量が必要になる複雑な素材だ。"
+				""
+				"&6スカルクの粉&rを&6ブルー&rまたは&6レッドスチールの粉&rと混ぜるか、&6ウォーデンの巻きひげ&rを直接製錬して作れる。"
+			]
+			id: "7F669657313F2E62"
+			rewards: [{
+				id: "070FE43925BDB02B"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75321CAE019C190A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:cryolobus_dust"
+							}
+							{
+								Count: 1b
+								id: "kubejs:warden_horn"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&9クリオロバスの粉"
+			x: 4.75d
+			y: 0.25d
+		}
+		{
+			dependencies: [
+				"28CA4E5308EC0BB9"
+				"7F669657313F2E62"
+			]
+			description: [
+				"&6クリオロバス&rを製錬するには、高炉に少なくとも&6ナクアダコイルブロック&rが必要で、液化に必要な凄まじい熱に達するために特定の液体燃料も十分に供給しなければならない。"
+				""
+				"クリオロバスは非常に高温になるため、&3真空冷却機&rで使えるインゴットにするには強力な冷却材&9凍て付くクリオジウム&rの助けが必要だ。"
+				""
+				"クリオロバスの作り方はいくつかある。粉をインゴットに製錬できるほか、クリオロバスを含む&6ウォーデンの巻きひげ&rを直接インゴットにすることもできる。こちらは燃焼燃料やガス燃料を大量に使うが、余った&6ウォーデンの巻きひげ&rの最良の使い道だ。"
+				""
+				"燃料、ちゃんと備蓄してたよね？"
+			]
+			id: "1CC092A2F2CD4589"
+			rewards: [{
+				id: "710A5B6480BD5581"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D3DF1D033AF6DC9"
+				item: "gtceu:cryolobus_ingot"
+				type: "item"
+			}]
+			title: "&9クリオロバスインゴット"
+			x: 5.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["1CA3A00393EDD648"]
+			description: ["スカルクはすべて近くのディープダークの略奪やマイクロマイナーで入手することもできるが、需要は増える一方なので、早めに&3スカルクバット&rへ切り替えてスカルクを賄うことを推奨する。"]
+			icon: "gtceu:sculk_bucket"
+			id: "7D4B29BA4D8CB153"
+			rewards: [{
+				id: "58B2869B54067EE8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "地産地消"
+			tasks: [
+				{
+					id: "7795E782E2941DB5"
+					item: "gtceu:sculk_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B249466F14B15B4"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "スカルクの育成"
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A65459E4DFAAC2D"]
+			description: ["&6ウラン-ロジウム 二ナクアダ物&rは&cZPM&rの超伝導体で、&3HPCA&rと&3研究ステーション&rの製作に使われる。"]
+			id: "28834638F1487312"
+			rewards: [{
+				id: "077E916B2D91C6AC"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "606F9557E47CAB48"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			title: "ウラン-ロジウム 二ナクアダ物"
+			x: 1.25d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5BADF536443E712D"
+				"0CEF53164D8B6496"
+			]
+			description: ["&3究極型組立機&rで&6トリタニウムコイル&rを組み立てられる。"]
+			id: "00011E5DD7EEE8DB"
+			rewards: [{
+				id: "6BC43FE9081A6EED"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D2ECD597DC2BDCC"
+				item: "gtceu:uv_assembler"
+				type: "item"
+			}]
+			title: "UV組立機"
+			x: 4.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2A6E9E7C80754936"]
+			dependency_requirement: "one_completed"
+			description: [
+				"最初のいくつかの&6未加工の結晶チップ&rは、&3オートクレーブ&rで液体&6ユーロピウム&rと&6精巧なエメラルド&rまたは&6精巧なオリビン&rから育てる必要がある。"
+				""
+				"最初のいくつかができたら、鍛造機で砕いて欠片にし、ユーロピウム、あるいは後には&6細菌性汚泥&rや&6変異原&rで複製できる。"
+				""
+				"細菌性汚泥は、後に幹細胞を得る際の副産物からも入手できる。"
+			]
+			icon: "gtceu:raw_crystal_chip"
+			id: "40E8C7CEE285D702"
+			rewards: [{
+				id: "7BC43EF40ABF0212"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AF1261E247D1EAB"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			title: "結晶の育成"
+			x: -7.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["40E8C7CEE285D702"]
+			description: [
+				"&6未加工の結晶チップ&rと&6エメラルド&rまたは&6オリビンのプレート&rを&9ヘリウム&rとともに&3電気高炉&rで焼くと、&6刻印結晶チップ&rが作れる。"
+				""
+				"これは&6クリスタル回路&rに必要な素材だ。"
+			]
+			hide_dependency_lines: false
+			id: "2E6BA621B265C3A8"
+			rewards: [{
+				id: "0ACBF06A550F17A6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BB38FC1864BA805"
+				item: "gtceu:engraved_crystal_chip"
+				type: "item"
+			}]
+			title: "&2刻印結晶チップ"
+			x: -6.0d
+			y: -7.75d
+		}
+		{
+			dependencies: ["2E6BA621B265C3A8"]
+			description: [
+				"&6結晶性CPU&rは&6クリスタル回路&rの中核だ。"
+				""
+				"これを作るには&dLuV &3レーザー刻印機&rが必要だ。"
+			]
+			id: "67833AE5421E10D4"
+			rewards: [{
+				id: "00AC3C5B73180F11"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FA29D68ACD6B0E5"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			title: "&2クリスタル処理装置"
+			x: -4.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["7A65459E4DFAAC2D"]
+			description: [
+				"&2より軽く不安定なナクアダ同位体。"
+				""
+				"&6ナクアドリア&o&rは&6UV部品&r、&3核融合炉 MK II&rの製作、そして&6ナクアダ燃料&r系製品のクラッキングに使われる。"
+			]
+			id: "5792330C6E5B87A3"
+			rewards: [{
+				id: "6B89F5CC9DB5CF2E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07036EFE867BC11D"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			title: "&2ナクアドリア"
+			x: 2.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1109CFC5D47FC011"]
+			description: [
+				"&2EBFと真空冷却機の強化版。&r"
+				""
+				"あらゆる&6並列制御ハッチ&rを受け付け、最高のハッチなら最大&e4096倍&rまで並列化できる！"
+				""
+				"&a回転式炉床炉&rはかなり大きい！"
+			]
+			id: "2836DDEE49C3CCFB"
+			rewards: [{
+				id: "4CB36CCB71658862"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2548B1DB7D823360"
+					item: "gtceu:mega_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "6F4BE5E11D2FA90D"
+					item: "gtceu:mega_vacuum_freezer"
+					type: "item"
+				}
+			]
+			title: "&2強化版EBFと冷却機"
+			x: 0.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A65459E4DFAAC2D"]
+			description: ["人生をかけた飛翔だ。"]
+			id: "747A3DEA569CB6C9"
+			rewards: [{
+				count: 2
+				id: "018B129C225E0193"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "373620DA46014CE2"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:dark_soularium"
+					}
+				}
+				type: "item"
+			}]
+			title: "エンドゲーム"
+			x: 0.25d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"04EABD3D2C72D2C5"
+				"1CC092A2F2CD4589"
+			]
+			description: [
+				"&3スカルクバット&rは、スカルク製品やその他の微生物を育成できるマルチブロックだ。"
+				""
+				"バット内で動くレシピは、出力ハッチの充填量が半分から離れるほど出力が減っていく。ちょうど50%のときに&bEMI&rに表示された量を生産し、ハッチが完全に空または満杯に近づくにつれて最大8分の1まで減る。レシピの生産量はレシピ開始時点で決まることに注意。\n&2充填率をぴったり50%に保つ最適な構成も可能だが、パックをクリアするのに必須ではまったくなく、おおよその構成でも最後まで十分通用する。&r"
+				""
+				"バットはスカルクの育成に使う経験値を蓄えることもできる。&6スカルク製経験値排出ハッチ&rに&6XPジュース&rを入れよう。排出ハッチは毎秒、持っているXPジュースをすべてバットの内部バッファに送り込み、バット内の経験値は毎秒、現在の貯蔵量の1/64ずつ減衰していく。"
+				""
+				"バット内の現在の経験値量はバットのGUIで確認できるほか、&6スカルク製経験値センサーハッチ&rでレッドストーン信号として読み出せる。"
+				""
+				"一部のレシピでは、バット内の経験値量が&bEMI&rに表示された特定の範囲内にある必要があり、そうでないとレシピが後退する。"
+			]
+			icon: "monilabs:sculk_vat"
+			id: "1CA3A00393EDD648"
+			rewards: [{
+				id: "129C89BAC8F66B0E"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "771C1E9BF4BECE4A"
+					item: "monilabs:sculk_vat"
+					type: "item"
+				}
+				{
+					count: 70L
+					id: "2965DB261D887AC8"
+					item: "monilabs:cryolobus_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "64885EE1EF48314D"
+					item: "gtceu:laminated_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7191C1CEC8E35C7D"
+					item: "gtceu:sterilizing_filter_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "58697D2961848218"
+					item: "gtceu:black_steel_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "57D42FEF73893C78"
+					item: "gtceu:titanium_pipe_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7A4F444247917642"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "387F068FF5E5F58D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4ABC5A6E399E143E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2A9579879056884B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["04EABD3D2C72D2C5"]
+			description: [
+				"最初は&6バイオチャフ&rか&6腐ったヘドロ&rから&6細菌培養液&rを入手する必要がある。どちらのレシピも&6滅菌洗浄ハッチ&r付きの機械で動かさなければならない。"
+				""
+				"初期量を確保したら、速度の面から&3スカルクバット&rへの切り替えを強く推奨する。スカルクを育てられるからといって、ちっぽけな細菌を育てられないわけではない。"
+				""
+				"細菌培養液は&6細菌性汚泥&rと&6幹細胞&rに使われる。"
+			]
+			icon: "gtceu:bacteria_bucket"
+			id: "12E06D4D898F3E58"
+			rewards: [{
+				id: "002122E2C7652B0D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3717795A52860482"
+					item: "gtceu:bacteria_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25A2B1EE926E3F90"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "細菌"
+			x: 2.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0562D9F4C441EAF9"]
+			description: ["新たに手に入れた&6クリオコッカス&rで、ついに最後の&cZPM&r部品が作れる。"]
+			id: "41F1837D7C131898"
+			rewards: [{
+				id: "0DE4943E4564493D"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F128872A9E751D3"
+				item: "gtceu:zpm_field_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["254D6D1470BC197E"]
+			description: ["&6クリスタルマトリクス&rはカーボンナノチューブから作られる非常に強靭な素材だ。&6ワープエンジン&rの製作に必要になる。"]
+			id: "44B0AB41C076E779"
+			rewards: [{
+				id: "1536CF45AE4AB897"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B05842F3722C2C9"
+				item: "monilabs:crystal_matrix_ingot"
+				type: "item"
+			}]
+			title: "クリスタルマトリクス"
+			x: 0.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["2D47BFA44BDB5E6A"]
+			description: [
+				"&6ハダルシャード&rは&9ハダルエネルギーコア&rと&9ハダルワープエンジン&rの部品だ。"
+				""
+				"これはTier 8マイクロマイナーからしか手に入らない。&6ウォーデンの棲み処のデータ&rにはTier 7マイクロマイナーが必要だ。"
+			]
+			id: "235C1E5B2C58B5AF"
+			rewards: [{
+				id: "7ADB865F026B73CB"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E20DE67BAF768B6"
+				item: "kubejs:hadal_shard"
+				type: "item"
+			}]
+			title: "&9ハダルシャード"
+			x: 1.0d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"61301FBD825F8280"
+				"6ABD83B58FADD4DF"
+				"7FA6B36DCE648C66"
+				"22E50A6923EBF5CB"
+				"0B51A633811472A2"
+			]
+			description: [
+				"&6ハダルエネルギーコア&rは&6エネルギーコア&rの最終ティアで、最も強力で高度なアイテムに使われる。"
+				""
+				"このコアには&6オムニウム&rと&6ニュートロニウム&rが必要で、&6生けるはんだ&rではんだ付けし、&6ハダルスカルク&rで満たさなければならない。"
+				""
+				"&6ハダルシャード&rの自動化、できているといいね。"
+			]
+			id: "738A141D31AD7CE3"
+			rewards: [{
+				count: 5
+				id: "284D36F54887F2BB"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "多大な努力の結晶。"
+			tasks: [{
+				id: "140C83AB5FE8450E"
+				item: "kubejs:hadal_energy_core"
+				type: "item"
+			}]
+			title: "&9ハダルエネルギーコア"
+			x: -1.0d
+			y: 6.25d
+		}
+		{
+			dependencies: [
+				"235C1E5B2C58B5AF"
+				"7D29C79DE1CCA2A2"
+			]
+			description: ["&6ハダルシャード&rを各種化学物質とスカルクのサンプルと組み合わせると、強化されたスカルクができる。これは&6ハダルエネルギーコア&rを満たしたり、&6スカルクバイオ合金&rを作ったりするのに使われる。"]
+			icon: "gtceu:hadal_sculk_bucket"
+			id: "7FA6B36DCE648C66"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "275D59A2870C1EBB"
+					item: "gtceu:hadal_sculk_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B752559E1E62440"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "ハダルスカルク"
+			x: -1.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["41F1837D7C131898"]
+			description: [
+				"&3オムニックシンセサイザー&rは…&6オムニウム&rを合成する。シンセサイザーは進行値が100に達すると&6オムニウムナゲット&rを1個生成する。シンセサイザーで動かすレシピは、そのレシピが前回動いてから他の異なるレシピがいくつ動いたかに応じて、指数関数的に多くの進行値を得る。\n&9参考までに、数十種類の材料を使うと、2種類だけを使う場合の何百倍もの収量になる。&r"
+				""
+				"したがって、&6オムニウム&rを生産する最良の方法は様々な元素を投入することであり、&6鉄&r、&6銅&r、&6固体化水素&rを大量に放り込んで祈ることではない。"
+			]
+			icon: "gtceu:omnic_synthesizer"
+			id: "4261BDA34D716EC8"
+			rewards: [{
+				id: "39E939B2D99B5AD3"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "567872742E26A724"
+					item: "gtceu:omnic_synthesizer"
+					type: "item"
+				}
+				{
+					count: 232L
+					id: "178181F0C9ECFBB1"
+					item: "gtceu:atomic_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 45L
+					id: "581880973EE7DAEF"
+					item: "gtceu:cleanroom_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "2BED3771D79FA124"
+					item: "gtceu:advanced_computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "5FD3003A7F0505B2"
+					item: "gtceu:high_power_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "6B39493048AAEFB3"
+					item: "gtceu:computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "0CAC3610027E87D5"
+					item: "monilabs:crystal_matrix_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1BB95D107B994F45"
+					item: "gtceu:naquadah_alloy_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5841529A126F7E5C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "706F4AB12D744FEF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "71DA6236934D5D39"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1D70ED1A2CE315BC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&9オムニックシンセサイザー"
+			x: 2.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["1CC092A2F2CD4589"]
+			description: [
+				"まだ持っていなければ、このロケットのエンジンを作るのに&6トリニウムコイル&rが必要になる。"
+				""
+				"&3四等級ロケット&rがあれば&eグラシオ&rへ行ける。グラシオには&6ナクアダ&r、&6カエマナイト&r、&6ストルツ石&r、&6イリドスミン&r、&6オスミリジウム&rがあり、&6凍て付くクリオジウム&rの液体鉱脈もある。"
+			]
+			id: "77DB862BCC7BF6A5"
+			shape: "hexagon"
+			tasks: [{
+				id: "7F9D02412182850B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: 0.25d
+		}
+		{
+			dependencies: [
+				"15607184B546F5EE"
+				"75810A27FBBBFB77"
+			]
+			description: [
+				"&6古代の残骸の粉&rは&6アーダイトの粉&rと&6活性化ネザライトスクラップ&rに加工でき、それぞれ&6マニュリン&rと&6活性化ネザライト&rに使われる。"
+				""
+				"古代の残骸の粉の加工には2つの道がある。&3EBF&rに入れるか、&3化学槽&rに入れるかだ。EBFでは活性化ネザライトスクラップが多く得られる代わりにアーダイトが少なくなり、化学槽ではその逆になる。"
+				""
+				"鍛冶台のレシピは&6分子組立機&rで自動化できる。"
+			]
+			id: "113E9543ADB1666B"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "25D96E6575B38623"
+					item: "gtceu:activated_netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6FD8F8677B27349F"
+					item: "gtceu:manyullyn_ingot"
+					type: "item"
+				}
+			]
+			title: "&9活性化ネザライトとマニュリン"
+			x: -0.25d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0562D9F4C441EAF9"]
+			description: ["Tier 9マイクロマイナーの組み立てに使われる複雑なプレート素材。"]
+			id: "57D9FA04817CB92F"
+			rewards: [{
+				id: "6ABD44B2AE43E4E3"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09EF929F3BDB6617"
+				item: "kubejs:quantum_fluxed_eternium_heavy_plating"
+				type: "item"
+			}]
+			title: "量子メッキされた厚いエタニウムプレート"
+			x: 4.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["069773756716E192"]
+			description: ["&6アメリシウム&rは&3MK2核融合炉&rでの核融合で入手できる。もうすぐナクアダ化学も代わりの入手源として使えるようになる。"]
+			hide_dependency_lines: true
+			id: "641B049C71B3EB34"
+			shape: "hexagon"
+			tasks: [{
+				id: "60D8B98447C02D18"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			title: "アメリシウム"
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["15607184B546F5EE"]
+			description: [
+				"&6トリタニウムコイル&rにより、&6生のナクアダ溶液&r、ひいてはナクアダ化学の出発物質である&6活性化ナクアダ同位体混合液&rが作れるようになった。"
+				""
+				"この工程は、液体の蒸留とクラッキングの繰り返しで構成される。クラッキングは&3核融合炉&rで行い、クラッキング材料には4つの選択肢がある。自分の基地で一番扱いやすいものを選ぼう。"
+				""
+				"ナクアダ化学では、様々な貴重資源が大量に得られる。&6ネプツニウム&rや&6カリホルニウム&rなどの放射性元素の主な供給源となるほか、&6トリタニウム&r、&6ダームスタチウム&r、&6ニュートロニウム&rなど他の高度な素材もかなり得られる。"
+				""
+				"ナクアダ化学の中間生成物は、&3ナクアダ精製機&rで作る液体&6ナクアダ燃料&rの製造にも使われる。これはパックの残りを通して主要な電源として使える。もう一つの選択肢は&6反物質燃料&rだ。"
+			]
+			icon: "kubejs:naquadah_waste"
+			id: "75810A27FBBBFB77"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6D4413ED75F73290"
+					item: "kubejs:stabilized_curium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C9F5279150C5A28"
+					item: "kubejs:stabilized_californium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D858605C97FE646"
+					type: "checkmark"
+				}
+			]
+			title: "ナクアダ化学"
+			x: 2.25d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"115B96B2092D671E"
+				"28834638F1487312"
+				"5792330C6E5B87A3"
+			]
+			description: [
+				"アップグレードの時間だ！ "
+				"…あるいは新しく建てるか。たぶんそっちの方が良い。"
+				""
+				"今回もこのクエストが要求するのは最小限の外装数だ。&a液体入力2つ&r&rと&a液体出力1つ&rより多くしたくないなら、追加で&229個&r作ろう。追加の&e核融合炉ガラス31個&rまたは&6核融合マシン外装&rも忘れずに！"
+				""
+				"&bそう、核融合炉ガラスは前回と同じティアだが、核融合マシン外装はより高価になっている。&r"
+				""
+				"&6ZPMエネルギーハッチ&rを使っていることを確認しよう！"
+				""
+				"新しく作らずにアップグレードすると言い張るなら、アップグレードに必要なものがすべて揃っていると確信するまで今のものを解体しないこと。さもないと&3MK I核融合炉&rをまた建て直す羽目になるかもしれない。"
+				""
+				"&3MK II核融合炉&rのエネルギーバッファは&e320M EU&rだ。"
+			]
+			icon: "gtceu:zpm_fusion_reactor"
+			id: "069773756716E192"
+			rewards: [{
+				count: 10
+				id: "27AA4E8C62913D0C"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "1318C0E509554BEF"
+					item: "gtceu:zpm_fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "01C009785BE10D67"
+					item: "gtceu:fusion_casing_mk2"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 31L
+					id: "3679617A11A13CF3"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:fusion_casing_mk2"
+								}
+								{
+									Count: 1b
+									id: "gtceu:fusion_glass"
+								}
+							]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3F8428A9521D1FD9"
+					item: "gtceu:fusion_coil"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "4774B17376DD0795"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "108B2CA9CB189D61"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4F996D6D51BF9050"
+					item: "gtceu:zpm_energy_input_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2核融合炉 MK II"
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["069773756716E192"]
+			description: ["&6ダームスタチウム&rはヒ素とルテニウムの核融合、または&6ダームスタダイト&rの処理で作られ、UV機械の主要素材だ。"]
+			id: "3FFC053E3E11D586"
+			rewards: [{
+				id: "51F748D4099BAC22"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33B59563EFF662EE"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			title: "&2ダームスタチウム"
+			x: 6.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3FFC053E3E11D586"]
+			description: [
+				"&3UV&rは&3Ultimate Voltage&rの略だ。"
+				""
+				"この筐体は&6ダームスタチウム、イットリウムバリウム酸化銅ケーブル、ポリベンゾイミダゾール&rで作られる。"
+			]
+			id: "5BADF536443E712D"
+			rewards: [{
+				id: "31762D923359C463"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D4F6E06507385B8"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			title: "&2UVマシン筐体"
+			x: 6.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["069773756716E192"]
+			description: [
+				"&6トリタニウム&rを作るには、まず&6デュラニウム&rを作る必要がある。&3核融合炉 MK I&r以上で&6液体ガリウム&rと&6ラドン&rを融合させよう。"
+				""
+				"デュラニウムが手に入ったら、&3核融合炉 MK II&rでデュラニウムと&6液体チタン&rを融合させてトリタニウムを作れる。"
+				""
+				"これらの工程をまとめて処理するためのアイテムと液体の正しい比率がわからないときは、関連レシピを&bEMI&rに入れてみよう。"
+			]
+			id: "79EFCD8E01384C0C"
+			rewards: [{
+				id: "6238A522FF95AD44"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26D3C433DB615E42"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			title: "&2トリタニウムインゴット"
+			x: 2.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["00011E5DD7EEE8DB"]
+			description: ["&2トリタニウムコイルは8番目のコイル素材だ。10800Kで、ほぼあらゆる素材を製錬できる。"]
+			id: "15607184B546F5EE"
+			rewards: [{
+				id: "4D377BF47452A80F"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "29D1DB4708B2D316"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			title: "&2トリタニウムコイル"
+			x: 1.0d
+			y: 11.75d
+		}
+		{
+			dependencies: [
+				"3A69EE21B3089929"
+				"28834638F1487312"
+			]
+			description: [
+				"&3高機能計算アレイ (HPCA)&rは、&3研究ステーション&rで使われる&d計算量&rを供給するコンピューターだ。供給できる&d計算量&rは、内部のHPCAパーツの種類によって決まる。また、構造内の冷却装置による十分な&d冷却&rを受ける必要がある。"
+				""
+				"&3計算データ送信ハッチ&rを&3研究ステーション&rの&3受信ハッチ&rに接続して、生成した&dCWU/t&rを送ろう。"
+				"{@pagebreak}"
+				"HPCAは&aコンピューター排熱口&rの背後の3x3の範囲内に、&3計算コンポーネント&r、&3冷却装置&r、&3ブリッジ&r、&3空コンポーネント&rのほぼどんな組み合わせでも受け付ける。推奨のコンポーネントで&d16 CWU/t&rのHPCAが組め、&3核融合炉 MK2&r、&6UV回路&r、すべての&6ZPM部品&rのスキャンに十分だ。最初はもっと少なくても何とかなるが、いずれはこの計算能力までアップグレードする必要がある。他の構成例は&eEMI&rを参照しよう。"
+				""
+				"HPCAの&dCWU/t&rは、内部の&3HPCA計算コンポーネント&rの出力の合計で決まる。通常の&3計算コンポーネント&rはそれぞれ&d4 CWU/t&rを生み出し、&d2の冷却&rを必要とする。まだ手に入らない&3発展型計算コンポーネント&rは、それぞれ&d16 CWU/t&rを生み出し、&d4の冷却&rを必要とする。"
+				""
+				"{@pagebreak}"
+				""
+				"&d冷却&rは構造内の&3冷却装置&rブロックによって供給される。&3パッシブ冷却装置&rはそれぞれ無償で&d1の冷却&rを供給し、&3アクティブ冷却装置&rは&3入力ハッチ&rから&9誘電性PCBクーラント&rを安定して供給することで、それぞれ&d2の冷却&rを供給する。HPCA内の冷却が不足すると、コンポーネントが過熱で&c損傷&rすることがある。HPCA内でのコンポーネントの物理的な位置は関係ない。"
+				""
+				"&3ブリッジコンポーネント&rを取り付けると、HPCAを&3ネットワークスイッチ&rに接続できるようになる。"
+				""
+				"HPCAのエネルギー消費量は、パーツの合計で決まる。「最大エネルギー」はHPCAが計算中の消費電力、「維持エネルギー」はHPCAがアイドル中の消費電力を指す。"
+			]
+			icon: "gtceu:high_performance_computation_array"
+			id: "37BE175EEC2ABD59"
+			rewards: [{
+				id: "49662F3AC1BF54B0"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66058E2583089E93"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "4DC31C441D81AFA8"
+					item: "gtceu:computer_heat_vent"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "2593E8CA09114408"
+					item: "gtceu:advanced_computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "671960FED0771DD9"
+					item: "gtceu:computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D706239B6466475"
+					item: "gtceu:computation_transmitter_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E264A85174F9B37"
+					item: "gtceu:hpca_computation_component"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3D46E7A04715342E"
+					item: "gtceu:hpca_active_cooler_component"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B8F146BECFFFC5D"
+					item: "gtceu:hpca_empty_component"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "420D01EB2A05CAA9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2高機能計算アレイ"
+			x: -1.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["37BE175EEC2ABD59"]
+			description: [
+				"&3研究ステーション&rは、接続された&3高機能計算アレイ&rから供給される&d計算量&rを消費して、&cZPM&r以上のアイテムを研究する高度なスキャナーだ。"
+				""
+				"このマルチブロックの機能はスキャナーと似ている。スキャンするアイテムと一緒に&6データオーブ&rか&6データモジュール&rを&3オブジェクトホルダー&rに入れよう。十分な&dCWU&rが消費されると、アイテムは&c消費&rされ、対応するデータがデータアイテムに書き込まれる。&3HPCA&rが十分な&dCWU/t&rを供給しているか確認しよう。必要量は&eEMI&rのスキャンレシピで確認できる。"
+				"{@pagebreak}"
+				"&3エネルギーハッチ&r、&3メンテナンスハッチ&r、&3計算ハッチ&rは、構造の背面にある&aコンピューター排熱口&rの間の9個の&aコンピューター用外装&rとしか置き換えられない。&3オブジェクトホルダー&rは&3研究ステーション&rのコントローラーブロックの方を&c向いていなければならない&r。"
+				""
+				"研究ステーションは余剰の&dCWU/t&rで加速できるが、余分な&dEU/t&rでは&cオーバークロックしない&r。初期のレシピは&dLuV&rの電力で動くが、すぐに&cZPM&rが必要になり、より高度なスキャンにはさらに高いティアのエネルギーが必要になる。ほとんどの研究スキャンには長い時間がかかるので、早めにこの工程を始めよう。"
+			]
+			icon: "gtceu:research_station"
+			id: "1109CFC5D47FC011"
+			rewards: [{
+				id: "0D93EA62B529457F"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3AD27DA0F09B8C56"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+				{
+					count: 49L
+					id: "18B4DC694262045C"
+					item: "gtceu:computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "0C95764D74768CB4"
+					item: "gtceu:advanced_computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "7AA21CF7DB131044"
+					item: "gtceu:computer_heat_vent"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23103B6326C92E62"
+					item: "gtceu:object_holder"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41A8916DAC27BCD0"
+					item: "gtceu:computation_receiver_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "22982DA7F6B22654"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2研究ステーション"
+			x: -1.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01E542E1C9DAF5B4"]
+			description: [
+				"こいつはほぼあらゆる核融合レシピをこなせる。特に、&6ニュートロニウム&rを入手する別の方法が手に入る。"
+				""
+				"マルチブロックの配置はMK IやMK IIと同じで、許可されるハッチや外装の置き換えも同じだ。"
+				""
+				"ただし当然、こちらは&6核融合炉マシン外装 MK &2III&rを使い、&aUVエネルギーハッチ&rでしか動かない。"
+				""
+				"&3MK III核融合炉&rのエネルギーバッファは&e640M EU&rだ。"
+			]
+			icon: "gtceu:uv_fusion_reactor"
+			id: "7D29C79DE1CCA2A2"
+			rewards: [{
+				count: 10
+				id: "342B04DA3362D0B9"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "核融合！"
+			tasks: [
+				{
+					id: "3816F5546D4E770F"
+					item: "gtceu:uv_fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "5DA79E1DA2A1487B"
+					item: "gtceu:fusion_casing_mk3"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 31L
+					id: "3679617A11A13CF1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:fusion_casing_mk3"
+								}
+								{
+									Count: 1b
+									id: "gtceu:fusion_glass"
+								}
+							]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0034F7B9BF08655C"
+					item: "gtceu:fusion_coil"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "1BD3ACA634093523"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7B73EE8124204B6C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "59615AB26BAA31DA"
+					item: "gtceu:uv_energy_input_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2核融合炉 MK III"
+			x: -3.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["15607184B546F5EE"]
+			description: [
+				"&3ネットワークスイッチ&rは、任意の数の&3計算データ受信ハッチ&rを任意の数の&3計算データ送信ハッチ&rにまとめる。&3研究ステーション&rの&dCWU/t&r要求が1台の&3HPCA&rで供給できる量を超えたときに必要になる。"
+				""
+				"&3計算データ受信ハッチ&r&rを、内部に&3ブリッジコンポーネント&rを持つ&3HPCA&rに接続し、1つの&3計算データ送信ハッチ&rを&3研究ステーション&rに接続すれば、すべてのHPCAの&dCWU/t&rの合計を受け取れる！"
+				""
+				"これで、研究するための&dCWU/t&rさえあれば、すべての*&3組立ライン&rレシピが利用可能になった。パックをクリアするのに必要なレシピで最も計算量を要求する&6異次元処理メインフレーム&rには&d192 CWU/t&rが必要だ。"
+				""
+				"ネットワークスイッチは、構造内の&3計算ハッチ&r1個につき&d7,680 EU/t&rを消費する。"
+			]
+			icon: "gtceu:network_switch"
+			id: "75DD12FBC8AA39FC"
+			rewards: [{
+				id: "391ACCFEB29056AC"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7AA10ECE89BABEEA"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "698C9026857CD0F9"
+					item: "gtceu:computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2CAF4E12B432094F"
+					item: "gtceu:computation_receiver_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D1EA3341AC4C3B6"
+					item: "gtceu:advanced_computer_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09E3C1019A70EAB5"
+					item: "gtceu:computation_transmitter_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5BE697B954607BBC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "07059D7A3008D8E7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2ネットワークスイッチ"
+			x: -2.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["41F1837D7C131898"]
+			description: [
+				"最初の&6UV回路&rと&6ZPMフィールド発生器&rをスキャンして作ったら、&3HPCA計算コンポーネント&rを&3発展型コンポーネント&rにアップグレードできる。これらはそれぞれ&d16 CWU/t&rを生み出し、&d4の冷却&rを必要とする。"
+				""
+				"これを使えば、1台のHPCAを合計&d48 CWU/t&rを生み出すようにアップグレードできる。基本的な&6UV部品&rと&3ネットワークスイッチ&rには十分で、これによってさらに上を目指せる。"
+			]
+			id: "0CEF53164D8B6496"
+			rewards: [{
+				id: "4D2596DD65D69A4E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59294AD73C598693"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			title: "&2発展型HPCA"
+			x: 4.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["254D6D1470BC197E"]
+			description: [
+				"高度なポリマーである&6ポリエチルシアノアクリレート&rは、&4UHV&rの回路や機械の製作に必要だ。"
+				""
+				"これまでのポリマーとは少し違うが、きっと大丈夫だ。"
+			]
+			hide_dependency_lines: true
+			id: "5911900438648430"
+			shape: "hexagon"
+			subtitle: "強力接着剤"
+			tasks: [{
+				id: "6A6C0D5FFB29C9E1"
+				item: "gtceu:polyethyl_cyanoacrylate_plate"
+				type: "item"
+			}]
+			title: "ポリエチルシアノアクリレート"
+			x: -3.5d
+			y: 13.25d
+		}
+		{
+			dependencies: ["04EABD3D2C72D2C5"]
+			description: [
+				"&6スカルク寒天&rは特殊な培養地だ。&6スカルクエネルギーコア&rや&6自己修復性生体材料&rなど、スカルクの高度な用途に必要になる。"
+				""
+				"生産にはまだ自動化できていないかもしれない変わった材料がいくつか必要なので、早めに始めておくと良い。"
+			]
+			id: "37DC6C37EA24BF4D"
+			tasks: [{
+				id: "1F9C0C590E3E5076"
+				item: "gtceu:sculk_agar_dust"
+				type: "item"
+			}]
+			x: 4.75d
+			y: 2.25d
+		}
+	]
+	title: "機械に餌を"
+}

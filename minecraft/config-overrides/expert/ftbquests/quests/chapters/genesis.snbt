@@ -1,0 +1,2257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "genesis"
+	group: "18F0ED1F9A002C08"
+	icon: "gtceu:lv_steam_turbine"
+	id: "0654B76C306712BE"
+	order_index: 0
+	quest_links: [
+		{
+			id: "7FB8EA3900C4D89D"
+			linked_quest: "1A30472430354F1E"
+			shape: "gear"
+			size: 1.5d
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			id: "6DC914192E886D47"
+			linked_quest: "77670BF761084AA2"
+			shape: "hexagon"
+			x: -1.5d
+			y: 13.75d
+		}
+		{
+			id: "070539F2FEF35EF9"
+			linked_quest: "712023557B5B1812"
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			id: "412B0192D3658F7C"
+			linked_quest: "2280472741683581"
+			x: 3.0d
+			y: 16.75d
+		}
+		{
+			id: "4373D49C9462A56A"
+			linked_quest: "2C89DAD26E08E382"
+			x: 1.5d
+			y: 7.25d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"このパックは&eベータ版&rだ。開発のこの段階では問題が起きることも想定される。"
+				""
+				"[\"\",{\"color\":\"blue\",\"text\":\"何かが壊れている・欠けているなどの問題を見つけたら、\"},{\"color\":\"blue\",\"underlined\":true,\"text\":\"Monifactoryのリポジトリ\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Omicron-Industries/Monifactory\"}},{\"color\":\"blue\",\"text\":\"でissueを作成するか、プルリクエストを送って自分で修正しよう。\"}]"
+				""
+				"このパックのModのうちかなりの数がアルファ版やベータ版であることにも注意してほしい。問題を報告する前に、そのMod単体で問題が再現しないことを確認しよう。再現する場合は、代わりにそのModのリポジトリに報告しよう。"
+			]
+			icon: "thermal:nuke_tnt"
+			id: "2A511DB40C66CF35"
+			size: 1.5d
+			subtitle: "最先端！"
+			tasks: [{
+				id: "1A2BD249B1DBDA09"
+				title: "了解"
+				type: "checkmark"
+			}]
+			title: "&9このパックはベータ版だ！"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A511DB40C66CF35"]
+			description: [
+				"このパックは&bピースフル&rでのプレイを想定している。"
+				""
+				"あなたは&2オーバーワールド&rからスタートする。資源豊富な荒野に、スポーンした場所のような都市の建物群が点在している。"
+				""
+				"まっさらな状態から基地を建てたいなら、&6ヴォイドワールドのケーキ&rを地面に置き、一切れ食べて&7ヴォイドワールド&rへ移動しよう。 "
+				""
+				"どの次元ケーキでも、置いて食べればその次元へ行ける。"
+				""
+				"友達と遊ぶなら、&eFTB Teamsのパーティー&rに招待するのを忘れずに。 "
+				"{@pagebreak}"
+				"&2GregTech&rと&2Monifactory&rの機能に関する初心者向けのヒントは&2濃い緑&rで強調表示される。"
+				""
+				"&9Monifactory&rや他のModの癖に関するより上級者向けのヒントは&9青&rで強調表示される。"
+				""
+				"&5ベータ版&rの要素に関する注記は&5濃い紫&rで強調表示される。"
+				""
+				"[\"\",{\"text\":\"テキストのうち\"},{\"underlined\":true,\"text\":\"下線\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"これは違うけど！\"}}},{\"text\":\"が付いたものは（だいたい）クリックできる。\"}]"
+			]
+			icon: "minecraft:crafting_table"
+			id: "66FCC26399376B55"
+			rewards: [
+				{
+					id: "031A59BA80B8796A"
+					item: "telepastries:custom_cake"
+					type: "item"
+				}
+				{
+					id: "12BD64A82DB08429"
+					item: "telepastries:overworld_cake"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					icon: "enderio:cake_base"
+					id: "392C56C1DA9D7978"
+					title: "&6無限ケーキ！"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "1BCE4323D97D9083"
+					ignore_reward_blocking: true
+					stage: "intro_complete"
+					type: "gamestage"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Monifactory エキスパートモードへようこそ"
+			tasks: [{
+				id: "1FF132DED1748D11"
+				title: "ジェネシス #3"
+				type: "checkmark"
+			}]
+			title: "&9ジェネシス"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"&9Monifactory&rでは、すべての次元移動は&6TelePastries&rの力で行う。ポータルはここにはない！"
+				""
+				"このクエストは繰り返し可能で、1時間ごとに&2オーバーワールド&rか&7ヴォイドワールド&rへ行けるケーキを無料でもらえる。ケーキはツールチップに示されたアイテムで補充することもできる。"
+				""
+				"&c戻る手段を必ず用意しておこう！&r もし忘れてしまったら、クエストブック画面の右側にある緊急用アイテムのハートをクリックしよう。"
+			]
+			disable_toast: true
+			icon: "telepastries:overworld_cake"
+			id: "542F0090D8975D3C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F03FEFB5B2A3B47"
+				table_id: 7942624913962637807L
+				type: "choice"
+			}]
+			subtitle: "ケーキは量子的物体だ！"
+			tags: ["moni_cakequest"]
+			tasks: [
+				{
+					id: "423B4FAF11B1C0FA"
+					title: "ケーキによる次元間移動"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: "minecraft:clock"
+					id: "138B92A597D63C12"
+					tags: [
+						"moni_timer"
+						"moni_timer_60"
+					]
+					title: "タイマー"
+					type: "custom"
+				}
+			]
+			title: "ケーキによる次元間移動"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"&bFunctional Storage&fは、1種類のアイテムを大量に保管できる。石や土、鉱石など、大量に持っているものに使おう。"
+				""
+				"&9骨組みテンプレートを使えば、ドロワーを簡単に装飾できる。&r"
+				""
+				"さらに、&9ツール&rや&9アップグレードを使えば、ドロワーで特別なこともできる！ &bEMI&rで&e@Functionalstorage&rを検索して確認しよう！"
+			]
+			disable_toast: true
+			id: "4A696D4BA5442928"
+			optional: true
+			subtitle: "&oこのクエストはどのドロワーでも完了する。"
+			tasks: [{
+				id: "02543E826A43185A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "任意のドロワー"
+				type: "item"
+			}]
+			title: "&9ドロワー"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"&b&lEMI&rは、インベントリを開くたびに表示されるアイテムの一覧だ。Modパック内のすべてのアイテムとレシピを表示してくれる、より優れた(tm)レシピ本だ。なお、&b&lEMI&rは&b&lJEI&rをベースにしているので、両者の名前は同じ意味で使われがちだ。"
+				""
+				"実際に試すには、何かアイテムを要求するクエストを開いて、そのアイテムをクリックしてみよう！"
+				""
+				"[\"\",{\"text\":\"アイテムのクラフト方法を知りたいときは、そのアイテムにマウスカーソルを合わせて次のキーを押そう: \"},{\"color\":\"gold\",\"underlined\":true,\"bold\":1,\"text\":\"R\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"\\\"Show Recipe\\\" in keybind option\"}}},{\"text\":\"。EMIが利用可能なすべてのレシピを表示してくれる。\"}]"
+				""
+				"[\"\",{\"text\":\"逆に、あるアイテムを使うレシピを知りたいときは、カーソルを合わせて次のキーを押そう: \"},{\"color\":\"gold\",\"underlined\":true,\"bold\":1,\"text\":\"U\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"\\\"Show Uses\\\" in keybind option\"}}},{\"text\":\".\"}]"
+				""
+				"[\"\",{\"text\":\"アイテムにカーソルを合わせて \"},{\"color\":\"gold\",\"underlined\":true,\"bold\":1,\"text\":\"A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"\\\"Add/Remove Bookmark\\\" in keybind option\"}}},{\"text\":\" を押すとブックマークできる。ブックマークしたアイテムを一覧から外すには、ブックマーク上で \"},{\"color\":\"gold\",\"underlined\":true,\"bold\":1,\"text\":\"A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"\\\"Add/Remove Bookmark\\\" in keybind option\"}}},{\"text\":\" を押そう。\"}]"
+				""
+				"[\"\",{\"text\":\"EMIの注目すべき機能の一つは、レシピの作業を手助けしてくれることだ。詳しくは \"},{\"underlined\":true,\"text\":\"こちら\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"58566C7BF4C22D86\"}},{\"text\":\" のクエストで説明している。\"}]"
+			]
+			disable_toast: true
+			icon: "ftbquests:book"
+			id: "3B200AD6EFF90DFA"
+			size: 1.0d
+			subtitle: "&eEMIを使おう！！！&r"
+			tasks: [{
+				id: "7449A54608D60DF8"
+				type: "checkmark"
+			}]
+			title: "&9&lEMIを使え！EMIを使え！EMIを。使え。"
+			x: 1.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: ["マルチブロックの自動建築に使える。\n\nインベントリにハッチ／バスがない場合、ターミナルは最低限必要なハッチの分だけ空気ブロックを残しておく。\nもちろんここはエキスパートモードなので、タダではもらえない。"]
+			disable_toast: true
+			icon: "gtceu:terminal"
+			id: "07DC7FC23332B847"
+			subtitle: "マルチブロックの高速建造"
+			tasks: [{
+				id: "380954E57B7C36EC"
+				title: "ターミナル"
+				type: "checkmark"
+			}]
+			title: "&9ターミナル"
+			x: 1.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CFBE0455A242AEB"]
+			description: [
+				"&c&r&9Monifactory&fの鉱石は大きな塊、つまり「&e鉱脈&f」として存在する。鉱脈は世界中に点在しており、比較的よく見つかる。"
+				""
+				"先に進むには&6鉄&fの入手先を見つける必要がある。選択肢はいくつかある。&6磁鉄鉱&fの鉱脈は高い位置にあり、大量の鉄に加えて&6バナジウム&fや&6金&fも少し含んでいる。もうひとつの良い鉄の入手先は&9針鉄鉱&fの鉱脈で、数種類の鉄を含んでいる。最後に、&6黄鉄鉱&fはいくつかの種類の鉱脈で&6銅&fと一緒に見つかる。"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "2E8BFA2E719B1C47"
+			shape: "hexagon"
+			subtitle: "蒸気の始まり"
+			tasks: [{
+				count: 24L
+				id: "674259A69F1EEC1C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "鉄の供給"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E8BFA2E719B1C47"]
+			description: [
+				"&bSophisticated Storage&rと&bSophisticated Backpacks&rは、拠点でも外出先でもアイテムを保管するのに優れた選択肢で、便利なものから楽しいものまでさまざまなアップグレードも用意されている。"
+				""
+				"特に&bSophisticated Storage&rは安価なストレージとして優秀で、最低ティアでもチェスト2個分のアイテムを収納でき、クラフトに必要なのは少しのブロンズと鉛だけだ。さらに樽のアップグレードで強化すれば、もっと多くのアイテムとアップグレードを収められる。"
+			]
+			id: "61E5D7EEE745C6FB"
+			rewards: [{
+				count: 4
+				id: "269E89EDD3A32100"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			subtitle: "魔法のカバン"
+			tasks: [
+				{
+					id: "46CA42CF7D0730E6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "acacia"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "birch"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "crimson"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "dark_oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "jungle"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "spruce"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "warped"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "mangrove"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "cherry"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_barrel"
+									tag: {
+										woodType: "bamboo"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "acacia"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "birch"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "crimson"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "dark_oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "jungle"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "oak"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "spruce"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "warped"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "cherry"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:iron_chest"
+									tag: {
+										woodType: "bamboo"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+								}
+							]
+						}
+					}
+					title: "任意のSophisticated Storageのブロンズ容器"
+					type: "item"
+				}
+				{
+					id: "3A3F4984E9A1A81E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni_quest:backpack"
+						}
+					}
+					title: "任意のSophisticated Backpacksのバックパック"
+					type: "item"
+				}
+			]
+			title: "&9Sophisticated Storageあれこれ"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E8BFA2E719B1C47"]
+			description: [
+				"[\"\",{\"text\":\"試しに \"},{\"color\":\"yellow\",\"underlined\":true,\"text\":\"元素と合金のクエストブックタブ\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"25FEB9E61EEC1A96\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"クリックでチャプターへ移動\"}}},{\"text\":\"をのぞいてみよう。勧めるにはまだ少し早いと思うかもしれないが、これには理由がある。\"}]"
+				""
+				"これらは、ゲーム内の多くの素材をフルスタック分集めるクエストだ。これらの素材は、重要なエンドゲーム資源である&6オムニウム&rの合成に使える。終盤に近づくにつれて大量生産の準備をしておくべき素材を、このパックなりに知らせているわけだ。"
+				""
+				"もちろん、これらのクエストが解放された瞬間にすべて終わらせる必要はないし、勧めもしない。&6鉄&fや&6銅&fのように驚くほど簡単なものもあれば、序盤の技術レベルでは過酷な作業が必要なものもある。"
+			]
+			icon: "gtceu:omnium_ingot"
+			id: "0C173EF148EFEF8E"
+			tasks: [{
+				id: "647D560D77DBCEA5"
+				type: "checkmark"
+			}]
+			title: "元素と合金"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E8BFA2E719B1C47"]
+			description: [
+				"&2GTの液体パイプ&rはかなり強力だ。利点は高い&9スループット&rと&9GTカバー&rを使えることだが、安全に輸送できる液体の種類（&e酸、ガス&rなど）に制限がある。詳しくは各パイプ素材のツールチップを確認しよう。自動出力機能のないタンクや機械から液体を引き出すにはポンプが必要だが、&2ULVのポンプ（や他のカバー）はとても安くクラフトできる&r。"
+				""
+				"また、複数種類の液体を同じブロックで輸送できる&6四重パイプと九重パイプ&rもある。"
+			]
+			id: "64AAF0CD958D836A"
+			tasks: [{
+				icon: "gtceu:potin_large_fluid_pipe"
+				id: "150F57D9BEE7CCEE"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^gtceu:[\\w_]+_fluid_pipe$"
+					}
+				}
+				title: "任意のGT液体パイプ"
+				type: "item"
+			}]
+			title: "&9GT液体パイプ"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E8BFA2E719B1C47"]
+			description: [
+				"&bGregtech&rは序盤のクラフトをかなり増やす。ありがたいことに、&bEMI&rにはこうしたクラフト作業を&9&lずっと&r楽にしてくれるツールがある。"
+				""
+				"[\"\",{\"text\":\"クラフトの話題のついでに、EMIやJEIのような \"},{\"underlined\":true,\"text\":\"レシピビューアー\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B200AD6EFF90DFA\"}},{\"text\":\" の仕組みにまだ慣れていないなら、先にそのクエストを読もう。\"}]"
+				""
+				"EMIでレシピを見ていると、各レシピに&c[❤]&r、&a[┴]&r、&9[+]&rの3つのボタンがあることに気づいただろう。"
+				""
+				"一番シンプルな&9[+]&rから始めよう。作業台を右クリックし、必要なレシピを探して&9[+]&rボタンを押す。レシピに必要なアイテムがすべて揃っていれば、それらを作業台に配置してくれる。"
+				""
+				"&c[❤]&rと&a[┴]&rは組み合わせて&aレシピツリー&rを作るのに使う。&a[┴]&rを押すと、そのアイテムの&aレシピツリー&rが表示される。レシピで&c[❤]&rを押すと、そのアイテムの&cデフォルトレシピ&rとして設定され、そのレシピ（とクラフトに使うアイテム）が&aレシピツリー&rに表示される。さらに、そのレシピに使うアイテムにも&cデフォルトレシピ&rを設定して、これを嫌というほど繰り返せる。なお、&aレシピツリー&r内のアイテムをクリックすると、そのアイテムのレシピが表示される。"
+				"{@pagebreak}"
+				"&aレシピツリー&rのGUIでは、最終生成物の右にある数字の上でスクロールすると、まとめて作る数を変更できる。そして最も重要なのが、&6虫眼鏡&rを押して&6クラフトツリーモード&rに切り替えられることだ。これにより、指定した数のアイテムをクラフトするために&e各段階で必要なアイテムがサイドバーに表示&rされ、クラフトするたびに動的に更新される。この&6合成お気に入り&rを「インベントリにクラフト」のキー（デフォルトでは未割り当て）でクリックすると、作業台使用時は&e自動でクラフトしてアイテムをインベントリに戻してくれる&r。別のインベントリを使っている場合は、必要な数ちょうどのアイテムを送り込んでくれる。&r"
+				""
+				"また、EMIは&cデフォルトレシピ&rを記憶する。つまり、レシピを保存すればするほどEMIはそれらをすべて覚えていて、どのアイテムの&aレシピツリー&rを開いても自動で使ってくれる。アイテムの&cデフォルトレシピ&rを変更することもでき、EMIは&aレシピツリー&rも自動で更新してくれる。インベントリ画面の左下にある&a[┴]&rボタンをクリックしても、&aレシピツリー&rのGUIを開ける。"
+			]
+			disable_toast: true
+			icon: "quark:crafter"
+			id: "58566C7BF4C22D86"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "どんなクラフト計算機よりも優秀。"
+			tasks: [{
+				id: "3768A707E0489471"
+				type: "checkmark"
+			}]
+			title: "&9レシピツリーとクラフトツリー"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E8BFA2E719B1C47"]
+			description: [
+				"&eツールベルト&rは、ツールを収納して簡単に持ち替えられるアイテムだ！ 今はスロットが2つだけだが、後で&6スチール&rを解禁すれば、&6ベルトポーチ&r、&3金床&r、そして少しの&aXP&rで最大9スロットまで拡張できる！"
+				""
+				"ツールベルトを作ろう。ベルトがインベントリか装飾品スロットにあり、&c何かを手に持っているか、ベルトが空でないとき&rに、キー（デフォルトは&6R&r）を押すとGUIを開ける。 "
+				""
+				"または、ベルトを持った状態で右クリックしてもインベントリを開ける。"
+				"{@pagebreak}"
+				"ツールベルトは&bCurio&r（装飾品）として装備できる。インベントリを開いてCuriosボタンを探し、クリックして追加の装飾品スロットメニューを表示し、ベルトスロットに入れよう。どの装飾品スロットがベルトっぽいのかわからなければ、入るまで全部のスロットをクリックすればいい。"
+				""
+				"ツールベルトには、剣やツルハシ、&bGregTech&rのツール、&6ターミナル&rなど、スタック数が1のものなら何でも収納できる。また少し手が加えられていて、&bStorage Drawers&rの鍵も入れられるが、&cThermal のサッチェルは入れられない&r。"
+				""
+				"これでベルトにアイテムを出し入れできる！ GUIを開いている間は、キー割り当ての「&eCycle Tool Left&r」と「&eCycle Tool Right&r」も使える。"
+			]
+			id: "1B86EF5A24286787"
+			rewards: [{
+				id: "637891A6BC00C62D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "&2要望の多かった、ツールを管理するためのModだ！&r"
+			tasks: [{
+				id: "2BFE87C449C8D8F3"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			title: "&2ツールベルト"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E8BFA2E719B1C47"]
+			description: [
+				"&2製錬用の木炭と、かまどの燃料、ボイラーの燃料、防腐木材の材料になるクレオソート油を作るためのもの。"
+				""
+				"自動化には最大5つのコークス炉用ハッチを使おう。"
+			]
+			id: "5D97206C8135872B"
+			tasks: [{
+				id: "695BE6C5B893796B"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E8BFA2E719B1C47"]
+			description: ["&3鉄のかまど&fは&a160ティック&fでアイテムを製錬でき、&a200ティック&fかかるバニラの&6かまど&fより少し速い。燃料効率はどのかまどでも同じだ。"]
+			id: "7865CDE5CFE005DC"
+			rewards: [{
+				id: "55F7CA98F66953A1"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A2879717EF57D8A"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			title: "かまど v2.0"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7865CDE5CFE005DC"]
+			description: ["&3銅のかまど&fはさらに一段階速く、アイテムの製錬に&a100ティック&fかかる。"]
+			id: "0591171F13A45283"
+			rewards: [{
+				id: "20FC1982A662B6C6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14CDC80A449BD388"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			title: "かまど v3.0"
+			x: 5.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0591171F13A45283"]
+			description: ["&3銀のかまど&fはさらに一段階速く、アイテムの製錬にかかるのはわずか&a70ティック&fだ。"]
+			id: "3F77EDE69BB649DA"
+			rewards: [{
+				id: "77EC0D08F5C99E37"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "266C775298CDC137"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			title: "かまど v4.0"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F77EDE69BB649DA"]
+			description: ["&3金のかまど&fはさらにもう一段階速く、アイテムの製錬にかかるのはたったの&a40ティック&fだ。"]
+			id: "6B121BEFD852BC2D"
+			rewards: [{
+				id: "045094D4927E2AB5"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FD61CD4D237D131"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			title: "かまど v5.0"
+			x: 5.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["6B121BEFD852BC2D"]
+			description: ["&3ダイヤモンドのかまど&fはもっと速く、アイテムの製錬にかかるのはたったの&a25ティック&fだ。"]
+			id: "1AE46C1970378083"
+			rewards: [{
+				id: "4F7C761D3657868A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67B5E4F996C454C8"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			title: "かまど v6.0"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1AE46C1970378083"]
+			description: ["&3黒曜石のかまど&fは&3ダイヤモンドのかまど&fより少し速く、アイテムの製錬にかかるのはたったの&a20ティック&rで、しかも爆発にも耐える。"]
+			id: "3969150B59EA38A2"
+			rewards: [{
+				id: "7BADB8C39CADB5FF"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "223332FE4EEB31B0"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			title: "かまど v7.0"
+			x: 5.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["3969150B59EA38A2"]
+			description: ["アイテムを1個あたり&a5ティック&rという猛烈な速さで製錬するが、非常に高価で、網羅のためだけに載せている。代わりに&3大型製錬炉&rを作ったほうがいい。"]
+			id: "69E77BD01CFF65EB"
+			optional: true
+			rewards: [{
+				id: "2BBD659B19ED9807"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "015B7C7A82AE67C5"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			title: "かまど v8.0"
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["58566C7BF4C22D86"]
+			description: [
+				"&9EMIでは、ツールと素材の組み合わせごとに別々のレシピを表示する代わりに、ツールがグループにまとめられている。そのグループ内のどのツールでも使える。たとえば&6#forge:tools/hammers &9グループなら、どの&aハンマー&9でも使えるということだ。"
+				""
+				"まずは&aハンマー&fを作ろう（&a採掘用ハンマー&fではないので注意…プレートではなくインゴット6個だ）。ハンマーを使うと&eインゴット2個をプレート1枚&fに変えられる。&6プレート&fからは&aファイル&fが作れ、ファイルからは&6棒&fが作れる、といった具合だ。EMIを使ってツールの一覧を順に作っていこう。"
+				""
+				"今のところツールの素材には&6鉄&fがおそらく最適だが、進行するにつれてより良い素材が使えるようになる。"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wire_cutter"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 2
+						MaxDamage: 383
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "4FE53F31E68F4C1C"
+			rewards: [{
+				count: 2
+				id: "1DA0C8E82ED7EAD8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "04ED9B749EA44142"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514CE965C8FB1452"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7226082DB71F551A"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "705CACC01AD1C68E"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290A0FE8C389AF05"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B41907A63748FCA"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7298CFD7BA970AA8"
+					item: {
+						Count: 1
+						id: "gtceu:iron_mortar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "初期ツール"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4FE53F31E68F4C1C"]
+			description: [
+				"&a採掘用ハンマー&rは、比較的安価に広い範囲をずっと速く掘れる手段だ。3x3の範囲のブロックをまとめて壊し（スニーク中を除く）、採掘も速い。"
+				""
+				"&2Gregtechには標準で採掘用ハンマーがある！ GTのどのツール素材でもクラフトできる。&r"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_mining_hammer"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+					}
+				}
+			}
+			id: "07D45A3F8A74A61C"
+			rewards: [{
+				id: "0969EFC84AA58A45"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "掘って掘って穴を掘れ"
+			tasks: [{
+				consume_items: false
+				id: "589A0779F965D77A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/mining_hammers"
+					}
+				}
+				match_nbt: false
+				title: "任意の採掘ハンマー"
+				type: "item"
+			}]
+			title: "採掘ハンマー"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FE53F31E68F4C1C"]
+			description: ["&6Gregtechの斧&9は、木を丸ごと一括伐採できる！"]
+			id: "527F56DFAD5E20EC"
+			tasks: [{
+				id: "254A555916313F70"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^gtceu:.*_axe$"
+					}
+				}
+				title: "任意の伐採斧"
+				type: "item"
+			}]
+			title: "&9木の伐採"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4FE53F31E68F4C1C"]
+			description: [
+				"&aクレセントハンマー&rは&bThermal Expansion&fの機械に使うものだが、ほぼすべてのModのブロックに対して基本的なレンチ操作ができる。&9GregTechのパイプも調整できるようになった。"
+				""
+				"&aYetaレンチ&rは&bEnderIO&fの機械に使い、いくつかの特殊な表示モードがある（&6スニーク＋マウスホイール&fで切り替え）。"
+				""
+				"&aGregTechレンチ&rは、GregTechの機械を回転させたり出力面を設定し直したりするのに使う。&2他のレンチの機能の一部も備えている。&r"
+				""
+				"機械がどのModのものかは、ツールチップの一番下にある&9青い文字&fで確認できる。"
+			]
+			icon: "enderio:yeta_wrench"
+			id: "04A0863937695AC4"
+			rewards: [{
+				id: "247FC44B6E456222"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "レンチの多さにもう混乱してきた？"
+			tasks: [
+				{
+					id: "70251EAC64217000"
+					item: "enderio:yeta_wrench"
+					type: "item"
+				}
+				{
+					id: "1F3EDCBF5EB70229"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20854F1345AB6B1E"
+					item: {
+						Count: 1
+						id: "thermal:wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&9レンチだらけ"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FE53F31E68F4C1C"]
+			description: [
+				"毎回ツールを壊して新しく作り直す代わりに、金床を手に入れるといい。金床&fは&bLost Cities&fの建物にたくさん出現するので、取りに行こう！"
+				""
+				"修理しても修理にかかるXPコストは増えず、修理素材1個につき1レベルのままだ。"
+				""
+				"壊れかけのツールと、そのツールの素材を入れよう。たとえば&6鉄&f製のツールを修理するには&6鉄インゴット&fを入れる必要がある。修理できないツールはすり鉢とラバーカップだけだ。"
+			]
+			id: "5430ED88A8D10502"
+			rewards: [{
+				id: "1B638AF68A084203"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "&3金床&fでほぼすべての&bGregTechのツール&fを修理できる！"
+			tasks: [{
+				id: "38E44244B336F941"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "ツールの正しい手入れ"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4FE53F31E68F4C1C"]
+			description: [
+				"&6レッドストーン&f: 深層岩の層にある巨大な鉱脈で、&6辰砂&fや&6ルビー&fと一緒にのみ見つかる。"
+				""
+				"&6銅&f: 主な供給源は2つ。&6藍銅鉱&fの鉱脈は高い位置にあり、&6黄銅鉱&fの鉱脈は低い位置にあって少量の&6鉄&fを伴う。また、鉄の鉱脈の中には&6孔雀石&fも見つかる。これも銅鉱石の一種だ。"
+				""
+				"&6錫&f: ほぼ地表の高さで見つかる。&6錫石&fも錫鉱石の一種で、必ず一緒に見つかる。錫の鉱脈が見つからない場合は、&6アルミニウム&fや&6岩塩&fの鉱脈に少量の錫が含まれているので、ちゃんとした錫の鉱脈を見つけるまではそれでしのげるかもしれない。"
+				""
+				"&6石炭&f: 比較的浅い深さで見つかる。"
+				""
+				"&6金&f: &6磁鉄鉱&fの鉱脈の中に含まれていて、比較的地表に近い。"
+			]
+			icon: "minecraft:redstone"
+			id: "1229234A71CE0A99"
+			rewards: [{
+				count: 2
+				id: "79C449A6BEC8941F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "先に進む前に、さらにいくつかの素材が必要になる。"
+			tasks: [
+				{
+					count: 76L
+					id: "581CD7E50AC3F5E3"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "102B3966BE895F45"
+					item: { Count: 36, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "3CEB53996CBB7381"
+					item: { Count: 20, id: "gtceu:tin_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5A94EE9BCBADE6BF"
+					item: { Count: 16, id: "minecraft:coal" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "77FEEB10E7B091B8"
+					item: { Count: 6, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+			]
+			title: "さらなる素材"
+			x: 0.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["1229234A71CE0A99"]
+			description: [
+				"今のところ、このパイプを作るのに最適な素材はおそらく&6錫&rだ。"
+				""
+				"低ティアの小さなアイテムパイプは&9毎秒64個&rのアイテムを輸送でき、後の素材で作ったものなら&9毎秒数スタック&rを輸送できる。"
+				""
+				"自分では自動搬出しないので、&3コンベアーカバー&rなどと組み合わせて使う必要がある。"
+				"{@pagebreak}"
+				"優先度の仕組みは次のとおりだ:"
+				""
+				"各搬入先にはルーティング値が計算される。これはその搬入先までの各パイプのルーティング値の合計だ。ルーティング値が最も低い搬入先が、搬入先として選ばれる。"
+				"制限アイテムパイプはルーティング値が高いため、通常は搬入の優先度が最も低くなる。"
+			]
+			id: "57D1B1D74391A05F"
+			rewards: [{
+				id: "04FB020A78370641"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&2GTアイテムパイプはアイテムを瞬時に輸送し、GTカバーを取り付けられる。"
+			tasks: [{
+				icon: "gtceu:tin_normal_item_pipe"
+				id: "72798E2CFE3F6FB5"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^gtceu:[\\w_]+_item_pipe$"
+					}
+				}
+				title: "任意のGTアイテムパイプ"
+				type: "item"
+			}]
+			title: "&2GTアイテムパイプ"
+			x: -1.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["4B338515E84FC51A"]
+			description: [
+				"&6粘土、レンガ、&c石膏、コンクリート&rを混ぜると&6耐火レンガ&rができ、&3原始的な高炉&rの建設に使われる。&c"
+				""
+				"今のところ、コンクリートを作る唯一の方法は、水入りバケツに石の粉、石英砂、粘土、方解石を加えることだ。&r"
+				""
+				"これで&6錬鉄&rから&6スチール&rを作れるようになる（&6鉄&rからでも作れるが、時間がかかる）。&7LV &6マシン筐体&rも作れるようになった！"
+				""
+				"&6ベルトポーチ&rも作れるようになり、&eツールベルト&rを強化できる。"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "17312BF0197B87A8"
+			tasks: [
+				{
+					id: "75E2F87C0D4B99E1"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "15F1FB08EE4E9EB6"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			title: "&2原始的な製鋼所"
+			x: 1.75d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4FE53F31E68F4C1C"
+				"5D97206C8135872B"
+			]
+			description: [
+				"&3蒸気発生装置&rに手作業で水を補給するのは、かなり馬鹿げた考えだ。"
+				""
+				"&2初歩的な揚水ポンプ&rが代わりにやってくれる。"
+			]
+			id: "0FF18D13CD42F48A"
+			tasks: [{
+				id: "53DA82999B801AF6"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			title: "&9無限水源"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4FE53F31E68F4C1C"]
+			description: ["その気があるなら、&aハンググライダー&fは長距離を移動するのに最適だ。"]
+			hide_dependency_lines: true
+			id: "7C3B69B3DC09FE96"
+			rewards: [{
+				id: "73A54AAACBD32969"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B4500A4503F2F6D"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "グライダー"
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34CA940B412284F2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6大型蒸気式研削装置&rは&7LV &3粉砕機&r 5.3台分を並列で動かすのと同じ働きをする！&e蒸気ハッチ&rから&9蒸気&rを供給する必要があるが、蒸気の消費量はごくわずかだ。"
+				""
+				"これを使って簡単な&e鉱石倍化&rの設備を組むことを検討するといい。出力をアップグレード済みの&3かまど&r数台の方向に向けよう。ただし、砕いた後に精錬できない種類の鉱石には注意しよう。"
+				""
+				"&4副産物は出ない！&r副産物を得るには HV ティア以上の粉砕機が必要だ。"
+				""
+				"コストを抑えたいなら、LV の金属加工機を手に入れるまで待つのもいいだろう。"
+			]
+			icon: "gtceu:steam_grinder"
+			id: "0A8179C319A6868E"
+			rewards: [
+				{
+					count: 7
+					id: "73080607FE93E69A"
+					item: "kubejs:moni_nickel"
+					type: "item"
+				}
+				{
+					id: "5BC6046C0217B7C6"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "3EDB0FDC22025D52"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "0A7839B6E752B41C"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "5FE99FF941C3787F"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "2A06924A3F44F7FA"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "3B7B74056552188F"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			title: "&9大型蒸気式研削装置"
+			x: 1.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["34CA940B412284F2"]
+			description: [
+				"&6蒸気式鋳造炉&rは&7LV &3合金製錬炉&r 5.3台分を並列で動かすのと同じ働きをする！&e蒸気ハッチ&rから&9蒸気&rを供給する必要があるが、蒸気の消費量はごくわずかで、合金や金型レシピの大量生産にぴったりだ。"
+				""
+				"コストを抑えたいなら、LV の金属加工機を手に入れるまで待つのもいいだろう。"
+			]
+			icon: "steamadditions:steam_foundry"
+			id: "1A80D0AE0B2F7A9D"
+			rewards: [{
+				id: "4B38D39E9A8C5A43"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "2BCC8869D365A38D"
+					item: "steamadditions:steam_foundry"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "6394A3C7C39ABEAA"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6D33F60793938D3C"
+					item: "gtceu:bronze_firebox_casing"
+					type: "item"
+				}
+				{
+					id: "15E5F663F34A3F7F"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "3564DED36B075627"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "4346924640CB214F"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			title: "&9蒸気式鋳造炉"
+			x: -1.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["17312BF0197B87A8"]
+			description: [
+				"&eネザー&rには役立つ資源がかなりある:"
+				"- 最初の&6硫黄&r"
+				"- &6グロウストーン&rと&6ソウルサンド&r"
+				"- &6フッ素&r、&6ケルタスクォーツ&r、&6モリブデン&r、&6アンチモン&r、&6金&rを含む鉱石"
+				"- &2ネザーの空気&r: 後で蒸留して有用なガスを取り出せる"
+				"- &2液体採掘機&rで得られる&e溶岩&rと&e天然ガス&r"
+			]
+			id: "126772F682B282E4"
+			rewards: [{
+				id: "7E76763C77A5431F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E1F72CA9DDEA37B"
+				item: "telepastries:nether_cake"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"126772F682B282E4"
+				"4B43ABA024E9A0B9"
+			]
+			description: [
+				"&6ゴムの木&fを探しに出かけるのは確かに有効な選択肢だ。でも気が進まないなら、&e葉をハサミで刈って&f&6プラントボール&fを作ることもできる。プラントボールを製錬すると&6スライム&fになり、スライムを製錬すると&6粘性樹脂&fになる。"
+				""
+				"ただし、&e葉からゴムへの変換効率はかなり悪い&fので、いずれはゴムの木に移行したい。"
+			]
+			id: "6FB3E3D9CA0F4B30"
+			rewards: [{
+				id: "4949E1AF8C656F3D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 3L
+				id: "7BA753DF38DEC329"
+				item: { Count: 3, id: "gtceu:rubber_plate" }
+				type: "item"
+			}]
+			title: "ゴムシート"
+			x: 4.25d
+			y: 12.25d
+		}
+		{
+			dependencies: ["4B338515E84FC51A"]
+			description: [
+				"手に入れたばかりの&3合金製錬炉&rで新しい合金を作ろう！"
+				""
+				"&e銅&rと&eレッドストーン&rを合金にすると&6赤合金インゴット&rができる。"
+				""
+				"&e鉄&rと&eレッドストーン&rを合金にすると&6電導鉄インゴット&rができる。"
+				""
+				"それを&3ハンマー&rで叩いて&6プレート&rにし、さらに&3切断&rして&6ワイヤー&rにしよう。"
+			]
+			icon: "gtceu:red_alloy_ingot"
+			id: "7FA0E6F3B466576C"
+			rewards: [{
+				id: "20BC4F07424D7664"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 16L
+					id: "16D7046417209756"
+					item: { Count: 16, id: "gtceu:red_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "57A26AF688B59DAB"
+					item: { Count: 32, id: "gtceu:iron_dust" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5627DEBC5B168743"
+					item: { Count: 32, id: "gtceu:conductive_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "15CAA2C5B513BFC2"
+					item: { Count: 8, id: "gtceu:red_alloy_plate" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "14B188414BF825E6"
+					item: { Count: 12, id: "gtceu:red_alloy_single_wire" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7B8835F95B9739D6"
+					item: { Count: 16, id: "gtceu:conductive_alloy_single_wire" }
+					type: "item"
+				}
+			]
+			title: "インゴットからワイヤーへ"
+			x: 0.0d
+			y: 13.75d
+		}
+		{
+			dependencies: [
+				"6FB3E3D9CA0F4B30"
+				"7FA0E6F3B466576C"
+			]
+			description: [
+				"この&6赤合金ケーブル&fのような最も基本的なケーブルは、手作業で&6ゴム&fの絶縁被覆を巻ける。"
+				""
+				"より高度なケーブルには&3組立機&fと液体&9ゴム&fが必要になるが、今のところは簡単な方法で作れる。"
+				""
+				"&2GT のケーブルは標準で RF 変換に対応している！&e&9RF&e機械を&9EU&eケーブルに直接つなげば、エネルギーを変換してくれる。&r"
+				"{@pagebreak}"
+				"すべてのケーブルには3つの主な特性がある:"
+				"- &a最大電圧&r: ケーブルを安全に通せる電圧の最大ティア。最大より低い電圧ティアも通せる！"
+				"- &e最大電流&r: このケーブルを安全に通せる電力の最大アンペア数。同じ太さのケーブルでも、素材によって定格が異なることがある。"
+				"- &c損失&r: ケーブルを1ブロック進むごとに、1アンペアあたり失われるエネルギーの量。"
+				""
+				"[\"\",{\"text\":\"対策として、 \"},{\"color\":\"green\",\"text\":\"超伝導体\"},{\"text\":\" を使うか、機械を電源の近くに配置することを検討しよう。超伝導体についての詳細は \"},{\"underlined\":true,\"text\":\"こちら。\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2861BA7C235C52A3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"クリックでジャンプ\"}}}]"
+			]
+			id: "12B95158E4C792DB"
+			rewards: [{
+				id: "720A4DC6D3957258"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 12L
+				id: "24A84AB536BB27B0"
+				item: { Count: 12, id: "gtceu:red_alloy_single_cable" }
+				type: "item"
+			}]
+			title: "&2ケーブル"
+			x: 1.75d
+			y: 13.75d
+		}
+		{
+			dependencies: ["1229234A71CE0A99"]
+			description: [
+				"最初の機械を動かすための、最初の&9蒸気&r生産手段。底面以外のすべての面へ自動で蒸気を出力する。水は 1:150 の比率で蒸気に変わる。"
+				""
+				"スチールを手に入れたら、&3青銅製大型ボイラー&rへの投資を検討しよう。"
+			]
+			id: "34CA940B412284F2"
+			tasks: [{
+				id: "34E57B9F8FF4E1AE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_solid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solid_boiler"
+							}
+						]
+					}
+				}
+				title: "蒸気ボイラー"
+				type: "item"
+			}]
+			title: "蒸気の生産"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34CA940B412284F2"]
+			description: [
+				"蒸気機械は&d32 EU/t&rまでと表示されたレシピを実行できる。排気口の面はふさがないようにする必要がある。排気面はレンチで変更できる。"
+				""
+				"- &3鍛造機&r: &63個のインゴット&rから&62枚のプレート&rを作れる。"
+				""
+				"- &3粉砕機&r: &6粘土&rやその他のインゴットを、それぞれの&e粉&rに粉砕できる。"
+				""
+				"- &3圧縮機&r: &6圧縮耐火粘土&rなどの素材を作れる。"
+				""
+				"- &3合金製錬炉&r: &6青銅&rをより効率よく作れるほか、&6インバー&rなどの便利な合金も作れる。さらに金型を使えば、&6ガラス&rの鋳造、&eギア&rなどの部品の簡単な製作、&6ゴムシート&rの製作もできる。"
+				""
+				"スチールを使えば高圧版にアップグレードでき、速度が2倍になる。"
+				""
+				"機械の音が気に障るようになったら、GT のハンマーで GT 機械を消音できる。"
+			]
+			id: "4B338515E84FC51A"
+			rewards: [{
+				id: "7BD3619691C7B6B3"
+				item: {
+					Count: 1
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D763AE3D2BE5F1A"
+					item: "gtceu:lp_steam_forge_hammer"
+					type: "item"
+				}
+				{
+					id: "3CB3805DD8D4D875"
+					item: "gtceu:lp_steam_macerator"
+					type: "item"
+				}
+				{
+					id: "6F479A5EDAE2715B"
+					item: "gtceu:lp_steam_compressor"
+					type: "item"
+				}
+				{
+					id: "68B11E7E020C79C8"
+					item: "gtceu:lp_steam_alloy_smelter"
+					type: "item"
+				}
+			]
+			title: "蒸気機械"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["17312BF0197B87A8"]
+			description: [
+				"&a金型&rは&3液体成型機&rや&3合金製錬炉&rで素材を特定の形に成形するのに使う。クラフト中に消費も損耗もしないので、機械に入れっぱなしにしてその形専用にしておける。"
+				""
+				"LV に入ったら、液体成型機のほうが効率がいいことが多い。たとえば合金製錬炉では&6ギア&r1個に&eインゴット8個&rを使うが、抽出機と液体成型機を使えば&eインゴット4個&rで同じものが作れる。"
+				""
+				"うっかり&a押出形成用金型&rを作らないように注意しよう。それは後で使えるようになる機械用だ。このクエストの3つの金型は、すぐに役立つものだ。"
+			]
+			icon: "gtceu:gear_casting_mold"
+			id: "754C416FB3F5DBDA"
+			rewards: [{
+				id: "2BDC1F35BDB89DEF"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 3L
+					id: "0300A830D96D68EB"
+					item: { Count: 3, id: "gtceu:empty_mold" }
+					type: "item"
+				}
+				{
+					id: "71A4784D6030E623"
+					item: "gtceu:block_casting_mold"
+					type: "item"
+				}
+				{
+					id: "6F2D627E82DF3ABA"
+					item: "gtceu:gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "476A827092AE1099"
+					item: "gtceu:rotor_casting_mold"
+					type: "item"
+				}
+			]
+			title: "金型"
+			x: 1.75d
+			y: 12.25d
+		}
+		{
+			dependencies: ["754C416FB3F5DBDA"]
+			description: [
+				"&eガラス&rは非常に便利で、今後さまざまな用途に使われる。今のところは&c蒸気式抽出機&rに必要で、&6ソーラーボイラー&rにも使える。"
+				""
+				"今のところ、ガラスを作る唯一の方法は&eガラスの粉&rを経由することだ。&3作業台&rで&e石英砂&rと&eとても小さな火打石の粉&rを組み合わせよう。あとは作っておいた&e金型 (ブロック)&rと一緒に合金製錬炉にかければ、はい完成！"
+				""
+				"後になれば、この苦労から解放してくれる&6アーク炉&rを作れる。砂1個からガラスが2個できる。"
+			]
+			id: "4B43ABA024E9A0B9"
+			tasks: [{
+				id: "528F95F1ECC76A3A"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.25d
+		}
+		{
+			dependencies: ["34CA940B412284F2"]
+			description: [
+				"&6蒸気式分離機&rは&7LV &3遠心分離機&r 5.3台分を並列で動かすのと同じ働きをする！&e蒸気ハッチ&rから&9蒸気&rを供給する必要があるが、蒸気の消費量はごくわずかだ。"
+				""
+				"&9液体&rが関わるレシピ（粘性樹脂から生ゴムパルプを分離するレシピも含む）は処理できないが、鉱石処理にはうってつけだ。粉を最大限に活用でき、&3大釜&rで鉱石を洗う手間からも解放される。"
+				""
+				"コストを抑えたいなら、LV の金属加工機を手に入れるまで待つのもいいだろう。"
+			]
+			icon: "steamadditions:steam_separator"
+			id: "5F90D0FC382C0A30"
+			rewards: [{
+				count: 6
+				id: "6C3CB41773E5C5C6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "555AE041032A635F"
+					item: "steamadditions:steam_separator"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "5A0A4E91971F038A"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "41AC95E6F1B73D7B"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "6350710523220E23"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "68721A8FB9334429"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			title: "&9蒸気式分離機"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1A30472430354F1E"]
+			description: [
+				"最初の&6回路&rを手にしたので、&e低電圧（LV）&3&2タービン&rを作る準備が整った。"
+				""
+				"ワイヤーとケーブルは&aEU&rを&e1対4の比率&rで&aRF&rに変換できる。"
+				""
+				"EU を生産または消費する機械は、雨ざらしにしておくと&c爆発&rするので注意しよう。"
+			]
+			icon: "gtceu:lv_steam_turbine"
+			id: "297B523B6C503957"
+			rewards: [{
+				id: "2539A8FCCA5E2F02"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69A6B3E19427EFB0"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "エネルギー変換器"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"297B523B6C503957"
+				"077AA27F26B7831F"
+			]
+			description: [
+				"&6蓄電器&rは、エネルギーを貯めるための&6バッテリー&rを収納できる機械だ。"
+				""
+				"バッテリー1個につき、蓄電器の入力電流が2アンペア、出力容量が1アンペア増える。"
+			]
+			id: "2FA9404468E4BBD9"
+			rewards: [{
+				id: "325B36632BC87A4F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0527876D6287634B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_8x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_battery_buffer_16x"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "蓄電器"
+			x: 1.75d
+			y: 18.0d
+		}
+		{
+			dependencies: ["12B95158E4C792DB"]
+			description: [
+				"&6バッテリー&rは、&aEU&rエネルギー用の&bGregTech&rの蓄電手段だ。"
+				""
+				"&2リチウム蓄電池&rが最も容量が大きいが、&6ナトリウム蓄電池&rと&6カドミウム蓄電池&rも&7LV&rでは十分役に立つ。3種類とも充電済みのものが&bLost Cities&rの戦利品チェストから見つかり、6階以上では出る確率が高くなる。"
+				""
+				"オーバーワールドの&6塩の鉱脈&rには、電池の素材がいくつも含まれている。&7LV&r &3電解槽&rで&6塩の粉&rを電気分解すれば&6ナトリウムの粉&rが得られ、&6リチア雲母&rや&6リシア輝石鉱石&rを処理すれば副産物として&6リチウム&rが得られる。エキスパートモードでは粘土の電気分解に&bMV&rが必要だ。"
+			]
+			id: "077AA27F26B7831F"
+			rewards: [{
+				id: "0630EB540FFAC21C"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7923DEDAB3298371"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_sodium_battery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_lithium_battery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_cadmium_battery"
+							}
+						]
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "LVの電力貯蔵"
+			x: 1.75d
+			y: 16.75d
+		}
+		{
+			dependencies: ["297B523B6C503957"]
+			description: [
+				"&9Tinker's Workstation&rは適度な速度でアイテムを充電できるが、充電できるのは&aRF&rを使うアイテムだけだ。&9これは&bThermal&9のアイテムのアップグレードにも使う&r。"
+				""
+				"高速充電器は少し高価だが、アイテムを&oずっと&r速く充電でき、&aRF&rと&aEU&rのどちらを使うアイテムも充電できる。"
+			]
+			icon: "gtceu:lv_charger_4x"
+			id: "06E9B9DDDB245F38"
+			rewards: [{
+				id: "193ED94FC1B59BB0"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0560C9C2C5EC9998"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_charger_4x"
+							}
+							{
+								Count: 1b
+								id: "thermal:tinker_bench"
+							}
+							{
+								Count: 1b
+								id: "thermal:charge_bench"
+							}
+						]
+					}
+				}
+				title: "充電器"
+				type: "item"
+			}]
+			title: "&9アイテムの充電"
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["297B523B6C503957"]
+			description: [
+				"見慣れているかもしれない&aRF電力&rと違い、&aEU電力は&e注意が必要&rだ。きちんと気を配らないと、高価なワイヤーやケーブル、機械が壊れてしまうこともある。"
+				""
+				"EUは&aアンペア&r（&aアンプ&r）単位で輸送され、エネルギーの小包のようなものと考えればいい。小包に含まれるエネルギー量が&a電圧ティア&rだ。"
+				"{@pagebreak}"
+				"電力の流れは、機械がケーブルを通して電源から電力を引き出していると考えればいい。ワイヤーやケーブルが運ぶアンペア数が多すぎたり電圧が高すぎたりすると、被覆から順に&c燃え尽きてしまう&r。同様に、機械が高すぎる電圧を受け取ると&c爆発する&r。&eハード/エキスパートモードでは、この爆発でブロックが壊れる！&r 気をつけよう！"
+				""
+				"各電圧ティアは前のティアの&a4倍の大きさ&rで、&7LV&rは32EU/t、&bMV&rは128EU/t、&6HV&rは512、という具合に続く。"
+			]
+			icon: "gtceu:hpic_wafer"
+			id: "5A94534682807314"
+			shape: "hexagon"
+			tasks: [{
+				id: "60242EACEEB6B6C8"
+				type: "checkmark"
+			}]
+			title: "電力入門"
+			x: 0.0d
+			y: 19.25d
+		}
+		{
+			dependencies: ["5A94534682807314"]
+			description: [
+				"機械に電力を供給するのに必要なものがすべて揃ったので、いよいよ組み立てよう。"
+				""
+				"&3蒸気ボイラー&rには燃料（&6石炭&rなど）と&9水&rが必要だ。シングルブロックのボイラーは、隣接するインベントリへ自動で&9蒸気&rを送り出す。"
+				""
+				"&3蒸気タービン&rには、ボイラーからの蒸気が必要だ。点のついた面から&aEU&r電力を出力する。必要なら、&aレンチ&rで&7スニーク右クリック&rすれば向きを調整できる。"
+				""
+				"蒸気タービンの出力面に&6電導鉄のワイヤー&rをつなごう。タービンの台数に応じた出力アンペア数に耐えられるワイヤーやケーブルを使うこと。"
+				""
+				"あとは電力を供給する&bGregTech&rの機械さえあればいい！ 何を作ってもいいが、まずはこの2つを作るのがお勧めだ:"
+				""
+				"- &3ワイヤー作製機&rがあれば、ワイヤーのクラフトがずっとずっと楽になる。"
+				"- &3金属加工機&rなら、インゴット2個ではなく1個から&6プレート&rを作れる。"
+				""
+				"最低限の太さのワイヤーを使っているなら、機械は内部バッファが&e50%未満&rのとき&e最大2アンペアの電力を引き出す&rことに注意しよう。"
+			]
+			icon: "gtceu:uhpic_wafer"
+			id: "2D31856F6EF1ED69"
+			rewards: [{
+				id: "56BBC13076DA2EA4"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "44E7A2BF6528EC4E"
+				type: "checkmark"
+			}]
+			title: "すべてを組み合わせる"
+			x: 0.0d
+			y: 20.75d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"インベントリを開いて、画面の左上を見よう。&e領有マネージャー&rという地図のようなアイコンをクリックしよう。"
+				""
+				"&6チャンクをクリック&rすると、そのチャンクを自分のものとして領有できる。これにより、望まないクリーパーの爆発や、他のプレイヤーによる拠点への干渉を防げる。"
+				""
+				"&eカスタム設定のサーバーでプレイしているなら、どの方法が使えるかサーバーの管理者に聞いてみよう&f。"
+				""
+				"&bFTB Utils&fのパーティーにプレイヤーを招待するには、同じ隅にある対応するボタンを探そう。パーティーのメンバーは領有したチャンクを共有する。パーティーの領有チャンクの権限は、パーティー設定メニューで設定できる。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:tnt"
+			id: "6A7A480FAC6103D2"
+			optional: true
+			subtitle: "このパックにどんなチャンクロードの手段があるか気になっているかもしれない。"
+			tasks: [{
+				id: "78BC5B51125B35BD"
+				title: "チャンクを確保しよう！"
+				type: "checkmark"
+			}]
+			title: "チャンクを確保してチームメイトを招待しよう！"
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"たいていのエキスパートパックでは、鉱石処理を利用できるようになるまでは、できるだけ鉱石を処理しないようにするものだ。多くの人が身につけている習慣だろう。"
+				""
+				"[\"\",{\"text\":\"でも、\"},{\"color\":\"blue\",\"text\":\"Monifactory\"},{\"text\":\" ではそんなプレッシャーを感じる必要はない。巨大で密度の高い鉱脈のおかげで原鉱石はとても豊富だし、次のおかげで簡単に集められる: \"},{\"color\":\"green\",\"underlined\":true,\"text\":\"採掘ハンマー\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"07D45A3F8A74A61C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"クリックでクエストへ移動\"}}},{\"text\":\".\"}]"
+				""
+				"&eほとんどの種類の鉱石では、序盤に鉱石を倍増させるよりも、別の鉱脈を見つけて掘るほうが時間も資源もかからない。&r"
+				""
+				"もちろん希少な素材は例外だ。可能なら倍増させる価値がある。"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:crushed_redstone_ore"
+			id: "17E92ED356B6737F"
+			tasks: [{
+				id: "36817889D65727FA"
+				type: "checkmark"
+			}]
+			title: "&2鉱石倍増？"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"サーバーの管理者が許可していれば、JourneyMapを使ってウェイポイントを作成し、そこへテレポートできる。JourneyMapのウェイポイントには、デフォルトではNキーでアクセスできる。この機能を使って素早く資源を集めよう。"
+				""
+				"JourneyMapのテレポートが無効になっている場合でも、&e/sethome&rコマンドで家の場所を登録し、&e/home&rでそこへ戻れる。名前（デフォルトは\"home\"）を指定すれば、複数の場所を登録して移動できる。ただし、設定できるホームの数には上限がある。"
+				""
+				"後で、他のテレポート手段も見つかるだろう。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:blue_bed"
+			id: "33195ED6D7008E5F"
+			optional: true
+			subtitle: "帰宅を簡単に！"
+			tasks: [{
+				id: "1FE7AB8BD6D25B47"
+				title: "チェックマーク"
+				type: "checkmark"
+			}]
+			title: "JourneyMapとホームの登録"
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"&n&9Monifactory&r&rは、Omicron Industries傘下の他のプロジェクトと公式Discordサーバーを共有しており、役に立つコミュニティの場になっている。"
+				""
+				"サーバーでは、&n#announcements&rチャンネルで開発のお知らせなどを見られるほか、コミュニティが技術的な質問に答えたり、バグと思われる報告を調査したりしてくれる。"
+				""
+				"その気があれば、たくさんのプレイヤー仲間とおしゃべりすることもできる。彼らの多くは、一般的な質問に喜んで答えてくれる。"
+				"{@pagebreak}"
+				"[\"\",{\"text\":\"サーバーに参加するには、メインメニューのボタンを使って参加用URLにアクセスしよう。Discordが好きでないなら、Omicron Industriesの他のプロジェクトはこちらで見つけられる: \"},{\"color\":\"blue\",\"underlined\":true,\"text\":\"こちら\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Omicron-Industries\"}},{\"text\":\" のGitHubページ。\"}]"
+				""
+				"[\"\",{\"text\":\"課題の管理と開発は、それぞれのGitHubプロジェクトのリポジトリで行われている。このパックのリポジトリは \"},{\"color\":\"blue\",\"underlined\":true,\"text\":\"こちら\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Omicron-Industries/Monifactory\"}},{\"text\":\".\"}]"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:writable_book"
+			id: "70026930847E8EC0"
+			optional: true
+			subtitle: "電圧って何？食べられるの？"
+			tasks: [{
+				id: "1278CD7DD38F751A"
+				type: "checkmark"
+			}]
+			title: "DiscordとGitHub"
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"[\"\",{\"color\":\"dark_green\",\"underlined\":true,\"text\":\"このタブ\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"055C0B43FE14258F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"クリックでチャプターへ移動\"}}},{\"color\":\"dark_green\",\"text\":\" は、型破りな方法で有用な資源を再生可能に生産する例を示すために追加された。賢く使おう！\"}]"
+				""
+				"タブ内の各クエストでは、機械の説明と、そのレシピを動かすのに必要な最低電圧が示されている。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "gtceu:mv_chemical_bath"
+			id: "73C713703AB6387C"
+			optional: true
+			tasks: [{
+				id: "4BEDF2126C896A50"
+				type: "checkmark"
+			}]
+			title: "&2再生可能生産タブ"
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"[\"\",{\"text\":\"この \"},{\"color\":\"yellow\",\"underlined\":true,\"text\":\"進行タブ\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"395B849AC6294153\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"クリックでチャプターへ移動\"}}},{\"text\":\" は、パックの重要なポイントを把握できるように追加された。\"}]"
+				""
+				"回路は Monifactory の進行全体の基礎となるので、どんどん上を目指そう！"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "gtceu:quantum_processor"
+			id: "400AD2B735FF135D"
+			optional: true
+			tasks: [{
+				id: "3378D5EF8B48960E"
+				type: "checkmark"
+			}]
+			title: "進行タブ"
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"&bGregTech&rには、すべての&bGregTech&rマルチブロックに対応した&eワールド内のインタラクティブなプレビュー&rがある！ 設置したコントローラーを&e素手で&r&6スニーク右クリック&rすると、構造物のデフォルトの配置を示すホログラムが表示され、建設の助けになる。ブロックを置くと構造がチェックされ、最初に検出された&e間違ったブロック&rが赤く強調表示される。"
+				"{@pagebreak}"
+				"&6スニーク右クリック&rで、全体表示から各層を順に切り替えられる。プレビューの最後の層でこれを行うと、プレビューが消える。"
+				""
+				"&6スニーク左クリック&rで前の層に戻る。全体表示のときはプレビューを閉じる。"
+				""
+				"マルチブロックの&eJEIプレビュー&rでは、&6左クリック&rしながらマウスをドラッグするとプレビューを回転できる。"
+				""
+				"さらに、&6右クリック&rしながらドラッグするとプレビューを平行移動でき、&6スニーク右クリック&rしながらドラッグすると拡大・縮小できる。"
+				""
+				"マルチブロックのプレビュー内の一部のブロックには、マルチブロックの形成方法についての詳しい情報を示す追加のツールチップがある。"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "gtceu:electric_blast_furnace"
+			id: "50591843C8501055"
+			optional: true
+			tasks: [{
+				id: "0765BFA6BDBFD386"
+				type: "checkmark"
+			}]
+			title: "マルチブロック機械のプレビュー"
+			x: -10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: ["[\"\",{\"text\":\"このパックには \"},{\"color\":\"aqua\",\"text\":\"Inventory Tweaks\"},{\"text\":\" が入っていて、どんなインベントリでも素早く、カスタマイズ可能で、簡単に整理できる！ デフォルトのキー割り当ては \"},{\"color\":\"gold\",\"underlined\":true,\"bold\":1,\"text\":\"\\\\\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"\\\"Sort Player Inventory\\\" in keybind option\"}}}]"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:chest"
+			id: "0DE9B264A3BA75BB"
+			optional: true
+			subtitle: "インベントリを整理しよう"
+			tasks: [{
+				id: "6EF2221B59F470CB"
+				type: "checkmark"
+			}]
+			title: "インベントリの整理"
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7865CDE5CFE005DC"]
+			description: ["&bIron Furnaces&rのかまどはすべて、強化して&aより速く&r、&a燃料効率よく&r、&a複数のアイテムを同時に製錬&rできるようにできる！"]
+			id: "5D5C24BACC649253"
+			optional: true
+			rewards: [{
+				id: "7021A7413D938814"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "モジュール式かまど！"
+			tasks: [
+				{
+					id: "154872CDC7976802"
+					item: "ironfurnaces:augment_speed"
+					type: "item"
+				}
+				{
+					id: "29E0DC2E3B5B4A0F"
+					item: "ironfurnaces:augment_fuel"
+					type: "item"
+				}
+			]
+			title: "かまどの強化パーツ"
+			x: 7.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7865CDE5CFE005DC"]
+			description: ["&6かまど設定リンカー&rを使えば、別々の&eかまど&r同士で設定をコピー＆ペーストできる"]
+			id: "07508736CEE01C7F"
+			optional: true
+			rewards: [{
+				id: "7455123A87C45A7E"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "かまどの設定をコピーする"
+			tasks: [{
+				id: "4FF735E089FC1BA8"
+				item: "ironfurnaces:item_copy"
+				type: "item"
+			}]
+			title: "Ctrl + C、Ctrl + V"
+			x: 7.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4B338515E84FC51A"]
+			description: [
+				"ツールには&6鉄&rより&6錬鉄&rのほうが優れた選択肢で、蒸気機械を手に入れたことで、ようやくそれを製造する手段ができた。"
+				""
+				"&6のこぎり&rを使うか&3合金製錬炉&rを使えば、鉄インゴットを塊に切り分けられる。その塊を&3かまど&rで精錬すると&6錬鉄の塊&rができる。"
+				""
+				"最後に、その&6錬鉄の塊&rを&3合金製錬炉&rにかけるか、&3粉砕&rして小さな粉をまとめ、もう一度&3かまど&rで精錬すれば、&6錬鉄インゴット&rにできる。"
+				""
+				"とはいえ、これだけ手間をかけるくらいなら、&6スチール&rを使ったほうがいいだろう。"
+			]
+			icon: "gtceu:wrought_iron_nugget"
+			id: "70784021A2D4E520"
+			shape: "hexagon"
+			subtitle: "より良い鉄……たぶん。"
+			tasks: [{
+				id: "1D5FB685C74458E9"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "錬鉄"
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"&eControl + W&rや&eWの2回押し&rの代わりに、&a自動でダッシュ&rしたいと思うかもしれない。"
+				"そのためには、&bダッシュ&rのキー割り当てを&eW&rに変更しよう（または「前進」と同じキー）。"
+				""
+				"&aグラップリングフック&rは都市環境でもとても便利で、建物を楽々と登れる！"
+				""
+				"&aグラップリングフック&rのアップグレードや強化の方法はたくさんあるので、いろいろ試してみよう。"
+				""
+				"インベントリを開いて&3Curios&rボタンを探し、クリックして追加の装飾品スロットを表示させたら、フックの形をしたスロットにフックを入れよう。"
+				""
+				"フックを発射するデフォルトのキーは&6C&rだが、変更したい場合はキー設定画面で&5category:ReHooked&rと検索し、好きなキーに変えればいい。"
+				"ただし&4キー割り当ての競合&rには気をつけよう"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "rehooked:wood_hook"
+			id: "372BE3F076893D71"
+			min_width: 300
+			rewards: [{
+				id: "3A1EB6268A778123"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "&o速いほど良い！"
+			tasks: [{
+				id: "2FDEDCA3D120121B"
+				item: "rehooked:wood_hook"
+				type: "item"
+			}]
+			title: "移動しよう"
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: [
+				"このクエストブックはプレイ全体を通してあなたを助けるために作られている。&e読むことを&l強く&r&eおすすめする！&r"
+				""
+				"ほとんどのクエストブックの章では、依存関係（矢印付きの線）を使って、どのクエストをどの順番で進めるかを示している。クエストがグレー表示で鍵アイコンが付いている場合、依存先のクエストが1つ以上未完了であることを意味する。\n\nクエストの依存先は、タスクの左にある左矢印をクリックすると確認できる。また、報酬の右にある右矢印で、このクエストに依存しているクエストを確認できる。"
+				""
+				"依存先を完了する前にクエストのタスクを達成すると、そのクエストには灰色のチェックマークが表示され、ロック解除と同時に即座に完了する。こうした事前完了クエストは、ロック中は、それに依存する他のクエストにとって完了扱いにならない。"
+				""
+				"クエストを探すときは、Control/Command + F で名前やタスクからクエストを検索してみよう。"
+			]
+			id: "5CFBE0455A242AEB"
+			shape: "hexagon"
+			tasks: [{
+				id: "7BC2DC471C278E85"
+				type: "checkmark"
+			}]
+			title: "クエストはあなたを助けるためにある"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66FCC26399376B55"]
+			description: ["右クリックで好きなバイオームを選べば、コンパスがそこまで案内してくれる！"]
+			hide_dependency_lines: true
+			id: "259CC99CE1FB22A9"
+			tasks: [{
+				id: "41C9DB62EB31D192"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FE53F31E68F4C1C"]
+			description: [
+				"&2GTmではGT6式のパイプとケーブルがデフォルトで有効になっている。&r機械や他のケーブルにケーブルの各面を接続するには&6ワイヤーカッター&rを使う必要がある。機械やケーブルに当てて設置した場合も自動で接続される。GTのパイプも同様で、そちらの道具は&6レンチ&rだ。"
+				""
+				"これにより、エネルギーや液体が間違った方向へ流れるのを防げる。それが気に入らなければ、GregTechのコンフィグファイルで「GT6 style pipes and cables」のオプションを無効にしよう。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "29EE9A6425869E06"
+			tasks: [{
+				id: "6A56EBBA037B127B"
+				type: "checkmark"
+			}]
+			title: "パイプとケーブルの接続"
+			x: -9.0d
+			y: 8.5d
+		}
+	]
+	title: "エキスパートの創世記"
+}

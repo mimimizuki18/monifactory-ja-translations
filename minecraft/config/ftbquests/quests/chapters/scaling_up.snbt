@@ -1,0 +1,3826 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scaling_up"
+	group: "18F0ED1F9A002C08"
+	icon: "gtceu:tungsten_steel_ingot"
+	id: "7489B5042AFE2290"
+	order_index: 4
+	quest_links: [
+		{
+			id: "4864F8F7C33860D9"
+			linked_quest: "244F2CC5484A7B21"
+			shape: "hexagon"
+			size: 1.5d
+			x: -12.5d
+			y: -7.25d
+		}
+		{
+			id: "47A998CDEFCF834D"
+			linked_quest: "7E09D4E00BFA4970"
+			shape: "hexagon"
+			x: -10.75d
+			y: -7.25d
+		}
+		{
+			id: "749D2634CA4F7836"
+			linked_quest: "6B908DECFA46C8E0"
+			shape: "hexagon"
+			size: 1.5d
+			x: -6.0d
+			y: -8.25d
+		}
+		{
+			id: "7050009D3BC75483"
+			linked_quest: "39FD6F1076559156"
+			shape: "gear"
+			size: 1.5d
+			x: -1.25d
+			y: -7.25d
+		}
+		{
+			id: "2F8475A98F03F508"
+			linked_quest: "0B8CE3FBF62B099D"
+			shape: "hexagon"
+			x: 2.75d
+			y: -3.25d
+		}
+		{
+			id: "7DE39179D1EA5189"
+			linked_quest: "5672773780EE8267"
+			shape: "hexagon"
+			size: 1.25d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "7F49F7308AF0F518"
+			linked_quest: "5B9F1EE13E397DEE"
+			shape: "hexagon"
+			size: 2.0d
+			x: -1.25d
+			y: -5.5d
+		}
+		{
+			id: "7891D352106D66FD"
+			linked_quest: "0A9BC922CF76F48A"
+			shape: "hexagon"
+			x: 3.25d
+			y: 5.0d
+		}
+		{
+			id: "1CDC489E37B0D834"
+			linked_quest: "5D0A642048AF909B"
+			shape: "hexagon"
+			x: 4.0d
+			y: 2.75d
+		}
+		{
+			id: "441DC395A05CBC01"
+			linked_quest: "6DC635766CD40FFF"
+			shape: "hexagon"
+			size: 1.25d
+			x: 5.75d
+			y: 2.75d
+		}
+		{
+			id: "3402D483AEEB7A4B"
+			linked_quest: "3115EAF1F70A613E"
+			shape: "hexagon"
+			x: -13.75d
+			y: 8.75d
+		}
+		{
+			id: "5138206A04C3BBCD"
+			linked_quest: "5C78349343BA40D7"
+			shape: "hexagon"
+			x: -12.25d
+			y: 8.75d
+		}
+		{
+			id: "3AD37D413E66BDEE"
+			linked_quest: "56924FC6B029BA0F"
+			x: -1.25d
+			y: -8.75d
+		}
+		{
+			id: "6100D90CF10C7FEC"
+			linked_quest: "399AE4E449872B8A"
+			shape: "hexagon"
+			x: -9.75d
+			y: -5.5d
+		}
+		{
+			id: "78CBAAFFCED49F1C"
+			linked_quest: "1DB3CCC10C0EB1A8"
+			shape: "hexagon"
+			x: -10.75d
+			y: 8.75d
+		}
+		{
+			id: "752245BAE721598C"
+			linked_quest: "53EC3831D66769CA"
+			shape: "hexagon"
+			x: 9.0d
+			y: 3.75d
+		}
+		{
+			id: "207DD39F07E9EAC9"
+			linked_quest: "3DD8D9EEA7189186"
+			shape: "hexagon"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "01878A313A454D5D"
+			linked_quest: "53C00EA9D9BEE776"
+			shape: "hexagon"
+			size: 2.0d
+			x: -5.75d
+			y: -3.0d
+		}
+		{
+			id: "79E03BBE3F281AD5"
+			linked_quest: "664107ED03A944CD"
+			shape: "hexagon"
+			size: 1.25d
+			x: 5.0d
+			y: 6.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["004344AC70AE88F1"]
+			description: ["&6ルミネッセンス&rは、Extended Craftingの作業台だけでなく、ネザースターなどさまざまなものに使われる。"]
+			disable_toast: true
+			id: "588048A00A6250FB"
+			shape: "hexagon"
+			tasks: [{
+				id: "726E5CFBCCB4B99F"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"67C7895F2722D348"
+				"0B6ACDE565DB7862"
+				"5D5B76387841C3FA"
+				"6D70F91101D8CBB4"
+				"588048A00A6250FB"
+			]
+			description: [
+				"そう、&6ネザースター&rをクラフトできるんだ。すごいでしょ？"
+				""
+				"このパックを通じて、ネザースターは常識的なプレイヤーがウィザーを狩って集められる量をはるかに超えて必要になる。&eクラフトしよう。狩りで集めようとするのは無駄だ。"
+			]
+			id: "00203B07F8A930DA"
+			rewards: [{
+				id: "386F154B1160F203"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "アッセンブル…こっちも！"
+			tasks: [{
+				id: "6D869576B5A06D95"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "クラフト可能なネザースター"
+			x: -9.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4489F567154BDB09"]
+			description: ["&6&6レッドストーン&r、&6硫黄&r、&6ブレイズパウダー&rから、強力な炎の元素の力を宿した混合物&6パイロジウムの粉&rができる。"]
+			id: "67C7895F2722D348"
+			rewards: [{
+				id: "3F8BBD3932AB851B"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38C04D2A3FD88FB6"
+				item: "kubejs:pyrotheum_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"58FCAC329B09FEB0"
+				"47A81FADD828772D"
+				"6DBD1492197AC92D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&6ブレイズロッド&rのかけら。&3粉砕機&rを使うと産出量が2倍になる。"]
+			id: "4489F567154BDB09"
+			rewards: [{
+				id: "1DF5664A05805FA9"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "140B84013154D318"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3FF918B4CF33E8F7"]
+			description: ["&6&6レッドストーン&r、&6黒曜石の粉&r、&6バザルツパウダー&rから、強力な大地の元素の力を宿した混合物&6ぺトロジウムの粉&rができる。"]
+			id: "5D5B76387841C3FA"
+			rewards: [{
+				id: "3C2437836E336ECA"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C703B7BA54A5D6B"
+				item: "kubejs:petrotheum_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"58FCAC329B09FEB0"
+				"47A81FADD828772D"
+				"6DBD1492197AC92D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&6バザルツシャード&rのかけら。&3粉砕機&rを使うと産出量が2倍になる。"]
+			id: "3FF918B4CF33E8F7"
+			rewards: [{
+				id: "29B960A8AF0D34C8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "360CBAF82535EDEB"
+				item: "thermal:basalz_powder"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"67C7895F2722D348"
+				"0B6ACDE565DB7862"
+				"5D5B76387841C3FA"
+				"6D70F91101D8CBB4"
+			]
+			description: ["&6マナの粉&rは重要な素材だ。&bThermal Expansion&r関連のさまざまな素材に必要になる。"]
+			id: "227F448DFCC3E8C3"
+			rewards: [{
+				id: "6CA886F14DF08A57"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "アッセンブル！"
+			tasks: [{
+				id: "25D333A97EBBD6A4"
+				item: "kubejs:primal_mana"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["6F11E32BA70CA38C"]
+			description: ["&6&6レッドストーン&r、&6硝酸カリウム&r、&6ブリッツパウダー&rから、強力な大気の元素の力を宿した混合物&6エアロジウムの粉&rができる。"]
+			id: "0B6ACDE565DB7862"
+			rewards: [{
+				id: "1A4F7D7DCCD5355D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "404D017870C349C7"
+				item: "kubejs:aerotheum_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"58FCAC329B09FEB0"
+				"47A81FADD828772D"
+				"6DBD1492197AC92D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&6ブリッツモート&rのかけら。&3粉砕機&rを使うと産出量が2倍になる。"]
+			id: "6F11E32BA70CA38C"
+			rewards: [{
+				id: "739F3AC195D9D236"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "thermal:blitz_powder"
+				id: "456DD6FD7A2C49D7"
+				item: "thermal:blitz_powder"
+				type: "item"
+			}]
+			title: "ブリッツパウダー"
+			x: -5.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0E419DD2C6D58F49"]
+			description: ["&6&6レッドストーン&r、&6雪玉&r、&6ブリーズパウダー&rから、強力な氷の元素の力を宿した混合物&6クリオジウムの粉&rができる。"]
+			id: "6D70F91101D8CBB4"
+			rewards: [{
+				id: "2DD9462FC699AF14"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "70831A01976A53FC"
+				item: "kubejs:cryotheum_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"58FCAC329B09FEB0"
+				"47A81FADD828772D"
+				"6DBD1492197AC92D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&6ブリーズキューブ&rのかけら。&3粉砕機&rを使うと産出量が2倍になる。"]
+			id: "0E419DD2C6D58F49"
+			rewards: [{
+				id: "2A2BD2E24C11417C"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "15FD650C7B772E55"
+				item: "thermal:blizz_powder"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"0006FEA1843FEA0A"
+				"5BE3E37772FAF6CB"
+			]
+			description: ["&6パイロジウムの粉&rは、すでにクラフト手段のある&6ブレイズパウダー&rからクラフトできる。これを使って&aThermal元素モデル&rをクラフトしよう。残りの粉はプリスティンマターからクラフトできる。"]
+			hide_until_deps_visible: true
+			icon: "hostilenetworks:blank_data_model"
+			id: "47A81FADD828772D"
+			optional: true
+			rewards: [{
+				id: "76C5C1CA73A3AB1B"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "別ルート"
+			tasks: [{
+				id: "28D34F773FBF78A8"
+				type: "checkmark"
+			}]
+			title: "&9ニューラルネットワーク"
+			x: -9.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["476F71CC0B0AC2A4"]
+			description: ["&9元素還元液&rはハードモードにおける序盤の&6Thermal元素の粉&r生産の主な手段だが、ノーマルモードでも使い道がある。"]
+			icon: "gtceu:elemental_reduction_fluid_bucket"
+			id: "58FCAC329B09FEB0"
+			rewards: [{
+				id: "6CB97C9998423632"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "756E0F6D89C5EAF0"
+					item: "gtceu:elemental_reduction_fluid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2CD24A37A4A4E6DE"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "元素還元液"
+			x: -5.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["517A89E954C7EA74"]
+			description: [
+				"&2フッ化水素酸は水素とフッ素を混ぜて作る危険な酸だ。ポリテトラフルオロエチレンの生産や、ウランとナクアダの処理に使う。"
+				""
+				"&9フッ素&rは、マイクロマイナーのミッションで得た&6蛍石&rを処理するか、再生可能な&6深層岩&rを処理するのが一番の入手方法だ。"
+			]
+			icon: "gtceu:hydrofluoric_acid_bucket"
+			id: "476F71CC0B0AC2A4"
+			rewards: [{
+				id: "7CAFCC053CC1526A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: "gtceu:hydrofluoric_acid_bucket"
+					id: "410F772752989787"
+					item: "gtceu:hydrofluoric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38AAD2B4B4F01DCD"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2フッ化水素酸"
+			x: -8.75d
+			y: 6.25d
+		}
+		{
+			dependencies: [
+				"0874A0191325CFDB"
+				"227F448DFCC3E8C3"
+			]
+			description: [
+				"&6チタン&rと液体の&9マナ&rを混ぜると&6ミスリルの粉&rができる。これは&6カンタルコイル&r以上を備えた&3電気高炉&rでインゴットに製錬できる。"
+				""
+				"ミスリルは&6ME無限水セル&rや&6ME無限丸石セル&rなど、いくつもの便利なツールに使われる。"
+			]
+			id: "3E12862AD553EB8A"
+			rewards: [{
+				id: "35630B1716A6DAEA"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BA139CAD2C74A24"
+				item: "gtceu:mythril_ingot"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["441E5CDAD5007906"]
+			description: [
+				"&6ルチル&r、&6炭素&r、&9塩素&rを化学反応させると&9四塩化チタン&rができる。"
+				""
+				"この液体は金属&6チタン&rの前駆体であり、さまざまな高分子反応（プラスチックなど）の収率を上げる触媒として役立つハロゲン化チタンでもある。"
+			]
+			icon: "gtceu:titanium_tetrachloride_bucket"
+			id: "5BE9EDB88D656840"
+			rewards: [{
+				id: "71343BFD7B180C0A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "55E406D669A95D6A"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6EF18668229EDB33"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "四塩化チタン"
+			x: -7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5BE9EDB88D656840"]
+			description: [
+				"&3電気高炉&rで&9四塩化チタン&rと&6マグネシウム&rを組み合わせると（クロール法に近い）、最初の&6チタン&rが手に入る。 "
+				""
+				"この工程はループになっているので、正しく処理すれば（&6ルチル&r以外の）資源を消費しない。"
+				""
+				"残念ながら、これはものすごく熱い。使えるようにするには&3真空冷却機&rで冷やす必要がある。"
+				""
+				"まだ設備を組んでいないか、改善したいなら、Pipez、LaserIO、GTのパイプの代わりにAEを経由させる方法もある。冷却機の入力バスにタグストレージバスを設置し、'forge:hot_ingots' に設定して高い優先度にするだけだ。これでシステムに新しく入ってくる熱いインゴットをすべて受け入れるので、専用のネットワークが不要になる。"
+				""
+				"また、熱いインゴットを冷やすための専用パターンも不要になる。"
+			]
+			icon: "gtceu:hot_titanium_ingot"
+			id: "15372CBC9F2EA9BC"
+			rewards: [{
+				id: "0EEE8E7CD495E61E"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "41C8D4CA16D237DC"
+				type: "checkmark"
+			}]
+			title: "熱いチタン"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"15372CBC9F2EA9BC"
+				"3000798ACA51BFDC"
+			]
+			description: [
+				"箸を作るのにうってつけの素材。"
+				""
+				"Extreme Voltage（EV）のティア素材でもある。"
+			]
+			id: "0874A0191325CFDB"
+			rewards: [{
+				id: "61701B06472AFA90"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "52DA77396FBEFC90"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			title: "チタン"
+			x: -5.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["78DCEF2FF2E1AC8C"]
+			description: [
+				"&6ルチル&rは&6イルメナイト鉱石&rと&6ボーキサイト鉱石&rに含まれる&6チタン&rの前駆体で、これらの鉱石はジ・エンドでまれに生成される。"
+				""
+				"&6&rイルメナイトとボーキサイトは、月や他の惑星でより大量に見つかるほか、&3マイクロマイナー&rからも入手できる。"
+			]
+			id: "441E5CDAD5007906"
+			rewards: [{
+				id: "1A24B071CD779CC6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "408AF0E440D9B9AB"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			title: "序盤のルチル"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15E34DEC491FAB81"]
+			description: ["&6チタン&rの処理には&3HV化学反応器&rが必要だ。"]
+			id: "78DCEF2FF2E1AC8C"
+			rewards: [{
+				id: "7DC26BD00EC30EF0"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3ABC2F0DA299750C"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			title: "HV化学反応器"
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["476F71CC0B0AC2A4"]
+			description: [
+				"&2ポリテトラフルオロエチレン（PTFE、テフロン）は炭素とフッ素から作られる高分子だ。"
+				""
+				"&2この高分子の最も重要な用途は大型化学反応器の製作だ。IVとLuVのマシン筐体にも必要で、一部のレシピでは代わりに使うことで収率を上げられる。"
+			]
+			icon: "gtceu:polytetrafluoroethylene_bucket"
+			id: "0143E903317263D4"
+			rewards: [{
+				id: "7B765F0CA1B23968"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3243A3CE807A3DC1"
+					item: "gtceu:polytetrafluoroethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F0D2A9B85C1905F"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2ポリテトラフルオロエチレン"
+			x: -5.75d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"53C00EA9D9BEE776"
+				"399AE4E449872B8A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6ラドン&rは大量に必要になる。"
+				""
+				"&6ティア2マイクロマイナー&rのミッションで&6ラドン塩&rの形で得るか、&3蒸留塔&rに&5EV &6エネルギーハッチ&rを2つ付けて&9IV&rのレシピを動かし、&6エンドの液体空気&rを蒸留して得られる。"
+				""
+				"後には&bGregTechの&3核融合炉&rでラドンを作れるようになる。"
+			]
+			icon: "gtceu:radon_bucket"
+			id: "49D33146A1F417E8"
+			rewards: [{
+				id: "25D8F3FDB3D8A0D6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "229C13A334082C92"
+					item: "gtceu:radon_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56DF519F24A3F11B"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2ラドン"
+			x: -5.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["49D33146A1F417E8"]
+			description: ["これを作るにはHV以上の&3化学槽&rが必要だ。レシピがかなり遅いので、できるだけ高いティアの化学槽に投資し、レシピの並列化も検討しよう。"]
+			id: "11154356854B64DA"
+			rewards: [{
+				id: "3BB23BE4C21AB7BD"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&6エンダーアイ&rだけじゃ不気味さが足りないときに。"
+			tasks: [{
+				id: "0F943E48FD2BF651"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1DB3CCC10C0EB1A8"]
+			description: [
+				"&6ニクロム&rは3番目に入手できるコイル素材で、電気高炉の稼働温度を3600Kまで上げ、より高度な素材を処理できるようになる。"
+				""
+				"作るには&6HV&rの&3組立機&rが必要なことに注意。&c各ティアのコイルにはそのティアの組立機が必要だ&r。もう二度と言わないぞ。"
+				""
+				"&93600K&rになると、1800K以下のレシピに&9100%効率のオーバークロック&rを1回適用できるほど高温になる。つまり、1回のオーバークロックで通常の&92倍&rではなく&94倍速&rになる。実質的に、1回オーバークロックするだけで追加で2倍の速度ブーストが得られるわけだ。 "
+				""
+				"つまり、HVでは&6アルミニウム&rのガスブーストレシピが約&e7秒&rから&e3秒&rに短縮される。EBFをEV電力にアップグレードすれば、&6ステンレススチールインゴット&rは約&e37秒&rから&e9秒&rに短縮される！余裕ができたら、これらの素材を生産しているEBFを&6ニクロム&rにアップグレードする価値は十分にある。 "
+				""
+				"今後のコイルでも同様のボーナスが得られる。さらに、MVより上の電圧ティアが1つ上がるごとにEBFの温度が&9100K&r上昇するので、将来の素材で差が出るかもしれない。"
+			]
+			id: "28263004814F0F64"
+			rewards: [{
+				id: "02A444D4E7FC7D2C"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				count: 16L
+				id: "771DAE6E383B0605"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			title: "&2ニクロムコイルブロック"
+			x: -9.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["7E09D4E00BFA4970"]
+			description: [
+				"&3真空冷却機&rは主に熱いインゴットを冷やすために使う。"
+				""
+				"空気を凍らせて液体にしたり、超伝導体を作ったりすることもできる。"
+				""
+				"熱いインゴットを処理するマルチブロックを組むには、最低でもエネルギー入力ハッチ、入力バス、出力バス、メンテナンスハッチ、そして&6耐冷マシン外装&r21個が必要だ。"
+				""
+				"液体も扱いたいなら、外装を2個減らし、その場所に液体入力ハッチと液体出力ハッチを置こう。"
+				""
+				"コントローラーの位置を除けば、いつも通りハッチやバスはどこに置いてもいい。コントローラーブロックから開ける&bEMI&rの建築ガイドを使おう。"
+			]
+			icon: "gtceu:vacuum_freezer"
+			id: "3000798ACA51BFDC"
+			rewards: [{
+				id: "219281A5FEE8A69B"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "00BC07CA2824F6C0"
+					item: "gtceu:vacuum_freezer"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "031D8A22AAFE1B3E"
+					item: "gtceu:frostproof_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "23845830830BCF9E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "42D43C71C08BF962"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "225C49AF7F59064D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "453A00FCB7204DE8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -10.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["77CEA89E47BB3B7A"]
+			description: [
+				"各種貴ガスが大量に必要になるので、自動化して常時稼働させておこう。 "
+				""
+				"&2液化すると、オーバーワールドの空気からはヘリウムとアルゴン、ネザーの空気からはヘリウム3とネオン、エンドの空気からはヘリウム、クリプトン、キセノン、ラドンが得られる。"
+				""
+				"一部の貴ガス（と窒素）はEBFの処理速度を上げることもできる。"
+			]
+			icon: "gtceu:argon_bucket"
+			id: "4C475D22CC95EB93"
+			rewards: [{
+				id: "5BE67701C3604EA5"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "32ABC9C584E278E7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:helium_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:argon_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:krypton_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:xenon_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:radon_bucket"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "任意の貴ガス入りバケツ"
+					type: "item"
+				}
+				{
+					id: "52C9E6D39D3A0B8E"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2貴ガス"
+			x: -13.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"2DCD08F30EC049D1"
+				"3000798ACA51BFDC"
+			]
+			description: [
+				"&9空気&rを&3真空冷却機&rに送ると&9液体空気&rになる。"
+				""
+				"&9液体空気&rを&2蒸留塔&rに送ると、成分ごとに分離できる。"
+				""
+				"&2ネザーの液体空気とエンドの液体空気からも、それぞれ別の有用な成分が得られる。"
+			]
+			icon: "gtceu:liquid_air_bucket"
+			id: "77CEA89E47BB3B7A"
+			rewards: [{
+				id: "7EA237F4D10FCC5D"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "42AC56FDBA8442EE"
+					item: "gtceu:liquid_air_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C34F182662A1AB7"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2液体空気の蒸留"
+			x: -13.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["15E34DEC491FAB81"]
+			description: [
+				"注: このクエストはLV/MV/HV/EVの&3ガス収集機&rを受け付ける。"
+				""
+				"&3ガス収集機&rは、上面が塞がれていなければそこそこの速度で空気を吸い込む。集めた空気は出力面から隣接するタンクへ自動で排出される。"
+				""
+				"&2ネザーとエンドのガス収集機は、それぞれネザーの空気とエンドの空気を集め、異なる生成物が得られる。いる次元に合った回路設定にするのを忘れずに。&r"
+				""
+				"IV以上の空気収集機はこのクエストの対象外だが、参考までに&3大気収集機&rという名前で存在する。"
+			]
+			id: "2DCD08F30EC049D1"
+			rewards: [{
+				id: "71A3B40C98FC222D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FC04E0CB9796A66"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_gas_collector"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_gas_collector"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_gas_collector"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_gas_collector"
+							}
+						]
+					}
+				}
+				title: "任意のガス収集機"
+				type: "item"
+			}]
+			title: "&2基本の空気収集"
+			x: -13.0d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"27CE1D6B9683755F"
+				"77CEA89E47BB3B7A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&9窒素&rは大気の78%を占める。そのため&9液体空気&rを何度か処理すると、使い道に困るほど窒素が余るだろう。"
+				""
+				"空気を遠心分離してここまで来たなら、そうなるまでにはもう少しかかる。"
+				""
+				"それでも、かなりの量を備蓄するまでは廃棄しないこと。保管は安上がりだし、窒素はいくつもの重要な用途でまとまった量が使われる。そのひとつはもうすぐ必要になる。"
+			]
+			icon: "gtceu:nitrogen_bucket"
+			id: "6203088E30E34B45"
+			rewards: [{
+				id: "75223C7CF65CA6A8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2F60FFACB0B47C9F"
+					item: "gtceu:nitrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C09298892C632ED"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2窒素"
+			x: -14.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["2DCD08F30EC049D1"]
+			description: [
+				"注: このクエストはLV/MV/HVの遠心分離機を受け付ける。"
+				""
+				"空気の遠心分離は、&3極低温蒸留&rが使えるようになる前に&9窒素&rを得る確実な方法だ。"
+			]
+			icon: "gtceu:lv_centrifuge"
+			id: "27CE1D6B9683755F"
+			rewards: [{
+				id: "1452768E6BEFA7DD"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2415BC74E202A3D1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_centrifuge"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_centrifuge"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_centrifuge"
+							}
+						]
+					}
+				}
+				title: "遠心分離機"
+				type: "item"
+			}]
+			title: "空気の遠心分離"
+			x: -14.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3E51686E2DBD380F"]
+			description: [
+				"&9二酸化窒素&r、&9酸素&r、&9水&rから&9硝酸&rができる。化学の旅の次のステップだ。"
+				""
+				"&9二酸化窒素&rは&9一酸化窒素&rと&9酸素&rを組み合わせるだけで作れる。この工程は&3大型化学反応器を使えば丸ごと省ける。&r"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:nitric_acid_bucket"
+			id: "595F205B551A53C9"
+			rewards: [{
+				count: 2
+				id: "39FA46859D2FA9B6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "これを作っているところを環境保護庁に見つからないように。"
+			tasks: [
+				{
+					id: "73779F75B9CA3B06"
+					item: "gtceu:nitric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6CFC10641179186D"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "硝酸"
+			x: 9.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5357A16B5BF62C96"]
+			description: [
+				"&9酢酸&rの作り方はいくつかある。一番簡単なのは&9酸素&r、&9水素&r、&6炭素&rを組み合わせる方法だが、特に&3蒸留塔&rがあるなら、他の方法のほうが魅力的かもしれない。"
+				""
+				"&bEMI&rで色々な選択肢を調べてみよう。"
+			]
+			icon: "gtceu:acetic_acid_bucket"
+			id: "5FF33EF493DB7E01"
+			rewards: [{
+				id: "05B6976952CDA31F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "32FEE3B58C918C4A"
+					item: "gtceu:acetic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "512BE947AFB06A80"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "酢酸"
+			x: 13.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["5FF33EF493DB7E01"]
+			description: [
+				"&9酢酸&rと&9硫酸&rから&9エテノン&rができる。"
+				""
+				"&9アセトン&rを加熱するなど、他にもいくつか方法がある。&bEMI&rで色々な選択肢を確認しよう。"
+			]
+			icon: "gtceu:ethenone_bucket"
+			id: "51F895647CB242F1"
+			rewards: [{
+				id: "4F3636FD998B7A2C"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "07AB0C8153AB8153"
+					item: "gtceu:ethenone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "370700662A7102A8"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "エテノン"
+			x: 13.25d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"51F895647CB242F1"
+				"595F205B551A53C9"
+			]
+			description: [
+				"ディーゼル燃料を次のレベルに引き上げる添加剤だ。"
+				""
+				"&3化学反応器&rで&9硝酸&rと&9エテノン&rを混ぜて&9テトラニトロメタン&rを作ろう。"
+				""
+				"新しく追加されたルートでは、&3化学反応器&rで&9硝酸&rと&9酢酸メチル&rを混ぜることもできる。"
+			]
+			icon: "gtceu:tetranitromethane_bucket"
+			id: "16EACCF9B4FA89B3"
+			rewards: [{
+				id: "6E9E23E1E73B28F8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "673BEB0E2F9992E8"
+					item: "gtceu:tetranitromethane_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21E63B60CA97F1F9"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "テトラニトロメタン"
+			x: 11.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["48E83C38B37DFEE6"]
+			description: [
+				"石油化学とは、石油、つまり&9オイル&rに関わる有機化学の分野だ。"
+				""
+				"&bGregTech&rの石油化学は、化学物質と処理方法の多さに最初は圧倒されるかもしれないが、実は思っているより取っつきやすい。"
+				"{@pagebreak}"
+				"出発点はオイルだ。いくつかの種類があり、オーバーワールドの有限の天然油井からポンプで汲み上げられるほか、&6オイルサンド鉱石&rや&6ソウルサンド&rから再生可能な形で得たり、&3液体採掘機&rで液体のまま直接得たりできる。"
+				""
+				"&2液体採掘機は液体鉱脈によって原油、重質油、軽質油も採取できる。4種類のオイルは蒸留したときの比率がそれぞれ違うので、どれが最適かは状況次第だ。&r "
+				"{@pagebreak}"
+				"まずはオイルを蒸留しよう。&9硫化重油&r、&9硫化軽油&r、&9硫化ナフサ&r、&9硫化ガス&rのいずれか、または全部が得られる。"
+				""
+				"これらはすべて&3化学反応器&rで&9水素&rを使って水素化脱硫する必要があり、硫黄を含まない版が得られる。"
+				"{@pagebreak}"
+				"どの生成物も役に立つので、多種多様で大量の液体をどう保管するか考えておこう。"
+				""
+				"この先のクエストで石油化学の基本を案内する。それをマスターしたら、自由にさらに探求してみよう。"
+			]
+			icon: "gtceu:oil_bucket"
+			id: "6D434F3B0E720A5A"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1815999D66C3206E"
+					item: "gtceu:oil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11965D5CFFF1F0EE"
+					item: "gtceu:oil_heavy_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B2995D1E1AC363E"
+					item: "gtceu:oil_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E6CE2A79EB83580"
+					item: "gtceu:oil_light_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "365BCE97D7BB1075"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "石油化学の歩き方"
+			x: 11.5d
+			y: -8.75d
+		}
+		{
+			dependencies: [
+				"0E20199737DFE4AC"
+				"1F2E76FA4B2C2E84"
+			]
+			description: [
+				"&9ディーゼル&rは&9軽油&rと&9重油&rの混合物だ。&6燃焼発電機&rの序盤の燃料としては十分使える。"
+				""
+				"より優れた&2セタン価ブーストディーゼル&rを作るのにも使える。こちらは後で&6クリオロバス&rを生産するために大量に欲しくなるかもしれない。&2代わりに&6ガソリン&2をその用途に使うこともでき、後で&6高オクタン価ガソリン&2や&6JEANガソリン&rにアップグレードできる。"
+				""
+				"&2原油からディーゼルを作るなら、&6蒸留塔&2はシングルブロックの蒸留機と同じエネルギー効率で分離でき、さらに有用な副産物も得られる。まだ使っていないなら導入しよう。"
+			]
+			icon: "gtceu:diesel_bucket"
+			id: "74EDAE84246C7228"
+			rewards: [{
+				id: "19B21A629B488588"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4FE2BF6F06A4D9BF"
+					item: "gtceu:diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44C9958B26BAB9CC"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "ディーゼル"
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D434F3B0E720A5A"]
+			description: [
+				"&2軽油の蒸留生成物は以前より有用になっており、高オクタン価ガソリン用のオクタンの唯一の供給源でもある。"
+				"ただしディーゼルを作ると決めたなら、生産した軽油のかなりの部分は依然としてディーゼル生産に回すことになる。"
+			]
+			icon: "gtceu:light_fuel_bucket"
+			id: "0E20199737DFE4AC"
+			rewards: [{
+				id: "7FB47FCB7F1894ED"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "76BE3671F88639AD"
+					item: "gtceu:light_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63AF565D3B78C9F7"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2軽油"
+			x: 9.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["6D434F3B0E720A5A"]
+			description: ["&9重油&rは&9軽油&rと混ぜて&9ディーゼル&rにする。"]
+			icon: "gtceu:heavy_fuel_bucket"
+			id: "1F2E76FA4B2C2E84"
+			rewards: [{
+				id: "643B3A9C2025408C"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7D024FBCBF0F1DDB"
+					item: "gtceu:heavy_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29D112F427E97FCA"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "重油"
+			x: 11.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["6D434F3B0E720A5A"]
+			description: [
+				"&9硫化水素&rは水素化脱硫の副産物だ。&2ネザーの液体空気を蒸留しても得られる。&r"
+				""
+				"&6酸素&rとの簡単な化学反応で有用な&9硫酸&rに再処理できるし、電気分解して&9水素&rを回収することもできる。"
+			]
+			icon: "gtceu:hydrogen_sulfide_bucket"
+			id: "6FE459376BF7ABBA"
+			rewards: [{
+				id: "27A2A4E427EC919F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4E6B5549E5808764"
+					item: "gtceu:hydrogen_sulfide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B775DCD6941A4CF"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2硫化水素"
+			x: 13.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D434F3B0E720A5A"]
+			description: [
+				"他の石油製品と同様、&9硫化ガス&r&2や天然ガス&rは&3化学反応器&rで&9水素&rを使って水素化脱硫すると&9精製ガス&rになる。"
+				""
+				"精製ガスは分解してさらに蒸留し成分を取り出せるが、&3ガスタービン&rの良い燃料源でもある。&e直接燃やすことはできない&rが、精製ガスを遠心分離するとガスタービンに理想的な燃料である&9LPガス&r（液化石油ガス）と、&9メタン&rが得られる。メタンはタービン燃料にもなる（最適ではない）が、様々な化学反応にも役立つ。"
+			]
+			icon: "gtceu:refinery_gas_bucket"
+			id: "2396EF225839C65D"
+			rewards: [{
+				id: "70073E9059FEF2F4"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7F5D3D54B145AE62"
+					item: "gtceu:refinery_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36340115B3BCC255"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2精製ガス"
+			x: 13.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["6D434F3B0E720A5A"]
+			description: [
+				"&9ナフサ&rは、蒸気分解して成分を蒸留するか、&6ガソリン&rの生産に使うのが一番だ。"
+				""
+				"特に、さらに&9ディーゼル&rを作るための&9軽油&rと&9重油&rを含んでいるほか、様々な用途に使える有用な化学物質が多数含まれている。"
+			]
+			icon: "gtceu:naphtha_bucket"
+			id: "04BDE09518C184E4"
+			rewards: [{
+				id: "388AF4AD8543E77D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "65EB9C1F38F1D80B"
+					item: "gtceu:naphtha_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BDEB9CBC2C49CAF"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "ナフサ"
+			x: 9.75d
+			y: -8.75d
+		}
+		{
+			dependencies: ["0143E903317263D4"]
+			description: [
+				"&2大型化学反応器（LCR）は、入出力スロットが多いマルチブロック版の化学反応器だ。&r"
+				""
+				"&3LCR&rは専用の反応も行える。これを使えば、通常の&3化学反応器&rの複数の工程を&61つの工程&rにまとめられる。例えば:"
+				"- &aテトラフルオロエチレン&r"
+				"- &a二酸化窒素&r"
+				"- &a硫酸&r"
+				"- &aエピクロロヒドリン&r。これは次のものに必要…"
+				"- &aエポキシ&r"
+				""
+				"&a未処理のガソリン&rの生産や&aポリベンゾイミダゾール&rなど、&3LCR&rでなければ行えないレシピもある。"
+				""
+				"通常の&9化学反応器&rで行えるその他のレシピや、一部の&9ミキサー&rのレシピも、&3LCR&rで行える。"
+				""
+				"&3LCR&rの&9オーバークロック&rはすべて&6効率100%&rだ。オーバークロック1回ごとに速度が2倍ではなく&54倍&rになる。このタイプのオーバークロックはパーフェクトオーバークロックと呼ばれる。"
+			]
+			icon: "gtceu:large_chemical_reactor"
+			id: "21B16C005E9E3B0E"
+			rewards: [{
+				count: 2
+				id: "4D5C5770FD6B48D0"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "3BF3E9B84CD1E41A"
+					item: "gtceu:large_chemical_reactor"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "01BC2A4FA1A35088"
+					item: "gtceu:inert_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E87BEEC10CA1366"
+					item: "gtceu:ptfe_pipe_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F1EA4DBA0F1AB0A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:heating_coil"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "37887F0566785330"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "145EE4395CE04F02"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "712400E527F1FF3B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1183DBEA9D844DED"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1A741C0D8AA27D32"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6C8A751C48E6EBBC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2大型化学反応器"
+			x: -2.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["21B16C005E9E3B0E"]
+			description: [
+				"&2ガソリンは強力な燃焼燃料で、液体1mBあたり1600 EUを発電する。クリオロバスの生産でセタン価ブーストディーゼルの代わりに使うこともできる。"
+				""
+				"ガソリンの材料:"
+				"- ナフサ 16"
+				"- 精製ガス 2"
+				"- トルエン 2"
+				"- メタノール 1"
+				"- アセトン 1"
+				""
+				"最大限活用するなら、液体酸素と一緒に発展型内燃エンジンで使おう。"
+			]
+			icon: "gtceu:gasoline_bucket"
+			id: "4C76017864258EA9"
+			rewards: [{
+				id: "75650BCA363714AB"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6E1239406B0E8A94"
+					item: "gtceu:gasoline_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "649102C9E206A098"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2ガソリン"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4C76017864258EA9"]
+			description: [
+				"&6高オクタン価ガソリン&r&2はさらに強力な燃焼燃料で、燃料1mBあたり3200 EUを発電する。クリオロバスの生産にも使え、セタン価ブーストディーゼルや通常のガソリンより燃料が75%少なく済む。その代わり、非常に複雑な処理ラインを組む必要がある。&r"
+				""
+				"ガソリンを高オクタン価ガソリンに精製するには、以下が必要だ:"
+				"- ガソリン 20"
+				"- オクタン 2"
+				"- 亜酸化窒素 2"
+				"- トルエン 1"
+				"- エチルtert-ブチルエーテル 1"
+				""
+				"最大限活用するなら、液体酸素と一緒に発展型内燃エンジンで使おう。"
+			]
+			icon: "gtceu:high_octane_gasoline_bucket"
+			id: "2CC50101A39EA2C0"
+			rewards: [{
+				id: "18AB98476104E3CE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5C57B3D8A0E38AB2"
+					item: "gtceu:high_octane_gasoline_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AA4DB0A68D5C588"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2高オクタン価ガソリン"
+			x: 0.25d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2FFEE746B0ECA2D8"
+				"78EB8574A67B10D4"
+			]
+			description: [
+				"&9バイオディーゼル&rを生成する反応は、&9グリセリン&rの2つある供給源のひとつでもある。グリセリンは&9エポキシ&rの重要な材料である&9エピクロロヒドリン&rを簡単に作る手段になる。"
+				""
+				"&9グリセリン&rは&9ニトログリセリン&rの生産にも使われる。これは&6ダイナマイト&rを作る重要な工程で、ダイナマイトは後で&3内破圧縮機&rに使える。"
+				""
+				"エポキシは石油化学に全振りするつもりでも、&6TNT&rを使わない限り、グリセリンを作った結果としてバイオディーゼルがいくらか手に入るだろう。"
+				""
+				"バイオディーゼルは発電に使えるが、&2セタン価ブーストディーゼル&rに変換したほうがたぶん良い。"
+			]
+			icon: "gtceu:bio_diesel_bucket"
+			id: "502AB887CB316377"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "367E9D27A7C7F256"
+					item: "gtceu:bio_diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63D3DA5D05F712B5"
+					item: "gtceu:glycerol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55C220937726D83D"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "バイオディーゼルとグリセリン"
+			x: 9.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["517A89E954C7EA74"]
+			description: [
+				"&6水酸化ナトリウム&rは強塩基で、&6バイオディーゼル&rなどの反応の材料だ。"
+				""
+				"主な入手源は&3電解槽&rで&6塩水&rを分解することで、これは&6塩素&rの良い入手源にもなる。塩水は&6塩&rと&6水&rを混ぜる（当然だ）か、&6ガストの涙&rを溶かすか、海の上にしか生成されない塩水の液体鉱脈から採掘すれば手に入る。"
+				""
+				"あるいは、化学反応器で&6ナトリウム&rと&6水&rを組み合わせてもいい。"
+			]
+			id: "2FFEE746B0ECA2D8"
+			rewards: [{
+				id: "77DAA0DE7114952F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3DA4431E1896AE38"
+				item: "gtceu:sodium_hydroxide_dust"
+				type: "item"
+			}]
+			x: 9.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["038D06BCA022C1BF"]
+			description: [
+				"&9バイオディーゼル&rを作る工程では&9種油&rか&9魚油&rが必要だ。これらは種や魚から抽出して作る。"
+				""
+				"種を手に入れる一番簡単な方法は&9温室&rだ。"
+				""
+				"魚を手に入れる一番簡単な方法は&a水資源投網機&rを使うことだ。ノーマルモードでプレイしているなら、&bHNN&rの&aガーディアンモデル&rも選択肢になる。"
+				""
+				"どちらも実用的なので、最終的には好みで選ぼう。"
+			]
+			icon: "gtceu:fish_oil_bucket"
+			id: "78EB8574A67B10D4"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7643AD091F86BD96"
+					item: "gtceu:fish_oil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "66A2F2EA875FFF16"
+					item: "gtceu:seed_oil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0FBE66675FF8113F"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&9バイオディーゼル原料"
+			x: 10.25d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"502AB887CB316377"
+				"2EFC9DDA09527638"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"ニンニクのような刺激臭を持つ無色の液体。&9エポキシ&rの生産に必要だ。"
+				""
+				"&2大型化学反応器を使えば、これを作る工程を1つ省ける。"
+			]
+			icon: "gtceu:epichlorohydrin_bucket"
+			id: "7174484A926682F3"
+			rewards: [{
+				count: 2
+				id: "66BDFCA2BC6CD3F8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "79AA407B90ECD8DC"
+					item: "gtceu:epichlorohydrin_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19D16D07AD508439"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2エピクロロヒドリン"
+			x: 8.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["7174484A926682F3"]
+			description: [
+				"&rBPAは石油化学の蒸留生成物から作れるほか、&3熱分解炉&rで出る&9木炭副産物&rを蒸留して有用な成分にすることでも作れる。また、&6石炭&rの熱分解から&9フェノール&rを得ることもできる。&9発酵したバイオマス&rも多くの有用な生成物が得られるので、蒸留する価値がある。"
+				""
+				"&2大型化学反応器を使えば、エポキシの生産ラインで2つの工程を省ける。"
+			]
+			icon: "gtceu:epoxy_bucket"
+			id: "58A9F4F2BEDB1B96"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "30618007E2FC134F"
+					item: "gtceu:epoxy_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "333472FD94C53B6B"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2エポキシの生産"
+			x: 6.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["04BDE09518C184E4"]
+			description: [
+				"&2この工程は通常の化学反応器を使う場合にのみ必要だ。LCRを使うなら、塩化アリルの工程は省略される。"
+				""
+				"&9塩化アリル&rは、&9エポキシ&r用の&9エピクロロヒドリン&rを作る別の手段になる。"
+				""
+				"&9塩素&rと&9プロピレン&rを反応させると塩化アリルができる。プロピレンは、&9蒸気で分解されたナフサ&rのような様々な分解済み石油製品のいずれかから、&3蒸留塔&rで蒸留して得られる。"
+			]
+			icon: "gtceu:allyl_chloride_bucket"
+			id: "2EFC9DDA09527638"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2C81A045D91C55AA"
+					item: "gtceu:allyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "145A12C5AFB81CD4"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "塩化アリル"
+			x: 8.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["58A9F4F2BEDB1B96"]
+			description: [
+				"ついに&6エポキシ樹脂シート&rだ。"
+				""
+				"これは回路基板に加工でき、発展回路の基板になる。"
+			]
+			id: "26ECEC06CCAB3E56"
+			rewards: [{
+				id: "680E81B7AA6684B1"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "40BF356B8738C0AC"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			title: "エポキシ"
+			x: 4.5d
+			y: -3.25d
+		}
+		{
+			dependencies: [
+				"28263004814F0F64"
+				"53C00EA9D9BEE776"
+			]
+			description: [
+				"&6タングステン&rには&5EV&3電解槽と&3化学槽&r、さらに&3基本型マイクロバース投影機&rが必要だ。"
+				""
+				"今のところ、タングステンは&6灰重石の粉&rか&6鉄マンガン重石の粉&rからしか精製できない。これらは鉱石の形でTier 2マイクロマイナー（T2MM）のミッションから手に入る。他の2種類のタングステン鉱石、&6タングステン酸塩&rと&6ストルツ石&rには&9IV&rの化学槽が必要だ。"
+				""
+				"これらの粉は&2塩酸に浸けてタングステン酸にし、さらに処理してタングステンの粉にする必要がある。"
+				""
+				"最初のタングステンは&6RTM合金コイル&rの製作に回そう。"
+			]
+			icon: "gtceu:tungsten_dust"
+			id: "3B3F46345D39CAE2"
+			rewards: [{
+				id: "56277B0B269AC0D5"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6062E6C36F2DF938"
+					item: "gtceu:scheelite_dust"
+					type: "item"
+				}
+				{
+					id: "16DAA041787CE890"
+					item: "gtceu:wolframite_dust"
+					type: "item"
+				}
+				{
+					id: "5B04A772005B3D99"
+					item: "gtceu:tungsten_dust"
+					type: "item"
+				}
+			]
+			title: "&2タングステン"
+			x: 4.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["6DC635766CD40FFF"]
+			description: [
+				"&6タングステン&rと&6炭素の粉&rを等量ずつ混ぜた合金。"
+				""
+				"&6炭化タングステン&rは非常に高密度で頑丈、かつ耐熱性に優れた素材で、様々な用途に役立つ。炭化タングステン製のツールは採掘速度が非常に速い。"
+			]
+			id: "14F1FF4656693711"
+			rewards: [{
+				id: "2B2A8D6D88EBB4BE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B886CA87892FBE7"
+				item: "gtceu:tungsten_carbide_ingot"
+				type: "item"
+			}]
+			title: "炭化タングステン"
+			x: 5.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["14F1FF4656693711"]
+			description: ["&3クラフティングコア&rはマイクロマイナーの装甲板や一部のエンドゲームアイテムの製作に使う。"]
+			icon: "extendedcrafting:crafting_core"
+			id: "49C8716030809478"
+			rewards: [{
+				count: 2
+				id: "6694DC039D1FD1E7"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "54BD95C8E2BF7DF4"
+					item: "extendedcrafting:crafting_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "184D8B8C8770C62B"
+					item: "extendedcrafting:pedestal"
+					type: "item"
+				}
+			]
+			title: "&9組み合わせクラフト"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["358D9A7B1BCFA30A"]
+			description: [
+				"&6Nano CPU&rは発展型の&6回路ウェハー&rで、&3化学反応器&rで&6CPUウェハー&rに&6カーボン繊維&rと&6液体グロウストーン&rを注入して作る。"
+				""
+				"できたウェハーを&3裁断機&rでダイに切り分けよう。"
+			]
+			id: "1207189AD233A746"
+			rewards: [{
+				id: "3C2FEAF67B00D26B"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F7CBD80E9241524"
+				item: "gtceu:nano_cpu_chip"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["417D97D9E3562F45"]
+			description: [
+				"&6カーボン繊維&rは様々なものに役立つ。"
+				""
+				"&2炭素の粉とポリマーから作る。高ティアのポリマーほど収量が多い。"
+			]
+			id: "358D9A7B1BCFA30A"
+			rewards: [{
+				id: "535CC17F21E9AC46"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0EB84CAF9F2C94AE"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			title: "&2カーボン繊維"
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5B9F1EE13E397DEE"
+				"349869EBF2D9FAF1"
+			]
+			description: [
+				"&2システムオンチップはHVの電力とリン添加シリコン単結晶で刻印できる。これはEVの回路作成機でティア1回路を作る最良のレシピに使える。"
+				""
+				"ティア2回路の最良のレシピにはIVの回路作成機が必要だ。"
+			]
+			icon: "gtceu:soc_wafer"
+			id: "360B577684B1AB1B"
+			rewards: [{
+				id: "386430CD06FF62A0"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "237B8FA53789FE37"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:soc_wafer"
+							}
+							{
+								Count: 1b
+								id: "gtceu:soc"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "SoCウェハー"
+			x: 0.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["0874A0191325CFDB"]
+			description: [
+				"&6チタン&rの精錬を自動化したので、Extreme Voltage機械用のマシン筐体を作れるようになった。"
+				""
+				"EVモーターには、磁性材料として&6スチール&rより優れた素材が必要だ。"
+				""
+				"必要なのは&6ネオジム&rで、主に&6レアアース&rから得られる。主な入手源は&6レッドストーン&rと、&6バストネサイト&r鉱脈に含まれるすべての鉱石だ。"
+				""
+				"&2EVからは、各ティアで4Aと16Aのエネルギーハッチとダイナモハッチが使えるようになる。"
+			]
+			id: "785C6332FC7A07A5"
+			rewards: [{
+				id: "018F59985157C145"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7FFE374BAF574325"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			title: "&2EVマシン筐体"
+			x: -1.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["785C6332FC7A07A5"]
+			description: [
+				"Extreme Voltageティアの&bGregTech&rバッテリー。"
+				""
+				"&2高ティアのGTバッテリーはかなり強化されている。これは25 MEUを蓄えられる。"
+			]
+			id: "2DDD4B4EC8065980"
+			rewards: [{
+				id: "2ECBEC92606E55F4"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A5BDCBE998FAA19"
+				item: "gtceu:lapotron_crystal"
+				type: "item"
+			}]
+			title: "&2EV蓄電"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["785C6332FC7A07A5"]
+			description: [
+				"&9深層岩の処理は、&9フッ素&rと&6トリウム&rを得る方法のひとつだ。"
+				""
+				"&6フッ素&rは&6ポリテトラフルオロエチレン（PTFE）&rや、今後の多くの化学プロセスに必要だ。"
+				""
+				"まず&3岩石生成機&rで再生可能な&6深層岩&rを得る。このレシピは&5EV&r以上で動く。"
+				""
+				"次に&3粉砕機&rで深層岩を&6深層岩の粉&rにする。一定確率で&6トリウム&rも得られる。"
+				""
+				"続いて&3遠心分離機&rで深層岩の粉を&6黒雲母の粉&rと&6二酸化ケイ素の粉&rに分ける。後者は電気分解すると&6ケイ素&rと&6酸素&rになる。"
+				""
+				"最後に黒雲母の粉を&3電解槽&rに入れる。&6カリウム、マグネシウム、アルミニウム&rと&6ケイ素の粉&r、さらに少量の&6フッ素&rが得られる。"
+			]
+			id: "5FB696EF1D2412F5"
+			rewards: [{
+				id: "29E845DD3A0B570F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73CD8DD46EA3E559"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			title: "&9深層岩の処理"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DC635766CD40FFF"
+				"7F1EE712BD9CC811"
+			]
+			description: [
+				"&3合金溶融高炉&rは粉の組み合わせを直接溶融合金に精錬する。ミキサーの工程を省けるうえ、EBFの処理時間が25%短縮される。一部の溶融合金は使う前に真空冷却機で冷やす必要があるが、熱いインゴットを冷やすよりずっと短時間で済む。"
+				""
+				"マルチブロック機械に使う発展型合金の中には、これでしか作れないものもある。&6インバー&r、&6電導鉄&r、&6ダークスチール&rなど、通常の合金の大半にも使いたければ使える。"
+			]
+			icon: "gtceu:alloy_blast_smelter"
+			id: "0FA959478905FFF3"
+			rewards: [{
+				id: "49B29238D8C173E4"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0D38C97C8AEE3AAE"
+					item: "gtceu:alloy_blast_smelter"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "1D22CC5ADFDFD0A0"
+					item: "gtceu:high_temperature_smelting_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "140DE758D9D6D18E"
+					item: "gtceu:heat_vent"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "1E8CD23CABF695AE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:heating_coil"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "15C250422178A9A0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "15CCED1CDF19C732"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:muffler_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "71AE3301FD0800BB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "57427F93B3C60700"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5781845D5CC10C99"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "69E6D655D12BF0B9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2合金溶融高炉"
+			x: 5.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["785C6332FC7A07A5"]
+			description: [
+				"&2合金溶融高炉の建造に使う。 "
+				""
+				"&r&6タンタル&rは&6ドラゴンの鱗&rの処理から大量に得るのが一番だが、序盤は&6タンタル石鉱石&rから、または&eマグマ&rの遠心分離で少量得られる。"
+				""
+				"&6モリブデン&rは&6モリブデン、モリブデン鉱、パウエル石、モリブデン鉛鉱の鉱石&rから得られる。これらは&eネザー&rでまれに一緒に生成されるほか、一部は&3Tier 1&rと&3Tier 5のマイクロマイナー&rから手に入る。"
+				""
+				"&2適切なティアのミキサーが必要なことを忘れずに（HSLAスチールはHV、それ以外はEV）。"
+			]
+			id: "7F1EE712BD9CC811"
+			rewards: [{
+				id: "7AE2C61EAC181F01"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "274F0587A93CEFBE"
+					item: "gtceu:hsla_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "2FF57D1947E075F7"
+					item: "gtceu:titanium_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "68EB90B0E6FB43B2"
+					item: "gtceu:molybdenum_disilicide_ingot"
+					type: "item"
+				}
+			]
+			title: "&2高度な合金"
+			x: 1.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6DC635766CD40FFF"]
+			description: [
+				"&6タングステンスチール&rは&6タングステン&rと&6スチール&rの合金だ。"
+				""
+				"この合金は&3電気高炉&rか&3合金溶融高炉&rで焼成し、&3真空冷却機&rで冷却する。"
+			]
+			id: "634E056463ED1532"
+			rewards: [{
+				id: "5F9123370A4D8C0A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "214A71696449A9A4"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			title: "タングステンスチール"
+			x: 9.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"0FA959478905FFF3"
+				"605062720747B482"
+			]
+			description: [
+				"&2合金溶融高炉で作る発展型合金とIV機械があれば、ほとんどのGT機械の大型版を作れる。"
+				""
+				"&rこれらはマルチブロックとして組み立てる。&3並列制御ユニット&rを追加すると、&9より多くのレシピ&rを同時に処理できる。最高ティアの並列制御ユニットなら、一度に&94096レシピ&rを処理できる！"
+				""
+				"並列で実行する各レシピは同じ量の電力を消費するので、4つのレシピを同時に実行すると電力消費は4倍になる。&eこれはオーバークロックの2倍の効率だ&r。オーバークロックでは同じだけ電力コストが増えても処理量は2倍にしかならない。"
+				"{@pagebreak}"
+				"&9並列クラフトユニットはMEネットワークがアイテムのバッチを「押し出す」速度を上げる。こうした機械にぴったりだ。&r"
+				""
+				"EMIで並列制御ユニットの使い道を調べると、すべてのマルチブロック機械の詳細を確認できる。"
+				""
+				"これらのマルチブロックの外装に使う発展型合金のほとんどは&3合金溶融高炉&rで作る。レシピが見つからない場合は、&e溶融液体&rの形を探してみよう。"
+			]
+			icon: "gtceu:large_assembler"
+			id: "4EC59BC9BCCB3C5D"
+			rewards: [{
+				id: "037FEFBD6BBD120C"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "4404A112A80D0522"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:iv_parallel_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_parallel_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_parallel_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_parallel_hatch"
+							}
+							{
+								Count: 1b
+								id: "monilabs:uhv_parallel_hatch"
+							}
+							{
+								Count: 1b
+								id: "monilabs:uev_parallel_hatch"
+							}
+						]
+					}
+				}
+				title: "任意の制御ハッチ"
+				type: "item"
+			}]
+			title: "&9マルチブロック狂騒曲"
+			x: 8.5d
+			y: -0.25d
+		}
+		{
+			dependencies: [
+				"634E056463ED1532"
+				"08B36E2C37C417E5"
+			]
+			description: ["&6タングステンスチール&rが手に入ったので、Insane Voltage（IV）の&bGregTech&r機械用の筐体を作れるようになった。"]
+			id: "605062720747B482"
+			rewards: [{
+				id: "569C43CD39E5CBF1"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74EAB1DAE678584E"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			title: "&2IVマシン筐体"
+			x: 11.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6FB3E3D9CA0F4B30"]
+			description: [
+				"これまではケーブル作りに&9ゴム&rで十分だったが、この基本的なゴムでは&2Extreme Voltage&rを超える電圧に耐えられないことにすぐ気づくだろう。ワイヤーを適切に絶縁するには、より高品質なゴムが必要だ。"
+				""
+				"より優れたゴムは2種類あり、いずれは両方作ることになる。&eこれらは低電圧のワイヤーの絶縁にも使え、必要な液体が少なくて済む&r！"
+				""
+				"&9スチレンブタジエンゴム（SBR）&rと&9シリコーンゴム（SiR）&rはどちらも&3UV&rまでのどのティアのケーブルでも被覆できる。ただし、SBRにはまだ持っていないかもしれない石油化学のインフラが必要で、終盤の部品を作るまでは必須ではない。一方SiRは、すでになじみのある化学物質から手軽に作れる。今のうちにこれを用意しておけば、後でワイヤーの被覆材を変える必要がなくなる！"
+				""
+				"シリコーンゴムを作るには、いくつかある方法のいずれかで&6ポリジメチルシロキサンの粉&rを作り、&3化学反応器&rで&6硫黄&rと混ぜる。それを使って&3組立機&rでワイヤーを被覆できる。"
+			]
+			icon: "gtceu:silicone_rubber_bucket"
+			id: "08B36E2C37C417E5"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "01AE7FC86F316B66"
+					item: "gtceu:silicone_rubber_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5067C1B721747C34"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2新しいケーブル被覆"
+			x: 13.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["605062720747B482"]
+			description: ["Insane Voltageティアの&bGregTech&rバッテリー。&22億5000万EU、つまり前のティアの10倍を蓄えられる！"]
+			id: "46A56A5E3CC2403F"
+			rewards: [{
+				id: "265B4D5F6DAD55AC"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23F3DF4504678C8A"
+				item: "gtceu:lapotronic_energy_orb"
+				type: "item"
+			}]
+			title: "&2IV蓄電"
+			x: 11.75d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"6DC635766CD40FFF"
+				"227F448DFCC3E8C3"
+			]
+			description: ["&6ルミウム&rは&dLuV&6マシン筐体&rに必要な合金の材料だ。&6ナノスーパーコンピュータ&rを作るのにもルミウムが必要になる。"]
+			id: "54C3B1B782FDF57F"
+			rewards: [{
+				id: "01BCF33781F5C38C"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "光ってる！"
+			tasks: [{
+				id: "22A45119D9E989B7"
+				item: "gtceu:lumium_ingot"
+				type: "item"
+			}]
+			title: "ルミウム"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6DC635766CD40FFF"
+				"227F448DFCC3E8C3"
+			]
+			description: [
+				"これは焼き上がるのがかなり遅いので、常に稼働させておくか備蓄しておこう。"
+				""
+				"&6シグナルム&rは、MVの頃の「強化」に続く&bThermal Expansion&r機械の次のティアのアップグレードにも使える。"
+			]
+			id: "27A80F018F59EF1E"
+			rewards: [{
+				id: "325AA0A1716A9466"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "光ってない。"
+			tasks: [{
+				id: "0C387205AD0B5BAB"
+				item: "gtceu:signalum_ingot"
+				type: "item"
+			}]
+			title: "シグナルム"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["634E056463ED1532"]
+			description: [
+				"&3スライス＆スプライス&rは&bEnder IO&rの機械だ。"
+				""
+				"様々なものの部品となる、モンスターの頭に関連したアイテムを作るのに使う。"
+				""
+				"斧とハサミをセットする必要がある。これらはアイテムを作るにつれて少しずつ耐久値が減っていく。"
+			]
+			id: "174C8EDDEF916209"
+			rewards: [{
+				id: "11E219D7A2DE9F4A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E1015871D09D640"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["634E056463ED1532"]
+			description: [
+				"&3ソウルバインダー&rは&bEnder IO&rの機械で、&aソウルバイアル&rと経験値を使って特定のアイテムを強化する。"
+				""
+				"&9液体経験値&rは隣接する&3オベリスク&rに貯めておくと良いだろう。ソウルバインダーはそこから直接引き出せる。他の一般的な液体搬送手段で入れてもいい。"
+				""
+				"この機械は主に&6予知のクリスタル&rを作るのに使う。"
+			]
+			id: "1349044BF8C04A12"
+			rewards: [{
+				id: "0ED26A36B25FCCC2"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D9C11BCDA6D38F5"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 10.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["1349044BF8C04A12"]
+			description: ["ちょっと電力をくれ、FRIDAY！"]
+			id: "1E498F509DB1D460"
+			rewards: [{
+				count: 2
+				id: "36AFF6AB4D683BE1"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AADB19DD0A9D2F4"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:vibrant"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "インフィニティ・ウォー"
+			x: 10.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["508452E1A3E09B56"]
+			description: [
+				"&2大型鉱石採掘プラントは、真下の広い範囲から鉱石を採掘する。稼働には掘穿泥水が必要だ。"
+				""
+				"鉱石は自動で粉砕され、通常の粉砕機の3倍の粉砕した鉱石と、通常量の副産物が得られる。"
+			]
+			icon: "gtceu:ev_large_miner"
+			id: "6FB0357E12499B5F"
+			rewards: [{
+				id: "5E4EF45EDC85A4AE"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "26BECEC8E8BA08A3"
+					item: "gtceu:ev_large_miner"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7784F218DA88096C"
+					item: "gtceu:solid_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "7B08AB8F0B989EF2"
+					item: "gtceu:steel_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6262EB98BAF52813"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6FA7938B8E0C5C36"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7EE78DB4BBB14E96"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2大型採掘機"
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["508452E1A3E09B56"]
+			description: [
+				"進行するにつれて、より高度な&3電気高炉&rレシピのクラフト時間はどんどん長くなる。より高度なコイルは稼働温度を上げ、より高度な素材を精錬できるようにする。&2さらに、エネルギー効率ボーナスとオーバークロックの速度ボーナスも得られる。&r"
+				""
+				"それでも、精錬と発電のインフラを十分な水準まで引き上げる必要がある。"
+				""
+				"今すぐこれら8つすべてを完成させて稼働させる必要はないが、いずれはそうするつもりで計画しておこう。既存のEBFをアップグレードするのではなく、それらには素材の備蓄を受動的に自動生産させておき、新しい素材用により高性能なEBFを新たに建てよう。"
+				""
+				"ここから先は、すべてのマルチブロックのクエストに材料リストが付いているわけではない。構造とハッチの要件は&3EMI/JEI&rで確認する必要がある。"
+			]
+			id: "4CC612FF64877C60"
+			rewards: [{
+				id: "4724F2EF968F3DE2"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				count: 8L
+				id: "33621E89E0E8F0A0"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			title: "&2高炉てんこ盛り"
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5BC6DB754207D4A8"]
+			description: [
+				"&2GTmの大型タービンはなかなか強力だ。運用はかなり複雑だが、うまくやれば大量の電力を生み出せ、規模の拡大にもよく対応する。&r"
+				""
+				"[\"\",{\"text\":\"現時点で作れるのは \"},{\"color\":\"gold\",\"underlined\":true,\"text\":\"大型蒸気タービン\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"15A5B4C632836306\"}},{\"text\":\" と \"},{\"color\":\"gold\",\"underlined\":true,\"text\":\"大型ガスタービン\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7D72B3FF808CE13C\"}},{\"text\":\"だ。さらに \"},{\"color\":\"dark_aqua\",\"text\":\"核融合炉\"},{\"text\":\" を稼働させれば、次も作れる: \"},{\"color\":\"gold\",\"underlined\":true,\"text\":\"大型プラズマタービン\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1405D08C6A87B3BB\"}},{\"text\":\".\"}]"
+				""
+				"各大型タービンには、大型タービン自体と同じかそれ以上のティアの&3ローターホルダー&rと、出力エネルギーを扱える&3ダイナモハッチ&rが必要だ。&3ローターホルダー&rのティアが大型タービンより1つ上がるごとに、エネルギー生産量が&92倍&rになり、燃料効率が10%加算される。"
+				""
+				"各&3ローターホルダー&r&rには&aローター&rを入れる必要がある。ローターは素材に応じて出力と効率に乗算のボーナスを与える。&2Monifactoryではローターに耐久値がないので、永久に使える。&r"
+				""
+				"&a例: &r&3HSS-Eローター&rと&3IVローターホルダー&rを使った&6大型ガスタービン&r:"
+				""
+				"&a生産量:&r 4096 * 2.80 * 2=22938 EU/t"
+				"&a効率:&r 1.40 * 1.10=154.0%"
+				"&6大型ガスタービン&rは、&3液体採掘機&rで得た&9LPガス&rや&9メタン&r、&6木材&rから作る&9ニトロベンゼン&r、さらに上を目指すならより強力な&9ウィザー添加ガス&rで動かせる。"
+				""
+				"&6大型蒸気タービン&rの最良の燃料は、厳重に守られた政府の機密だ。"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:turbine_rotor"
+				tag: {
+					GT.PartStats: {
+						Material: "neutronium"
+					}
+				}
+			}
+			id: "0F779BEEED8E67BB"
+			size: 2.0d
+			tasks: [{
+				id: "5A291BDB06F2E56E"
+				type: "checkmark"
+			}]
+			title: "&2大型タービン"
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2977E1AF13E42DCB"]
+			description: [
+				"&2液体採掘機は地下の液体鉱脈から液体を採取する。液体鉱脈はシミュレートされているだけで、ワールドには実在しないことに注意。&r"
+				""
+				"&3探知スキャナー&rを持ってシフト右クリックすると液体モードに切り替わる。その後右クリックすると、地下の液体の種類と量、鉱脈の枯渇状態を確認できる。最初の数値は毎秒の基本採取量を表す。生成場所については&e液体鉱脈情報のEMI&rページでも確認できる。"
+				""
+				"&eオーバーワールド&rで採取できるもの: &9オイル、軽質油、重質油、原油、天然ガス&r"
+				"&6塩水&rも採取できるが、海洋バイオームのみだ。"
+				""
+				"&eネザー&r: &e溶岩、天然ガス&r"
+				""
+				"&e月&r: &9重水素、ヘリウム3&r"
+				""
+				"&eボイド&r: &9オイル、原油&r"
+				""
+				"液体採掘機は稼働するにつれて真下の鉱脈を枯渇させ、採取量が減っていく。枯渇した鉱脈からも少量の液体は得られる。最初のティアの液体採掘機は鉱脈を枯渇させるのに&9100,000回の稼働&rを要する。高ティアの液体採掘機ほど液体をずっと速く採取し、鉱脈の枯渇も遅い。"
+			]
+			icon: "gtceu:mv_fluid_drilling_rig"
+			id: "2F04FA8D3E15E375"
+			rewards: [{
+				id: "62433A6A37041DE1"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "47671DF3041B45B2"
+					item: "gtceu:mv_fluid_drilling_rig"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "47241D10077393C2"
+					item: "gtceu:solid_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "7B6BD324D68C5B7F"
+					item: "gtceu:steel_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7B6551F5880BED06"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2891E51789BADFAC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2液体採掘リグ"
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"16EACCF9B4FA89B3"
+				"74EDAE84246C7228"
+				"502AB887CB316377"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"&9ディーゼル&r（効率は落ちるが&9バイオディーゼル&rでも可）と&9テトラニトロメタン&rを&3HVミキサー&r&2または大型化学反応器&rで混ぜると、非常に強力な燃料である&2セタン価ブーストディーゼル&rができる。"
+				""
+				"非常に頑丈な石油化学インフラがあって燃やす余裕があるなら、この燃料は適切な酸素供給と組み合わせることで&2大型内燃エンジンと発展型内燃エンジンで強力な燃料となり、燃料1mBあたり&2720 EUを生み出す。"
+			]
+			icon: "gtceu:cetane_boosted_diesel_bucket"
+			id: "0D0A0C18ED958511"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "53EE5456026FC623"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "ディーゼルかバイオディーゼルのどちらかが必要"
+			tasks: [
+				{
+					id: "75538AD487A995CD"
+					item: "gtceu:cetane_boosted_diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26B1E9877AD7C900"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2セタン価ブーストディーゼル！！"
+			x: 11.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["11154356854B64DA"]
+			description: [
+				"進行には必須ではないが、宇宙ステーションは拠点を建てるのにうってつけの場所だ！上に示した資源が宇宙ステーションの作成に必要なものだ。&9作成は惑星選択メニューから行える&r。"
+				""
+				"[\"\",{\"text\":\"宇宙基地で役立つ様々なことのおさらいには \"},{\"underlined\":true,\"text\":\"このクエスト\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4672EE66D51C32FF\"}},{\"text\":\" を参照しよう。\"}]"
+			]
+			icon: "ad_astra:oxygen_distributor"
+			id: "059A9B12C8478025"
+			rewards: [{
+				id: "62FD649920864137"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 16L
+					id: "2C7FA22F196AD3AD"
+					item: { Count: 16, id: "gtceu:double_titanium_plate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "16A56B62395607C9"
+					item: {
+						Count: 8
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:circuits/ev"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "09CCE89FB8D6FD03"
+					item: { Count: 4, id: "gtceu:ev_robot_arm" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "31BF9A11512D0FAE"
+					item: { Count: 2, id: "gtceu:ev_emitter" }
+					type: "item"
+				}
+			]
+			title: "&9宇宙ステーション"
+			x: -3.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6D434F3B0E720A5A"]
+			description: [
+				"&2クラッカーは有機物質の分解でより多くの収量を得られる。"
+				""
+				"&2GTmでは多くの有機物質を、十分にまたは軽く分解するか、水素または蒸気で分解するかを選べ、それぞれ異なる比率の蒸留生成物が得られる。"
+			]
+			icon: "gtceu:cracker"
+			id: "60B16BB064E2FF4C"
+			rewards: [{
+				id: "70B5CA698487B70D"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "55F52E742F32D3A0"
+					item: "gtceu:cracker"
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "5E1EDCDD48695C0B"
+					item: "gtceu:clean_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "742F9D2EFEF2C66F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:heating_coil"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "451FD82CFFF2D9CF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7CDC9D5A1DB7C42A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:muffler_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "58530FCD44D4ED70"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "51DC55FFAC05DD48"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2クラッカー"
+			x: 13.25d
+			y: -8.75d
+		}
+		{
+			dependencies: ["2CC50101A39EA2C0"]
+			description: [
+				"&9JEANガソリンは最も強力な燃焼燃料で、いくつかの異常な材料を使い、燃料1mBあたり驚異の20,480 EUを発電する。その代わり、極めて複雑な処理ラインを組む必要がある。"
+				""
+				"高オクタン価ガソリンをJEANガソリンに精製するには、以下が必要だ:"
+				"- 高オクタン価ガソリン 16"
+				"- ロケット燃料 10"
+				"- 三フッ化塩素 4"
+				"- テトラエチル鉛 2"
+				"- ドラゴンブレス 1"
+				""
+				"最大限活用するなら、液体酸素と一緒に発展型内燃エンジンで使おう。"
+			]
+			icon: "gtceu:jean_gasoline_bucket"
+			id: "053DDDCD2505E20B"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6E961DB62F3D14AF"
+					item: "gtceu:jean_gasoline_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1AEC3C60527A97D7"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&9JEANガソリン"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B639F4061B00F1A"]
+			description: [
+				"Tier 2.5の各ミッションには、数バケツ分の&6溶岩&rと、返ってくるモブドロップの種類に対応した&6ブロック&rが必要だ。"
+				""
+				"この&9マイクロマイナー&rを使えば、基本的な&6モブのドロップ&rを簡単に入手できる。"
+				""
+				"このマイクロマイナーは様々な種類のモブドロップを持ち帰れるが、&6 ブレイズロッド、ブリーズキューブ、ブリッツモート、バザルツシャード&rを回収できる唯一のマイナーだ。"
+			]
+			id: "6DBD1492197AC92D"
+			subtitle: "別ルート"
+			tasks: [{
+				id: "41777324B5E2118C"
+				item: "kubejs:microminer_t2half"
+				type: "item"
+			}]
+			title: "&9ティア2.5マイクロマイナー"
+			x: -2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"3E12862AD553EB8A"
+				"5BE3E37772FAF6CB"
+				"715BC5C7DAC53B7B"
+				"11154356854B64DA"
+			]
+			description: ["&3シミュレーションスーパーコンピュータ&rは&3シミュレーションチェンバー&rと同じ働きをするが、エネルギーハッチでオーバークロックでき、より多くのエネルギーでより速く稼働する。&bHNN&rを解放して以来、資源の生産が追いつかなくなってきたなら、このマルチブロックが役立つだろう。"]
+			hide_until_deps_visible: true
+			icon: "gtceu:simulation_supercomputer"
+			id: "51FD757E07E397A1"
+			optional: true
+			rewards: [{
+				id: "15A36C10C6BDE36C"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "721A109D9665F701"
+					item: "gtceu:simulation_supercomputer"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "7BC42B5A0DB23D7A"
+					item: "kubejs:dark_steel_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "35303EB3C0841529"
+					item: "gtceu:pulsating_alloy_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DCCBCE9A4DE6807"
+					item: "gtceu:mythril_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "308C86CBD462C45E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "14619CD4237B1232"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2ECD7C641EF94755"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"51FD757E07E397A1"
+				"5BE3E37772FAF6CB"
+			]
+			description: ["オーバークロック可能な&3ルートファブリケーター&r。"]
+			hide_until_deps_visible: true
+			icon: "gtceu:loot_superfabricator"
+			id: "7A716485BBDA8629"
+			optional: true
+			rewards: [{
+				id: "4346F69891783E73"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "32EAE4F30B3C118D"
+					item: "gtceu:loot_superfabricator"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "372051DF4441A75D"
+					item: "kubejs:dark_steel_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "25FFFADC108CB556"
+					item: "gtceu:energetic_alloy_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13090EB618995372"
+					item: "gtceu:mythril_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "23FAD96831658F1D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1F5053C9DBDDEB95"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "786EE88B2E008B81"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0100000000000016d
+			y: 1.25d
+		}
+		{
+			dependencies: ["39FD6F1076559156"]
+			description: ["&6発展型NanoMuscle™スーツ チェストプレート&rは、&6NanoMuscle™ スーツ - チェストプレート&rにジェットパックを追加する。"]
+			id: "7BBDF8E5DD082310"
+			rewards: [{
+				id: "72276FF88E82A9C7"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "ちなみにFAAの認可は受けていない。"
+			tasks: [{
+				id: "01132CD07EE392CC"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_nanomuscle_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "飛び立とう"
+			x: 0.5d
+			y: -7.25d
+		}
+		{
+			dependencies: ["595F205B551A53C9"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6白金族汚泥&r（PGS）を白金族金属に精製するには、プラットラインとも呼ばれるかなり長い処理ラインが必要だ。今のところ利用できるのはラインの最初の部分、&6ルテニウム&rと&6ロジウム&rの抽出だけだ。"
+				""
+				"特定の鉱石を&6硝酸&rで処理すると&6PGS&rが得られる。&6シェルドナイト&rが最も収量が多いが、他の鉱石のほうが集めやすいかもしれない。次に&6HV&r以上の&3遠心分離機&rと&6王水&rを使ってそれをPGS塩に分解し、その塩を還元して金属にする。"
+				""
+				"ルテニウムとロジウムは、&6RTMコイル&r、&3合金溶融高炉&r、そして各種&9IV&rコンポーネントに必要になる。"
+			]
+			id: "044553423097C3C7"
+			rewards: [{
+				count: 2
+				id: "400B871C9C2B5830"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1CA9B9FE385B774C"
+					item: "gtceu:ruthenium_dust"
+					type: "item"
+				}
+				{
+					id: "18237021D2F3D527"
+					item: "gtceu:rhodium_dust"
+					type: "item"
+				}
+			]
+			title: "&2白金族の処理"
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["49C8716030809478"]
+			description: [
+				"&3クラフティングコア&rのPackagedAuto版。"
+				""
+				"&3クラフティングコア&rのこのアップグレードを使うと、&bPackagedAuto&rを通じてコンビネーションレシピを直接クラフトできる。"
+				""
+				"&aマーク付き台座&rは、同じY座標にある限り、クラフトブロックから3ブロック以内の範囲に自由に配置できる。"
+				""
+				"PackagedAutoのクラフターではいつも通り、レシピを正しいモードでエンコードし、そのコピーを2か所に置く必要がある。ネットワーク上のどこかにある&3梱包機&rと、&3コンビネーション梱包クラフター&rに隣接した&3開梱機&rだ。"
+				""
+				"これらのレシピは大量の電力を必要とし、&e電力を&aMEネットワーク&rから取らない。そのため、梱包クラフターを電源にも直接つなぐ必要がある。"
+			]
+			icon: "packagedexcrafting:combination_crafter"
+			id: "13B12457AA9BF90D"
+			rewards: [{
+				id: "4659AF3C8FEEF2BB"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7CDF0029C8BCDFF9"
+					item: "packagedexcrafting:combination_crafter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "466D4EFF46492F76"
+					item: "packagedexcrafting:marked_pedestal"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6DBD1492197AC92D"
+				"05ABE2A5DE6128C4"
+			]
+			description: [
+				"戦闘を行うマイクロマイナーには、特別なマイクロバースである&3敵対的マイクロバース&rが必要だ。作るには、&6T2.5MM&rに爆弾をくくり付けて通常のマイクロバースに宣戦布告しよう。"
+				""
+				"敵対的マイクロバースは通常のマイクロバースとはまったく異なる挙動をする。敵対的マイクロバースは&6量子フラックス&rで修復できず、レシピが動いていないときでも自然に劣化していく。しかし、マイクロマイナーが敵の大群を減らしていくにつれて、マイクロバースの安定性は回復する。"
+				""
+				"敵対的マイクロバースの崩壊を防ぐには定期的にミッションを実行する必要があり、自動化はなかなかの難題だ。&6マイクロバース安定センサーハッチ&rの活用を検討しよう。"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:tnt"
+			id: "6A76B3DCA599B9B5"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2034B77FED29D890"
+				type: "checkmark"
+			}]
+			title: "敵対的マイクロバース"
+			x: -0.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["605062720747B482"]
+			description: [
+				"&3精鋭型組立機&rは&6発展型SMDコンポーネント&rと&6HSS-Gコイル&rに必要だ。"
+				""
+				"&6大型組立工場&rへのアップグレードも検討しよう。こちらはアップグレードしやすく、並列制御ハッチも受け付ける。"
+			]
+			id: "5732018AA35D69B6"
+			rewards: [{
+				id: "7C75FECF0159D446"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0214B5E112994112"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			title: "&2IV組立機"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["605062720747B482"]
+			description: [
+				"これは次のティアのポリマーだ。&6発展型SMDコンポーネント&rや&cZPM&r&6マシン筐体&rなどのクラフトに使われる。"
+				""
+				"このポリマーを一から作るには最大で&914工程&rが必要になるが、様々な液体を蒸留することで複数の工程を省略できる。&6簡単に省略できる工程を確認しよう！&r"
+			]
+			icon: "gtceu:polybenzimidazole_bucket"
+			id: "51A463024F35DC2E"
+			rewards: [{
+				id: "505C0529E6772FB9"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "043025061B52906B"
+					item: "gtceu:polybenzimidazole_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A6C18AF7D83EF69"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2ポリベンゾイミダゾール（PBI）"
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["476F71CC0B0AC2A4"]
+			description: [
+				"&6閃ウラン鉱の粉&rを&6フッ化水素酸&rと&6フッ素&r、または&6六フッ化ケイ素酸&rと組み合わせ、生成物を&3電気分解&rすることで、&6ウラン238&rと&6ウラン235&rを抽出できる。"
+				""
+				"ウラン238は、&3岩石破砕機&rで再生可能に入手できる&6赤色花崗岩&rを&3粉砕&rしても得られる。ただし、この方法は閃ウラン鉱を処理するよりも大幅に遅い。"
+				""
+				"閃ウラン鉱は様々な鉱石の副産物で、&6瀝青ウラン鉱&rから&3遠心分離&rで得られる。あるいは、&6閃ウラン鉱の鉱石&rを地中から採掘したり、マイクロマイナーのミッションで入手したりもできる。"
+			]
+			id: "386DB3C9E646764D"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "725D08AC304120DF"
+					item: "gtceu:uranium_dust"
+					type: "item"
+				}
+				{
+					id: "1922B314C34BEF73"
+					item: "gtceu:uranium_235_dust"
+					type: "item"
+				}
+			]
+			title: "ウラン"
+			x: -8.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27A80F018F59EF1E"]
+			description: ["&3二等級ロケット&rがあれば&e火星&rに行ける。火星には&6灰重石&r、&6硫砒鉄鉱&r、&6カルノー石&r、&6ホウ砂&r、そして気体の&9フッ素&rの鉱脈がある。"]
+			id: "3E7250EFBFF03D89"
+			rewards: [{
+				id: "48E6352BC7E3A682"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3A145740391DF5FD"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["785C6332FC7A07A5"]
+			description: [
+				"これまでは2アンペアまでしか電力を引き込めない&6エネルギーハッチ&rを使ってきた。&5EV&rでは、4アンペアと16アンペアを引き込める初めてのハッチ、4Aエネルギーハッチと16Aエネルギーハッチが解放される。"
+				""
+				"これらの新しいハッチについては、重要な区別がある：\n\n機械の&a最大EU/t&rは、ハッチの合計アンペア数で決まる。これはオーバークロック、ひいてはレシピ速度の決定に使われる。"
+				""
+				"機械の&a最大レシピティア&rは、実行できるレシピのティアを決めるもので、存在する最高ティアのハッチの数から決まる。1個ならそのハッチのティア、2個ならその1つ上のティアになる。 "
+				"{@pagebreak}"
+				"いくつか例を挙げる：\n- 16Aの&5EV&rハッチ1個だけを使うと、&5EV&r以下のレシピを&dLuV&rの速度で実行できる。\n- 2Aと16Aの&5EV&rハッチを1個ずつ使うと、&9IV&r以下のレシピを&dLuV&rの速度で実行できる。\n- 16Aの&5EV&rハッチを2個使うと、&9IV&r以下のレシピを&dLuV&rの速度で実行できる。"
+				""
+				"常に超伝導体を使っているわけでないなら注意しよう：ハッチの構成や機械が実行するレシピによって、ケーブル損失の許容幅は変わる。&e誤差の余裕が最も小さくなるのは、通常のハッチ2個、またはマルチアンペアハッチ1個を使う場合だ。&r"
+			]
+			icon: "gtceu:ev_energy_input_hatch_4a"
+			id: "7BC6E67521545949"
+			size: 1.5d
+			tasks: [{
+				id: "5517C58C7834BFDD"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "input_hatch_4a|input_hatch_16a"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "itemfilters:id_regex"
+										tag: {
+											value: "uiv|uxv|opv"
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+				title: "任意の4Aまたは16Aエネルギーハッチ"
+				type: "item"
+			}]
+			title: "高アンペアのハッチ"
+			x: 0.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["39FD6F1076559156"]
+			description: [
+				"&3大型蓄電器&rは、GregTech標準の大容量電力貯蔵手段だ。"
+				""
+				"この構造体には、3x3の&aラポトロニック蓄電ブロック&rを最大18層まで入れられる。GTのバッテリーは、&aラポトロニック蓄電ブロック&rにクラフトすると、アイテム版の&96倍&rのEUを蓄えられる。構造体をすべて同じティアのブロックで作る必要はないが、隙間なく埋める必要があるので、空いた場所は&a空のキャパシターブロック&rで埋めよう。"
+				""
+				"電力は&6エネルギーハッチ&rから入れ、&6ダイナモハッチ&rから取り出す。どちらもティアは問わない。大型蓄電器は特別な&6大型蓄電器用64Aハッチ&rや&aレーザーハッチ&rも受け付ける。"
+				""
+				"大型蓄電器は、24（現実の）時間ごとに総容量の&c1%&rを受動的に失う（キャパシターブロック1個あたり最大100,000 EU/t）。これは1tickあたり総容量の&910億分の5.8&rに相当するので、通常の運用では気にする必要はない。"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:power_substation"
+			id: "36B1B083B4FA439F"
+			rewards: [{
+				id: "74137AF1D413A38D"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "07359B5EBA5AA568"
+					item: "gtceu:power_substation"
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "36BB87BEFFA295E5"
+					item: "gtceu:palladium_substation"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "595EFC5BD0293994"
+					item: "gtceu:laminated_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7398C5C724D3CE9D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "27A121A9CA1E8558"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "79A9C7566D21DEDE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5D35604B28E50444"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:substation_input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0669A9EE76224BE7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:substation_output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2大型蓄電器"
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["36B1B083B4FA439F"]
+			description: [
+				"この段階まで進んだら、&a集中型の電力レイアウト&rに切り替えることを推奨する。"
+				""
+				"今後の発電機は、大量設置の必要を減らすマルチブロックになるが、かなり多くのスペースを取る。ケーブルを節約するため、これらのマルチブロック発電機は電力を貯蔵する場所の近くに置こう。"
+				""
+				"その電力貯蔵には、メインの&3大型蓄電器&r（&3PSS&r）が最適だ。蓄電容量と入出力レートが通常のバッテリーバッファを大きく上回る。キャパシターとハッチを継続的に追加・アップグレードしていけば、パックの残りはPSS1台で足りるはずだ。"
+				"{@pagebreak}"
+				"貯蔵した電力を機械へ分配するには、&a電力スパイン&r（貯蔵から出ていく電力の大部分を運ぶ専用の中央電力線）を設置するとよい。今のところは通常のワイヤーやケーブルで構わないが、&9IV&rからは&6レーザーパイプ&rと組み合わせた&6レーザーハッチ&rに切り替えるべきだ。"
+				""
+				"目標エリアの近くまで電力を引いたら、超伝導体か通常のケーブルで機械に供給しよう。この段階では、&6プラチナ&r、&6バナジウム-ガリウム&r、&6ウラン-ロジウム 二ナクアダ物&rなど、良い選択肢がいくつかある。"
+			]
+			icon: "gtceu:empty_tier_i_battery"
+			id: "6CFAAF68D4B10062"
+			size: 2.0d
+			tasks: [{
+				id: "5AF8E611CFEF3599"
+				type: "checkmark"
+			}]
+			title: "電力の集中管理"
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"7A67E519745A8361"
+				"3000798ACA51BFDC"
+				"2DCD08F30EC049D1"
+			]
+			description: [
+				"&3ガス収集機&rで集めた&9ネザーの空気&rは、&3真空冷却機&rに送ると&9ネザーの液体空気&rになる。"
+				""
+				"&9ネザーの液体空気&rは、&2蒸留塔&rに送ると成分に分解できる。"
+				""
+				"&2液体空気とエンドの液体空気からも、それぞれ別の有用な成分が得られる。"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:liquid_nether_air_bucket"
+			id: "45DD07F2BB9C6A59"
+			rewards: [{
+				id: "5EEB9D28CDCA083B"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "485B18F9D8C07C54"
+					item: "gtceu:liquid_nether_air_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64B2FB57C29031C6"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2ネザーの蒸留"
+			x: -11.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"4F4D0F44B615AF4C"
+				"78DCEF2FF2E1AC8C"
+			]
+			description: [
+				"以前の&9過硫酸ナトリウム&rや&9塩化鉄(III)&rと同じように、&9シュウ酸&rは&6回路基板&rのエッチング液として使われる。"
+				""
+				"以前のエッチング液とは違い、&9シュウ酸&rは&5EV&rまでは必要ない。EVでは、ゲルマニウムを得るための&a石炭の飛灰処理&rなど、特定の処理ラインで使われる。"
+			]
+			icon: "gtceu:oxalic_acid_solution_bucket"
+			id: "7ABC7057BC2E8CE4"
+			rewards: [{
+				id: "63338D828354FAAE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D564A2C88DE58B3"
+					item: "gtceu:oxalic_acid_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E5CE9387C5205B1"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "シュウ酸"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"785C6332FC7A07A5"
+				"7ABC7057BC2E8CE4"
+			]
+			description: [
+				"&3熱分解炉&rや&3化学反応器&rで&6石炭&rや&6コークス&rを燃やすと、&6石炭の飛灰&rという特殊な灰ができることがある。"
+				""
+				"これを捨てたら後悔するぞ。この灰は普通の灰よりもミネラルが豊富なのだ。&6ニッケル&r、&6亜鉛&r、&6ガリウム&r、&6リチウム&r、&6バナジウム&r、そして何より&6ゲルマニウム&rが得られる。"
+				""
+				"全処理ラインには&9シュウ酸溶液&rが必要だが、もう数ティア前から入手できているはずだ。"
+				""
+				"ゲルマニウムについての注意：&6インジウム&rと同じく、合金に&e少量しか使わない&r。そのため、&6鉄&r、&6銅&r、&6スズ&r、&6レッドストーン&rのような一般的な資源のように&e大量に集める価値はない&r。"
+			]
+			icon: "gtceu:germanium_dust"
+			id: "63C3077124BC81FD"
+			rewards: [{
+				id: "73F86168083D3341"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "46D85CCD66919277"
+					item: "gtceu:coal_fly_ash_dust"
+					type: "item"
+				}
+				{
+					id: "1B19BD8698E6BFD0"
+					item: "gtceu:germanium_dust"
+					type: "item"
+				}
+			]
+			title: "石炭の飛灰の処理"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EC59BC9BCCB3C5D"]
+			description: [
+				"&3GCYmマルチブロック機械&rが使えるようになった今こそ、マルチブロック機械の高いスループットを活かして、より本格的な鉱石処理システムに取りかかる好機だ。"
+				""
+				"このトピックの前のクエストで触れたように、粉砕 -> 鉱石洗浄 -> 鍛造機 -> 遠心分離 は良い出発点だ。しかし、この方法では特定の副産物が十分に得られなかったり、特定の鉱石の処理に時間がかかりすぎたりすることに気づいたかもしれない。"
+				""
+				"そういった問題には、フィルターを使って特定の鉱石を別の方法で処理するとよい。例えば、全部ではなく一部の鉱石にだけ&3熱遠心分離機&rや&3選別機&rを使うといった具合だ。"
+				""
+				"&c注意：ここではタグベースのフィルタリングが裏目に出ることがある！鉱石の種類ごとに、どこまで処理するかを見極める必要がある。"
+				"{@pagebreak}"
+				"具体的に言えば、鉱石1個あたりの副産物の収量と処理時間の&eバランス&rを取りたい。"
+				""
+				"処理が多すぎると詰まりが発生し、直近の採掘やマイクロマイナーのミッションに鉱石処理が「追いつく」のを待つ時間が無駄になる。"
+				""
+				"処理が少なすぎると、鉱石の副産物のためだけに追加でマイクロマイナーのミッションを送ったり、採掘に出かけたりすることになる。"
+				""
+				"結局のところ、&e鉱石ごとの最適なルートは、拠点とプレイスタイルによって異なる。&r健闘を祈る。そして進行に合わせて、定期的にフィルターを見直して修正するのを忘れずに。"
+			]
+			icon: "gtceu:small_cadmium_dust"
+			id: "64035276DDDD7325"
+			tasks: [{
+				id: "510F9A7F7E846C25"
+				type: "checkmark"
+			}]
+			title: "高度な鉱石処理"
+			x: 7.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3FF918B4CF33E8F7"]
+			description: [
+				"&a地動グレネード&rは採掘を早めるのに役立つ道具だ。直径11ブロックの球状にブロックを破壊する。これは現在使えるどのドリルよりもはるかに広い範囲だ。"
+				""
+				"遠距離から使えるので、広範囲の&aアイテムマグネット&rと組み合わせると便利だ。"
+			]
+			id: "5A1F4D5E41787B93"
+			tasks: [{
+				count: 4L
+				id: "75DE1815B678DC46"
+				item: "thermal:earth_grenade"
+				type: "item"
+			}]
+			x: -7.25d
+			y: 7.75d
+		}
+	]
+	title: "規模の拡大"
+}

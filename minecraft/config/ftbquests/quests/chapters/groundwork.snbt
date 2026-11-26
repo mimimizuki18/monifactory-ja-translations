@@ -1,0 +1,2477 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "groundwork"
+	group: "18F0ED1F9A002C08"
+	icon: "gtceu:advanced_integrated_circuit"
+	id: "0E9D23BEF4A86E57"
+	order_index: 2
+	quest_links: [
+		{
+			id: "20D596271688188F"
+			linked_quest: "0D6C8FFD01BE5C21"
+			shape: "hexagon"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			id: "25268A98C673BBDE"
+			linked_quest: "6F32A8739D8E792A"
+			shape: "hexagon"
+			size: 2.0d
+			x: -3.25d
+			y: 4.5d
+		}
+		{
+			id: "4A06A6BAEA6B6E24"
+			linked_quest: "73C1AB31431B5C11"
+			shape: "hexagon"
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			id: "6DB017E9911300A9"
+			linked_quest: "2F04FA8D3E15E375"
+			shape: "hexagon"
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			id: "4065DEBE89F8D723"
+			linked_quest: "3650EF39B5AB4A7D"
+			shape: "hexagon"
+			x: 6.0d
+			y: -4.25d
+		}
+		{
+			id: "3127A65D63213C8E"
+			linked_quest: "3B639F4061B00F1A"
+			shape: "gear"
+			size: 1.5d
+			x: 4.25d
+			y: -6.0d
+		}
+		{
+			id: "54DA67D96DDF6F24"
+			linked_quest: "73F8EA8E7DCC94E9"
+			shape: "hexagon"
+			size: 2.0d
+			x: 4.25d
+			y: -3.0d
+		}
+		{
+			id: "5E540F00EDE093D8"
+			linked_quest: "27FAD6A8FCFAB543"
+			shape: "hexagon"
+			x: -3.25d
+			y: -3.0d
+		}
+		{
+			id: "033ECFDA3CD105A5"
+			linked_quest: "2AC61192BCD459F2"
+			shape: "hexagon"
+			x: -3.25d
+			y: -0.5d
+		}
+		{
+			id: "72565F33DD274CB5"
+			linked_quest: "6169C04DF463502F"
+			shape: "gear"
+			size: 2.0d
+			x: -3.25d
+			y: 2.0d
+		}
+		{
+			id: "1D8205BE97493DA8"
+			linked_quest: "1F101D4F758ACECB"
+			shape: "hexagon"
+			size: 2.0d
+			x: -7.25d
+			y: 8.5d
+		}
+		{
+			id: "095B07996EF4FCCF"
+			linked_quest: "7D3FAEA5E0071BDC"
+			shape: "hexagon"
+			x: -4.25d
+			y: 8.5d
+		}
+		{
+			id: "78B3988C652487F4"
+			linked_quest: "2FD1AE24CD8BEBEB"
+			shape: "hexagon"
+			x: -7.25d
+			y: 11.0d
+		}
+		{
+			id: "5C0A6679A759B924"
+			linked_quest: "7308924C9A481443"
+			shape: "hexagon"
+			size: 1.5d
+			x: -4.25d
+			y: 11.0d
+		}
+		{
+			id: "4E53C85BF1D03BB8"
+			linked_quest: "5759E8587624BEF1"
+			shape: "hexagon"
+			x: -2.25d
+			y: 11.0d
+		}
+		{
+			id: "6844D95401E27B3A"
+			linked_quest: "244F2CC5484A7B21"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.75d
+			y: 8.5d
+		}
+		{
+			id: "2AC2C9110FDD0D04"
+			linked_quest: "7E09D4E00BFA4970"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.75d
+			y: 11.0d
+		}
+		{
+			id: "1CC86021C7B35D80"
+			linked_quest: "7B1D349ADD9D1140"
+			x: 8.75d
+			y: 8.5d
+		}
+		{
+			id: "7E3F8641F38F97A4"
+			linked_quest: "15A43AB700CADF2D"
+			x: 8.75d
+			y: 10.0d
+		}
+		{
+			id: "7FC84014DAAD0025"
+			linked_quest: "6D434F3B0E720A5A"
+			shape: "hexagon"
+			size: 1.25d
+			x: 1.5d
+			y: 4.25d
+		}
+		{
+			id: "316BD105F19E454C"
+			linked_quest: "648B1E09AA648798"
+			x: 3.75d
+			y: 4.25d
+		}
+		{
+			id: "6E2A278B1FB94559"
+			linked_quest: "6197C51E04761371"
+			shape: "hexagon"
+			size: 2.0d
+			x: 4.25d
+			y: -11.0d
+		}
+		{
+			id: "75CC820F97210BF1"
+			linked_quest: "3000798ACA51BFDC"
+			shape: "hexagon"
+			x: 0.75d
+			y: 12.5d
+		}
+		{
+			id: "4CA98E8FC9082FA2"
+			linked_quest: "5F9C7FB40AD2640B"
+			x: 2.75d
+			y: -1.0d
+		}
+		{
+			id: "481713554AE262D9"
+			linked_quest: "31EE6E41F509A8CF"
+			shape: "hexagon"
+			x: -6.25d
+			y: -5.0d
+		}
+		{
+			id: "46C91BC7D1FBA463"
+			linked_quest: "3115EAF1F70A613E"
+			shape: "hexagon"
+			x: -5.5d
+			y: -4.25d
+		}
+		{
+			id: "6D8DCF46A3036C88"
+			linked_quest: "5C78349343BA40D7"
+			shape: "hexagon"
+			x: -8.0d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["74935A3553451178"]
+			dependency_requirement: "one_completed"
+			description: ["&aMVバッテリー&rは基本的に&aLVバッテリー&rと同じように機能するが、より強力だ。また、&3MV機械、MV蓄電器&rまたは&3MV高速充電器&rに入れる必要がある。"]
+			icon: {
+				Count: 1
+				id: "gtceu:mv_lithium_battery"
+				tag: {
+					Charge: 420000L
+				}
+			}
+			id: "5543D84CB5E37E01"
+			rewards: [{
+				id: "6F3179DB5E612A15"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AF65DBF4EA32996"
+				item: "gtceu:mv_battery_hull"
+				type: "item"
+			}]
+			title: "MV電力貯蔵"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["61CC4AD6FAE15248"]
+			description: [
+				"&3遠心分離機&rは鉱石の粉を処理するとき、追加の素材を生み出すことがある。メインの粉のこともあるが、多くの場合は他の方法では入手できない別の有用な素材だ。"
+				""
+				"&6汚れた粉&r（鉱石を粉砕またはハンマーで砕いて作ったもの）を大釜で洗う代わりに、遠心分離にかければ各粉からより多くを得られる。いずれ&3鉱石洗浄機&rや&3化学槽&rを作れば、&6ほぼ綺麗な粉&rも同様だ。ただし、汚れた粉とほぼ綺麗な粉は通常、異なる副産物を出す（必ず&bEMI&rで確認しよう）。"
+				""
+				"遠心分離機には、化合物の粉や液体を分離したり、&6ゴムパルプ&rを得たりする用途もある。ゴムパルプは&6硫黄&rと化学反応させれば、効率よく&9液体ゴム&rを作れる。"
+			]
+			icon: "gtceu:lv_centrifuge"
+			id: "5F109188BE4D9767"
+			rewards: [{
+				id: "42D617F339691CDD"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79E44B9FE48FA14C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_centrifuge"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_centrifuge"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_centrifuge"
+							}
+						]
+					}
+				}
+				title: "LV・MV・HVの遠心分離機"
+				type: "item"
+			}]
+			title: "遠心分離機"
+			x: -5.5d
+			y: -10.75d
+		}
+		{
+			dependencies: ["5F109188BE4D9767"]
+			description: [
+				"&aLVバッテリー&rはとても簡単に作れたが、より効果的な蓄電手段は作るのがもっと複雑になるので、今のうちに下準備をしておこう。"
+				""
+				"必要な&6アンチモン&rは、&6輝安鉱鉱石&rを製錬するか、&6安四面銅鉱鉱石&rと&6鶏冠石鉱石&rを処理して手に入れよう。"
+			]
+			icon: "gtceu:lv_canner"
+			id: "74935A3553451178"
+			rewards: [{
+				id: "1BE0BCDCAD59B0D7"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "738E125A32EE6F95"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_canner"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_canner"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_canner"
+								}
+							]
+						}
+					}
+					title: "LV・MV・HVの缶詰機"
+					type: "item"
+				}
+				{
+					id: "4D63025FF7ECE794"
+					item: "gtceu:antimony_dust"
+					type: "item"
+				}
+				{
+					id: "508B2CC77AAF69B7"
+					item: "gtceu:battery_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "缶詰機"
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"5B0200011DF8E1B6"
+				"45FA4FF0B16B3879"
+				"5F109188BE4D9767"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"パックを始めたばかりの頃、鉱石処理は後回しでいいと言った。今、その待ち時間は終わりだ。&e副産物&rのために、初歩的な鉱石処理を始める必要がある。"
+				""
+				"副産物とは、特定の機械で鉱石を処理したときにだけ得られる追加の素材だ。例えば「ガリウム鉱石」や「ヒ素鉱石」は存在しない。&6ガリウム&rと&6ヒ素&rは、他の鉱石を処理したときの副産物として手に入る。"
+				""
+				"&c副産物を得るには、粉砕機がHV以上でなければならない。他の鉱石処理機械にはこの制限はない。&r"
+				""
+				"そのため、副産物のための鉱石処理の第一歩は、&3電解槽&r、&3鉱石洗浄機&r、そして&3遠心分離機&rになる。"
+				"{@pagebreak}"
+				"&e当面は、原石を粉砕機で粉砕し、鉱石洗浄機で洗浄し、鍛造機で砕いてから、最後に遠心分離機で分離しよう。&r得られた粉は、必要に応じて電気分解できる。"
+				""
+				"この鉱石処理ルートなら、鉱石の処理に時間をかけすぎずに、副産物をバランスよく得られる。"
+			]
+			icon: "gtceu:small_gallium_dust"
+			id: "61AD3760E271B431"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5E6A27EC5AF00A4B"
+				type: "checkmark"
+			}]
+			title: "&2副産物のための鉱石処理"
+			x: -1.25d
+			y: -10.75d
+		}
+		{
+			dependencies: ["604CCBE824D03A74"]
+			description: [
+				"&2選別機を使うと、粉砕した精製済みの宝石鉱石から傷のない宝石や精巧な宝石が得られる。全体として収量が増える。"
+				""
+				"&2MVエミッタとセンサーの部品には、少量の傷のないエメラルドが必要だ。"
+			]
+			icon: "gtceu:lv_sifter"
+			id: "376EE785F4204FFE"
+			rewards: [{
+				id: "3E228AA9187BBA13"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B2421DDCE5F8C75"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_sifter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_sifter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_sifter"
+							}
+						]
+					}
+				}
+				title: "LV・MV・HVの選別機"
+				type: "item"
+			}]
+			title: "&2選別機"
+			x: -7.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61AD3760E271B431"]
+			description: [
+				"&2GTmでは、初期の回路部品はヒ素とガリウムの両方が必要なため複雑になりがちだ。&r"
+				""
+				"&9ガリウム&rは、&e悪い順から良い順に&r次の方法で入手できる："
+				""
+				"- &3電気分解：&a閃亜鉛鉱&rから低確率で小さな粉が得られる。直接製錬した場合の価値は失われることに注意。"
+				""
+				"-&r &a粉砕したボーキサイト鉱石&rを&3化学槽&rに入れる。これには&9過硫酸ナトリウム&rが必要だ。 "
+				""
+				"- &a閃亜鉛鉱&rの鉱石処理で、&3熱遠心分離機&rまたは&3遠心分離機&rから副産物として入手する。"
+				""
+				"&2ヒ素は、鶏冠石の粉を遠心分離するか、（もっと手間がかかるが）輝コバルト鉱の粉を電気高炉でフラッシュ製錬し、できた三酸化ヒ素を電気分解して手に入れる必要がある。"
+				""
+				"両方をミキサーで混ぜてヒ化ガリウムを作ろう。"
+			]
+			id: "53347AAAE4495F95"
+			rewards: [{
+				id: "7E9DED83C17EA29F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2125B9BDF4FD7904"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			title: "&2ヒ化ガリウム"
+			x: -1.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["776199B37A19A592"]
+			description: [
+				"&3原子再構成機&rは、標準的な素材を特別な派生素材に再構成できる。"
+				""
+				"重要なレシピのほとんどは&bMV&rなので、そのティア以上のものが必要だ。"
+			]
+			icon: "gtceu:mv_atomic_reconstructor"
+			id: "5F688F22A3DB2ADD"
+			rewards: [{
+				id: "77BC7B0E9F4A7CF8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F39E9B829DAE2F2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_atomic_reconstructor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_atomic_reconstructor"
+							}
+						]
+					}
+				}
+				title: "MVまたはHVの原子再構成機"
+				type: "item"
+			}]
+			title: "原子再構成機"
+			x: 2.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5F688F22A3DB2ADD"]
+			description: [
+				"バニラのエンチャントの仕組みは本当に面倒だ。レベル上げしてサイコロを振る代わりに、特定のエンチャントを直接作れたらいいのにと思わない？"
+				""
+				"&eおっと、作れるんだった！&r"
+				""
+				"&3ダークスチールエンチャンター&rは、&6本と羽根ペン&r、経験値レベル、ラピスラズリ、そしてエンチャントごとのアイテムを使って、好きなエンチャントの付いた&6エンチャントの本&rを作る装置だ。あとはいつも通り金床でアイテムにエンチャントすればいい。"
+				""
+				"&9修繕&rのエンチャントも作れる。これがあれば、&bEnder IO &aの液体タンク&rや&a加圧液体タンク&rに入れた&9液体経験値&rを使って、ダメージを受けたアイテムを無限に修理できる。"
+			]
+			id: "4D6AC14CAEEFC793"
+			rewards: [{
+				id: "137208D6F57D3451"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14460F34821482E6"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["53347AAAE4495F95"]
+			description: [
+				"大量の&6シリコンの粉&rとひとつまみの&2ヒ化ガリウム&rを&3電気高炉&rで焼くと、&6単結晶シリコンブール&rが得られる。これが&6回路ウェハー&rの出発点だ。"
+				""
+				"電力システムが対応できるか確認しよう。処理には&27.5分と1,080,000 EU&rかかる。"
+			]
+			id: "5567F5E5926664F4"
+			rewards: [{
+				id: "42595C5F9C24A629"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FB518F0E0CE601E"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			title: "&2単結晶シリコンブール"
+			x: -3.25d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"5567F5E5926664F4"
+				"1F7FD354C79771A1"
+			]
+			description: [
+				"&6ウェハー&rは、&6単結晶シリコンブール&rから切り出したシリコンの薄片だ。"
+				"主な用途は&6回路ウェハー&rへの刻印だ。"
+				""
+				"回路のためにこのウェハーが大量に必要になる。単結晶シリコンブールは今のところ作るのに非常に時間がかかるので、複数の&3電気高炉&rでレシピを並列に回し、ストックを作っておくことを検討しよう。"
+			]
+			id: "5BC89A6032EC5EF5"
+			rewards: [{
+				id: "6CA38D63EE235DBE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45C8C466D93D048F"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			title: "シリコンウェハー"
+			x: -3.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2977E1AF13E42DCB"]
+			description: [
+				"いろいろ切る。"
+				""
+				"&3裁断機&rはウェハー、棒、木材などさまざまなものを切ることができ、汎用性の高い加工機械だ。ブロックを切って9枚のプレートにするほうが、&2金属加工機&rで1枚ずつ作るより速いこともある。"
+				""
+				"&bMV&r版は、&9ポリエチレン (PE)&rを手に入れた後に&6単結晶シリコンブール&rを切って&6ダイオード&rを楽に作るためや、&6ウェハー&rを使える部品に切り分けるために必要だ。 "
+				""
+				"刃を作るには&2バナジウム鋼&rが必要だ。"
+				""
+				"裁断機はすべてのレシピで普通の&9水&rで動く。&9蒸留水&rを使うと処理がいくらか速くなり、&9潤滑油&rを使うと大幅に速くなる（1回あたりの消費量もごくわずか）。"
+				"&2潤滑油をドラム1つ分手作業で作っておけば、処理時間を大幅に節約できるかもしれない。後になれば、潤滑油の生産と供給を完全に自動化できる。&r"
+			]
+			id: "1F7FD354C79771A1"
+			rewards: [{
+				id: "452FCD9D15402A48"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7263ADE06351D41D"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			title: "&2MV裁断機"
+			x: -1.25d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"5BC89A6032EC5EF5"
+				"21B917932F5B25BA"
+				"61FA0AACDF4AC11D"
+			]
+			description: [
+				"&6回路ウェハー&rは、電子グレードのシリコンウェハーに刻印された集積回路の集まりだ。"
+				""
+				"これを&3裁断機&rにかけて、ウェハーを個々の集積回路（ダイと呼ばれる）に切り分ける必要がある。"
+				""
+				"これらは重要な部品で、より高度な回路の製作に使われる。"
+			]
+			icon: "gtceu:ilc_wafer"
+			id: "7AA5FD63FA3BA43C"
+			rewards: [{
+				count: 2
+				id: "7B4E830CC447A442"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "08336DC0C42C1DC7"
+					item: "gtceu:ilc_wafer"
+					type: "item"
+				}
+				{
+					id: "28723DA0D730F029"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+			]
+			title: "回路ウェハー"
+			x: -3.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3781AD70E71CA0D7"]
+			description: [
+				"&3レーザー刻印機&rは、&6ウェハー&rに回路を刻印するのに使う。"
+				""
+				"回路の種類は、使うウェハーの種類と、機械に入れた&aレンズ&rによって決まる。"
+			]
+			id: "61FA0AACDF4AC11D"
+			rewards: [{
+				id: "59B26E425B76BBB6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E0709ABB3A4680B"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			title: "MVレーザー刻印機"
+			x: -4.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["376EE785F4204FFE"]
+			description: [
+				"&2MV精密レーザー刻印機とMV回路作成機の製作に使われる、高価な発展部品。"
+				""
+				"これを作るのに必要な傷のないエメラルドは、エメラルド鉱石を選別機で処理して手に入れよう。"
+			]
+			id: "3781AD70E71CA0D7"
+			rewards: [{
+				id: "5CC7F08AA6297902"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EC114672D703667"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			title: "&2MVエミッタ"
+			x: -6.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A84013C14085C7B"]
+			description: [
+				"&3精密レーザー刻印機&rではさまざまな&aレンズ&rが必要になる。どれも&2旋盤&rで作る。"
+				""
+				"まずは&a&3&2ルビーのレンズ&rが必要だ。すぐに&2ダイヤモンド、エメラルド、サファイアのレンズも必要になる。&2MV旋盤でプレートからレンズを作るか、選別機で精巧な宝石を手に入れてLV旋盤を使うかを選べる。"
+			]
+			icon: "gtceu:ruby_lens"
+			id: "21B917932F5B25BA"
+			rewards: [{
+				id: "73BEE68AA66AB31A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "374764695C1CE305"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			title: "&2レンズ"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"061904A6FEED5B66"
+				"776199B37A19A592"
+			]
+			description: [
+				"&2少量のバナジウム鋼が進行に使われる。とても強力な道具素材でもある。"
+				""
+				"&6バナジウム&rは&6バナジウム磁鉄鉱鉱石&rから得られる。"
+			]
+			id: "2977E1AF13E42DCB"
+			rewards: [{
+				id: "4ABC51F1E54A1545"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E20421B7F182541"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			title: "&2バナジウム鋼"
+			x: 0.75d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"517A89E954C7EA74"
+				"776199B37A19A592"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6クロム&rは多くの合金の生産に使われる。すぐに出会うのは&6ステンレススチール&r、&6バナジウム鋼&r、&6カンタル&rだ。 "
+				""
+				"入手方法はいくつかある：\n1. &6ルビーの粉&rを電気分解する。\n2. &6ルビー鉱石&rを処理し、低確率でクロムを得る。\n3. &9宝石の泥漿&rを混ぜて遠心分離する。これからは&6マンガン&rも得られる。\n4. ジ・エンドで&6クロム鉄鉱&rを採掘する。\nこれはすぐに大量に必要になるので、たくさん蓄えておこう。"
+			]
+			id: "061904A6FEED5B66"
+			rewards: [{
+				id: "38EA21A767F0FFBB"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4419A85563C11EB3"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			title: "クロム"
+			x: 0.75d
+			y: -4.25d
+		}
+		{
+			dependencies: [
+				"3B639F4061B00F1A"
+				"5C4E189A3E401566"
+			]
+			description: [
+				"&3MV電解槽&rでは最大&bMV&rの電力を必要とするレシピを処理でき、さらに&8LV&rの電力までのレシピをオーバークロックすることもできる。"
+				""
+				"つまり、より多くの種類のものを分解して有用な生成物を得られる。"
+			]
+			icon: "gtceu:mv_electrolyzer"
+			id: "517A89E954C7EA74"
+			rewards: [{
+				id: "25B8F48FBC8E77AD"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4EAF3DDFCD0B6CC9"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			title: "&bMV電解槽&r"
+			x: 3.25d
+			y: -4.25d
+		}
+		{
+			dependencies: [
+				"5C4E189A3E401566"
+				"3B639F4061B00F1A"
+			]
+			description: [
+				"&2GTmでは、上位ティアの混合粉は上位ティアのミキサーでないと混ぜられない。バナジウム鋼とステンレススチールを作るにはMVミキサーが必要だ。"
+				""
+				"このクエスト以降、ミキサーのクエストはもうない。上位ティアの混合粉を作るときはこのことを覚えておこう。"
+			]
+			id: "776199B37A19A592"
+			rewards: [{
+				id: "4953A8DE183D1E35"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A75AC8DC6ABF569"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			title: "&2MVミキサー"
+			x: 2.75d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"53347AAAE4495F95"
+				"6197C51E04761371"
+			]
+			description: [
+				"&6ダイオード&rは次のティアの回路の部品だ。&3組立機&rで液体の&9ガラス&r、&6細い銅ワイヤー&r、&6ヒ化ガリウム&rから作る。 "
+				""
+				"常に&eより良いレシピ&rを探そう！ &6細いなまし銅ワイヤー&rを使えば収量が2倍になり、&9ポリエチレン&rでさらに効率的なレシピがいくつか解放される。"
+			]
+			id: "591A1B8B279DFCC9"
+			rewards: [{
+				id: "1FB54E4EC1F36941"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "768DB070EA8F5B25"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			title: "ダイオード"
+			x: 4.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6197C51E04761371"]
+			description: [
+				"&6マシンコントローラ&rは、&aソフトマレット&rと同様に&bGregTech&rの機械の動作を管理するカバーだ。機械を特定のものの在庫維持専用にする&e受動的な自動化&rには欠かせない。"
+				""
+				"ここでいう「機械」は思っているより幅広い。もちろん単ブロックの機械で機能するが、&3電気高炉&rのような&eマルチブロックコントローラー&rにも使える。さらにそれ以上に柔軟で、先に制御可能なカバーが取り付けられていれば、&e転送カバーを受け付ける&bGregTech&eのブロックならどれにでも&r使える！ つまり、&6チェスト&rや&6ドラム&r、マルチブロックの入力などにも機能する。"
+				"{@pagebreak}"
+				"このカバーは&eレッドストーン信号&rを検知して動作する。デフォルトでは、十分な強さの信号をカバーが検知すると機械全体が無効化される。"
+				""
+				"&aドライバー&rでマシンコントローラのGUIを開くと、動作を設定するいくつかのオプションが表示される："
+				""
+				"マシンコントローラを作動させるのに必要な信号の強さは、上部のスライダーで設定できる。"
+				""
+				"別のボタンで、機械全体（該当する場合）を制御するか、特定のカバーを制御するかを選べる。これにより、機械へのアイテム搬入だけを止めつつ、機械自体は動かし続けるといったことができる。"
+				""
+				"&e通常&rモードから&e反転&rモードに切り替えると、マシンコントローラは逆に、必要なレッドストーン信号を受け取るまで機械を無効化するようになる。&6レベルエミッター&rと組み合わせるときは、&eMEネットワーク&rがオフラインのときに機械が起動しないよう、こちらのほうが望ましいことが多い。"
+			]
+			id: "1CB14AC299A8EDD9"
+			rewards: [{
+				id: "00D6F05B08AFE26F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F80F5642ADD27DA"
+				item: "gtceu:machine_controller_cover"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"3B639F4061B00F1A"
+				"5C4E189A3E401566"
+			]
+			description: [
+				"&3押出機&rは、金属を形に加工するもう一つの方法だ。&a押出形成用金型&rで、押出機に作る形を指定する。"
+				""
+				"押出機は&2どのレシピにも必須というわけではないが、他の方法に対して1工程で済む、または道具不要の代替手段になることが多い。&r押出機はインゴットを使うが、&6歯車&rの製作では溶かして固める方法と同じくらい効率的だ。また、&6ボルト&r、&6小さな歯車&r、&6リング&rを作る最も効率的な方法でもある。"
+				""
+				"押出機でプレートやワイヤーなど他の機械で作るものも作れるが、それぞれ専用の機械を使うよりも多くのエネルギーを消費する。"
+				""
+				"&2LV版もあるが、押出機のレシピのほとんどはMV以上でないと実行できない。"
+			]
+			icon: "gtceu:mv_extruder"
+			id: "64B52DA2ABD5152D"
+			rewards: [{
+				id: "190155709EAC7418"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "11511AE6B55626FB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_extruder"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_extruder"
+							}
+						]
+					}
+				}
+				title: "MVまたはHVの押出機"
+				type: "item"
+			}]
+			title: "&2押出機"
+			x: 6.0d
+			y: -7.75d
+		}
+		{
+			dependencies: [
+				"3E51686E2DBD380F"
+				"0D6C8FFD01BE5C21"
+			]
+			description: [
+				"&9フェノール&rは、&3熱分解炉&rで&6石炭&rや&6原木&rを燃やしたときの副産物として生産される。"
+				""
+				"これらの基板で、次のティアの回路が作れるようになる。"
+			]
+			id: "71C7B47DC85AA016"
+			rewards: [{
+				id: "5203F4EBD9C5160B"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49F6E02DD39F9B85"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.25d
+		}
+		{
+			dependencies: ["604CCBE824D03A74"]
+			description: ["初めての化学反応の場。具体的には、改良した基板を作る。"]
+			id: "3E51686E2DBD380F"
+			rewards: [{
+				id: "05FA79E0880B72BC"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F8637A79E4018DE"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			title: "LV化学反応器"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E51686E2DBD380F"]
+			description: [
+				"&2過硫酸ナトリウムと塩化鉄(III)&rは、銀の量を4分の1に減らせるため、より安価な&9改良した回路基板&rの製作に使われる。また、&9プラスチック製回路基板&rやそれ以降の回路基板の製作には&9必須&rだ。"
+				""
+				"&6塩&rを使って&a過硫酸ナトリウム&rを作ると、副生成物として&a塩酸&rが得られ、これを&a塩化鉄(III)&rの製作に再利用できる。"
+				"あるいは、&a塩化鉄(III)&rを作る際の副産物の&a水素&rを&a塩酸&rに戻してリサイクルすれば、入力が&a塩素&rと&a鉄&rだけの閉ループにできる。"
+				"現時点では唯一の最善策はないので、どちらにするかは完全にあなた次第だ。ゲーム後半で自動化が進めば、塩化鉄(III)のほうが安くて簡単なルートになる。"
+				""
+				"過硫酸ナトリウム&rは、&3化学槽&rでの&9鉱石処理&rにも使え、通常は得られないさまざまなボーナス生成物を得られる。完全に任意だが、かなり見返りが大きい。"
+			]
+			icon: "gtceu:sodium_persulfate_bucket"
+			id: "4F4D0F44B615AF4C"
+			rewards: [{
+				id: "1665820920C762E6"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "鉄三世"
+			tasks: [
+				{
+					id: "7D0DC42B9CBAA736"
+					item: "gtceu:sodium_persulfate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41E11975C676C1A1"
+					item: "gtceu:iron_iii_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "407673EAB357D752"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2過硫酸ナトリウムと塩化鉄(III)"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"785300684B1846B2"
+				"061904A6FEED5B66"
+				"776199B37A19A592"
+			]
+			description: [
+				"&6ステンレススチール&rは、LVにおける&6スチール&r、MVにおける&6アルミニウム&rと同じように、&6HV&rの主要素材になる。"
+				""
+				"&6マンガン&rは&6タンタル石&r、&6軟マンガン鉱&r、&6満礬柘榴石の粉&rを電気分解して得られる。&6クロム&rはもう持っているはずだ。"
+				""
+				"MVの&3ミキサー&rで粉をたくさん混ぜ、&3電気高炉&rで処理を始めよう。発電と蓄電のインフラを見直すのにいい機会かもしれない。"
+				""
+				"これを製錬するにはHVの電力が必要で、&bMV &6エネルギーハッチ&rを2つ使えば実現できる。"
+			]
+			icon: "gtceu:stainless_steel_ingot"
+			id: "2823D7B4C8F900CA"
+			rewards: [{
+				id: "39E334FB022AD74E"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "50921E36B3A588F6"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			title: "ステンレススチール"
+			x: 0.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A30472430354F1E"]
+			description: ["回路作成機に使う発展部品。"]
+			id: "3E42B4AAA6D2A05B"
+			rewards: [{
+				id: "6F3EA1CA9FD0EE59"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "306711569FD0B84D"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C6BEB5BBE5A91DC"]
+			description: [
+				"&bMV&3組立機&rで&6MV電圧コイル&rを作れるようになり、&3レーザー刻印機&rでは&6サファイアのレンズ&rを使って&6超低出力電源IC&rを作れる。"
+				""
+				"これらとMVの部品を組み合わせれば、ついに&6MVエネルギーハッチ&rを作れる。"
+				""
+				"上位ティアのエネルギーハッチも同様の資源が必要になる。"
+				""
+				"注意：GTのマルチブロック発電機からエネルギーを取り出すには、代わりに&6ダイナモハッチ&rが必要だ。エネルギーハッチと同じように作れるが、1xケーブルの代わりに&6バネ&rを使う。"
+			]
+			id: "785300684B1846B2"
+			rewards: [{
+				count: 2
+				id: "109C67E2AC27BCDE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C8A9840DD4A970E"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "&2MVエネルギーハッチ"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C4E189A3E401566"]
+			description: ["&2MV組立機を使えば、次のティアの回路に必要な部品をいくつか組み立てられる。"]
+			hide_dependency_lines: true
+			id: "2C6BEB5BBE5A91DC"
+			rewards: [{
+				id: "319DE2BCED6B7457"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "495FB1B792F34BE5"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			title: "&2MV組立機"
+			x: -6.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C78349343BA40D7"]
+			description: [
+				"固体の&6シリコン&rは&6トランジスタ&rの生産に必要で、トランジスタは&6HV回路&rに必要だ。&6シリコンインゴット&rのレシピには&d2,273 K&rが必要なことに注目しよう。これが以前&6カンタルコイル&rを作った理由だ。&6キュプロニッケルコイル&rではその温度に届かない。"
+				""
+				"さまざまな素材の電気分解で得られる&6シリコンの粉&rを直接加熱するのも一つの手だが、遅くてエネルギーを大量に消費する。別の方法として、生産している&6ガラス&rを転用して&6二酸化ケイ素の粉&rを得て、&6炭素の粉&rと一緒に加熱する方法がある。これなら&6シリコンインゴットを&d5倍以上&r速く生産でき、さまざまな化学処理に使える&e一酸化炭素&rも副産物として得られる。"
+			]
+			id: "0002BA59214CE34A"
+			rewards: [{
+				id: "4103CB323F5BA7A1"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F5C08701D516EA3"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0002BA59214CE34A"
+				"417D97D9E3562F45"
+			]
+			description: [
+				"&6トランジスタ&rは、電気信号や電力を増幅・スイッチングできる半導体だ。おそらく20世紀で最も重要な発明の一つだろう。"
+				""
+				"より良い回路の部品として使うことになる。これは少し高価で、&2PE、シリコンプレート、細い錫ワイヤーが必要だ。"
+			]
+			icon: "gtceu:transistor"
+			id: "13035465E07E34CF"
+			rewards: [{
+				id: "1192C721D08CF8B4"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B68D20D0B8C8886"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:transistors"
+					}
+				}
+				title: "任意の #gtceu:transistors"
+				type: "item"
+			}]
+			title: "&2トランジスタ"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6169C04DF463502F"]
+			description: [
+				"&3大型製錬炉&rは究極の製錬ユニットで、おそらくModで追加されたかまど&9および合金製錬炉&rの中で最高のものだ。"
+				""
+				"3x3x3のマルチブロック機械で、&e毎秒大量のアイテムを製錬&rできる。コイルと電力ティアをアップグレードすれば、文字通り毎秒数千個のアイテムを製錬できるようになる。"
+				""
+				"シフトを押しながら各種コイルブロックにカーソルを合わせると、大型製錬炉が1回の動作で製錬できるアイテム数が表示される：&eレベルごとに32個&rだ。最も基本的な大型製錬炉でも、かまどが1個製錬する時間で32個を製錬する。&9RTM合金&rのコイルブロック一式なら、1回の動作で128個に跳ね上がる。"
+				"{@pagebreak}"
+				"このクエストではコイル、ハッチ、バスは要求しないので、好きな組み合わせを選ぼう。必要なのは&aコイルブロック8個&r、&a入力バス1個&r、&a出力バス1個&r、&2メンテナンスハッチ1個&r、&2マフラーハッチ1個&r、そして&aエネルギーハッチ1個以上&rで、ティアはどれでもいい。"
+				""
+				"&2大型製錬炉は、GUIのロボットアームボタンを押すことで、電気かまどと合金製錬炉のレシピのモードを切り替えられる。&rそのため、いずれは少なくとも2台欲しくなるだろう。他のマルチブロックにもこの仕組みを使うものがある。"
+			]
+			icon: "gtceu:multi_smelter"
+			id: "2C3C6D2038B01948"
+			rewards: [{
+				count: 2
+				id: "570A42DE5182460E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4E0E2A8C97046848"
+					item: "gtceu:multi_smelter"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0F6DA40F845EB704"
+					item: "gtceu:heatproof_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A89FBAD7498086D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:heating_coil"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "62F12BA3B6FA408B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2C58DEED8CC0A1A1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:muffler_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1694E5B8C2F84FCB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "40A6244AC2D781F8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5069AB6458137945"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&9大型製錬炉"
+			x: -5.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["500E619D568C07C2"]
+			description: ["&6なまし銅&rは、&2アーク炉&rで&6銅&rを&9酸素&rで処理して作る。ケーブルとして使うと通常の銅より電力損失が少なく、より高度な電子部品にも必要だ。"]
+			id: "6C8DE5DC18CDADF0"
+			rewards: [{
+				id: "613E0382FE4BD7E8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0676AE8DAE7AAF77"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			title: "なまし銅"
+			x: -5.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2823D7B4C8F900CA"]
+			description: [
+				"&6HVマシン筐体&rを作ったことで、&e高電圧 (HV)&rの機械への第一歩を踏み出した！"
+				""
+				"&6ポリエチレンシート&rを使えば作業台で作れるが、液体の&9ポリエチレン&rを使えば&3組立機&rで直接作れる。"
+			]
+			id: "15E34DEC491FAB81"
+			rewards: [{
+				id: "2994608F544B8B67"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6E6B85ED9264F8CE"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			title: "HVマシン筐体"
+			x: 0.75d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6169C04DF463502F"
+				"15E34DEC491FAB81"
+			]
+			description: [
+				"第3ティアの回路を手に入れたら、&3蒸留塔&rを作る時だ。石油化学や&6エポキシ&rのようなより高度なプラスチックはこれで解放される。"
+				""
+				"ハードモードまたはエキスパートモードでは、&3蒸留塔&rに&5EV&r回路が必要だ。"
+				""
+				"蒸留塔は非常に柔軟なマルチブロック構造で、&6高さ2ブロックから13ブロック&r（液体出力12個）まで自由に組める。仕組みとしては、塔の1段目より上の各段がレシピの液体を1つずつ追加で出力する。&cレシピの液体出力の数が使えるハッチの数を超える場合や、ハッチが小さすぎて出力を保持できない場合、レシピは動かない&r。 "
+				"{@pagebreak}"
+				"最初に蒸留塔が必要になるのは、&9石油&rと&9発酵したバイオマス&rを有用な資源に分解するためだ。&9石油&rの蒸留は出力が4つあるので、&e高さ5ブロックの蒸留塔&rが必要になる（クエストの素材はこの塔のためのもの。もっと大きく作りたい場合は、&e1段ごとに追加で外装7個と液体出力1個&rが必要）。"
+				""
+				"出力液体が4つより多いレシピ（&9発酵したバイオマス&rなど）には、もっと大きな塔が必要になる。残したい出力をすべて受けられるよう、塔の高さを増やそう。また、レシピの電圧要件も確認しよう。蒸留塔のレシピの多くはMVより高い電圧を必要とする。&eその時が来たら、エネルギー入力をより上位ティアのものに交換できる&r。また、アイテム出力のあるレシピには、最下層のどこかに&6出力バス&rが必要だ。"
+				"{@pagebreak}"
+				"最初に作る塔は3x3x5（縦x横x高さ）で、中央は空洞だ。&6液体入力ハッチ&rと&6メンテナンスハッチ&rは&2最下層のどこにでも置ける&r。&6コントローラー&rは最下層の外周の辺の中央に置く。&6エネルギー入力ハッチ&rは最下層の空いている場所ならどこでもいい。3x3の残りは&6ステンレススチール製マシン外装&rで埋める必要がある。&2その上の各段は、ステンレススチール製マシン外装7個と&6液体出力&r1個のリングで、中央には何も置かない。ただし最上段だけは中央を埋めて上部を塞ぐため、8個目の外装が必要だ。 "
+				""
+				"&9バイオマス&rのように有用な出力が1つしかない液体を蒸留するなら、エネルギー効率がよく一般的にコストも低い単ブロックの蒸留機を使うのがおすすめだ。"
+			]
+			icon: "gtceu:distillation_tower"
+			id: "7641AE777370BE1A"
+			rewards: [{
+				id: "4F9D2AFE960FCF5D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "04B09521675B866B"
+					item: "gtceu:distillation_tower"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "1FB27D5C167BD42B"
+					item: "gtceu:clean_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "444A645B6B1BC86C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7506B76C757A2CB2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "5864B152107FCE6C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "601F027D7E5D187D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6DDA8E557481D63E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2蒸留塔"
+			x: -1.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7641AE777370BE1A"]
+			description: [
+				"&3熱分解炉&rは&9フェノール&r以外にも、もっと面白い生成物を作れる。"
+				""
+				"&9木炭副産物&rは、&9木タール&r、&9木ガス&r、&9木酢液&rなどのさまざまな木材生成物に分解され、それぞれさらに&9トルエン&r、&9メタノール&rなどの有用な化合物に分解できる。"
+				""
+				"ただし、これらの木材生成物の分解を最大限に活用するには、すべての出力を得られるよう&3蒸留塔&rが必要だ。&r蒸留塔クエストで要求されたより多くの&e蒸留塔の段&rが必要になるので、&6ステンレススチール&rをさらに使う覚悟をしておこう。"
+			]
+			icon: "gtceu:phenol_bucket"
+			id: "451FD5817C0415D7"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3899A3D5954DC65D"
+					item: "gtceu:phenol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50D2923A31B5F1B4"
+					item: "gtceu:charcoal_byproducts_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1FE15147FC41A587"
+					item: "gtceu:wood_tar_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F786AAFEF3E1E3C"
+					item: "gtceu:wood_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15F040D3335ABC5F"
+					item: "gtceu:wood_vinegar_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0984AE73716D4A9B"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "熱分解生成物"
+			x: -0.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["153BDCAE4D1CC407"]
+			description: [
+				"&9ポリエチレン (PE)&rは最も一般的なプラスチックの種類で、&9エチレン&rのポリマーから作られる。&3化学反応器&rで&9酸素&rを加えると、ポリエチレンの初期の偶然の合成を（多少の脚色込みで）再現できる。"
+				""
+				"&6ルチル&rと&6ボーキサイト&rが大量にあるなら（おそらく月に行った後）、触媒として&9四塩化チタン&rを使い、ポリエチレンの収量を改善することを検討できる。今のところはあまりいい考えではない。オーバーワールドでは希少なうえ、&6チタン&rにも必要だからだ。"
+				""
+				"電子部品の製作に使う&6ポリエチレンシート&rは、&3液体成型機&rと&a金型 (プレート)&rで成形しよう。液体とシートの両方が必要になる。&9ポリエチレン (PE)&rのパイプを作るには、シートを粉砕して粉にして押出機で使うか、別途&9ポリエチレン (PE)&rを固めて&6ポリエチレンバー&rにしよう。"
+			]
+			icon: "gtceu:polyethylene_plate"
+			id: "417D97D9E3562F45"
+			rewards: [{
+				id: "3F36144D3B8FF660"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7E297FE5F2C0019A"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "polyethylene"
+					}
+				}
+				title: "任意のポリエチレンアイテム"
+				type: "item"
+			}]
+			title: "ポリエチレン"
+			x: -3.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["417D97D9E3562F45"]
+			description: ["&6コンデンサー&rは電気エネルギーを蓄える装置で、回路に役立つ。&bEnder IO&rのキャパシター&rと混同しないように。あちらは&bEnder IO&rの機械を有効化し、性能を高めるものだ。"]
+			id: "7D0351942F4DB8E0"
+			rewards: [{
+				id: "258264528D30B707"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7766ABA36439522B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:capacitors"
+					}
+				}
+				title: "任意の #gtceu:capacitors"
+				type: "item"
+			}]
+			title: "コンデンサー"
+			x: -5.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["15E34DEC491FAB81"]
+			description: [
+				"&2HVバッテリーはLVやMVと同じように作れるが、もっと良い選択肢がある。"
+				""
+				"&6エネルギークリスタル&2（材料の一つである&6エナジウムの宝石&2と混同しないように）は6,400,000 EUを蓄えられるが、その分製作は少し複雑だ。HVのオートクレーブとレーザー刻印機が必要になる。"
+			]
+			id: "1EBF9D9EADB7C451"
+			rewards: [{
+				id: "1CEAE69B1694CF46"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "23C8E19877C450E6"
+				item: "gtceu:energy_crystal"
+				type: "item"
+			}]
+			title: "&2HV電力貯蔵"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"15E34DEC491FAB81"
+				"6169C04DF463502F"
+			]
+			description: ["&2組立機の次のティア。これでかなり多くの便利なものが作れる。周りのクエストをチェックしよう。"]
+			id: "0C4E18B05F9E68DE"
+			rewards: [{
+				id: "1BB8C0E48C4BAE2E"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6A35A6FEE154B3F9"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			title: "HV組立機"
+			x: -1.25d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"616555E46F314F04"
+				"244F2CC5484A7B21"
+				"0C4E18B05F9E68DE"
+			]
+			description: [
+				"&2銀、LPIC、NaK、そしてHV組立機があれば、ついにHVのエネルギーハッチとダイナモハッチを作れる。"
+				""
+				"もう作り方の要領はつかめたはずなので、エネルギーハッチとダイナモハッチのクエストはこれ以上ない。"
+			]
+			id: "5BC6DB754207D4A8"
+			rewards: [{
+				id: "682F89895E02DB2A"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7819AF44A918EC8E"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "&2HVエネルギーハッチ"
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3E51686E2DBD380F"]
+			description: [
+				"&2ナトリウムカリウム合金は…何の混合物か当ててみて。"
+				""
+				"&2HV以上のエネルギーハッチとダイナモハッチの製作に使われる。"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:sodium_potassium_bucket"
+			id: "616555E46F314F04"
+			rewards: [{
+				id: "3815CE147C3B07C5"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "778C1437764DF9E9"
+					item: "gtceu:sodium_potassium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C13CB1FDE79CC66"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2ナトリウムカリウム合金"
+			x: 3.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0C4E18B05F9E68DE"]
+			description: [
+				"&6表面実装部品&r、略して&6SMD&rは、&2これまで作ってきた回路部品をより効率的に生産する方法だ。&r"
+				""
+				"SMD部品はすべて最低でも&2HV組立機&rで生産する必要があり、どれも液体の&9ポリエチレン&rが必要だ。"
+				""
+				"まずは&6SMDトランジスタ&rから始めよう。これは単に&6ガリウム&2のホイル&rと&6細いなまし銅ワイヤー&rだ。"
+				""
+				"次は&6SMDレジスター&r。こちらも簡単で、&6炭素の粉&rと&6細いエレクトラムワイヤー&rだ。"
+				""
+				"次は&6SMDダイオード&rだ。これはかなり簡単に作れる。&2ヒ化ガリウムの粉&rと&6細いプラチナワイヤー&rから半スタック分が手に入る。&r"
+				""
+				"続いて&6SMDコンデンサー&r。作るには&6ポリ塩化ビニル&rのシートが必要だが、&6シリコーンゴム&rでも時間をかければ作れる。&2アルミニウムの代わりにタンタル箔を使うと収量が2倍になる。"
+				""
+				"最後に&6SMDインダクタ&r。&6ニッケル亜鉛フェライト&rと&6細いキュプロニッケルワイヤー&rで作る。"
+				""
+				"SMD部品とその材料すべてについて、しっかりした自動化システムに投資しておこう。この先いくつものティアで大量に必要になるからだ。また、ごく単純なレシピを除けば、これまで使ってきた非SMD版の代わりとしても使える。"
+			]
+			hide_dependency_lines: false
+			id: "7256E0064F967C93"
+			rewards: [{
+				count: 3
+				id: "568615DC956F2D3C"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "23590179340FDEBD"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "333761903A684A5D"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "4EB4872E8B7A6F65"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "32E433DEEE5CD4EE"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "56B5983BCF6EF318"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			title: "&2SMD部品"
+			x: -1.75d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"153BDCAE4D1CC407"
+				"10722CBC4DAD28F4"
+			]
+			description: [
+				"&9塩化ビニル&rは工業用化学物質で、&3化学反応器&rで&9エチレン&rを塩素化する（高温で&9塩素&rを加える）ことで作られる。&9エタン&rを代わりの原料として使うこともできる。"
+				""
+				"これはプラスチックの&9ポリ塩化ビニル&r、一般にはPVCとして知られるものの原料になる。現実とは異なるが、GregTechでは塩化ビニルと&9酸素&rを化学反応させて重合し、PVCにする。 "
+				""
+				"後には&9四塩化チタン&rをこの反応の触媒として使い、収量を増やすこともできる。"
+				""
+				"これを固めてシートにするだけでいい。PVCパイプも欲しいなら、シートを粉砕して粉にし押出機に使うか、別途固めて棒にすればいい。"
+				""
+				"&6PVCシート&rはプラスチック基板を作るうえで&6ポリエチレンシート&rより優れていて、1回のクラフトで2倍の&6プラスチック製回路基板&rができる。"
+			]
+			id: "338ED53463203472"
+			rewards: [{
+				id: "2865986A098DD48B"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5744E29C138E876A"
+				item: "gtceu:polyvinyl_chloride_plate"
+				type: "item"
+			}]
+			title: "ポリ塩化ビニル"
+			x: 2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"48E83C38B37DFEE6"
+				"6D434F3B0E720A5A"
+				"648B1E09AA648798"
+				"5357A16B5BF62C96"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&9エチレン&rは&9石油処理&rで得られる炭化水素で、&3化学反応器&rで&9エタノール&rを&9硫酸&rで脱水しても得られる。自分に合った方法を選ぼう:"
+				""
+				"- &9エタノール&rルートなら、既存の&6サトウキビ&r農場を使って&9エチレン&rを生産できる。ただし、レシピの実行には&bMV（中電圧）&rの機械が必要だ。"
+				""
+				"- &9石油処理&rルートは&2LVの機械だけ&rで済むが、&9石油&rかその派生品をどこかから調達する必要がある。&9石油と重質石油&rには&2十分に蒸気で分解された軽質燃料&rが最も効率的だ。&9中質石油と軽質石油&rを使う場合は&2十分に蒸気で分解されたナフサ&rのほうが効率的だ。"
+				""
+				"プラスチックの生産において極めて重要な化学物質で、&9ポリエチレン（PE）&rや&9ポリ塩化ビニル（PVC）&rの生産に&9エチレン&rが必要になるほか、最良のゴムである&9スチレンブタジエンゴム（SBR）&rの生産にも使える。"
+			]
+			icon: "gtceu:ethylene_bucket"
+			id: "153BDCAE4D1CC407"
+			rewards: [{
+				id: "2013156BC98A6B3E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "476704217FDC81A0"
+					item: "gtceu:ethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B17DC921919912F"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2エチレン"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"&6硫黄&rはこの先のさまざまな化学反応で使われる。"
+				""
+				"&6閃亜鉛鉱&r（&6ガリウム&rも得られる）、&6辰砂&r、&6黄鉄鉱&rから簡単に電気分解で取り出せる。または、ノーマルモードでは&bHNN&rで硫黄を入手することもできる。"
+			]
+			id: "0E010F5348FC89BF"
+			rewards: [{
+				id: "00EB9EBC989522B3"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13B36FBF7AB99852"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			title: "硫黄"
+			x: 3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5357A16B5BF62C96"]
+			description: [
+				"&3醸造機&rを使えば、&6プラントボール&rやその他さまざまな&6糖分の多い作物&rを&9バイオマス&rに変えられる。バイオマスは&9ポリエチレン&rという形でプラスチックを作るための第一歩だ。"
+				""
+				"醸造機は&oとても&r遅い機械だが、電力はほとんど要らない。プラスチック用のバイオマスを十分に醸造するには&2醸造機をたくさん&r建てる必要がある。&2より資源効率のよい別のバイオマスの作り方として、熱分解炉と水とバイオチャフを使う方法もある。"
+			]
+			icon: "gtceu:mv_brewery"
+			id: "383FADC5E8BC4E91"
+			rewards: [{
+				id: "6B30FA728917F1B8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45EF5902181733A9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_brewery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_brewery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_brewery"
+							}
+						]
+					}
+				}
+				title: "LV・MV・HVの醸造機"
+				type: "item"
+			}]
+			title: "醸造機"
+			x: 6.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5C4E189A3E401566"]
+			description: [
+				"ここから化学の時間だ。"
+				""
+				"今はどうかしていると思うかもしれないが、処理したい化学物質の大部分には専用の&3化学反応器&rを用意したくなるはずだ。とはいえ、それは自動クラフトを備えたしっかりした拠点ができるまで待ったほうがいいだろう……AE2システムに化学反応器のクラフトを要求するだけで済むようになれば、痛手はずっと小さくなる。さらに、&3大型化学反応器&rのほうが将来のアップグレードが簡単だ。"
+			]
+			id: "5357A16B5BF62C96"
+			rewards: [{
+				id: "184A514EEA6A4CCE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "06864115DFFF1EDD"
+				item: "gtceu:mv_chemical_reactor"
+				type: "item"
+			}]
+			title: "MV化学反応器"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5357A16B5BF62C96"
+				"5BE3E37772FAF6CB"
+			]
+			description: [
+				"[\"\",{\"text\":\"これは処理ラインの重要な一部だ。詳しい情報や役立つヒント、これを受動的に自動化する方法の図解については「\"},{\"color\":\"yellow\",\"underlined\":true,\"text\":\"再生可能な生産\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"055C0B43FE14258F\"}},{\"text\":\"」タブを見てみよう。\"}]"
+				""
+				"&6閃ウラン鉱石&rは&6脈動する粉末&rの最初の入手源だが、長期的にはあまり良い入手源ではない。代わりに&6レゾナントクラスレート&rを作ろう。これは無限に再生可能で効率のよい脈動する粉末の入手源だ。"
+				""
+				"レゾナントクラスレートは、&3液体抽出機&rで&6エンダーパール&rを溶かして&9共振エンダー&rにし、それをMV以上の&3化学反応器&rで&6ネザークォーツ&rと混ぜて作る。このクラスレートを精錬すると脈動する粉末が得られる。"
+				""
+				"レゾナントクラスレートが手に入るようになったので、&6脈動予測マトリックス&rのクラフトに必要なものはすべて、収支がプラスになるループで自動化できる。&rそれが&bHostile Neural Networks&rの自動化の第一歩であり、これは&eこの先パック全体を通して重要な素材の主要な入手源&rになる。"
+				""
+				"具体的な実装は君に任せる。手持ちのさまざまなLV・MVの機械を活用し、&bEMI&rや再生可能な生産タブを見て、各材料を無限に得る方法を探そう（パールなら&aエンダーマンのモデル&rなど）。"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "0C10EC03A01E7334"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "5326C255DC39819A"
+				item: "kubejs:resonant_clathrate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5357A16B5BF62C96"]
+			description: [
+				"&3化学反応器&rは多くの種類の液体を作ることになる。自動化しているさまざまな液体の輸送と保管のロジスティクスを管理する必要がある。"
+				""
+				"可能な限り、ある化学反応器の出力を、その化学物質を必要とする別の機械へ直接送り込むようにすれば、追加の保管や経路を考えずに済む。&a液体フィルター&rと&aポンプカバー&rは、コンパクトな処理ラインの中で液体を動かすのにとても便利だ。"
+				""
+				"では、他の場所で必要になる最終出力の液体はどうする？"
+				"{@pagebreak}"
+				"ひとつの方法は、化学反応器の出力タンクを小さな保管用バッファーとして使い、満杯になったら自動的にクラフトが止まるようにすることだ。機械に&aストレージバス&rを付ければ、その液体がMEネットワークから見えるようになる。その液体が必要になるたびにAE2システムが必要な分を引き出し、機械は処理を再開する。"
+				""
+				"ただし、この方法にはいくつか落とし穴がある。まず、&aストレージバス&rはデフォルトでは双方向だ。AEが無関係な液体やアイテムを化学反応器に格納しようとしないよう、ストレージバスを&e取り出し専用&rに設定しよう。また、ストレージバスの&e優先度を下げる&rのもいいだろう。こうするとAEに、その場所から先に液体を取り出したいと伝えられる。さらに、複数の液体が生産される場合、&e全ての液体出力の空きがなければ機械は処理を再開しない&r。"
+				""
+				"使えるようになったら、単一液体用にフォーマットした&a液体ストレージセル&rを使い、インターフェース経由でAEに出力を流し込むほうがおそらく良い。セルを満たしておけば、必要な場所でいつでも液体を引き出せる。別の方法として、&3GregTechのタンクやドラム&rにストレージバスを付けるやり方もある。"
+			]
+			icon: "gtceu:mv_electric_pump"
+			id: "1D0DF2330B113B7A"
+			shape: "hexagon"
+			tasks: [{
+				id: "516FB95F4092E0AB"
+				type: "checkmark"
+			}]
+			title: "液体物流"
+			x: 3.75d
+			y: 6.25d
+		}
+		{
+			dependencies: [
+				"5C4E189A3E401566"
+				"1510DC51CDC3F609"
+			]
+			description: [
+				"エタノールを蒸留するなら、ここでMVの蒸留機が必要になる。"
+				""
+				"&r&3蒸留機&rは単体ブロックの機械で、複数の蒸留物のうち1つだけを出力し、残りは&c破棄&rする。今これを使えば&9バイオマス&rから&9エタノール&rを得たり、&9石油&rを複数段階で選択的に蒸留して&9エチレン&rにしたりできる。コスト以外で本格的な蒸留塔より優れている点は&9エネルギー効率&rだ。そのため、&9バイオマス&r、&9希硫酸&r、&9希塩酸&rのように有用な出力が1つしかない液体に向いている。"
+				""
+				"ただし、高度な化学には蒸留塔を推奨する。ほとんどのものは重要な出力が複数あるからだ。例を挙げれば、&9発酵したバイオマス&r、&3熱分解炉&rから出る&9木炭副産物&r、そして&9石油&rから得られる石油化学製品の一式などだ。"
+				""
+				"すぐに必要になるぞ！"
+			]
+			icon: "gtceu:mv_distillery"
+			id: "48E83C38B37DFEE6"
+			rewards: [{
+				id: "14D06E944207ACDE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "036F1F8553EEC984"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_distillery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_distillery"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_distillery"
+							}
+						]
+					}
+				}
+				title: "LV・MV・HVの蒸留機"
+				type: "item"
+			}]
+			title: "&2蒸留機"
+			x: 2.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5B0200011DF8E1B6"]
+			description: [
+				"ここで&9塩素&rが必要になる。多くの化学プロセスで重要な材料で、今は&6塩&rか&6岩塩&rを電気分解して入手できる。"
+				""
+				"&2後には、流体リグを使うかガストの涙を分解して塩水を得て、それを電気分解して塩素にすることもできる。 "
+				""
+				"&r流体リグを使うのが、大量の塩素を得る最良の方法だ。"
+			]
+			icon: "gtceu:chlorine_bucket"
+			id: "10722CBC4DAD28F4"
+			rewards: [{
+				id: "00856065A8DB0F17"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4787CC8A2A2100FB"
+					item: "gtceu:chlorine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B50F7FD599AE240"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "&2塩素"
+			x: 3.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["417D97D9E3562F45"]
+			description: [
+				"&o注: このクエストはどのスーパータンクやクァンタムタンクでも達成できる。"
+				""
+				"&2スーパータンクとクァンタムタンクは、高ティアのGT液体保管手段だ。&r"
+				""
+				"最初のティアは&64,000バケツ&r入り、上位のティアほど多く入る。ドラムのように、機械への液体の出し入れにも使える。"
+				""
+				"&c廃棄&rの設定も手軽にでき、常に廃棄、容量95%から廃棄開始、廃棄しない、から選べる。"
+				""
+				"アイテム版は&3スーパーチェスト&rで、一部の&6マイクロマイナー&rのレシピで使われる。"
+				""
+				"これらの上位版は&3クァンタムタンク&rと&3クァンタムチェスト&rと呼ばれる。いずれもクラフトにはそれぞれのティアの&3気密外装&rが必要だ。"
+			]
+			id: "447F6F4642A36F9D"
+			rewards: [{
+				id: "4BA7C6C744F7D41D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "472DBFA310FC29D0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_super_tank"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_super_tank"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_super_tank"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_super_tank"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_quantum_tank"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_quantum_tank"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_quantum_tank"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_quantum_tank"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uhv_quantum_tank"
+							}
+						]
+					}
+				}
+				title: "任意のスーパータンクまたは量子タンク"
+				type: "item"
+			}]
+			title: "&2スーパータンクと量子タンク"
+			x: -4.75d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"64F45D98FA48D834"
+				"73C1AB31431B5C11"
+			]
+			description: ["&6二層RFコンデンサー&r2つに&6ヴァイブラント合金&rと&6グロウストーン&rを組み合わせると、&bEnder IO&rのティア3コンデンサーである&6八重RFコンデンサー&rができる。"]
+			id: "0607A59215F0F8B3"
+			rewards: [{
+				id: "19758A42D6370AF6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5471C4A062CF95A9"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7842EC1C389C4B7E"]
+			description: [
+				"&6基本RFコンデンサー&rに&6石炭の粉&rと&6エナジェティック合金&rを組み合わせると、&6二層RFコンデンサー&rができる。"
+				""
+				"これはティア2のコンデンサーだ。高ティアのRFコンデンサーほど&bEnder IO&rの機械の処理が速くなり、機械によっては機能もさらに拡張される（効果範囲など）。"
+			]
+			id: "64F45D98FA48D834"
+			rewards: [{
+				id: "5B21BA317A200AEB"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C5170A07C454E7A"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1BC6DDC2D50F9C46"]
+			description: [
+				"オーバークロックは別として、&5Monifactory&fを進めるにつれて、&3電気高炉&fで作る素材は完成までに時間がかかるようになる。&eより高度なコイルを使えば、炉が&eより高度な素材を処理できるほど高温になり&f、&2さらにエネルギー効率ボーナスとオーバークロック時の速度ボーナスも得られる。&r"
+				""
+				"それでも、精錬と発電のインフラは継続的に拡張し続ける必要がある。"
+				""
+				"この4つの電気高炉を今すぐ全部完成させて稼働させる必要はないが、パックを通してたくさん作ることになるので覚悟しておこう。"
+				""
+				"&2念のため言っておくと、メンテナンスハッチ以外のブロックやハッチはすべて複数のEBFで共有できる！"
+			]
+			id: "508452E1A3E09B56"
+			rewards: [{
+				id: "4B8C70D4E2DB2E1B"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "2665B99B9AC8965C"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			title: "&2さらなる高炉"
+			x: 10.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B639F4061B00F1A"]
+			description: [
+				"MV回路に必要な大量の&9フェノール&rと、他のあらゆるものに必要な大量の&6スチール&rで、石炭の供給が圧迫されているかもしれない。この問題を解決するために、&9温室&rを建てて&6木材&rを&6木炭&rに変えることを検討する価値がある。"
+				""
+				"&6無機肥料&rを与えると出力が大幅に増える。"
+			]
+			id: "3A71D736AE5C17E2"
+			rewards: [{
+				id: "1FE4BFEFDB4C34FC"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64DDAB8716E84F19"
+				item: "gtceu:greenhouse"
+				type: "item"
+			}]
+			title: "&9もっと無限な木材"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E42B4AAA6D2A05B"]
+			description: ["よく行く場所（クラフトをする場所など）に&9ワイヤレス充電器&rを置いておけば、RFベースのアイテムが常に満充電に保たれる。&4EUベースのアイテムは充電しない！&r"]
+			hide_dependency_lines: true
+			id: "1AA0A089DCA17FC8"
+			rewards: [{
+				id: "67EDE8C53008B226"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "アイテムの充電を待つなんて、もう前のバージョンの話"
+			tasks: [{
+				id: "6BB55ED56C49A2B0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "wirelesschargers:basic_wireless_player_charger"
+							}
+							{
+								Count: 1b
+								id: "wirelesschargers:advanced_wireless_player_charger"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&9アイテムのワイヤレス充電"
+			x: 10.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64ABEB1EF9F81EA4"]
+			description: [
+				"&6蒸気式分離機&rは&7LV&3遠心分離機&r5.3台分の並列として機能する！&e蒸気ハッチ&rから&9蒸気&rを入力する必要があるが、蒸気の消費は一部だけだ。"
+				""
+				"&9液体&rは処理できないが、鉱石処理には最適で、粉から最大限の成果を得られるうえ、&3大釜&rで鉱石を洗う手間もなくなる。"
+			]
+			hide_until_deps_visible: true
+			icon: "steamadditions:steam_separator"
+			id: "45FA4FF0B16B3879"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "4FEF69C507C110DC"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78893122841FDA9D"
+					item: "steamadditions:steam_separator"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "3AF9F74D8F9D2FD3"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "5D781D04826C9000"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "124EF465D4193C41"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "4E8ABCD4889B4717"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
+			title: "&9蒸気式分離機"
+			x: -2.25d
+			y: -9.75d
+		}
+		{
+			dependencies: ["3B639F4061B00F1A"]
+			description: ["&6MV回路&rが手に入ったので、かまどで&2複数のアイテムを同時に精錬&rできるようにする&6ファクトリーオーグメント&rを作れる！"]
+			id: "6DAA25CA26AE05E9"
+			optional: true
+			subtitle: "大型製錬炉…みたいなもの！"
+			tasks: [{
+				id: "530D4E4EF55BAC5F"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			title: "ファクトリーオーグメント"
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6169C04DF463502F"]
+			description: [
+				"&6液体エンダーリンク&rは、機械の側面に取り付けられるカバーだ。"
+				""
+				"操作するとGUIが開き、どのチャンネルとやり取りするかを指定できる。同じ周波数の他のすべてのリンクとの間で液体を送り出したり引き込んだりする。"
+				""
+				"周波数は8桁の16進数カラーコードで区別される。必要なら各周波数に説明を付けることもできる。リンクのGUIの左上には、利用可能なすべての周波数とその説明の一覧メニューを開くボタンがある。"
+				""
+				"利用可能な周波数の数には限りがあるので、液体リンクの数は16,777,216個未満に抑えるようにしよう。"
+			]
+			hide_dependency_lines: true
+			id: "7C5CE283172CD952"
+			size: 1.5d
+			subtitle: "スパゲッティ切れ？"
+			tasks: [{
+				id: "5F8C10A49B639228"
+				item: "gtceu:ender_fluid_link_cover"
+				type: "item"
+			}]
+			title: "液体エンダーリンク"
+			x: 10.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EBF9D9EADB7C451"]
+			description: [
+				"&6NanoMuscle™ スーツ&rは今手に入る中で最高の防具セットだ。落下ダメージを無効化するので、ピースフルモードでも役に立つ。"
+				""
+				"&eピースフル以外でプレイしている人へ: フル充電時の&6NanoMuscle™ スーツ&eは&6ネザライトの防具&eと同じ防御ポイントを持つ。防具強度はさらに高く、1部位あたり3ではなく5ある。"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:nanomuscle_helmet"
+				tag: { }
+			}
+			id: "17B9395C7D995286"
+			rewards: [{
+				id: "688724D812C46E78"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "電化された衣服！"
+			tasks: [
+				{
+					id: "2974A24073D05532"
+					item: {
+						Count: 1
+						id: "gtceu:nanomuscle_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "399D6F2F537899F2"
+					item: "gtceu:nanomuscle_chestplate"
+					type: "item"
+				}
+				{
+					id: "2A00C78684CD78C6"
+					item: "gtceu:nanomuscle_leggings"
+					type: "item"
+				}
+				{
+					id: "4FB2BEB8132C74BC"
+					item: "gtceu:nanomuscle_boots"
+					type: "item"
+				}
+			]
+			title: "NanoMuscle™ スーツ"
+			x: 2.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["417D97D9E3562F45"]
+			description: ["&6インダクタ&rは、他のバージョンのGregTechでは&2小型コイル&rとして知られる、もう1つの必要な回路部品だ。最良の結果を得るには、&6ニッケル亜鉛フェライト&rと&6なまし銅&rで作ろう。ただし、どの設備を先に建てるかによっては、SMD版より基本版をたくさん作る必要はないかもしれない。"]
+			id: "66E1F1B28E4577B2"
+			shape: "hexagon"
+			tasks: [{
+				id: "794BDECD8EBE2F25"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:inductors"
+					}
+				}
+				title: "任意の #gtceu:capacitors"
+				type: "item"
+			}]
+			title: "インダクタ"
+			x: -2.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["74935A3553451178"]
+			description: [
+				"&6空のスプレー缶&rは&3缶詰機&rで任意の色の液体染料を充填できる。充填すれば、右クリックするだけで染色可能なブロック（&6羊毛&rや&bAE2 &6ケーブル&rなど）を染められる。缶には溶媒を充填することもでき、その場合はクリックしたブロックの染色を落とす。"
+				""
+				"ブロックを染めるときにシフトを押し続けると、つながった複数のブロックを一度に染められる！"
+				""
+				"染色可能なブロックに加えて、&bGregTech&rの&6ワイヤー&r、&6ケーブル&r、&6機械&r、&6ハッチ&r、&6バス&rも染められる。"
+				""
+				"重要なのは、&e染色した&bGT&eのハッチ/バスは、未染色のときと挙動が異なる&rことだ。染色すると、そのマルチブロック上にある同じ色または未染色の他のすべてのハッチ/バスと中身を共有する。異なる色のハッチ/バス同士は中身を共有しない。異なるプログラム回路を扱うときなど、マルチブロック上でハッチ/バスを別々の「グループ」に分けたい場合にとても役立つ。"
+			]
+			hide_dependency_lines: true
+			id: "2C7306C74609E995"
+			size: 1.5d
+			subtitle: "ただの色付けじゃない！"
+			tasks: [{
+				id: "6BE07CD22A1130B1"
+				item: "gtceu:empty_spray_can"
+				type: "item"
+			}]
+			title: "スプレー塗装"
+			x: 10.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C78349343BA40D7"]
+			description: [
+				"&6シリコン&rの結晶格子に&6リン&rを添加して作る、より高度な&6シリコンブール&r。"
+				""
+				"&2カンタル&r以上のコイルを使った&3EBF&rで作り、工程には&2窒素&rが必要だ。基本のブールの2倍のシリコンが必要だが、スライスすると2倍の数の添加シリコンウェハーが得られる。"
+				""
+				"これらの添加シリコンウェハーを使えば回路ウェハーをはるかに効率よく作れるうえ、基本のウェハーには刻印できない、より高度な種類の回路ウェハーにも必要になる。"
+			]
+			id: "349869EBF2D9FAF1"
+			rewards: [{
+				id: "43A8ED9E9FB6365D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50CCF15D11C3B693"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			title: "&2リン添加シリコン単結晶"
+			x: -8.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["61AD3760E271B431"]
+			description: [
+				"鉱石にはさまざまな処理方法があり、最終的には機械のパイプラインで特定の方法で鉱石を処理し、得られる副産物を最適化することになる。&bEMI&rで鉱石の&6鉱石副産物ページ&r（鉱石の上で「U」を押し、副産物タブに移動する）を見れば、目的の副産物を得るのに必要なルートがわかる。 "
+				""
+				"関係する機械は以下のとおり:"
+				""
+				"- &3粉砕機&r: 鉱石を&6粉砕した鉱石&rに、&6粉砕した鉱石&rを&6汚れた粉&rに、&6洗浄した粉砕鉱石&rを&6ほぼ綺麗な粉&rに変える。&eHV&r以上の粉砕機には副産物スロットがあり、鉱石や両方の粉砕鉱石から副産物を1個分丸ごと得られる確率がある。"
+				"{@pagebreak}"
+				"- &3鉱石洗浄機&r: 粉砕した鉱石を&9水&rで洗浄して洗浄した粉砕鉱石&rにし、副産物を1個分丸ごと得られる確率がある。&9蒸留水&rを使うと速くなる。&2大釜での洗浄に似た簡易洗浄もできる。非常に速いが、副産物は得られない。&r"
+				""
+				"- &3化学槽&r: &2過硫酸ナトリウムまたは水銀を使って特定の鉱石を精製し、副産物を1個分丸ごと得られる確率がある。"
+				""
+				"- &3遠心分離機&r: ほぼ綺麗な粉や汚れた粉を最終的な素材に分離し、副産物を1個分丸ごと得られる確率がある。"
+				"{@pagebreak}"
+				"- &3電解槽&r: 電力を使って化合物を個々の元素に分解し、その過程で有用な副産物が得られることもある。&2粉によっては電気分解するより直接精錬したほうが良い場合があるので注意！&r"
+				""
+				"- &3熱遠心分離機&r: 通常の遠心分離機と混同しないように。&2以前ほど遅くも電力食いでもなくなったが、それでもまだそうだ。ただし、副産物を得られる確率があり、熱遠心分離した鉱石を粉砕すると特別な3つ目の副産物が得られることがある。"
+				""
+				"- &3選別機&r: &2洗浄した粉砕宝石鉱石から高品質の宝石をふるい分け、全体の収量を高める。"
+				""
+				"-&3電磁分離機&r: 特定の鉱石から磁性金属を分離し、収量を増やす。&r"
+			]
+			icon: "gtceu:lv_ore_washer"
+			id: "2B7B623879D6E94A"
+			tasks: [{
+				id: "0B7B0FFB3FEE3F79"
+				type: "checkmark"
+			}]
+			title: "鉱石処理機械"
+			x: -1.25d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3E42B4AAA6D2A05B"]
+			description: [
+				"この&3個人用縮小装置&rを使えば、体を大きくしたり小さくしたりできる。"
+				""
+				"装置を手に持って&8右クリック&rでGUIを開き、ボタンで体の大きさの倍率を指定しよう。&8シフト+右クリック&rで起動する。"
+				""
+				"ケーブルやパイプの間に入り込むのにとても便利！"
+			]
+			id: "114B300F56E48351"
+			shape: "hexagon"
+			tasks: [{
+				id: "17D47466DED091B3"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	title: "下準備"
+}

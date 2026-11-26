@@ -1,0 +1,1470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_generation"
+	group: "0D5BFFD0A5E49312"
+	icon: "monilabs:creative_energy_multi"
+	id: "0102198269F850CD"
+	images: [
+		{
+			height: 2.0d
+			image: "kubejs:textures/gui/gtv_timeline.png"
+			rotation: 0.0d
+			width: 27.78d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			hover: ["Energy Units are used to power GregTech machines."]
+			image: "kubejs:textures/gui/eu_letters.png"
+			rotation: 0.0d
+			width: 1.95d
+			x: 0.0d
+			y: -5.75d
+		}
+	]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1B04AA7D9AEB2CFA"
+				"15E34DEC491FAB81"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"製作に&6ブルースチール&rが必要で、はるかに場所も取るが、&6大型蒸気タービン&rは前の発電機よりずっと拡張性が高い。"
+				""
+				"ティアごとにアップグレードが必要なのは&6ローターホルダー&rだけで、そのたびに発電量が&e2倍&rになる。"
+				""
+				"これを賄えるだけの&9蒸気&rを作るために、近いうちに&3チタン製大型ボイラー&rも検討しておこう。"
+				""
+				"ただ、これだけの&9蒸気&r流量だとパイプがボトルネックになるかもしれないので、忘れずにアップグレードしよう！"
+			]
+			icon: "gtceu:steam_large_turbine"
+			id: "15A5B4C632836306"
+			progression_mode: "flexible"
+			tasks: [
+				{
+					id: "227F0649FD458B2E"
+					item: "gtceu:steam_large_turbine"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "49363E4CC67FE532"
+					item: "gtceu:steel_turbine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "42BBECB34497F4A4"
+					item: "gtceu:steel_gearbox"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "301CF2A3BA001822"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:rotor_holder"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "63F4FAC8E029A009"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "775AD2C090731966"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "004DD7D2B9EC4FC8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1F08B37942BEA3E9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A30472430354F1E"]
+			description: [
+				"&6蒸気タービン発電機&rは、&bGregTech&rで&eEU&rを発電する最も簡単な方法だ。"
+				""
+				"&9蒸気&rは、ワイヤーの周りに赤い四角がある面以外ならどの面からでも入力できる。その面は&eEU&r出力専用だ。"
+			]
+			id: "34876F54406B6A04"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1433B9815BA2C6F1"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6974AA409CC355E6"
+				"785C6332FC7A07A5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"大型内燃エンジンは、&6HV&r燃焼発電機を&5EV&rにアップグレードしたようなものだが、いくつか違いがある。"
+				""
+				"まず、マルチブロックであること。つまり場所を多く取り、&6メンテナンスハッチ&rが必要で、チタンもかなりの量を消費する。"
+				""
+				"次に、通常の燃焼燃料に加えて&9潤滑油&rも消費すること。"
+				""
+				"そして、&9酸素&rで過給すると、&e2A&r分の燃料で&e3A&rの&5EV&rを生み出せること。"
+				"{@pagebreak}"
+				"[\"\",{\"text\":\"ついでに、 \"},{\"color\":\"blue\",\"underlined\":\"true\",\"text\":\"高オクタン価ガソリン\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2CC50101A39EA2C0\"}},{\"text\":\" への切り替えも検討しよう。今の燃料では足りなくなってきたならなおさらだ。\"}]"
+				""
+				"高オクタン価ガソリンは効率が良いだけでなく、後で&6クリオロバス&rを製錬するのにも使う。"
+			]
+			icon: "gtceu:large_combustion_engine"
+			id: "677D081CD7612FB0"
+			progression_mode: "flexible"
+			tasks: [
+				{
+					id: "6D31EAA378457E31"
+					item: "gtceu:large_combustion_engine"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "1A63BEB000BBBEC7"
+					item: "gtceu:stable_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "55E057B94D78E0B4"
+					item: "gtceu:engine_intake_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4DD5A8C1BCC9D848"
+					item: "gtceu:titanium_gearbox"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6DCB7529F995D084"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1BB40E614CD157CD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:muffler_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "0B273647ED198545"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7CC906C9ACF550A0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"677D081CD7612FB0"
+				"605062720747B482"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"発展型内燃エンジンは大型内燃エンジンの直接的な上位版だ。"
+				""
+				"他の発電機のアップグレードと同様に&e4倍&rの燃料で&e4倍&rの電力を生み出すが、&9潤滑油&rの消費量は変わらない。"
+				""
+				"さらに、過給には酸素ガスの代わりに&9液体酸素&rを使う。"
+				"{@pagebreak}"
+				"[\"\",{\"text\":\"燃料については、 \"},{\"color\":\"blue\",\"underlined\":\"true\",\"text\":\"JEANガソリン\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"053DDDCD2505E20B\"}},{\"text\":\"を検討しよう。珍しく危険な材料を使った強力な調合物だが、これらの発電機でもかなり長持ちする。\"}]"
+			]
+			icon: "gtceu:extreme_combustion_engine"
+			id: "0BFAE16A8B131E84"
+			progression_mode: "flexible"
+			tasks: [
+				{
+					id: "29401A9EB6B55637"
+					item: "gtceu:extreme_combustion_engine"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "50CADE7BF4DB9D98"
+					item: "gtceu:robust_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "34F1CEFB649E5CE3"
+					item: "gtceu:extreme_engine_intake_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02419C5F82366B67"
+					item: "gtceu:tungstensteel_gearbox"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "68518BE60919B608"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7DAC029E717D9714"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:muffler_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "245ACBD325101089"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "020C7B58AB5D77C5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7E276DF48E9085A4"
+				"785C6332FC7A07A5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6大型ガスタービン&rは&6発展型ガスタービン発電機 II&rからの大きなアップグレードで、&e8倍&rの燃料消費で&e8倍&rの電力を生み出す。"
+				""
+				"&6ローターホルダー&rをアップグレードすればさらに出力を上げられ、ティアごとに&e2倍&rずつ乗算で重なっていく。"
+				""
+				"ただし、&6メンテナンスハッチ&rが必要になる。"
+				""
+				"この時点で、ガスタービン用燃料として最も強力な&9ウィザー添加ガス&rも作れるようになる。"
+			]
+			icon: "gtceu:gas_large_turbine"
+			id: "7D72B3FF808CE13C"
+			progression_mode: "flexible"
+			tasks: [
+				{
+					id: "5CF9C8B149D39265"
+					item: "gtceu:gas_large_turbine"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "4967F0BFCEDB782F"
+					item: "gtceu:stainless_steel_turbine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "018B4A4FCCF4C006"
+					item: "gtceu:stainless_steel_gearbox"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4AA4FFC8D6999D40"
+					item: {
+						Count: 1
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "moni:rotor_holder"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:not"
+									tag: {
+										items: [{
+											Count: 1b
+											id: "gtceu:hv_rotor_holder"
+										}]
+									}
+								}
+							]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "254E48F08E28E45B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2664982E2F0E4FE1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:muffler_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4B102A02B05A2310"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4B92FCE6B3CBCAE7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E3CBC929557418F"]
+			description: [
+				"スチーム時代では、&eエネルギーユニット&rの代わりに&9蒸気&rを動力として使う。"
+				""
+				"対応するボイラーさえあれば、固形燃料を燃やす、液体燃料を燃やす、あるいは太陽の力を利用することで蒸気を生成できる。"
+				""
+				"3種類のボイラーはすべて、&6スチール&rが手に入れば高圧ボイラーにアップグレードでき、&9蒸気&rの生産量が2倍以上になる。"
+			]
+			hide_until_deps_visible: true
+			id: "68E87B959F6E9216"
+			optional: true
+			tasks: [
+				{
+					id: "605439A2CADCAF97"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lp_steam_solid_boiler"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_solid_boiler"
+								}
+							]
+						}
+					}
+					title: "任意の固形燃料用ボイラー"
+					type: "item"
+				}
+				{
+					id: "3841F8562D4A3EC1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lp_steam_liquid_boiler"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_liquid_boiler"
+								}
+							]
+						}
+					}
+					title: "任意の液体燃料用ボイラー"
+					type: "item"
+				}
+				{
+					id: "5439FB3F1821906B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lp_steam_solar_boiler"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_solar_boiler"
+								}
+							]
+						}
+					}
+					title: "任意のソーラーボイラー"
+					type: "item"
+				}
+			]
+			title: "蒸気発電"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BFAE16A8B131E84"]
+			id: "4B8A69BC50C60891"
+			optional: true
+			size: 0.2d
+			tasks: [{
+				id: "2026CA71AB1F0711"
+				title: " "
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1405D08C6A87B3BB"]
+			id: "6FBAD17162F9A0DD"
+			optional: true
+			size: 0.2d
+			tasks: [{
+				id: "0CD3D25A52ED3F2F"
+				title: " "
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15A5B4C632836306"]
+			id: "26D82380B5107E13"
+			optional: true
+			size: 0.2d
+			tasks: [{
+				id: "1852A862553D4C79"
+				title: " "
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D72B3FF808CE13C"]
+			id: "26B573257E13389B"
+			optional: true
+			size: 0.2d
+			tasks: [{
+				id: "5B2F5A3BD09E835A"
+				title: " "
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D10F2E538486624"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&3大型プラズマタービン&rは終盤における強力な&aEU&r発電手段だ。ただし、それなりの投資が必要になる。"
+				""
+				"大型プラズマタービン1基で、&2IVローターホルダー使用時に基本16384 EU/t&rを生み出す。"
+			]
+			icon: "gtceu:plasma_large_turbine"
+			id: "1405D08C6A87B3BB"
+			rewards: [{
+				id: "265F8AF395C89377"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5CA6A3EE3EF632F5"
+					item: "gtceu:plasma_large_turbine"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "6324614154FC58BF"
+					item: "gtceu:tungstensteel_turbine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3D5916D81DAB1BCC"
+					item: "gtceu:tungstensteel_gearbox"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2DEBD8A6A8BC0170"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:rotor_holder"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "596B8FB04A7A1632"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "000856171A15B268"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "123613F91F5DF726"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2B8B86BDA4967B87"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&2プラズマタービン"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A30472430354F1E"]
+			description: [
+				"&6ガスタービン発電機&rも序盤の&eEU&r発電の良い選択肢で、&9蒸気&rベースの発電より中盤以降への拡張性が高い。"
+				""
+				"&7LV&rの段階から&6ガスタービン発電機&rで発電を始めたいなら、最適な燃料は&6ゴムの木&rを遠心分離して得られる&9メタンガス&rだ。"
+			]
+			id: "34F0E33D33EB82E2"
+			tasks: [{
+				id: "18C84802C176E92E"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A30472430354F1E"]
+			description: [
+				"&7LV&rで燃焼による発電をするのは少し難しいが、近くに&9石油&rの噴出があるなら有利かもしれない。&6燃焼発電機&rは&9中質石油&rと&9軽質石油&rの両方を燃料にできる。"
+				""
+				"ただし、&9石油&rをそのまま燃やして発電するのはあまり効率が良くない。有効活用したいなら&9石油&rを加工しよう。"
+			]
+			id: "685330660E88E827"
+			tasks: [{
+				id: "57620380ADE48C1B"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"685330660E88E827"
+				"5C4E189A3E401566"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"発電機は新しいティアになるごとに前のティアの4倍の燃料を消費して4倍の&eEU&rを生み出すので、より良い燃料を検討しておこう。"
+				"[\"\",{\"text\":\"特に、まだ使っていないなら \"},{\"color\":\"blue\",\"underlined\":\"true\",\"text\":\"ディーゼル\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"74EDAE84246C7228\"}},{\"text\":\" を作り始めよう。\"}]"
+			]
+			id: "63B27CA5BB60B740"
+			tasks: [{
+				id: "3F91A33584716219"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"63B27CA5BB60B740"
+				"15E34DEC491FAB81"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"[\"\",{\"text\":\"この時点で、 \"},{\"underlined\":\"true\",\"text\":\"蒸留塔\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7641AE777370BE1A\"}},{\"text\":\" に手が届くはずだ。\"}]"
+				""
+				"これにより、&9石油&rから副産物を1つだけでなくすべて得られるようになる。"
+				""
+				"[\"\",{\"text\":\"この時点で、 \"},{\"color\":\"blue\",\"underlined\":\"true\",\"text\":\"ガソリン\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4C76017864258EA9\"}},{\"text\":\" か \"},{\"color\":\"blue\",\"underlined\":\"true\",\"text\":\"セタン添加ディーゼル\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0D0A0C18ED958511\"}},{\"text\":\" の生産を検討しよう。発電機が今の燃料を消費しすぎているならなおさらだ。単純な燃料より長持ちする。\"}]"
+			]
+			id: "6974AA409CC355E6"
+			tasks: [{
+				id: "3C450EE0A20FD1D5"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7976402E2E5FD625"
+				"15E34DEC491FAB81"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&6発展型蒸気タービン発電機 II&rは予想どおり、さらに多くの&9蒸気&rを消費してさらに多くの電力を生み出す。\nこの段階になると&9蒸気&rの需要が少々手に負えなくなるかもしれないので、&3スチール製大型ボイラー&3を検討するといいだろう。"]
+			id: "1B04AA7D9AEB2CFA"
+			tasks: [{
+				id: "149469B15ABAD598"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"34876F54406B6A04"
+				"5C4E189A3E401566"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&bGregTech&rで発電量を増やすには、より良い発電機を作るか、発電機の数を増やすかのどちらかだ。&6発展型蒸気タービン発電機&rは4倍の&9蒸気&rを消費する代わりに、4倍の&eEU&rを生み出す。"]
+			id: "7976402E2E5FD625"
+			tasks: [{
+				id: "04357A2098C6F6CC"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"34F0E33D33EB82E2"
+				"5C4E189A3E401566"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&bMV&rでは、より安く作れたり発電機で長持ちしたりする新しいガスが解放される。特に、この段階では&9ベンゼン&rと&9LPガス&rが良い選択肢だ。"
+				"&6発展型ガスタービン発電機&rは4倍の燃料を消費して4倍の&eEU&rを生み出すので、おそらくどちらかが必要になるだろう。"
+			]
+			id: "2BCE3E3E0B8180F7"
+			tasks: [{
+				id: "2D43432E922A6B74"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2BCE3E3E0B8180F7"
+				"15E34DEC491FAB81"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"前回と同様に、&6発展型ガスタービン発電機 II&rは前のティアのタービン4基分に相当する。"
+				""
+				"前回より良い燃料を選ばなかったなら、今度こそ必要だ。この段階では&9ニトロベンゼン&rが断トツの選択肢で、&6HV&rの&3ガスタービン&rで使える最も効率の良い燃料だ。"
+			]
+			id: "7E276DF48E9085A4"
+			tasks: [{
+				id: "23848009B2E2FE45"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["21E10888F52A3C73"]
+			id: "3DD98BBF240F54D0"
+			optional: true
+			size: 0.2d
+			tasks: [{
+				id: "5C7471C734001626"
+				title: " "
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61301FBD825F8280"]
+			description: [
+				"&3ナクアダリアクター&rは、崩壊する&6ナクアダ燃料棒&rから相当量のEU電力を生み出す構造物だ。燃料棒を作るには少量の&6オムニウム&rが必要になる。"
+				""
+				"リアクターで実行できるレシピは2種類あり、それぞれ発電量と燃料効率のバランスが異なる。"
+			]
+			icon: "gtceu:naquadah_reactor"
+			id: "425D1C34A82B054D"
+			rewards: [{
+				id: "01C277FEA61EBA19"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7890B705137B8EA5"
+					item: "gtceu:naquadah_reactor"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "2D40468415EA637F"
+					item: "gtceu:reaction_safe_mixing_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2FF2B4C219053E6A"
+					item: "ae2:spatial_pylon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "27B323E3ADED4829"
+					item: "gtceu:fusion_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4F11D4069AEF06CA"
+					item: "gtceu:trinium_coil_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4FE47BEFAE4E9E6C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "721FF89E84E9906E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:output_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "445CE7EB4B5AE481"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&9ナクアダリアクター"
+			x: 2.75d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"786AECA42F53B45A"
+				"040B3FCD82533BD9"
+			]
+			description: [
+				"燃料を供給すると、&3超次元エネルギーシンギュラリティ&rはEUベースのすべての機械とエネルギーハッチに無限のエネルギーを与え、電力を送り込んだり引き出したりする必要がなくなる。"
+				"これは&6レーザーハッチとダイナモハッチ&rにも適用されるので、AE2ネットワークや&3ディメンションスーパーアセンブラー&rを動かし続けられる。"
+				""
+				"これが稼働している間は、&3大型蓄電器&rと&3アクティブ変圧器&rが機能しなくなる点に注意。"
+				""
+				"（独自のマルチブロック機構のコードは、Ghosti氏の寛大な許可を得てCosmic Frontiersチームから拝借した。）"
+			]
+			icon: "monilabs:creative_energy_multi"
+			id: "19084E91F357C8C2"
+			size: 1.0d
+			subtitle: "工場に無限の電力を！"
+			tasks: [{
+				id: "0312D4E6C4C1C552"
+				item: "monilabs:creative_energy_multi"
+				type: "item"
+			}]
+			title: "&9クリエイティブ電力"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"15607184B546F5EE"
+				"22E50A6923EBF5CB"
+				"4E9530E62A4B673B"
+				"425D1C34A82B054D"
+			]
+			description: [
+				"&3大型ナクアダリアクター&rは強化版のリアクターで、液体の&6ナクアダ燃料&rを燃やして莫大なEUエネルギーを生み出せる。これらの燃料は燃料棒より複雑だが、その見返りに膨大な電力を生み出す。"
+				""
+				"コイルに必要な&6トリタニウム&rをすべて作るには、かなりしっかりした核融合インフラが必要になる。"
+			]
+			icon: "gtceu:large_naquadah_reactor"
+			id: "21E10888F52A3C73"
+			rewards: [{
+				id: "50D8FC0D09DC8FDC"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51C99B20F637AA2C"
+					item: "gtceu:large_naquadah_reactor"
+					type: "item"
+				}
+				{
+					count: 170L
+					id: "735C1733E96029C6"
+					item: "gtceu:atomic_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 96L
+					id: "264506E3BF561E65"
+					item: "gtceu:fusion_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 72L
+					id: "0CDC3230F8226D66"
+					item: "gtceu:tritanium_coil_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "1454471FB0635EF4"
+					item: "gtceu:high_temperature_smelting_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "531672A1EA9FE108"
+					item: "ae2:spatial_pylon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "4997B8A1A60256C5"
+					item: "gtceu:heat_vent"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "552162424282713A"
+					item: "gtceu:fusion_coil"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "5E6F1984D122A181"
+					item: "gtceu:naquadah_alloy_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7043FBE6B2CDA7FD"
+					item: "gtceu:tungsten_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "18055674BE83C339"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "78CF01BB53CA4768"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&9大型ナクアダリアクター"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"062B4DDD703338D1"
+				"113E9543ADB1666B"
+			]
+			description: [
+				"&3反物質衝突機&rは、輸送しきれないほどのエネルギーを生み出せる大型マルチブロックだ。"
+				""
+				"&6反物質燃料&rと、2種類の衝突材&6ニュートロニウム&rまたは&6エルツ&rのいずれかとの対消滅からエネルギーを得る。"
+				""
+				"衝突機を建設する際は、&6ネザライト製外装&rのリングごとに専用の液体入力ハッチが必要で、単一液体ハッチしか受け付けない点に注意。"
+				"{@pagebreak}"
+				"&c衝突機をオンにすると、両方のハッチ内の液体はすべて絶えず消費される。&r物質と反物質が同量ずつ消費されるとエネルギーが生成され、衝突材をまとめて大量に投入するとボーナス倍率がかかる。"
+				""
+				"&eどちらかの液体の余剰分は消滅する&r。ダイナモ/レーザーハッチに収まりきらないエネルギーは&e失われる&r。"
+			]
+			icon: "gtceu:antimatter_collider"
+			id: "5EE2338113F22952"
+			optional: true
+			tasks: [
+				{
+					id: "0AFCD5A8CB53424F"
+					item: "gtceu:antimatter_collider"
+					type: "item"
+				}
+				{
+					count: 202L
+					id: "4E7968B0C145FFD2"
+					item: "gtceu:atomic_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 163L
+					id: "5D19F043CA2830BB"
+					item: "monilabs:dimensional_stabilization_netherite_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 55L
+					id: "1CDD1BC04403A6A6"
+					item: "gtceu:superconducting_coil"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "649E69133E0FB4A6"
+					item: "gtceu:fusion_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 136L
+					id: "72B341D3FFB75DFD"
+					item: "gtceu:hsse_frame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "403A7248D61807FB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "2376BF2FB1E854F0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "69008CFFD19026C7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&9反物質衝突機"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EE2338113F22952"]
+			id: "4834AF5189F0AB37"
+			optional: true
+			size: 0.2d
+			tasks: [{
+				id: "34DF3E0D12FE0A8D"
+				type: "checkmark"
+			}]
+			title: " "
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C4E189A3E401566"]
+			description: [
+				"&9蒸気&rから先へ進みたいが、&3燃焼発電機&rや&3ガスタービン&rがあまり好きではないなら、Monifactoryには第3の選択肢として&3ラポトロニック発電機&rもある。"
+				""
+				"これを使えば&e宝石から電力を生み出せる&r。今のところ使えるのは&6トパーズ&r、&6ダイヤモンド&r、&6エメラルド&rだが、後でより良い燃料も使えるようになる。"
+			]
+			id: "3467DBD5B3D84F51"
+			tasks: [{
+				id: "0A6DF2A9B9BC5EC6"
+				item: "monilabs:mv_lapotronic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3467DBD5B3D84F51"
+				"15E34DEC491FAB81"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6発展型ラポトロニック発電機 II&rは宝石を&e4倍&rの速さで燃やす代わりに、&e4倍&rのEU/tを生み出す。結果として、宝石1個あたりの総EUは変わらない。"
+				""
+				"&6HV&rで&6マイクロマイナー&rが使えるようになると、さまざまな宝石の生産を自動化できる。特に、&6エナジウム&rと&6ラポトロン&rの宝石は、単純な宝石よりも加工度の高い代替燃料だ。"
+			]
+			id: "2FA11287735CE67F"
+			tasks: [{
+				id: "5A04194846F29AED"
+				item: "monilabs:hv_lapotronic"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2FA11287735CE67F"
+				"785C6332FC7A07A5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"大型ラポトロニック発電機は、&6HV&rラポトロニック発電機を&5EV&rにアップグレードしたようなものだが、いくつか違いがある。"
+				""
+				"まず、マルチブロックであること。つまり場所を多く取り、&6メンテナンスハッチ&rが必要で、チタンもかなりの量を消費する。"
+				""
+				"次に、通常のラポトロニック燃料に加えて少量の&9液体レッドストーン&rも消費すること。"
+				""
+				"そして、ごく少量の&9原初のマナ&rで過給すると、&e2A&r分の燃料で&e3A&rの&5EV&rを生み出せること。"
+			]
+			icon: "monilabs:large_lapotronic_generator"
+			id: "7EC8FB68BD2AB417"
+			tasks: [
+				{
+					id: "30F87C1F36EF0136"
+					item: "monilabs:large_lapotronic_generator"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5C10B8D78F60E258"
+					item: { Count: 6, id: "gtceu:stable_machine_casing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "322EA160CAD9AC64"
+					item: { Count: 2, id: "gtceu:titanium_gearbox" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "7454C711D2F19706"
+					item: { Count: 20, id: "monilabs:energetic_titanium_casing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A795B80331A8962"
+					item: { Count: 4, id: "gtceu:titanium_frame" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1557ED0AD97AD3E2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64C1BCDCA013452D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "315F0560311C1BE7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7EC8FB68BD2AB417"
+				"605062720747B482"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"発展型ラポトロニック発電機は大型ラポトロニック発電機の直接的な上位版だ。"
+				""
+				"他の発電機のアップグレードと同様に&e4倍&rの燃料で&e4倍&rの電力を生み出すが、&9液体レッドストーン&rの消費量は変わらない。"
+				""
+				"さらに、&9原初のマナ&rによる過給の効率がさらに上がり、&e2A&r分の燃料で&e4A&rの&9IV&rを生み出す。"
+			]
+			icon: "monilabs:extreme_lapotronic_generator"
+			id: "11CF72393601F450"
+			tasks: [
+				{
+					id: "653ECF6D0B4EC32F"
+					item: "monilabs:extreme_lapotronic_generator"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "459928CD1EF289CD"
+					item: { Count: 6, id: "gtceu:robust_machine_casing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0174D69C294267A3"
+					item: { Count: 2, id: "gtceu:tungstensteel_gearbox" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "463A26F2B638923D"
+					item: { Count: 20, id: "monilabs:lapotronic_tungstensteel_casing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5183C056B8D157BD"
+					item: { Count: 4, id: "gtceu:tungsten_steel_frame" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F69DD8612BD4338"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F7BDDB4E6F31918"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:input_bus"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36F7F8F62814B2D1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:dynamo_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11CF72393601F450"]
+			id: "3E9842ABB6C5B16A"
+			optional: true
+			size: 0.2d
+			tasks: [{
+				id: "661057768850D9B1"
+				type: "checkmark"
+			}]
+			title: " "
+			x: 2.5d
+			y: -4.0d
+		}
+	]
+	title: "発電"
+}

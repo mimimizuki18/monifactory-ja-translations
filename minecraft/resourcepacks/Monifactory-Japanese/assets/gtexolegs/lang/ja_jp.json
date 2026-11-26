@@ -1,0 +1,19 @@
+{
+  "config.gtexolegs.option.flightSpeedModifiers": "flightSpeedModifiers",
+  "config.gtexolegs.option.jumpBoostModifiers": "jumpBoostModifiers",
+  "config.gtexolegs.option.movementSpeedMultipliers": "movementSpeedMultipliers",
+  "config.gtexolegs.option.stepHeightModifiers": "stepHeightModifiers",
+  "curios.identifier.exoskeleton_legs": "外骨格レッグ",
+  "gtexolegs.tooltip.disabled": "オフ",
+  "gtexolegs.tooltip.enabled": "オン",
+  "gtexolegs.tooltip.flight_modifier": "飛行補正: %s",
+  "gtexolegs.tooltip.help1": "スニーク+右クリックで選択中のモードを切り替え",
+  "gtexolegs.tooltip.help2": "スニーク+スクロールで選択を変更",
+  "gtexolegs.tooltip.jump_boost": "ジャンプブースト: %s",
+  "item.gtexolegs.ev_exoskeleton_legs": "EV外骨格レッグ",
+  "item.gtexolegs.hv_exoskeleton_legs": "HV外骨格レッグ",
+  "item.gtexolegs.iv_exoskeleton_legs": "IV外骨格レッグ",
+  "item.gtexolegs.lv_exoskeleton_legs": "LV外骨格レッグ",
+  "item.gtexolegs.mv_exoskeleton_legs": "MV外骨格レッグ",
+  "itemGroup.gtexolegs.creative_tab": "GT外骨格レッグ"
+}

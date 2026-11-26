@@ -1,0 +1,12 @@
+{
+  "category.climbladdersfast.options": "ClimbLaddersFast",
+  "climbladdersfast.toggle.disabled": "ClimbLaddersFast 無効",
+  "climbladdersfast.toggle.enabled": "ClimbLaddersFast 有効",
+  "key.climbladdersfast.toggle": "有効／無効を切り替え",
+  "text.autoconfig.climbladdersfast.option.climbDownSpeed": "登る速度（下）",
+  "text.autoconfig.climbladdersfast.option.climbUpSpeed": "登る速度（上）",
+  "text.autoconfig.climbladdersfast.option.disableScaffoldingCollision": "足場の当たり判定を無効化",
+  "text.autoconfig.climbladdersfast.option.disableScaffoldingFastClimbing": "足場の高速登りを無効化",
+  "text.autoconfig.climbladdersfast.option.disableVinesFastClimbing": "ツタの高速登りを無効化",
+  "text.autoconfig.climbladdersfast.title": "ClimbLaddersFast"
+}

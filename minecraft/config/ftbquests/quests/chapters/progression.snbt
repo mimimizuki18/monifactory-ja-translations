@@ -1,0 +1,4051 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "progression"
+	group: "0D5BFFD0A5E49312"
+	icon: "minecraft:writable_book"
+	id: "395B849AC6294153"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A30472430354F1E"]
+			dependency_requirement: "one_completed"
+			description: [
+				"この行の回路は&7LV&rで、レシピではすべて相互に代用できる。"
+				""
+				"&6電子回路&rはコストと製作の手間の面では最悪だが、何かから始めなければならない。"
+				""
+				"&6集積回路&rは、電子回路と&6マイクロプロセッサ&rの間の中央の列だ。"
+				""
+				"そして最後にマイクロプロセッサ。これが最も手間がかからない。"
+			]
+			id: "5B6811964444497F"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "5CC360480ECB69E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: "kubejs:lv_universal_circuit"
+				id: "6DFE042FD9FCC8D1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/lv"
+					}
+				}
+				title: "任意の #gtceu:circuits/lv"
+				type: "item"
+			}]
+			title: "&7LV&r回路"
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B639F4061B00F1A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"この行の回路は&bMV&rで、レシピではすべて相互に代用できる。"
+				""
+				"パターンは同じだ。右端の回路ほど一度に多く作れて、全体的に製作も楽になる。"
+			]
+			id: "1510DC51CDC3F609"
+			rewards: [{
+				id: "19D2362986C4A604"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: "kubejs:mv_universal_circuit"
+				id: "51CD461474675310"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/mv"
+					}
+				}
+				title: "任意の #gtceu:circuits/mv"
+				type: "item"
+			}]
+			title: "&bMV&r回路"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6169C04DF463502F"]
+			dependency_requirement: "one_completed"
+			description: [
+				"この行の回路は&6HV&rで、レシピではすべて相互に代用できる。"
+				""
+				"パターンは同じだ。右端の回路ほど一度に多く作れて、全体的に製作も楽になる。"
+			]
+			id: "01CC71429CFCAE0B"
+			rewards: [{
+				id: "5B1E3663222FD07B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: "kubejs:hv_universal_circuit"
+				id: "75DC170D1A2B3236"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/hv"
+					}
+				}
+				title: "任意の #gtceu:circuits/hv"
+				type: "item"
+			}]
+			title: "&6HV&r回路"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E09D4E00BFA4970"]
+			dependency_requirement: "one_completed"
+			description: [
+				"この行の回路は&5EV&rで、レシピではすべて相互に代用できる。"
+				""
+				"パターンは同じだ。右端の回路ほど一度に多く作れて、全体的に製作も楽になる。"
+			]
+			id: "22B3F2351CB4B7D8"
+			rewards: [{
+				id: "08C1BE8B4DB28C99"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: "kubejs:ev_universal_circuit"
+				id: "53B9C726DD479B51"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/ev"
+					}
+				}
+				title: "任意の #gtceu:circuits/ev"
+				type: "item"
+			}]
+			title: "&5EV&r回路"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39FD6F1076559156"]
+			dependency_requirement: "one_completed"
+			description: [
+				"この行の回路は&9IV&rで、レシピではすべて相互に代用できる。"
+				""
+				"パターンは同じだ。右端の回路ほど一度に多く作れて、全体的に製作も楽になる。"
+			]
+			id: "2179B83440CEF343"
+			tasks: [{
+				icon: "kubejs:iv_universal_circuit"
+				id: "4FBA73EEA5437DC6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/iv"
+					}
+				}
+				title: "任意の #gtceu:circuits/iv"
+				type: "item"
+			}]
+			title: "&9IV&r回路"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DB622A78605A2EB"]
+			dependency_requirement: "one_completed"
+			description: [
+				"この行の回路は&dLuV&rで、レシピではすべて相互に代用できる。"
+				""
+				"パターンは同じだ。右端の回路ほど一度に多く作れて、全体的に製作も楽になる。"
+				""
+				"LUVじゃなくてLuVだ。"
+			]
+			hide_dependency_lines: false
+			id: "536CEDA3142BCE63"
+			tasks: [{
+				icon: "kubejs:luv_universal_circuit"
+				id: "42DE11F1A04B0B97"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/luv"
+					}
+				}
+				title: "任意の #gtceu:circuits/luv"
+				type: "item"
+			}]
+			title: "&dLuV&r回路"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["521977C7165229F1"]
+			dependency_requirement: "one_completed"
+			description: ["この行の回路は&cZPM&rで、レシピではすべて相互に代用できる。"]
+			disable_toast: true
+			id: "0472A05CFBF4A2F0"
+			tasks: [{
+				icon: "kubejs:zpm_universal_circuit"
+				id: "29F9B9784EDCAC70"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/zpm"
+					}
+				}
+				title: "任意の #gtceu:circuits/zpm"
+				type: "item"
+			}]
+			title: "&cZPM&r回路"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["115B96B2092D671E"]
+			dependency_requirement: "one_completed"
+			description: ["この行の回路は&3UV&rで、レシピではすべて相互に代用できる。"]
+			id: "519A11FDC6A7EF21"
+			tasks: [{
+				icon: "kubejs:uv_universal_circuit"
+				id: "5D3D61A04CC17374"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/uv"
+					}
+				}
+				title: "任意の #gtceu:circuits/uv"
+				type: "item"
+			}]
+			title: "&3UV&r回路"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01E542E1C9DAF5B4"]
+			dependency_requirement: "one_completed"
+			description: ["この行の回路は&4UHV&rで、レシピではすべて相互に代用できる。"]
+			id: "0C50D78D8F63CAFE"
+			tasks: [{
+				icon: "kubejs:uhv_universal_circuit"
+				id: "23886E0727C34288"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/uhv"
+					}
+				}
+				title: "任意の #gtceu:circuits/uhv"
+				type: "item"
+			}]
+			title: "&4UHV&r回路"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["077AA27F26B7831F"]
+			description: [
+				"&o注: このクエストは任意の電圧のパワーユニットを受け付ける(LV、MV、HV、EV \\& IV)。&r"
+				""
+				"&bGregTech &6蓄電&rが解放されたので、GTの電動工具用の&aパワーユニット&rを作れるようになった。"
+				""
+				"&2LVティアのドリルは3x3x1、MVティアのドリルは3x3x3の範囲のブロックを採掘できる。"
+				""
+				"さらに上のティアのドリルなら5x5x5、7x7x7、9x9x9の範囲を採掘できる！ Shift + 右クリックで破壊範囲を変更できる。&r"
+				""
+				"適切なティアの&6バッテリー&rか、適切なティアの&3機械&r、&3蓄電器&r、&3高速充電器&rで充電しよう。 "
+				""
+				"大量の伐採には&6チェーンソー&r、機械を素早く壊すには&6レンチ&rも検討するといい。その他の電動工具はおそらく作る価値はない。"
+			]
+			id: "2280472741683581"
+			tasks: [{
+				id: "028CED757315461B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_power_unit"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_power_unit"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_power_unit"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_power_unit"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_power_unit"
+							}
+						]
+					}
+				}
+				title: "任意のパワーユニット"
+				type: "item"
+			}]
+			title: "GregTechの電動工具"
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2E8BFA2E719B1C47"]
+			dependency_requirement: "all_started"
+			description: ["物を運ぼう。"]
+			disable_toast: true
+			id: "3270496124969A51"
+			tasks: [{
+				id: "204DF036220B3222"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "バックパック"
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0A9BC922CF76F48A"
+				"7DB174443D7FAFA0"
+			]
+			description: ["&3&l&o&nもっとたくさん&rの物を運ぼう。"]
+			disable_toast: true
+			id: "6DEA5CE28A667453"
+			tasks: [{
+				id: "12C73A9D54273F41"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "レゾナントリュックサック"
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3F6EDC2481D5877F"
+				"2C89DAD26E08E382"
+			]
+			dependency_requirement: "all_started"
+			description: ["&oもっとたくさん&rの物を運ぼう。"]
+			icon: {
+				Count: 1
+				id: "sophisticatedbackpacks:iron_backpack"
+				tag: {
+					contentsUuid: [I;
+						890972236
+						1590249428
+						-1212807776
+						575640463
+					]
+					inventorySlots: 54
+					upgradeSlots: 2
+				}
+			}
+			id: "1F976B197DEFF654"
+			rewards: [{
+				id: "704ED841DA5BC038"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F9D573211B5B2FB"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						contentsUuid: [I;
+							890972236
+							1590249428
+							-1212807776
+							575640463
+						]
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "ハーデンドリュックサック"
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3AB0402B19DD5BA8"
+				"1F976B197DEFF654"
+			]
+			description: ["&o&lもっとたくさん&rの物を運ぼう。"]
+			disable_toast: true
+			id: "503CA19637471E6E"
+			rewards: [{
+				id: "68A04B6D946072DA"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AE450006E9274BE"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						contentsUuid: [I;
+							-2079088966
+							795101541
+							-1099241216
+							-1042767112
+						]
+						inventorySlots: 81
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "レインフォースドリュックサック"
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"27A80F018F59EF1E"
+				"503CA19637471E6E"
+			]
+			description: ["&l&o&nもっとたくさん&rの物を運ぼう。"]
+			disable_toast: true
+			id: "0A9BC922CF76F48A"
+			shape: "square"
+			tasks: [{
+				id: "76D574F61E10C5A2"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						contentsUuid: [I;
+							1998719540
+							-2126561006
+							-1970026112
+							791982398
+						]
+						inventorySlots: 108
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			title: "シグナルムリュックサック"
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3B3F46345D39CAE2"
+				"544E87F5E356FE10"
+				"044553423097C3C7"
+			]
+			description: [
+				"&6RTM合金&rは&6ルテニウム&r(Ruthenium)、&6タングステン&r(Tungsten)、&6モリブデン&r(Molybdenum)の合金で、名前はそこから来ている。"
+				""
+				"この合金は&3電気高炉&rで焼き上げ、&3真空冷却機&rで冷却する。"
+				""
+				"今のところ、&6ルテニウム&rは&6白金族汚泥&rから加工して得る必要がある。"
+			]
+			disable_toast: true
+			id: "5D0A642048AF909B"
+			rewards: [{
+				id: "3B897E2EDE9863CC"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B62381FBD08C4A9"
+				item: "gtceu:rtm_alloy_ingot"
+				type: "item"
+			}]
+			title: "RTM合金"
+			x: 20.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5D0A642048AF909B"]
+			description: [
+				"&6RTM合金&rは4番目に使えるコイル素材で、&3電気高炉&rの動作温度を&a4500&rKに引き上げ、より高度な素材を加工できるようにする。"
+				""
+				"このコイルがあれば、&9IV&r機械に必要な&6タングステンスチール&rや、&3合金溶融高炉&rに必要な&6炭化タンタル&rを製錬できる。"
+			]
+			disable_toast: true
+			id: "6DC635766CD40FFF"
+			rewards: [{
+				id: "1E12312DDA4B31D0"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "7C94792375FF4CAB"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			title: "RTM合金コイルブロック"
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06E9B9DDDB245F38"]
+			description: [
+				"この時点で&6ジェットパック&rを考えるのは少し早すぎるだろうが、どうしてもこのイカしたやつを作りたいなら止めはしない。"
+				""
+				"&bEnder IO&rのジェットパックのクエストチェーンもある(&6電導鉄ジェットパック&rから始まる)。いずれは両方作る必要があるが、それはずっと先の話なので、飛ぶのが&oとても&r好きでない限り、少なくとも片方のクエストチェーンは無視して構わない。"
+			]
+			disable_toast: true
+			id: "712023557B5B1812"
+			subtitle: "空を飛べるのは最高だ。ただし、お値段もなかなかのものだ。"
+			tasks: [{
+				id: "0AEBB08D9E593A5B"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:leadstone"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7842EC1C389C4B7E"]
+			description: [
+				"空を飛べるのはいいものだ。これは&bEnder IO&rの素材を使う最初のジェットパックだ。"
+				""
+				"&bThermal Expansion&rのジェットパックのクエストチェーンもある(&6鉛石ジェットパック&rから始まる)。いずれは両方作る必要があるが、それはずっと先の話なので、飛ぶのが&oとても&r好きでない限り、少なくとも片方のクエストチェーンは無視して構わない。"
+			]
+			disable_toast: true
+			id: "6ABF927014F8B79D"
+			rewards: [{
+				id: "62368D332C0269E6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31C521D0A2BB2C03"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:conductive_iron"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"64F45D98FA48D834"
+				"6ABF927014F8B79D"
+				"1AA0A089DCA17FC8"
+				"273F3F8DD6A3DCC5"
+			]
+			description: ["速く飛べるのはいいものだ。"]
+			disable_toast: true
+			id: "7B1D349ADD9D1140"
+			rewards: [{
+				id: "49D423562296D2C1"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "201BBD5AAF78AE0C"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:electrical_steel"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "アイアンマン2"
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"0607A59215F0F8B3"
+				"7B1D349ADD9D1140"
+			]
+			description: ["もっと速く飛べるのは、さらにいい。"]
+			disable_toast: true
+			id: "15A43AB700CADF2D"
+			rewards: [{
+				id: "3D990FB80B9FA05C"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7F66940735049C04"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:energetic"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "アイアンマン3"
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1CA6D620309F2B9E"
+				"3BD20358F137E7C6"
+				"712023557B5B1812"
+				"3F6EDC2481D5877F"
+			]
+			description: ["より良い飛行。"]
+			disable_toast: true
+			id: "4542BF5E00FCBEA1"
+			tasks: [{
+				id: "60D1C9D97E874348"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:hardened"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"28854E7AC91786E9"
+				"15A43AB700CADF2D"
+			]
+			description: [
+				"&aエンジェルリング&rは実はジェットパックより遅いが、クリエイティブ飛行ができて燃料も不要だ。"
+				""
+				"普段使いでジェットパックの代わりにこれを使うかどうかは自由だが、どちらのジェットプレートの材料にもなるので、ジェットプレートが欲しいならいずれは作る必要がある。"
+			]
+			disable_toast: true
+			id: "2923E98849358E16"
+			rewards: [{
+				count: 2
+				id: "44AA63D5750C74A0"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			subtitle: "MCUネタが尽きてきた。"
+			tasks: [{
+				id: "1E1C020C525B7F47"
+				item: "better_angel_ring:angel_ring"
+				type: "item"
+			}]
+			title: "キャプテン…マーベル？ 知らんけど"
+			x: 14.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F5BB99060FF03AC"]
+			description: ["このティアには特に変わったところはない。"]
+			id: "4EB9D1ADC4814330"
+			shape: "hexagon"
+			tasks: [{
+				id: "2AAFA7BC6C6517A8"
+				item: "kubejs:optical_processor_computer"
+				type: "item"
+			}]
+			title: "2番目のティア9回路"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4EB9D1ADC4814330"
+				"7AF06CB391779388"
+			]
+			description: ["初めての&aUEV&r回路。この回路ティアで、現実の法則を曲げる技術の驚異への扉が開かれた。"]
+			id: "07057CDE4E021BA7"
+			shape: "hexagon"
+			tasks: [{
+				id: "6F4F2E13D73644F0"
+				item: "kubejs:optical_processor_mainframe"
+				type: "item"
+			}]
+			title: "最初のティア10回路"
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0C9A9F33EEA3AB5E"]
+			description: [
+				"マイクロバースの破片の中で&6光学回路&rを組み立てるのはかなり難しく安定しないが、それをやり遂げることが完璧な回路、&6超次元処理メインフレーム&rを組み立てる鍵となる。"
+				""
+				"&6光学超次元CPUコア&rは非常に繊細で、完全に失敗する確率があるので、自動化には工夫が必要になる。"
+				""
+				"超次元処理メインフレームは、後に続く回路系統が存在せず、そのため他の種類のティア11回路が存在しないという点で唯一無二だ。"
+			]
+			icon: "kubejs:extradimensional_processor_mainframe"
+			id: "5601A05D8361551D"
+			shape: "hexagon"
+			subtitle: "最後の回路！"
+			tasks: [
+				{
+					id: "7C6BFAE0BEAADEA4"
+					item: "kubejs:extradimensional_processor_mainframe"
+					type: "item"
+				}
+				{
+					id: "048CCB901FDAB594"
+					item: "kubejs:extradimensional_optical_cpu_core"
+					type: "item"
+				}
+			]
+			title: "最初の(そして唯一の)ティア11回路"
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["248ABB7F26EB72EE"]
+			description: ["この時点で、まだ回路レシピに複数の&3組立ライン&rを使っていないなら、本当に使うべきだ。"]
+			id: "6F5BB99060FF03AC"
+			shape: "hexagon"
+			tasks: [{
+				id: "621B8C0DD18BFA3A"
+				item: "kubejs:optical_processor_assembly"
+				type: "item"
+			}]
+			title: "3番目のティア8回路"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0F56F4E642BC2B85"
+				"44E2C12FC4C26CA9"
+				"3E1A349F989835F7"
+			]
+			description: [
+				"&6光学回路&rとそれ以降の回路は、これまでの回路系統よりはるかに高価で、色彩処理されたチップが必要になる(おいしそう)。"
+				""
+				"だが、それでくじけないように。工場に加えられる便利なツールがたくさん解放される。"
+			]
+			id: "248ABB7F26EB72EE"
+			shape: "hexagon"
+			tasks: [{
+				id: "58B3E75584D6D2D6"
+				item: "kubejs:optical_processor"
+				type: "item"
+			}]
+			title: "4番目にして最後のティア7回路"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5601A05D8361551D"]
+			description: ["&cMAX&r電圧には固有の機械がなく、その回路の主な用途は&cMAX&6エネルギーハッチ&rと&6クリエイティブクアンタムチェスト&rのクラフトだ。"]
+			disable_toast: true
+			id: "11FDFB08CD48D66E"
+			subtitle: "ただ一つだけ！"
+			tasks: [{
+				id: "703CDB7D8BF05A55"
+				item: "kubejs:extradimensional_processor_mainframe"
+				type: "item"
+			}]
+			title: "&cMAX&r回路"
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["07057CDE4E021BA7"]
+			dependency_requirement: "one_completed"
+			description: ["この行の回路は&aUEV&rで、レシピではすべて相互に代用できる。"]
+			id: "0B923E8ED6161CA8"
+			tasks: [{
+				icon: "kubejs:uev_universal_circuit"
+				id: "19787E3988B87A4B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:circuits/uev"
+					}
+				}
+				type: "item"
+			}]
+			title: "&aUEV&r回路"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3D7924B550A1BBA0"
+				"2D5677EA9F47AA83"
+			]
+			description: ["&6ウェットウェア&rの生体工学技術と非ユークリッド空間を組み合わせることで、&6超次元スーパーコンピュータ&rを組み立てられる。"]
+			icon: "kubejs:extradimensional_processor_computer"
+			id: "0C9A9F33EEA3AB5E"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "12DD7DF8ACAA29E5"
+					item: "kubejs:extradimensional_processor_computer"
+					type: "item"
+				}
+				{
+					id: "31999739A550EC84"
+					item: "kubejs:extradimensional_wetware_cpu_core"
+					type: "item"
+				}
+			]
+			title: "2番目のティア10回路"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A8D2BFAF02E6325"]
+			description: ["&6クリスタル回路&rの部品を小型のポケット次元に詰め込むことで、超次元演算をさらに推し進め、&6超次元演算処理装置&rが解放される。"]
+			icon: "kubejs:extradimensional_processor_assembly"
+			id: "3D7924B550A1BBA0"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "36FE3694B99326BE"
+					item: "kubejs:extradimensional_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "314C441E018FECFD"
+					item: "kubejs:extradimensional_crystal_cpu_core"
+					type: "item"
+				}
+			]
+			title: "3番目のティア9回路"
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7979D07FBDC6D170"
+				"1E36AFB19932C805"
+			]
+			description: [
+				"&6量子回路&rの部品をまとめて小型化したマイクロバースに入れ、処理ユニットに取り付けることで、最高の&3UV&r回路である&6超次元プロセッサー&rを作れる。注意しよう。この回路系統では、マイクロバース管理の腕前とこれまでの回路インフラの両方が試される。"
+				""
+				"&6複合SMD部品&rが必須になった。"
+			]
+			icon: "kubejs:extradimensional_processor"
+			id: "5A8D2BFAF02E6325"
+			shape: "hexagon"
+			subtitle: "終わりの始まり"
+			tasks: [
+				{
+					id: "3EFB11DA4735807C"
+					item: "kubejs:extradimensional_processor"
+					type: "item"
+				}
+				{
+					id: "458917A66AD96AD5"
+					item: "kubejs:extradimensional_quantum_cpu_core"
+					type: "item"
+				}
+			]
+			title: "4番目にして最後のティア8回路"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A07988F5AD20A06"]
+			description: ["前述の回路基板から作られるこれらの処理ユニットは、&6光学回路&rの作成に使う。"]
+			id: "0F56F4E642BC2B85"
+			shape: "hexagon"
+			tasks: [{
+				id: "0AB88809F545701F"
+				item: "kubejs:optical_processing_unit"
+				type: "item"
+			}]
+			title: "光学処理ユニット"
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"434142F777A2CCBE"
+				"7EE334D3AA1E68ED"
+				"07057CDE4E021BA7"
+			]
+			description: ["最後の処理ユニット。小型化されたマイクロバースを格納し、干渉できる。これらは&6次元回路&rの作成に使う。"]
+			id: "7979D07FBDC6D170"
+			shape: "hexagon"
+			tasks: [{
+				id: "3B038F650DFA2526"
+				item: "kubejs:extradimensional_processing_unit"
+				type: "item"
+			}]
+			title: "超次元処理ユニット"
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7FA0E6F3B466576C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"「&e基板&f」とは回路基板の「板」の部分、つまり回路部品や配線を載せる土台のことだ。良い基板は電気を通さないことが求められる。理由は言うまでもないだろう。&6粘性樹脂&rでコーティングした&6木材&rは原始的だが効果的な素材で、最初の基板にぴったりだ。"
+				""
+				"&6真空管&fと、原始的な&6レジスター&rも作る必要がある。今のところ、これらの素材には&6紙&rが使える。"
+			]
+			disable_toast: true
+			icon: "gtceu:resistor"
+			id: "77670BF761084AA2"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "13A372F129FDA834"
+					item: { Count: 2, id: "gtceu:resistor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C0032543C33E7C4"
+					item: { Count: 2, id: "gtceu:vacuum_tube" }
+					type: "item"
+				}
+				{
+					id: "5B77C0720124E339"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+			]
+			title: "電子部品"
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"77670BF761084AA2"
+				"12B95158E4C792DB"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&2ここで&bEMI&2が真価を発揮する！&3クラフトステーション&2と併用すれば、これらの回路を素早く&e一括クラフト&2するのに必要な原材料と中間部品の量を簡単に計算できるはずだ。"
+				""
+				"回路はとにかく大量に&r作ることになるので、効率の良くなったクラフトを活用しよう。"
+			]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "1A30472430354F1E"
+			rewards: [{
+				id: "612CF68E652F97BB"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "部品がすべて揃ったら、&6電子回路&rをクラフトしよう。"
+			tasks: [{
+				count: 32L
+				id: "5DED56006806D2E0"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "初めての回路"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71C7B47DC85AA016"]
+			description: [
+				"&6フェノール樹脂製基板&rは、回路の製造に使う前に&6銀&rを使って&6回路基板&rにする必要がある。"
+				""
+				"&9過硫酸ナトリウム&rと&9塩化鉄(III)&rは今の段階では入手が面倒かもしれないが、回路基板の作成に使えば必要な銀の量が4分の1になる。"
+			]
+			id: "3650EF39B5AB4A7D"
+			rewards: [{
+				id: "65C2484EFBE6EABF"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72B2FF13E22BB59D"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			title: "改良型回路基板"
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"591A1B8B279DFCC9"
+				"3650EF39B5AB4A7D"
+				"1A30472430354F1E"
+			]
+			description: [
+				"最初の&6ティア2回路&rには、&6ティア1回路&r3つと&6ダイオード&r2つが必要だ。"
+				""
+				"これらはかなり高価だ。&2回路をもっと安く作る方法を常に探そう&r。新しいティアの&3回路作成機&rを作るたびに、新しいレシピ群が解放される。都合のいいことに、このティアの回路でちょうど1つ解放できる！"
+			]
+			id: "3B639F4061B00F1A"
+			rewards: [{
+				id: "3FD01D71900EF1B8"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "77CB9A4736F25B3E"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "最初のティア2回路"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3E42B4AAA6D2A05B"
+				"3B639F4061B00F1A"
+			]
+			description: [
+				"&3回路作成機&rは工場の要であり、&6回路&rを通じて進行を制限している。 "
+				""
+				"回路作成機を新しい電圧にアップグレードするたびに、より高度な&eテーマ&rの回路をクラフトできるようになる。これらはより複雑な材料と新しい設備を必要とするが、前のテーマの同じティアの回路よりも全体的に効率よく作れる。"
+				""
+				"&2LV回路作成機があれば、電子回路をずっと簡単に作れる。"
+				""
+				"回路の進行はおおむね GTm 本来の進行に基づいているが、このパックの進行に合わせていくつか小さな変更を加えている。&r回路の進行の流れは&b進行のクエストブックタブ&rで確認しよう。"
+			]
+			id: "73F8EA8E7DCC94E9"
+			rewards: [{
+				id: "75E125C7B1824D45"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "ピック・アンド・プレース"
+			tasks: [{
+				id: "7E8AC4BB3E3E0461"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			title: "&7LV&r回路作成機"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7AA5FD63FA3BA43C"
+				"73F8EA8E7DCC94E9"
+			]
+			description: [
+				"&7LV&rの&6集積回路&rは&6電子回路&rより量産しやすいようには見えないかもしれないが、最初の&6HV&r回路である&6発展型集積回路&rの作成に必要だ。"
+				""
+				"それ以外の点では、同じ役割を果たす。"
+			]
+			id: "27FAD6A8FCFAB543"
+			rewards: [{
+				id: "376E9B173964B751"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10446BB3B28E6852"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			title: "2番目のティア1回路"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27FAD6A8FCFAB543"]
+			description: ["&6基本型集積回路&r2つと様々な部品から&6改良型集積回路&rが作れる。"]
+			id: "2AC61192BCD459F2"
+			rewards: [{
+				id: "447C6A40A5BA0F42"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "79F0CB314856AC60"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			title: "2番目のティア2回路"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"13035465E07E34CF"
+				"6C8DE5DC18CDADF0"
+				"2AC61192BCD459F2"
+			]
+			description: [
+				"最初の&6HV&r回路。&6改良型集積回路&r2つ、&6RAM&r、&6トランジスタ&rなどから作られる。"
+				""
+				"お決まりのパターンだと気づくだろうが、各ティアの回路の最初の形態は高価で作りにくい。幸い、たくさん作る必要はない。"
+				""
+				"&2これらの回路は、次のテーマの回路を解放するために必要なものの作成に優先して使おう。次のテーマはより多くの設備が必要だが、ずっと安く作れる。&rいずれは、ティア8までの各回路ティアにプロセッサーのレシピが用意され、演算装置、スーパーコンピューター、メインフレームが不要になる。"
+			]
+			id: "6169C04DF463502F"
+			rewards: [{
+				id: "1FCF84D3A795B4E8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "402CCF0A967F4FA7"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			title: "最初のティア3回路"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6169C04DF463502F"]
+			description: ["&3発展型回路作成機&rで、&6マイクロプロセッサ&rテーマの回路が作れるようになる。"]
+			id: "1F101D4F758ACECB"
+			rewards: [{
+				id: "1C6128ACCE36223A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "7CF2D36C5CE2E140"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			title: "&bMV&r回路作成機"
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7D0351942F4DB8E0"
+				"1F101D4F758ACECB"
+				"7D3FAEA5E0071BDC"
+			]
+			description: [
+				"&2マイクロプロセッサの量産を始められる&r。これはティア1回路として作れる最良のもので、より良いレシピは&5EV&rまで解放されない。"
+				""
+				"これらの回路の生産は絶対に自動化し、&e自動クラフトで在庫を確保しておこう&r。そうすれば待たされることも、AEでオンデマンドにクラフトしてクラフト注文が膨れ上がることもない。"
+			]
+			id: "2FD1AE24CD8BEBEB"
+			rewards: [{
+				id: "2693DE2A6B670CC8"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "76685D99D8D5BCE7"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			title: "3番目にして最後のティア1回路"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["417D97D9E3562F45"]
+			description: [
+				"より良い基板。&6ポリエチレン&r(PE)の代わりに&6ポリ塩化ビニル&r(PVC)を使うと収量が2倍になる。"
+				""
+				"他の3つの素材と&9六フッ化ケイ素酸&rの選択肢は作るのがはるかに難しく、今のところ検討する価値はないだろう。"
+			]
+			id: "7D3FAEA5E0071BDC"
+			rewards: [{
+				id: "21255157229D6569"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "729D9000AF81E59C"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			title: "プラスチック製プリント回路基板"
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7D0351942F4DB8E0"
+				"1F101D4F758ACECB"
+				"7D3FAEA5E0071BDC"
+			]
+			description: [
+				"&2この回路テーマ特有の点として、このMV回路は前のティアの回路なしでクラフトできる。&rこれはティア2回路として作れる最良のもので、より良いレシピは&9IV&rまで解放されない。"
+				""
+				"これらの回路の生産は絶対に自動化し、&e自動クラフトで在庫を確保しておこう&r。そうすれば待たされることも、AEでオンデマンドにクラフトしてクラフト注文が膨れ上がることもない。"
+			]
+			id: "7308924C9A481443"
+			rewards: [{
+				id: "1529351BB3EC6144"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "07DF4F788F7B2316"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			title: "3番目にして最後のティア2回路"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7308924C9A481443"
+				"66E1F1B28E4577B2"
+			]
+			description: ["&6発展型集積回路&rより少し安く作れ、最初の&5EV&r回路である&6マイクロプロセッサーコンピューター&rを作る唯一の手段でもある。"]
+			id: "5759E8587624BEF1"
+			rewards: [{
+				id: "07F79912C88F145F"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "720945623A736B2F"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			title: "2番目のティア3回路"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"15E34DEC491FAB81"
+				"6169C04DF463502F"
+			]
+			description: [
+				"&3クリーンルーム&rは、汚染物質のない中空のマルチブロックだ。今後、回路関連の新しいレシピのほとんどと、&6核融合外装&rのような一部の特殊なものは、クリーンルーム内の機械で実行する必要がある。"
+				""
+				"建設後は、内部を浄化するためにしっかりメンテナンスし、しばらく電力を供給し続ける必要がある。完全に浄化されると、クリーンルームの消費電力は下がる。クリーンルームが必要なレシピは、&c完全に浄化された&rクリーンルームの中で&cのみ&r実行される。そうでなければレシピは開始されないか、進行状況が失われることがある。（レシピの材料が&e消滅することは決してない&r。）"
+				"{@pagebreak}"
+				"クリーンルームは5x5x5から15x15x15までの任意のサイズで建設できる。コントローラーは上面の中央に置き、上面の残りは縁と角を除いて&6フィルター外装&rで作る。残りの壁と床は&6プラスクリート&rで埋める。"
+				""
+				"クリーンな環境と外の世界との間での搬出入には："
+				""
+				"- アイテムや液体は&6通過ハッチ&rで。片側から自動で入力し、反対側から出力する。"
+				""
+				"- エネルギーは任意のティアの&bGregTech&6マシン筐体&rまたは&6ダイオード&r(ブロック)で。ダイオードは最大&a16アンペア&rまで送れるが、筐体は&a1アンペア&rしか送れない点に注意。"
+				""
+				"- AEネットワークは&bGregTech&rの&3マシン筐体&r(任意のティア)で。"
+				""
+				"- プレイヤーは任意の種類の&6ドア&rで。ドアを開けても部屋は清浄なままだ。"
+				"{@pagebreak}"
+				"「公式」の方法以外にも、&6エンダーチェスト&rのような物理的でない搬送手段も有効かもしれない。&bApplied Energistics&rの&6P2Pトンネル&rも気に入るかもしれない。"
+				""
+				"浄化のために&aエネルギーハッチ&rと&aメンテナンスハッチ&rも必要だ。縁以外のプラスクリートは&6クリーンルーム用ガラス&rで置き換えられる。"
+				""
+				"クリーンルームが形成できない場合："
+				""
+				"- 壁の少なくとも75%がプラスクリートかクリーンルーム用ガラスでなければならない。コントローラーの真下の床ブロックもプラスクリートかクリーンルーム用ガラスでなければならない。"
+				""
+				"- GTの発電機とマフラーハッチはクリーンルーム内に&c設置できない&r。"
+				""
+				"- レンチでコントローラーを回転させてみよう。辺の長さが偶数の場合は、他の中央位置も試してみよう。"
+			]
+			icon: "gtceu:cleanroom"
+			id: "244F2CC5484A7B21"
+			rewards: [{
+				count: 2
+				id: "6D7BEDEC84288FCA"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A259B7C7B52E58E"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					count: 86L
+					id: "2BD9B381C408FF8B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:plascrete"
+								}
+								{
+									Count: 1b
+									id: "gtceu:cleanroom_glass"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "クリーンルーム用ブロック"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4D41A87F6EC97F19"
+					item: "gtceu:filter_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "734A8736E913F3B9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:maintenance_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "44D6926CD41BC346"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "moni:energy_hatch"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "46EB73137CAAD497"
+					item: "minecraft:iron_door"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "クリーンルーム"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"73C1AB31431B5C11"
+				"244F2CC5484A7B21"
+				"5759E8587624BEF1"
+			]
+			description: [
+				"これが最初の&5EV&r回路。&6ヴァイブラント合金&rが必要だ。"
+				""
+				"&6HV&r回路作成機で解放される回路は&6マイクロプロセッサーメインフレーム&rの1つだけだ。&6HV&3回路作成機&rに対応する回路テーマはなく、代わりに&6HV&r(回路用ではない)&3組立機&rでより簡単な回路部品が解放される。次の回路テーマは&5EV&rまでない。"
+			]
+			id: "7E09D4E00BFA4970"
+			rewards: [{
+				count: 2
+				id: "7A54827BF7485140"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2C15017FC6B412B1"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			title: "最初のティア4回路"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E09D4E00BFA4970"]
+			description: [
+				"&6HV回路作成機&rで&6マイクロプロセッサーメインフレーム&rが解放される。それだけだ。"
+				""
+				"また、オプションで&a128 EU/t&rまでのレシピを&aオーバークロック&rでき、比較的多くの電力と引き換えに速度を上げられる。"
+			]
+			id: "6B908DECFA46C8E0"
+			require_sequential_tasks: false
+			rewards: [{
+				id: "5473B5078EB4F75B"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "23E52AA13E99E2F3"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			title: "&6HV&r回路作成機"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7E09D4E00BFA4970"
+				"6B908DECFA46C8E0"
+				"56924FC6B029BA0F"
+			]
+			description: [
+				"最初に取り組むことになる&6メインフレーム&r。"
+				""
+				"これは最初に入手できる&9IV&r回路であり、そのため作るのが最も高価だ。いつも通り、&2できるだけ早く次の回路テーマに投資して、安いレシピにたどり着こう。&r"
+			]
+			id: "39FD6F1076559156"
+			rewards: [{
+				id: "300F32840929755D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CAAC909C68620A9"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			title: "最初のティア5回路"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26ECEC06CCAB3E56"]
+			description: ["&6エポキシ樹脂プリント回路基板&rはより高度な基板で、ティア3から6にわたる&6ナノ回路&rが作れるようになる。"]
+			id: "0B8CE3FBF62B099D"
+			rewards: [{
+				id: "0161DA06BA4790AF"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "428E48B54DC7FC17"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			title: "エポキシ樹脂プリント回路基板"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"1207189AD233A746"
+				"0B8CE3FBF62B099D"
+				"5B9F1EE13E397DEE"
+			]
+			description: [
+				"&2ナノプロセッサーの量産を始められる&r。これはティア3回路として作れる最良のもので、より良いレシピは&dLuV&rまで解放されない。"
+				""
+				"これらの回路の生産は絶対に自動化し、&e自動クラフトで在庫を確保しておこう&r。そうすれば待たされることも、AEでオンデマンドにクラフトしてクラフト注文が膨れ上がることもない。"
+			]
+			id: "5672773780EE8267"
+			rewards: [{
+				id: "0C9C46F7B6AC2358"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0304D11BDCE366E4"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			title: "3番目にして最後のティア3回路"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"785C6332FC7A07A5"
+				"11154356854B64DA"
+				"39FD6F1076559156"
+			]
+			description: [
+				"&6チタン&r製のマシン筐体と&6メインフレーム&rの準備が整えば、ついに&5EV&3回路作成機&rの作成に取りかかれる。"
+				""
+				"このティアの回路作成機では&6ナノプロセッサー&rが解放され、&5EV&r(&a2048 EU/t&r)までのクラフトレシピを実行できる。また、オプションで&6HV&r電力(&a512 EU/t&r)までを消費するレシピをオーバークロックでき、比較的多くの電力と引き換えに速度を上げられる。"
+			]
+			id: "5B9F1EE13E397DEE"
+			rewards: [{
+				id: "46A1CD0957147842"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "5471EB78534298F4"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			title: "&5EV&r回路作成機"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5672773780EE8267"]
+			description: ["目新しいものは何もない。標準的な回路部品と&6ナノプロセッサー&rを組み合わせて&6ナノ演算処理装置&rを作ろう。"]
+			id: "1DFF7C35B5B26B80"
+			rewards: [{
+				count: 2
+				id: "6BA29161AA7296F0"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1BBF3B07A0CC1599"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			title: "2番目のティア4回路"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1DFF7C35B5B26B80"
+				"54C3B1B782FDF57F"
+			]
+			description: ["&6ナノスーパーコンピュータ&rへのアップグレードには、標準的な回路部品と&6ルミウムワイヤー&rが必要だ。"]
+			id: "2DD1E2391DA3170C"
+			rewards: [{
+				count: 2
+				id: "20587660A9275F49"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19E188AFFB70A28F"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			title: "2番目のティア5回路"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2DD1E2391DA3170C"]
+			description: [
+				"最初の、そして最も高価なティア6回路。&9IV&3回路作成機&rのクラフトに必要だ。"
+				""
+				"標準的な回路部品がたくさん必要だ。"
+			]
+			id: "4DB622A78605A2EB"
+			rewards: [{
+				id: "5C31F9F7024BB595"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "497BF12B08B51A42"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			title: "最初のティア6回路"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B8CE3FBF62B099D"]
+			description: [
+				"&6強化エポキシ樹脂シート&rは&3化学反応器&rではなく&3化学槽&rで作る。ただし、基板そのものは化学反応器で作る。"
+				""
+				"それ以外は、これまでに作ってきた他の基板とよく似ている。この基板では、ティア4から7にわたる&6量子回路&rが作れるようになる。"
+			]
+			icon: "gtceu:fiber_reinforced_printed_circuit_board"
+			id: "57A6FE885489C3ED"
+			rewards: [{
+				id: "6F1904A616A32929"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "62F0E805169FDEB7"
+					item: "gtceu:reinforced_epoxy_resin_plate"
+					type: "item"
+				}
+				{
+					id: "0BDAAD68B642025F"
+					item: "gtceu:fiber_reinforced_circuit_board"
+					type: "item"
+				}
+				{
+					id: "4B3867356C9A7411"
+					item: "gtceu:fiber_reinforced_printed_circuit_board"
+					type: "item"
+				}
+			]
+			title: "繊維強化プリント回路基板"
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"605062720747B482"
+				"4DB622A78605A2EB"
+			]
+			description: [
+				"&6タングステンスチール&r製のマシン筐体と&6ナノプロセッサーメインフレーム&rの準備が整えば、ついにInsane Voltageの&3回路作成機&rの作成に取りかかれる。"
+				""
+				"このティアの回路作成機では&6量子回路&rが解放され、&9IV&rまでのクラフトレシピを扱える。また、オプションで&5EV&r電力までを消費するレシピをオーバークロックでき、比較的多くの電力と引き換えに速度を上げられる。"
+				""
+				"&2回路のクラフトには、回路作成機を&3大型回路組立設備&2にアップグレードし、&9IV&6エネルギーハッチ&2で電力を供給することをおすすめする。"
+			]
+			icon: "gtceu:iv_circuit_assembler"
+			id: "4E63CE9607E3B792"
+			rewards: [{
+				id: "27B7D626B6433CAA"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "781C7E03F26807E5"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			title: "&9IV&r回路作成機"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1903B26C95DD325A"
+				"57A6FE885489C3ED"
+				"4E63CE9607E3B792"
+				"70FD95AEA44548B0"
+			]
+			description: [
+				"新しい&6繊維強化プリント回路基板&r、&6発展型はんだ合金&r、&6量子ビットCPU&r、それに標準的な部品で、&5EV&r回路の最終形である&6量子プロセッサー&rが作れる。"
+				""
+				"&5EV&r回路の最良の形なので、自動化して備蓄しておこう。&6発展型システムオンチップ&rを使う別レシピは&cZPM&rまで使えない。"
+			]
+			id: "47D092CBA484C0DE"
+			rewards: [{
+				count: 2
+				id: "4FD2A4D0263ACD99"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7696BA40BD975133"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			title: "3番目にして最後のティア4回路"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47D092CBA484C0DE"]
+			description: ["目新しいものは何もない。標準的な回路部品をさらに使えば、&6量子プロセッサー&r2つを&6量子演算処理装置&rにアップグレードできる。"]
+			id: "1FF5C2A3CAB76088"
+			rewards: [{
+				count: 2
+				id: "5B97D509F30945CF"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26ECE73CC75E3326"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			title: "3番目のティア5回路"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FF5C2A3CAB76088"]
+			description: ["このティアにも特別なことはない。"]
+			id: "6CE6674C20500023"
+			rewards: [{
+				count: 2
+				id: "58A6658AA03C3DCB"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "282FCECABFABFEAC"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			title: "2番目のティア6回路"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CE6674C20500023"]
+			description: [
+				"これで最初の&cZPM&r回路である&6量子処理メインフレーム&rがクラフトできる。"
+				""
+				"これは&dLuV&3回路作成機&rのクラフトに必要だ。"
+			]
+			id: "521977C7165229F1"
+			rewards: [{
+				count: 2
+				id: "099061659ED79C97"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "05D456F2108A8D0F"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			title: "最初のティア7回路"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6DAB13A7BDECE94E"
+				"76BAC72CC89F390E"
+				"521977C7165229F1"
+				"458FF3F9BC8E025B"
+			]
+			description: [
+				"&6ロジウムメッキルミウムパラジウム&r製のマシン筐体、&3組立ライン&rの建設、&6量子処理メインフレーム&rの準備が整えば、ついに&dLudicrous Voltage&3回路作成機&rの作成に取りかかれる。"
+				""
+				"このティアの組立機では&6クリスタル回路&rが解放され、&dLuV&rまでのクラフトレシピを扱える。また、オプションで&9IV&r電力までを消費するレシピをオーバークロックでき、比較的多くの電力と引き換えに速度を上げられる。"
+				""
+				"&2&dLuV&6エネルギーハッチ&2を作り、代わりに&3大型回路組立設備&2を使うのも良い考えだ。"
+			]
+			icon: "gtceu:luv_circuit_assembler"
+			id: "0BB798ACFE684AA9"
+			rewards: [{
+				id: "567C3A5591D491DB"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2DD4546958B22D50"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:luv_circuit_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_energy_input_hatch"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&dLuV&r回路作成機"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"67833AE5421E10D4"
+				"0BB798ACFE684AA9"
+				"7E51D15F38C3B356"
+				"38791476E970C57D"
+			]
+			description: [
+				"&6結晶性CPU&rを用意し、&dLuV&3回路作成機&rをクラフトしたら、&9IV&r回路の最終形である&6クリスタルプロセッサー&rが作れる。"
+				""
+				"これは&6発展型&r以上の&6SMD部品&rを必要とする最初の回路だ。今後はすべての回路がそうなる。"
+				""
+				"&9IV&r回路の最良の形なので、自動化して備蓄しておこう。&6クリスタルシステムオンチップ&rを使う別レシピは、&3UV回路作成機&rを作れるようになるまで使えない。"
+			]
+			id: "3C3B5875FCD6B5B7"
+			rewards: [{
+				id: "23BD013C0D1CAA39"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5873A94AABDE41FF"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			title: "4番目にして最後のティア5回路"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C3B5875FCD6B5B7"]
+			description: ["今では標準となった部品を使えば、&6クリスタルプロセッサー&r2つを&6クリスタル演算処理装置&rにアップグレードできる。"]
+			id: "64C33333ECCAABC7"
+			rewards: [{
+				id: "190E006926FD0AAE"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6317838B837994A0"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			title: "3番目のティア6回路"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57A6FE885489C3ED"]
+			description: [
+				"すごい量のホイルだ。"
+				""
+				"この基板は&6クリスタル回路&rに必要で、将来の&6ウェットウェア回路基板&rの基礎にもなる。これらでティア5からティア8まで進める。"
+			]
+			icon: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+			id: "7E51D15F38C3B356"
+			rewards: [{
+				id: "21EBBB8F0A48CA90"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "354F852393A58811"
+					item: "gtceu:palladium_foil"
+					type: "item"
+				}
+				{
+					id: "26B7E0A29F49A4CB"
+					item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+					type: "item"
+				}
+				{
+					id: "5340070B31BDF48C"
+					item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					type: "item"
+				}
+			]
+			title: "複層繊維強化プリント回路基板"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7DB174443D7FAFA0"
+				"64C33333ECCAABC7"
+			]
+			description: ["&6エンダリウム&rがあれば、&6クリスタルスーパーコンピュータ&rを組み立てられる。"]
+			id: "26CA20E74A62FA6E"
+			rewards: [{
+				id: "094C791F0E6EF144"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24CC69AAE2D715C1"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			title: "2番目のティア7回路"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1109CFC5D47FC011"
+				"26CA20E74A62FA6E"
+			]
+			description: [
+				"&6クリスタル処理メインフレーム&rは最初の&3UV&r回路だ。"
+				""
+				"これを組み立てるのに必要なデータを得るには、&3HPCA&rと&3研究ステーション&rが必要だ。"
+				""
+				"これは&cZPM&3回路作成機&rと&3核融合炉 MK II&rのクラフトに必要だ。いつも通り非常に高価なので、量産しようとせず次の回路テーマに投資しよう。"
+			]
+			id: "115B96B2092D671E"
+			rewards: [{
+				id: "0954C7059718CF5D"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A8262DBC60DB708"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			title: "最初のティア8回路"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"217F85D6FE2A467D"
+				"115B96B2092D671E"
+			]
+			description: [
+				"&6ナクアダ合金&r製のマシン筐体と&6クリスタル処理メインフレーム&rの準備が整えば、ついに&cZPM&3回路作成機&rの作成に取りかかれる。"
+				""
+				"このティアの回路作成機では&6ウェットウェア回路&rが解放され、ZPMまでのクラフトレシピを扱える。また、オプションでLuV電力までを消費するレシピをオーバークロックでき、比較的多くの電力と引き換えに速度を上げられる。"
+				""
+				"あるいは、&cZPM&6エネルギーハッチ&rを作り、代わりに&3大型回路組立設備&rを使ってもいい。"
+			]
+			icon: "gtceu:zpm_circuit_assembler"
+			id: "49E9A178F6A52A62"
+			rewards: [{
+				id: "134FCF48C07467D9"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "5B00974DF9D25C96"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:zpm_circuit_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:zpm_energy_input_hatch"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&cZPM&r回路作成機"
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4AC51394FB5152E5"]
+			description: ["さらに多くの&6幹細胞&rとより高度な素材を使って&6神経処理ユニット&rを作ろう。これは&6ウェットウェア回路&rに使う。"]
+			id: "4FABACAB7C4A74AC"
+			rewards: [{
+				id: "5A005B4C81258B80"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51D53E513C436A0E"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			title: "神経処理ユニット"
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"49E9A178F6A52A62"
+				"4FABACAB7C4A74AC"
+			]
+			description: [
+				"&dLuV&r回路の最終形。"
+				""
+				"&6神経処理ユニット&rを使えば、&cZPM&r以上の&3回路作成機&rでこれらの回路をクラフト(培養？)できる。"
+				""
+				"&2これらはクラフトにかなり時間がかかるうえ、相当な数が必要になるので、在庫を維持するための設備をしっかり整えておこう。"
+			]
+			id: "5ECF0A787D861C89"
+			rewards: [{
+				id: "3A9A6C7F2B63FAE7"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "37377D1EC0811097"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			title: "4番目にして最後のティア6回路"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5ECF0A787D861C89"]
+			description: ["&6ウェットウェア演算装置&rも引き続き&cZPM&r以上の&3回路作成機&rで作る。この時点で、&2まだ&3大型回路組立設備&2で回路作成機のレシピを処理していないなら、本当にそうすべきだ。"]
+			id: "1289F9FE461BFE01"
+			rewards: [{
+				id: "7027E316193CFB45"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A05E1DA7516E07E"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			title: "3番目のティア7回路"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1289F9FE461BFE01"]
+			description: ["&6ウェットウェアスーパーコンピュータ&rは、&cZPM&r以上の電力の&3組立ライン&rで作る。"]
+			id: "67663B49B80849C1"
+			rewards: [{
+				id: "1E545E4FCEB06428"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6164C8AA43D6DD6D"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			title: "2番目のティア8回路"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"67663B49B80849C1"
+				"75DD12FBC8AA39FC"
+				"5911900438648430"
+			]
+			description: ["このレシピを研究するには、&3ネットワークスイッチ&rで複数の&3HPCA&rを連結する必要がある。"]
+			id: "01E542E1C9DAF5B4"
+			rewards: [{
+				count: 10
+				id: "0B3D8CB899D78E41"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "53F558D65B0FF102"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			title: "最初のティア9回路"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4542BF5E00FCBEA1"
+				"6A914B240E1A7BCB"
+			]
+			description: [
+				"さらに快適な飛行。"
+				""
+				"ちなみに、レゾナントにたどり着くのはずっと先の話だ。"
+			]
+			disable_toast: true
+			id: "28854E7AC91786E9"
+			tasks: [{
+				id: "16B665773AD92D10"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:reinforced"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5BADF536443E712D"
+				"01E542E1C9DAF5B4"
+			]
+			description: [
+				"&6ダームスタチウム&r製のマシン筐体と&6ウェットウェアメインフレーム&rの準備が整えば、ついに&3UV回路作成機&rの作成に取りかかれる。"
+				""
+				"このティアの組立機では&6光学回路&rが解放され、&3UV&rまでのクラフトレシピを扱える。また、オプションで&cZP&rM電力までを消費するレシピをオーバークロックでき、比較的多くの電力と引き換えに速度を上げられる。"
+				""
+				"あるいは、&3UV&6エネルギーハッチ&rを作り、代わりに&3大型回路組立設備&rを使ってもいい。"
+			]
+			icon: "gtceu:uv_circuit_assembler"
+			id: "44E2C12FC4C26CA9"
+			rewards: [{
+				id: "23649A4A31004979"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "235B36401FAF51B0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:uv_circuit_assembler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:uv_energy_input_hatch"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&3UV&r回路作成機"
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1DB3CCC10C0EB1A8"]
+			description: [
+				"&6ニクロム&rは3番目に入手できるコイル素材で、電気高炉の稼働温度を3600Kまで上げ、より高度な素材を処理できるようになる。"
+				""
+				"作成には&6HV&r&3組立機&rが必要な点に注意。コイルの各ティアにはそれぞれのティアの組立機が必要だ。もう二度と言わないぞ。"
+				""
+				"&a3600K&rは、&a1800K&r以下のレシピに&9100%効率のオーバークロック&rを1回分与えるのに十分な温度でもある。つまり、1回のオーバークロックで通常の&92倍&rではなく&94倍速&rになる。実質的に、1回オーバークロックするだけで追加で2倍の速度ボーナスが得られる。 "
+				""
+				"つまり、&6アルミニウム&rのガスブーストレシピは&6HV&rで約&e7秒&rから&e3秒&rに短縮される。電気高炉を&5EV&r電力にアップグレードすれば、&6ステンレススチールインゴット&rは約&e37秒&rから&e9秒&rに短縮される！これらの素材を生産する電気高炉は、余裕ができ次第ニクロムにアップグレードする価値が大いにある。 "
+				""
+				"後のコイルも同様のボーナスを与える。さらに、電気高炉の温度は&bMV&rを超える電圧ティアごとに&a100K&r上昇するので、今後の素材で違いが出ることもある。"
+			]
+			disable_toast: true
+			id: "544E87F5E356FE10"
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "529CF9C923636BEB"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			title: "ニクロムコイルブロック"
+			x: 18.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7A65459E4DFAAC2D"
+				"069773756716E192"
+			]
+			description: [
+				"&9トリタニウム&rを作るには、まず&9デュラニウム&rを作る必要がある。これは&3核融合炉 MK I&r以上で&9液体ガリウム&rと&9ラドン&rを融合させて作る。"
+				""
+				"デュラニウムが手に入ったら、&3核融合炉 MK II&rでデュラニウムと&9液体チタン&rを融合させてトリタニウムが作れる。"
+				""
+				"これらの工程をまとめて処理するためのアイテムと液体の比率を求めるのに苦労しているなら、該当するレシピを&aEMI&rに入れてみよう。"
+			]
+			disable_toast: true
+			id: "6C199A6CBC13A481"
+			shape: "hexagon"
+			tasks: [{
+				id: "4EAAF4A339544BF9"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			title: "トリタニウムインゴット"
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C199A6CBC13A481"]
+			description: ["トリタニウムコイルは8番目のコイル素材だ。&a10800K&rで、ほぼすべての素材を製錬できる。"]
+			disable_toast: true
+			id: "2E87146C82EF941C"
+			shape: "hexagon"
+			tasks: [{
+				id: "5D7E0AEFAE26BBD0"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			title: "トリタニウムコイル"
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"61301FBD825F8280"
+				"6A6983C64374366C"
+			]
+			description: ["&6オムニックマトリックスコイル&rは必要となる最後のコイルだ。&a12600K&rで、すべての素材を製錬でき、&3電気高炉&rが&4ゴ&6ー&eジ&aャ&2ス&3に&9な&dる&5。"]
+			disable_toast: true
+			id: "6EA130B04FDE6868"
+			shape: "hexagon"
+			tasks: [{
+				id: "2AC06707009DF2FC"
+				item: "kubejs:omnic_matrix_coil_block"
+				type: "item"
+			}]
+			title: "オムニックマトリックスコイル"
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1510DC51CDC3F609"
+				"5C4E189A3E401566"
+			]
+			description: [
+				"&bMV&r時代へようこそ！"
+				""
+				"この時代では、&bApplied Energistics 2&rが使えるようになり、最初の&6シリコンウェハー&rを作り、増え続ける機械のコレクションをさらに広げていく。"
+			]
+			icon: "gtceu:mv_machine_hull"
+			id: "6C028CD89745098E"
+			rewards: [{
+				id: "3D0C6CDEED481E30"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:alumnium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2A5B75587F16782E"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:mv_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のMV機械"
+				type: "item"
+			}]
+			title: "&bMV&r時代"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2179B83440CEF343"
+				"605062720747B482"
+			]
+			description: [
+				"&9IV&r時代へようこそ！"
+				""
+				"この時代では、ほとんどの機械のマルチブロック版を作れるようになり、&3白金ライン&rを完成させ、&3組立ライン&rの建設を始める。"
+			]
+			icon: "gtceu:iv_machine_hull"
+			id: "6E27637A9C94A0AA"
+			rewards: [{
+				id: "2C123B7485932F5B"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:tungstensteel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4E566F8EF19BE210"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:iv_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のIV機械"
+				type: "item"
+			}]
+			title: "&9IV&r時代"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5B6811964444497F"
+				"604CCBE824D03A74"
+			]
+			description: [
+				"&7LV&r時代へようこそ！"
+				""
+				"この時代では、マルチブロックの&3電気高炉&rを含む最初の機械を作り、工場づくりの基本を学ぶ。"
+			]
+			icon: "gtceu:lv_machine_hull"
+			id: "61CC4AD6FAE15248"
+			rewards: [{
+				id: "424A2A6FAB412F69"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "04444449DCA34F30"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:lv_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のLV機械"
+				type: "item"
+			}]
+			title: "&7LV&r時代"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"01CC71429CFCAE0B"
+				"15E34DEC491FAB81"
+			]
+			description: [
+				"&6HV&r時代へようこそ！"
+				""
+				"この時代では、&bApplied Energistics 2&rで自動クラフトを始め、&3蒸留塔&rで石油化学に取り組み、&3クリーンルーム&rを建設する。"
+			]
+			icon: "gtceu:hv_machine_hull"
+			id: "48CAEBEE83D7C791"
+			rewards: [{
+				id: "547F553BA6D87D63"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:stainless"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1FEF896D9E8055D5"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:hv_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のHV機械"
+				type: "item"
+			}]
+			title: "&6HV&r時代"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"22B3F2351CB4B7D8"
+				"785C6332FC7A07A5"
+			]
+			description: [
+				"&5EV&r時代へようこそ！"
+				""
+				"この時代では、&9フッ素&rを得るために&6深層岩&rの処理を始め、&3合金溶融高炉&rが使えるようになり、&6ナノプロセッサー&rの製作を始め、&3白金ライン&rに着手する。"
+			]
+			icon: "gtceu:ev_machine_hull"
+			id: "30AAFB97813DEB6C"
+			rewards: [{
+				id: "21935100523DBD85"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:titanium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "01AFBFF0D9532F27"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:ev_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のEV機械"
+				type: "item"
+			}]
+			title: "&5EV&r時代"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"536CEDA3142BCE63"
+				"76BAC72CC89F390E"
+			]
+			description: [
+				"&dLuV&r時代へようこそ！"
+				""
+				"この時代では、&6ナクアダ&rを求めてマイクロマイナーのミッションを送り始め、それを処理して&3核融合炉&rの建設に必要な素材を作る。"
+			]
+			icon: "gtceu:luv_machine_hull"
+			id: "646B8CD10787D899"
+			rewards: [{
+				id: "12C3AFEE397AB67E"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:rhodiumplated"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "553B2A8341469AE8"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:luv_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のLuV機械"
+				type: "item"
+			}]
+			title: "&dLuV&r時代"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0472A05CFBF4A2F0"
+				"217F85D6FE2A467D"
+			]
+			description: [
+				"&cZPM&r時代へようこそ！"
+				""
+				"この時代では、部品の&d研究&rを始め、&3核融合&r設備をアップグレードして、&6クリオコッカス&r、&6オムニウム&r、&6ニュートロニウム&rといった最初のエンドゲーム素材を集められるようにする。"
+			]
+			icon: "gtceu:zpm_machine_hull"
+			id: "11B25506F679ACBD"
+			rewards: [{
+				id: "5DDE0D9210D6C69A"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:naquadahalloy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "52571DFFC6CB4D85"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:zpm_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のZPM機械"
+				type: "item"
+			}]
+			title: "&cZPM&r時代"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"519A11FDC6A7EF21"
+				"5BADF536443E712D"
+			]
+			description: [
+				"&3UV&r時代へようこそ！"
+				""
+				"この時代では、&d研究&r設備をアップグレードし、最終的な&6エネルギーコア&rを組み立て、マイクロバースを丸ごと収穫してその&6心臓&rをえぐり出す。"
+			]
+			icon: "gtceu:uv_machine_hull"
+			id: "4B497D256FB3983F"
+			rewards: [{
+				id: "3FF03AD6F80784C3"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:darmstadtium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "088FB8F945D0645E"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:uv_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のUV機械"
+				type: "item"
+			}]
+			title: "&3UV&r時代"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C50D78D8F63CAFE"]
+			description: [
+				"&4UHV&r時代へようこそ！"
+				""
+				"この時代では、新しい種類のマイクロバースに触れ、&cカ&6ラ&eー&aを&9使&rったクラフトが始まり、&9無限&rの知識への鍵が手に入る。"
+				"&6光学回路&rと&6インフィニティインゴット&rをクラフトし、&3粉砕されたマイクロバース&rから&6ネクロシデライト&rを手に入れてUEVに進もう。"
+			]
+			icon: "gtceu:uhv_machine_hull"
+			id: "0A34290F579BB4E2"
+			rewards: [{
+				id: "6F66A7A256F1CDF0"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:manyullyn"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "ゲームが変わった"
+			tasks: [{
+				id: "2A4AFA6140DAFF4D"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:uhv_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のUHV機械"
+				type: "item"
+			}]
+			title: "&4UHV&r時代"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B923E8ED6161CA8"]
+			description: [
+				"&aUEV&r時代へようこそ！"
+				""
+				"この時代では、プリズマとマイクロバースの両方を極めることが求められ、&3無限の電力&rの秘密を解き明かせるようになる。"
+				""
+				"何十ものマイクロバースを投影し、粉砕し、汚染し、マイクロバースの欠片の中に回路部品を詰め込んで強力な&6超次元回路&rをクラフトし、非常に不安定な&6超臨界プリズマティックコア&rをクラフトして&6モニウム&rを生産できるようにしよう。"
+			]
+			icon: "gtceu:uev_machine_hull"
+			id: "63812416270292A4"
+			rewards: [{
+				id: "2169FFE4F0E13079"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:omnium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "22F57F4F6D41251B"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:uev_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のUEV機械"
+				type: "item"
+			}]
+			title: "&aUEV&r時代"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["11FDFB08CD48D66E"]
+			description: [
+				"&cMAX&r時代へようこそ！"
+				""
+				"この最後の時代では、工場が究極の試練にさらされる！&3無限の電力&rと&cMAX&6エネルギーハッチ&rの力を借りて、最後の設備のボトルネックを解消しよう。"
+				""
+				"何百もの&cMAX&6回路&rと何千もの&6モニウム&rを生産できるだろうか？"
+			]
+			icon: "gtceu:max_machine_hull"
+			id: "1A6F087E10DC036E"
+			rewards: [{
+				id: "7B4AFAFC88D8805C"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:monium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4BB940DD5512BB62"
+				item: {
+					Count: 1
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:block"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "energy_input_hatch"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:not"
+											tag: {
+												items: [{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "hull|casing|transformer|diode|bus|hatch|chest|tank|large_miner|drilling_rig|ore_miner|buffer|muffler|battery|converter|charger|rotor_holder|polarizer"
+													}
+												}]
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "^gtceu:max_"
+								}
+							}
+						]
+					}
+				}
+				title: "条件を満たす任意のMAX機械"
+				type: "item"
+			}]
+			title: "&cMAX&r時代"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"63CC578C3558E0AF"
+				"4E9530E62A4B673B"
+				"38B1588655AA9BDF"
+				"7C9C91EC9F3930C2"
+			]
+			description: [
+				"&3粉砕されたマイクロバース&rの力を完全に活用するには、まったく新しいティアのマイクロマイナーが必要だ。"
+				""
+				"このマイクロマイナーは&6ネクロシデライト&rや&6準安定ニュートロンスター&rの入手に使え、後には&6超次元回路&rの製作にも使われる。"
+				""
+				"このマイクロマイナーには、粉砕したマイクロバースへの遠征に必要なものをすべて収めるための&6史上最高の拡張作業台&rが必要だ。"
+			]
+			hide_dependency_lines: true
+			id: "0121E9498A8802BA"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "349ECB1492F652EF"
+				item: "kubejs:microminer_t11"
+				type: "item"
+			}]
+			title: "ティア11マイクロマイナー"
+			x: 22.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["040B3FCD82533BD9"]
+			description: ["&6IPMEPS&rはマイクロバース規模で物理法則を書き換えることができ、これまで&9不可能だった素材&rの生産を可能にする。"]
+			hide_dependency_lines: true
+			id: "55919EFAB081C7C4"
+			shape: "square"
+			size: 2.0d
+			subtitle: "最後のマイクロマイナー！"
+			tasks: [{
+				id: "41BBCA2B62901FE8"
+				item: "kubejs:microminer_t12"
+				type: "item"
+			}]
+			title: "ティア12マイクロマイナー"
+			x: 22.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3270496124969A51"
+				"1229234A71CE0A99"
+			]
+			dependency_requirement: "all_started"
+			description: ["もっとたくさん運べる。"]
+			hide_dependency_lines: false
+			id: "2C89DAD26E08E382"
+			tasks: [{
+				id: "177E323157097C11"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			title: "リードストーンリュックサック"
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5601A05D8361551D"
+				"59219D37B5CE80E6"
+				"4F08AF2C1E6B1736"
+			]
+			description: [
+				"君の勝ちだ。"
+				""
+				"おめでとう。"
+				""
+				"&9Monifactory&rを楽しんでもらえたなら幸いだ。"
+			]
+			id: "2EBB9A154522348F"
+			rewards: [{
+				id: "7424EC770906922F"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "monifactory:chest"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "勝者はキミだ"
+			tasks: [{
+				id: "392DAFD3A4019E34"
+				item: "gtceu:creative_chest"
+				type: "item"
+			}]
+			title: "&9&lクリエイティブチェスト&r"
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3E42B4AAA6D2A05B"]
+			description: [
+				"これらの装置を使えば、建築、ブロックの交換、広範囲の破壊、さらには範囲のコピー＆ペーストまでできる。ただし、貼り付ける予定のブロックはインベントリに入れておく必要がある。無からブロックを作り出すわけではない。"
+				""
+				"また重要な点として、&eタイルエンティティに対しては挙動がおかしくなることがある&r。そのため主に単純なブロックで役立つ(例えば、機械やハッチの設定は貼り付けられない)。"
+				"{@pagebreak}"
+				"このModのとても便利な機能として、任意のガジェットでインベントリを&7シフト右クリック&rすると(&6コピー＆ペーストガジェット&rで行う場合は&e貼り付け&rモードにしておくこと)、ガジェットがそのインベントリからアイテムを取り出すようになり、ガジェットとインベントリが「接続」される。"
+				""
+				"例えば、&6丸石&rでいっぱいのチェストを&7シフト右クリック&rすると、ガジェットはそのチェストの丸石を使ってブロックを設置する。"
+				""
+				"デフォルトでは、設定GUIは&7G&rに割り当てられている。"
+			]
+			icon: "buildinggadgets2:gadget_building"
+			id: "5F9C7FB40AD2640B"
+			subtitle: "このパックには&bBuilding Gadgets&rが入っている。"
+			tasks: [{
+				id: "512BC0AAD462E586"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_building"
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_exchanging"
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_copy_paste"
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_cut_paste"
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets2:gadget_destruction"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "ガジェット警部"
+			x: 17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3781AD70E71CA0D7"]
+			description: [
+				"これらの装置を使えば、建築、ブロックの交換、広範囲の破壊、さらには範囲のコピー＆ペーストまでできる。ただし、貼り付ける予定のブロックはインベントリに入れておく必要がある。無からブロックを作り出すわけではない。"
+				""
+				"また重要な点として、主に単純なブロックで役立つ&bBuilding Gadgets&rとは異なり、&e一部の&rタイルエンティティに対応している。"
+				"{@pagebreak}"
+				"このModのとても便利な機能として、&6ポータブル空間クローナー&rをオフハンドに持った状態でインベントリを&7シフト右クリック&rすると、ツールがそのインベントリからアイテムを取り出すようになり、インベントリと「接続」される。"
+				""
+				"例えば、ポータブル空間クローナーをオフハンドに持って&6丸石&rでいっぱいのチェストを&7シフト右クリック&rすると、ツールはそのチェストの丸石を使ってブロックを設置する。"
+				""
+				"デフォルトでは、コンテキストメニューGUIは&7Left Alt&rに割り当てられている。"
+			]
+			id: "31EE6E41F509A8CF"
+			subtitle: "このパックには&bSpatial Tools Compatible&rが入っている。"
+			tasks: [{
+				id: "24B4E26B05F638D6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spatialtoolscmp:portable_spatial_storage"
+							}
+							{
+								Count: 1b
+								id: "spatialtoolscmp:portable_spatial_cloner"
+							}
+							{
+								Count: 1b
+								id: "spatialtoolscmp:portable_spatial_replacer"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "ポケットサイズのポケット次元"
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3BD20358F137E7C6"
+				"273F3F8DD6A3DCC5"
+			]
+			description: [
+				"これを持つと、範囲内の&6トラベルアンカー&rが表示される。"
+				""
+				"狙いを定めて&7右クリック&rするとそこへワープでき、どこかに向けて&7シフト+右クリック&rすると前方に短距離テレポートする(壁も通り抜ける)。"
+				""
+				"これらはRFで動き、&bEnder IO&rのエンチャントの仕組みでさらにエンチャントできる。"
+				""
+				"&6脈動クリスタル&rには&3オートクレーブ&rが必要だ。"
+			]
+			id: "3D6BC54DBE665638"
+			rewards: [{
+				id: "096D97D7F08241D4"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7187745E3D3C66B6"
+				item: {
+					Count: 1
+					id: "enderio:staff_of_travelling"
+					tag: {
+						Energy: {
+							EnergyStored: 100000
+							MaxEnergyStored: 100000
+							MaxEnergyUse: 100000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["424413BBCE3FD3BF"]
+			description: [
+				"&6オムニブレイカー&rは&bGTM Utils&rが追加するツールで、どんなブロックでも即座に壊せる。"
+				""
+				"オムニブレイカーを使うときは、&7右クリック&rで1ブロックずつ壊すか、&7左クリック&rを長押しして連続で壊せる。"
+				""
+				"オムニブレイカーで&7右クリック&rを使ったときはブロックが自動的にインベントリに移されるが、&7左クリック&rではそうならない。"
+			]
+			id: "6B80737C5E1359F7"
+			rewards: [{
+				id: "66946C64C245553F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "もぐもぐもぐもぐ"
+			tasks: [{
+				id: "725DD71DFCCADBE8"
+				item: "gtmutils:omnibreaker"
+				type: "item"
+			}]
+			title: "万能ブレーカー"
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4CD6C60CBEFFA317"
+				"0523F4AB9A794390"
+			]
+			description: [
+				"&3電気高炉&rは、&bGregTech&rの道のりにおけるとてつもなく大きな節目だ。より高度な素材を製錬する力がある。その最初の素材である&6アルミニウム&rは、すぐに重要になる。"
+				""
+				"&6アルミニウム&rの製錬には&bMV&r電力が必要なので、2つの&7LV&r&6エネルギーハッチ&rと4台の発電機で電力を供給する必要がある。その理由は、このクエストの上にあるクエストで説明している。"
+				""
+				"電気高炉の建て方の図は&bEMI&rにある。2段目と3段目は、中央が空いた3x3の正方形のコイルブロックでなければならない(今のところ使えるコイルブロックは&6キュプロニッケル&rだけだ)。コントローラーを&7スニーク右クリック&rすると、ワールド内プレビューを有効にすることもできる。"
+				""
+				"ただし、最下段と最上段は非常に自由度が高い。&6電気高炉のコントローラー&rは構造物の&e最下段&rの、&e外周の辺の中央&rに置く必要がある。&6マフラーハッチ&rは&e最上段のちょうど中央&rに置かなければならない。それ以外は、ハッチやバスを好きな場所に置き、各段の隙間をすべて&6耐熱マシン外装&rで埋めればいい。なお、&e配置には少なくとも&c9&e個の耐熱マシン外装を使わないと構造物が形成されない&rことに注意。"
+				""
+				"{@pagebreak}"
+				"このクエストでは&6メンテナンスハッチ&r、エネルギーハッチ2つ、液体の入力と出力、アイテムの入力と出力が必要で、合計7か所になる。アクセスできる限り、具体的な順番や配置は問わない。8か所目は電気高炉のコントローラーで、残りの9か所の隙間は耐熱マシン外装で埋める。すべて正しくできていれば構造物が形成される。ハッチや外装のテクスチャが統一され、コントローラーに「&a構造が形成されました&r」と表示される。"
+				""
+				"ハッチやバスは任意のティアのものに置き換えられる。ただし、&e実行するレシピの材料を入れられるだけのスロット数/容量があることを確認しよう&r。"
+				""
+				"電気高炉の配線には&6電導鉄&rを使おう。電気高炉は非常に電力を食い、この段階ではケーブルロスが深刻な問題になる。電気高炉が十分なエネルギーを得られないと、製錬の進行が途中で後退したり、開始できなかったりする。"
+				""
+				"&2GregTechでは、メンテナンスハッチと並列制御ハッチを除くすべてのハッチを複数のマルチブロックで共有できる！"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "1BC6DDC2D50F9C46"
+			rewards: [{
+				id: "3B20DB4147336C51"
+				item: "kubejs:moni_dollar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0E093ED43F2B2E14"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7998F0B9E0714746"
+					item: "gtceu:heatproof_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0D6F9EF349C45ADA"
+					item: "gtceu:cupronickel_coil_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "215E1D7028D4007A"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "41EA282C8B1B05AB"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "3917BF19F1C3A0C1"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "3B7D450F27322A57"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "24CB1B1755F635CB"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "04B80990027093E6"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "67A9C3501BB6F0FD"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			title: "&2高炉で遊ぼう"
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"776199B37A19A592"
+				"061904A6FEED5B66"
+				"1BC6DDC2D50F9C46"
+				"785300684B1846B2"
+			]
+			description: [
+				"&6カンタル&rは&6鉄&r、&6アルミニウム&r、&6クロム&rの合金だ。"
+				""
+				"この合金を&3電気高炉&rで焼いて&6カンタルインゴット&rにする。"
+			]
+			id: "3115EAF1F70A613E"
+			rewards: [{
+				id: "4C82AAA84303A281"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22E54D54259A247A"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			title: "カンタルインゴット"
+			x: 20.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3115EAF1F70A613E"
+				"2C6BEB5BBE5A91DC"
+			]
+			description: [
+				"&3電気高炉&rをアップグレードする時だ！&6カンタル&rは2番目に入手できるコイル素材で、電気高炉の稼働温度を&a2700K&rまで上げ、より高度な素材を処理できるようになる。"
+				""
+				"&6カンタルコイル&rは主に&6シリコン&r(回路部品用)と&6チタン&r(&5EV&r機械用)の生産に必要だ。作成には&bMV&3組立機&rが必要で、&6カンタルワイヤー×2&r、&6アルミニウムのホイル&r、&9液体銅&rを使う。"
+				""
+				"&2GTmでは、より高ティアのコイルを使うとマルチブロックにボーナスが付く。&r&3電気高炉&rの場合、必要以上の高温でレシピを実行すると、消費エネルギーと所要時間を減らせる。電気高炉の&a温度&rは、使用するコイルと稼働電圧によって決まる。カンタルコイルの場合、&6キュプロニッケルコイル&rで実行できたレシピのエネルギーが&95%&r節約される。"
+				""
+				"その他のボーナスについては、コイルと電気高炉コントローラーのツールチップを参照しよう。"
+			]
+			id: "5C78349343BA40D7"
+			rewards: [{
+				id: "6AAC5C8B746659ED"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "00D5958543D7BBE6"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			title: "カンタルコイルブロック"
+			x: 18.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3000798ACA51BFDC"
+				"5C78349343BA40D7"
+			]
+			description: [
+				"&6ニクロム&rは&6ニッケル&rと&6クロム&rの合金だ。"
+				""
+				"この合金を&3電気高炉&rで焼いて&6熱いニクロムインゴット&rにする。これは持っているとダメージを受ける。このダメージを防いで目的のインゴットを得るには、熱いインゴットを&3真空冷却機&rで冷やす必要がある。"
+				""
+				"この熱いインゴットは、パイプを使うか、'forge:hot_ingots' を設定して高い優先度にした&6タグフィルター&rで、電気高炉の&6出力バス&rから&3真空冷却機&rの&6入力バス&rへ直接送るのが一番だ。"
+			]
+			id: "1DB3CCC10C0EB1A8"
+			rewards: [{
+				id: "2C2C08984F62573F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4DC44D14F05D27B4"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			title: "ニクロムインゴット"
+			x: 20.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6DC635766CD40FFF"]
+			description: [
+				"&6HSS-G&rは&6タングステンスチール&r、&6クロム&r、&6モリブデン&r、&6バナジウム&rの合金だ。"
+				""
+				"この合金は&3電気高炉&rか&3合金溶融高炉&rで焼成し、&3真空冷却機&rで冷却する。"
+			]
+			id: "53EC3831D66769CA"
+			rewards: [{
+				id: "794FA2C0EE3BCC27"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42A0FDC419CC929F"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			title: "高速度鋼 タイプG"
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"14F1FF4656693711"
+				"53EC3831D66769CA"
+				"5732018AA35D69B6"
+			]
+			description: ["&6HSS-G&rは5番目に使えるコイル素材で、&3EBF&rの稼働温度を&a5400K&rまで上げ、&6ナクアダ&rのようなより高度な素材を処理できるようにする。"]
+			id: "3DD8D9EEA7189186"
+			rewards: [{
+				id: "0A5B1F97951B104A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "585B8ED807736A7A"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			title: "HSS-Gコイルブロック"
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3DD8D9EEA7189186"
+				"023197AB7CDBDD6E"
+				"1BADB230EB1BEA4D"
+			]
+			description: [
+				"マイクロバースと宇宙でしか手に入らない異世界の素材、&6ナクアダ&rは終盤で重要な素材だ。"
+				""
+				"合金にしたり濃縮したりしてさまざまな形にでき、最終的には強力なエンドゲーム燃料に加工できる。"
+			]
+			id: "424413BBCE3FD3BF"
+			rewards: [{
+				id: "05581326BA7839F9"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75892E7951C532B7"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			title: "ナクアダインゴット"
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"424413BBCE3FD3BF"
+				"254D6D1470BC197E"
+			]
+			description: ["&6ナクアダ&rは6番目に使えるコイル素材で、&3EBF&rの稼働温度を&a7200K&rまで上げ、&6トリニウム&rのようなより高度な素材を処理できるようにする。"]
+			id: "28CA4E5308EC0BB9"
+			rewards: [{
+				id: "76AA0FD4E8D706E5"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "2C1FDC7B8E7B2C03"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			title: "ナクアダコイルブロック"
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"28CA4E5308EC0BB9"
+				"0508D3CCB6C876A3"
+			]
+			description: [
+				"&3ナクアダ処理ライン&rから得られる、強靭な重元素。"
+				""
+				"&6トリニウム&rは&6カエマナイト鉱石&rからも得られるが、&6ナクアダの粉&rの処理で生産量を増やしたくなるだろう。トリニウムは第2段階で出てくるので、中間生成物の保管が苦にならず&9フッ素&rの管理もできているなら、まだ必要なければ全工程を組むのは後回しにしてもいい。&2ナクアダ12個の処理につきトリニウムが1個得られる&r。"
+				""
+				"&6トリニウムコイルブロック&r、&6超伝導体コイルブロック&r、&6ナクアダ合金&rなどに大量に必要になる。&3核融合炉MK I&rには5.5スタック近く必要なので、たっぷり備蓄しておこう！"
+			]
+			id: "15FAEE3F625265F4"
+			rewards: [{
+				id: "7C362667765C8A4D"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0EDAFBD50F866785"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			title: "トリニウム"
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"41FA85A3920EB334"
+				"5A31EEF439212D6E"
+				"15FAEE3F625265F4"
+			]
+			description: ["&6トリニウム&rは7番目に使えるコイル素材で、&3EBF&rの稼働温度を&a9001K&rまで上げ、&6ナクアドリア&rのようなより高度な素材を処理できるようにする。"]
+			id: "7A65459E4DFAAC2D"
+			rewards: [{
+				id: "0F124B2E02F2BD4E"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "52F9691851DE4023"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			title: "トリニウムコイル"
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4261BDA34D716EC8"]
+			description: [
+				"数十種類の元素を組み合わせるか、効率は落ちるが&6鉄&rと&6銅&rを大量に&3オムニックシンセサイザー&rに放り込むと、&6オムニウムナゲット&rが手に入る。このナゲットはさらにインゴットへ圧縮でき、材料となった多くの金属と同じように加工できる。"
+				""
+				"オムニウムはエンドゲームを通じてますます頻繁に使うことになる。"
+			]
+			icon: "gtceu:omnium_ingot"
+			id: "61301FBD825F8280"
+			rewards: [{
+				id: "01C5A5720A287196"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4205D04F8EFE2D7D"
+					item: "gtceu:omnium_nugget"
+					type: "item"
+				}
+				{
+					id: "56970BBAFAB8BEB7"
+					item: "gtceu:omnium_ingot"
+					type: "item"
+				}
+			]
+			title: "オムニウム"
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F572CA3678CB287"
+				"5B07A88C0BFF6586"
+				"798284BA30D818DA"
+				"2D0DF78F71760F00"
+				"7ACF867DECE1C37F"
+			]
+			description: [
+				"これが初めてのマイクロマイナーだ。&6LV空間発生器&rに&6リン&rが必要になる。"
+				""
+				"このマイクロマイナーは&6何度でも再利用できる&rので、好きなだけミッションに送り出せる。"
+				""
+				"このマイクロマイナーはほとんどの基本資源を持ち帰ることができ、鉱石処理を使えば一部のレアな資源も得られる。レシピは&bEMI&rで確認しよう。"
+			]
+			id: "638130DC8A2BF1C1"
+			rewards: [{
+				id: "5FF12439A660943F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "4362115B3E464772"
+				item: "kubejs:microminer_t1"
+				type: "item"
+			}]
+			title: "マイクロバースへの初挑戦"
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0874A0191325CFDB"
+				"5B07A88C0BFF6586"
+			]
+			description: [
+				"[\"\",{\"text\":\"2台目のマイクロマイナー！これが初めてのマイクロマイナーなら、マイクロマイナーとマイクロバースの仕組みについてのクエストを読んでおこう。場所は \"},{\"underlined\":true,\"text\":\"「マイクロバースへ」チャプターだ。\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"68F29871402A6B1B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"クリックでチャプターへ移動\"}}}]"
+				""
+				"LV空間発生器にリンが必要になる。"
+				""
+				"このマイナーは&6タングステン&rの最初の入手源で、&6貴ガス&rの調達にも役立つ。"
+				""
+				"&2PackagedAutoを手に入れる前でも、Extended Craftingの作業台を自動クラフト台に変換すれば、Extended Craftingのレシピを自動化できることを忘れずに。"
+				""
+				"このマイクロマイナーが何を持ち帰るかは、&bEMI&rでレシピを確認しよう。"
+			]
+			id: "53C00EA9D9BEE776"
+			rewards: [{
+				id: "66C6B5C146FB14CF"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "0589E6FCB6684938"
+				item: "kubejs:microminer_t2"
+				type: "item"
+			}]
+			title: "ティア2マイクロマイナー"
+			x: 22.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["14F1FF4656693711"]
+			description: [
+				"3台目のマイクロマイナー。&bMV&r &6空間発生器&rに&6ホウ素&rが必要になる。"
+				""
+				"この段階になると、マイクロマイナーでほとんどの基本資源が手に入る。何が得られるかは引き続き&bEMI&rで確認しよう。"
+			]
+			id: "664107ED03A944CD"
+			rewards: [{
+				id: "5F3323232ACD2ED2"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6652A8526BF40563"
+				item: "kubejs:microminer_t3"
+				type: "item"
+			}]
+			title: "ティア3マイクロマイナー"
+			x: 22.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"52F1953ED72A8AA6"
+				"77582C534A994D7C"
+				"27A80F018F59EF1E"
+			]
+			description: [
+				"ティア4のミッションはすべて&6ぺトロジウムの粉&rが必要だ。"
+				""
+				"このティアのマイクロマイナーは、&6鉄&r、&6金&r、&6レッドストーン&rなどの基本素材を大量に集めるのが得意だ。さらに、このマイクロマイナーは&6ネプツニウム&rの最初の入手源になる。"
+				""
+				"&6ウィザーの地のデータ&rが必要なミッションでは、&6白金族汚泥&rを作るのに最適な&6シェルドナイト&rも手軽に入手できる。"
+			]
+			id: "15DBB22E3DC0AFB7"
+			rewards: [{
+				id: "48E752C131EA99AC"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "41398E76BAF0F92E"
+				item: "kubejs:microminer_t4"
+				type: "item"
+			}]
+			title: "ティア4マイクロマイナー"
+			x: 22.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"52F1953ED72A8AA6"
+				"1349044BF8C04A12"
+				"05F7C3F397B329F5"
+			]
+			description: ["&6安定したプルトニウム&rを使うミッションで、&6ナクアダ&r（&eHM+では&6スノーチェスト&r）と&6カエマナイト鉱石&r（&6トリニウム&r用）の最初の入手源になる。後には&bグレイシオ&rでこれらの鉱石を採掘できる。"]
+			id: "023197AB7CDBDD6E"
+			rewards: [{
+				id: "5C975732784B15CA"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "51421243D98A03F2"
+				item: "kubejs:microminer_t5"
+				type: "item"
+			}]
+			title: "ティア5マイクロマイナー"
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7DB174443D7FAFA0"]
+			description: [
+				"&6ドラゴンの卵&rの最初のまともな入手源。"
+				""
+				"このマイクロマイナーからは&6閃ウラン鉱&r、&6プルトニウム&r、&6古代の残骸&rなども得られる。"
+				""
+				"&3精鋭型マイクロバース投影機&rに到達すると、このマイクロマイナーは&6スカルクブロック&rや&6スカルクヴェイン&rなどのスカルク関連アイテムも持ち帰れるようになる。"
+			]
+			id: "49B872B193268554"
+			rewards: [{
+				id: "1A07DD326F7F9A55"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2BE2D12C219225CD"
+				item: "kubejs:microminer_t6"
+				type: "item"
+			}]
+			title: "ティア6マイクロマイナー"
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7E3A179376673590"
+				"7C89BC235C988689"
+				"44B0AB41C076E779"
+			]
+			description: [
+				"&6ウォーデンの心臓&rの最初の入手源で、&6ウォーデンの棲み処のデータ&rの唯一の入手源。"
+				""
+				"おまけとして、&6スカルクカタリスト&r、&6ウォーデンの巻きひげ&r、&6ルテニウムブロック&r、その他さまざまな貴金属や宝石もたっぷり持ち帰る。"
+			]
+			id: "5FE96C30454A0374"
+			rewards: [{
+				id: "054FA1CE3A3D79F3"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0D171B9697B4903C"
+				item: "kubejs:microminer_t7"
+				type: "item"
+			}]
+			title: "ティア7マイクロマイナー"
+			x: 22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41F1837D7C131898"]
+			description: [
+				"&6ハダルシャード&rの&6唯一&rの入手源。"
+				""
+				"このマイクロマイナーは&6ドラゴンの卵&r、&6ドラゴンの鱗&r、&6ドラゴンブレス&r、&6クアンタムスター&r、&6グラビスター&rも持ち帰る。"
+			]
+			id: "2D47BFA44BDB5E6A"
+			rewards: [{
+				id: "5D074328E8D1E7A2"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "66C53D4610F26EED"
+				item: "kubejs:microminer_t8"
+				type: "item"
+			}]
+			title: "ティア8マイクロマイナー"
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"57D9FA04817CB92F"
+				"41F1837D7C131898"
+			]
+			description: [
+				"&6ティア9マイクロマイナー&rは新しいアイテムを解禁しないが、代わりに既存の素材の一部について別の入手源になる。"
+				""
+				"このマイナーは&6ダームスタチウム&rと&6デュラニウム&rの優れた入手源だ。また、&3核融合炉MK III&rと比べると少し遅いが、より安価な&6ニュートロニウム&rの入手源でもある。"
+			]
+			id: "6BF4A76C5B84EEE9"
+			rewards: [{
+				id: "5FA553DCC8666ADA"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4E68CF49A166A50A"
+				item: "kubejs:microminer_t9"
+				type: "item"
+			}]
+			title: "ティア9マイクロマイナー"
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"483652BAEF59E125"
+				"0B51A633811472A2"
+			]
+			description: [
+				"我は死なり、宇宙の破壊者なり。"
+				""
+				"このマイナーは&6大宇宙の心臓&rと&3粉砕されたマイクロバース&rの唯一の入手源だ。"
+			]
+			id: "27EBB5AAF8A40F3D"
+			size: 2.0d
+			tasks: [{
+				id: "624B7498A1144A6F"
+				item: "kubejs:microminer_t10"
+				type: "item"
+			}]
+			title: "ティア10マイクロマイナー"
+			x: 22.0d
+			y: 6.5d
+		}
+	]
+	title: "進行"
+}

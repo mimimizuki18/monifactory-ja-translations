@@ -1,0 +1,1334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "renewable_production"
+	group: "0D5BFFD0A5E49312"
+	icon: "gtceu:lv_chemical_reactor"
+	id: "055C0B43FE14258F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2B4F44E19AA7A1B6"
+				"72861B317663600B"
+			]
+			description: [
+				"最後のステップ。&6脈動する粉末&rと&6粘土&rを組み合わせて&6脈動予測マトリックス&rを作ろう。 "
+				""
+				"&6レゾナントクラスレート&rを作る&3&3化学反応器&r1台で同じティアの&3合金製錬炉&r1台をまかなえること、そして&6脈動予測マトリックス&rを作る&bMV &3合金製錬炉&r1台で&3シミュレーションチャンバー&r10.03台をまかなえ、ティアが上がるごとにまかなえる&3シミュレーションチャンバー&rの数が倍になることを覚えておこう。"
+				"{@pagebreak}"
+				"&e合金製錬炉に&6粘土&eや&6脈動する粉末&eが溢れすぎないようにするには、合金製錬炉の隣にアイテム容器を2つ（例えば&6チェスト&eや&bSophisticated Storage&6の樽&e）置き、合金製錬炉にチェストの方を向けたロボットアームを付けて、搬入モードと正確保持に設定し、保持量を64以下にしよう。"
+				""
+				"{image:ftblibrary:textures/gui/ppm_robot_arm_how_to.png width:100 height:100 align:center}"
+			]
+			id: "261F7D50E23B0789"
+			optional: true
+			size: 2.0d
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"合金製錬炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "6D25E047579465DD"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.25d
+		}
+		{
+			dependencies: [
+				"500B77982B9CDF9B"
+				"3BC7B5321B707F78"
+			]
+			description: ["&6クォーツ&rと&6共振エンダー&rを組み合わせて&6レゾナントクラスレート&rを作ろう。&6クォーツ&rを作る&3電解槽&r1台で、同じティアの&3化学反応器&r2.4台をまかなえる。"]
+			id: "3E90A188715DA88A"
+			optional: true
+			size: 1.5d
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"化学反応器\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"MV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "122706C284BF4311"
+				item: "kubejs:resonant_clathrate"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E90A188715DA88A"]
+			description: ["&6レゾナントクラスレート&rを製錬して&6脈動する粉末&rにしよう。&3かまど&rで製錬するなら、&3Iron Furnaces&rのような強化版の&3かまど&rを使うほうが効率的だ。燃料には&6サトウキビ&rが使える。状況によっては&3電気かまど&rのままでもいいだろう。 "]
+			id: "2B4F44E19AA7A1B6"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"かまど\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電気かまど\"},\".\"]"
+			tasks: [{
+				id: "39B409F800210783"
+				item: "kubejs:pulsating_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["50FB5E0B0E0B142F"]
+			description: ["&6エンダーパール&rを溶かして&6共振エンダー&rにしよう。"]
+			icon: "thermal:ender_bucket"
+			id: "500B77982B9CDF9B"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"抽出機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [
+				{
+					id: "231370C8AD261AE8"
+					item: "thermal:ender_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25D0100456A15524"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "共振エンダー"
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5BE3E37772FAF6CB"]
+			description: ["&6エンダーマンのデータモデル&rを使って&6エンダーパール&rを生産すれば、収支プラスの&6脈動予測マトリックス&r生産設備を作れる。自己認識ティアの&6エンダーマンのデータモデル&r1つで、他の6.2個のモデルを稼働させるのに十分な&6エンダーパール&rをまかなえる。"]
+			id: "50FB5E0B0E0B142F"
+			optional: true
+			tasks: [{
+				id: "3B35A9161911CB96"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"序盤の&6丸石&rの入手源としては、&eThermalの&3火成岩生成機&rか&bGregtech&rの&3岩石破砕機&rが一番だ。1台で足りなければ、いつでもアップグレードしたり台数を増やしたりできる。&rここが&eコブルワークス&rの出発点だ。"
+				""
+				"安価な建築ブロックでもある。"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			id: "1881488CEB982FCD"
+			progression_mode: "flexible"
+			size: 2.0d
+			tasks: [{
+				id: "6A1B4224E18DC3EC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				title: "丸石"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1881488CEB982FCD"]
+			description: ["主に装飾ブロック用。まあ、これも&eコブルワークス&rの一部ではある。"]
+			id: "6E06505BC7636985"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"かまど\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電気かまど\"},\".\"]"
+			tasks: [{
+				id: "7429EE615EFC6A1C"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1881488CEB982FCD"]
+			description: ["&6丸石&rを粉砕して&6石の粉&rにしよう。実際には&e鉱石処理&rから&6石の粉&rが大量に得られるが、これは予備の入手源になる。&6コンクリート&rに必要だ。遠心分離もできるが、得られる資源はあまり役に立たず、量もごくわずかだ。"]
+			id: "4A56822201818607"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "3A88BF095D4C0DB9"
+				item: "gtceu:stone_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4A56822201818607"
+				"7A3F3FB2774A4632"
+				"4BC0A5F24E5837ED"
+			]
+			description: ["&6石の粉&r、&6粘土の粉&r、少量の&9水&rを混ぜて&6コンクリート&rを作ろう。これがおそらく&6コンクリート&rを得る一番簡単な方法だ。&2クリーンルーム&rに使う&6プラスクリート&rに必要で、&6発射台&rにも少しだけ使う。&o"]
+			icon: "gtceu:concrete_bucket"
+			id: "7F165C2BCCCBA565"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"ミキサー\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [
+				{
+					id: "142F150D5A05D7FE"
+					item: "gtceu:concrete_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A609D29572FE137"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "コンクリート"
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1881488CEB982FCD"]
+			description: ["&6丸石&rを砕いて&6砂利&rにしよう。"]
+			id: "2968DF8A3A0EBF89"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"鍛造機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "4EE8610ED03A7BDD"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2968DF8A3A0EBF89"]
+			description: ["&6砂利&rをふるって&6火打石&rを探そう。"]
+			id: "483B16F4D4291C82"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"選別機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "3A7C55B0274C3CC2"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0933FF764C1D2399"]
+			description: ["&6粘土&rを粉砕して&6粘土の粉&rにしよう。&rさまざまな有用資源になる。"]
+			id: "7A3F3FB2774A4632"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "2F4B284ECF831238"
+				item: "gtceu:clay_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7A3F3FB2774A4632"
+				"261D2F3B1F2162D0"
+			]
+			description: ["&6粘土の粉&rを分解して&6ナトリウムの粉&r、&6シリコンの粉&r、&6リチウムの粉&r、&6アルミニウムの粉&rにしよう。&rこれらの資源は大量に必要になるので、自動生産するうえで極めて重要だ。これが一番の入手方法になる。"]
+			hide_until_deps_visible: true
+			id: "1D4B663AD87CA3C1"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電解槽\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "78F2F922F7B7F0EA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:sodium_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lithium_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:aluminium_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:silicon_dust"
+							}
+						]
+					}
+				}
+				title: "ナトリウム、シリコン、 リチウム、またはアルミニウムの粉"
+				type: "item"
+			}]
+			title: "ナトリウム、シリコン、リチウム、アルミニウム"
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			description: ["&9水&rの入手方法はたくさんあるが、主なものは次のとおり。とても遅いが安価な&3Water Collector&r、少し高価だがはるかに速い&bThermalの&3水生成器&r、そしてずっと高価だがカバーなので場所を取らず、&3水生成器&rの16倍の速さで水を作れる&bGregTechの&3無限水源カバー&rだ。\n\n今のところは&3水生成器&rを使うのがいいだろう。"]
+			icon: "minecraft:water_bucket"
+			id: "4BC0A5F24E5837ED"
+			subtitle: "&oそう、&9水&rのクエストもある。"
+			tasks: [
+				{
+					id: "455987E6396919A1"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05C8F0728F992606"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "水"
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"626330BB4A59E567"
+				"4BC0A5F24E5837ED"
+			]
+			description: ["&6粉&rと少量の&6水&rを組み合わせて&6粘土&rを作ろう。&rさまざまな有用資源になる。"]
+			id: "0933FF764C1D2399"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"化学反応器\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "27C80697DA452BF5"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0933FF764C1D2399"]
+			description: ["&6粘土&rをクラフトして&6粘土玉&rにしよう。&r&3圧縮ドロワー&rも使える。"]
+			id: "4107A9B0CA139E6C"
+			tasks: [{
+				id: "1EF9791BD7B77F35"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3380CBA4E4010EEC"]
+			description: ["&6砂&rを砕いて&6粉&rにしよう。&6粘土&rと&6ネザーラック&r以外には使い道がない。"]
+			id: "626330BB4A59E567"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"鍛造機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "6097D83B01AA2CBF"
+				item: "kubejs:dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2968DF8A3A0EBF89"]
+			description: ["&6砂利&rを砕いて&6砂&rにしよう。ほぼ&eコブルワークス&rのもう一段階にすぎない。"]
+			id: "3380CBA4E4010EEC"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"鍛造機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "5ED3196F1A42F6C6"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&9溶岩&rの主な入手方法は2つある。1つ目は&3化学反応器&rで&6マグマブロック&rを&9溶岩&rに変える方法。2つ目はネザーの&9溶岩&r鉱脈の上で&bGregTechの&6液体採掘機&rを使う方法だ。"
+				""
+				"今回は&6ネザーラック&rのために&9溶岩&rが必要だが、&9溶岩&rは遠心分離して&6タンタル石&r、&6金&r、&6サファイア&rなどの有用資源を得ることもできる。"
+			]
+			icon: "minecraft:lava_bucket"
+			id: "36100ACD3655DAFF"
+			tasks: [
+				{
+					id: "3BEF917609AB7B4B"
+					item: "minecraft:lava_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49671B99CAF250CF"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "溶岩"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"36100ACD3655DAFF"
+				"626330BB4A59E567"
+			]
+			description: ["&6粉&rと&9溶岩&rを組み合わせて&6ネザーラック&rにしよう。最初の&6地獄 マター&rや&6ネザーラックの粉&rに使う。"]
+			id: "33714BC51815A665"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"化学反応器\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "1335F210887B7F3C"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33714BC51815A665"]
+			description: ["&6ネザーラック&rを粉砕して&6ネザーラックの粉&rにしよう。&6ネザーケーキ&rに使うほか、遠心分離して&6レッドストーン&r、&6金&r、&6硫黄&r、&6石炭&rも得られる。"]
+			id: "08D087B38EE0602B"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "3F8820777A1AB80D"
+				item: "gtceu:netherrack_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["36100ACD3655DAFF"]
+			description: ["&9溶岩&rを冷やして&6黒曜石&rにしよう。大量に必要になるので、&6HV&rに到達したら何も消費せずに&6黒曜石&rを生産できる&3岩石破砕機&rを使うのが賢明だろう。"]
+			id: "6B4A50B6F9F835EF"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"液体成型機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "0B086D94FCE75840"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B4A50B6F9F835EF"]
+			description: ["&6黒曜石&rを粉砕して&6黒曜石の粉&rにしよう。&6ぺトロジウムの粉&rのために大量に必要になる。"]
+			id: "57D410C5A9EAFAD9"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "418DD246EDA607CD"
+				item: "gtceu:obsidian_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21654B6E703A2923"]
+			description: [
+				"&6砂岩&rを砕いて&6硝酸カリウム&rにしよう。これがおそらく&6硝酸カリウム&rを得る一番の方法で、&6エアロジウムの粉&rのために大量に必要になる。ノーマルモードなら、&bHostile Neural Networks&rからも&6硝酸カリウム&rを得られる。"
+				""
+				"電気分解して&6カリウム&rを得ることもできるが、&6カリウム&rは他の入手源から簡単に得られるうえ、&6硝酸カリウム&rを大量に消費するのでおすすめはしない。"
+			]
+			id: "1349FBBCE3041081"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "6BA83E0FE524FA1B"
+				item: "gtceu:saltpeter_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3380CBA4E4010EEC"]
+			description: ["&6砂&rを圧縮して&6砂岩&rにしよう。&3Ender IO&rのクラフターか&6圧縮機&rを使うのがおすすめだ。"]
+			id: "21654B6E703A2923"
+			tasks: [{
+				id: "105B371C4873CAEB"
+				item: "minecraft:sandstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["599012DB0B179B3B"]
+			description: ["&6石英砂&rを分離して&6クォーツァイトの粉&rと&6ケルタスクォーツの粉&rにしよう。&bApplied Energistics 2&rに必要な&6ケルタスクォーツ&rの優れた再生可能な入手源だ。"]
+			id: "201B129579ACF449"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"遠心分離機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [
+				{
+					id: "173CBB96166964FB"
+					item: "gtceu:quartzite_dust"
+					type: "item"
+				}
+				{
+					id: "60EC948DE2639EC3"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+			]
+			title: "クォーツァイトとケルタスクォーツの粉"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3380CBA4E4010EEC"]
+			description: ["&6砂&rを粉砕して&6石英砂&rにしよう。遠心分離して有用資源にできる。"]
+			id: "599012DB0B179B3B"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "6D3FA82DF4858787"
+				item: "gtceu:quartz_sand_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3380CBA4E4010EEC"
+				"467BD25ED78C7EF8"
+			]
+			description: ["&6砂&rを製錬して&6ガラス&rにしよう。&3電気かまど&rで製錬するなら、&3Iron Furnaces&rのような強化版の&3かまど&rを使うほうが効率的で、燃料には&6サトウキビ&rが使える。ただし、&3アーク炉&rを使えばガラスの産出量が2倍になる。後で解禁されれば、&3大型製錬炉&rがこの用途に最適になる。"]
+			hide_until_deps_visible: true
+			id: "33351123F08D92BE"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"かまど\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"アーク炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "70D37DC6A4C89B21"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:glass"
+					}
+				}
+				title: "ガラス"
+				type: "item"
+			}]
+			title: "ガラス"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"33351123F08D92BE"
+				"747A07B8142E9B49"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&6ガラス&rを粉砕して&6ガラスの粉&rにしよう。&6二酸化ケイ素の粉&r以外には使い道がない。"]
+			id: "69BFFF8BFB3B3B5C"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "113028C111EF1CC8"
+				item: "gtceu:glass_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69BFFF8BFB3B3B5C"]
+			description: ["&6ガラスの粉&rを分離して&6二酸化ケイ素の粉&rにしよう。電気分解して有用資源にできる。"]
+			id: "3B8EFDA817243B9F"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"遠心分離機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "1DCE55AB1ECA9566"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B8EFDA817243B9F"]
+			description: ["&6二酸化ケイ素の粉&rを分解して&6シリコンの粉と酸素&rにしよう。&6二酸化ケイ素&rの電気分解は序盤における&6酸素&rの最良の入手源だが、状況によっては後で&6液体空気&rを蒸留するほうがよくなるかもしれない。"]
+			id: "6E16CEC90AA82C32"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電解槽\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "5E475348CEFAFBBF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:silicon_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:oxygen_bucket"
+							}
+						]
+					}
+				}
+				title: "シリコンの粉または酸素入りバケツ"
+				type: "item"
+			}]
+			title: "シリコンと酸素"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"33351123F08D92BE"
+				"5BE3E37772FAF6CB"
+			]
+			description: ["&6ガラス&rを&6クォーツ&rに変えよう。&6ガラス&rを作る&3アーク炉&r1台で、同じティアの&3電解槽&r2.5台をまかなえる。&6クォーツ&rは大量に必要になるので、これを自動生産することが重要だ。"]
+			hide_until_deps_visible: true
+			id: "6792DF5F9F320B98"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電解槽\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "79199213561E6E2C"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D61F343826FD239"]
+			description: ["&6丸石&rを砕いて&6砂利&rにしよう。"]
+			id: "5228EFF7200B4C91"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"鍛造機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "7981A513A9BBFDC3"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5228EFF7200B4C91"]
+			description: ["&6砂利&rを砕いて&6砂&rにしよう。"]
+			id: "456239275544A789"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"鍛造機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "3A229BA671666C89"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["456239275544A789"]
+			description: ["&6砂&rを製錬して&6ガラス&rにしよう。&3電気かまど&rで製錬するなら、&3Iron Furnaces&rのような強化版の&3かまど&rを使うほうが効率的で、燃料には&6サトウキビ&rが使える。ただし、&3アーク炉&rを使えばガラスの産出量が2倍になる。後で解禁されれば、&3大型製錬炉&rがこの用途に最適になる。"]
+			id: "749281AED88852C2"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"かまど\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"アーク炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "5CB8E13112A61401"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["749281AED88852C2"]
+			description: ["&6ガラス&rを&6クォーツ&rに変えよう。&6ガラス&rを作る&3アーク炉&r1台で、同じティアの&3電解槽&r2.5台をまかなえる。&6クォーツ&rは大量に必要になるので、これを自動生産することが重要だ。"]
+			id: "3BC7B5321B707F78"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電解槽\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "13EDE5C42D7590D4"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["456239275544A789"]
+			description: ["&6砂&rを砕いて&6粉&rにしよう。"]
+			id: "66CA4A42DD474383"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"鍛造機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "62CDC0E943DB3904"
+				item: "kubejs:dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"66CA4A42DD474383"
+				"447E9501E57DA010"
+			]
+			description: ["&6粉&rと少量の&6水&rを組み合わせて&6粘土&rを作ろう。&r "]
+			id: "72861B317663600B"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"化学反応器\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "1C1DC449620563CB"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BE3E37772FAF6CB"]
+			description: [
+				"序盤の&6丸石&rの入手源としては、&eThermalの&3火成岩生成機&rか&bGregtech&rの&3岩石破砕機&rが一番だ。1台で足りなければ、いつでもアップグレードしたり台数を増やしたりできる。&rここが&eコブルワークス&rの出発点だ。"
+				""
+				"安価な建築ブロックでもある。"
+			]
+			id: "6D61F343826FD239"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "44F09B9F2D173993"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				title: "丸石"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BE3E37772FAF6CB"]
+			description: [
+				"&9水&rの入手方法はたくさんあるが、主なものは次のとおり。とても遅いが安価な&3Water Collector&r、少し高価だがはるかに速い&bThermalの&3水生成器&r、そしてずっと高価だがカバーなので場所を取らず、&3水生成器&rの16倍の速さで水を作れる&bGregTechの&3無限水源カバー&rだ。\n\n今のところは&3水生成器&rを使うのがいいだろう。"
+				""
+				"今回は&6粘土&rのために&9水&rが必要だ。"
+			]
+			icon: "minecraft:water_bucket"
+			id: "447E9501E57DA010"
+			optional: true
+			subtitle: "&oそう、&9水&rのクエストもある。"
+			tasks: [
+				{
+					id: "3D88A8072F2B5285"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "62EA98351219BCF2"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "水"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7A3F3FB2774A4632"
+				"68897FC5F720BB4F"
+			]
+			description: ["&6粘土の粉&rを分解して&6ナトリウムの粉&r、&6シリコンの粉&r、&6リチウムの粉&r、&6アルミニウムの粉&rにしよう。&rこれらの資源は大量に必要になるので、自動生産するうえで極めて重要だ。これが一番の入手方法になる。"]
+			hide_until_deps_visible: true
+			id: "2664406B3CD20703"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電解槽\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"MV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "4F2994BE3E9A9D23"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:sodium_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lithium_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:aluminium_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:silicon_dust"
+							}
+						]
+					}
+				}
+				title: "ナトリウム、シリコン、リチウム、またはアルミニウムの粉"
+				type: "item"
+			}]
+			title: "ナトリウム、シリコン、リチウム、アルミニウム"
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"3380CBA4E4010EEC"
+				"07C571669B023A30"
+			]
+			description: ["&6砂&rを製錬して&6ガラス&rにしよう。&3電気かまど&rで製錬するなら、&3Iron Furnaces&rのような強化版の&3かまど&rを使うほうが効率的で、燃料には&6サトウキビ&rが使える。ただし、&3アーク炉&rを使えばガラスの産出量が2倍になる。後で解禁されれば、&3大型製錬炉&rがこの用途に最適になる。"]
+			hide_until_deps_visible: true
+			id: "747A07B8142E9B49"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"アーク炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "6D27870CD7F95683"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:glass"
+					}
+				}
+				title: "ガラス"
+				type: "item"
+			}]
+			title: "ガラス"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["014D28F123261D8D"]
+			description: ["&bシルクタッチ&rのエンチャントを付けた&bApplied Energistics&rの&3ME消滅プレーン&rを、&6アメジストの塊&r専用のストレージしかないネットワーク上に設置して成長した&6アメジストの塊&6を収穫し、好きな方法で欠片に変えよう。\n\n芽生えたケルタスクォーツと同じように、&bApplied Energistics&rの&3成長加速器&rでアメジストの成長を速められる。"]
+			id: "093883A81E6926E2"
+			optional: true
+			tasks: [{
+				id: "6FA9B7FAD016DFB2"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["093883A81E6926E2"]
+			description: ["&6アメジストの欠片&rを砕いて&6アメジストの粉&rにしよう。"]
+			id: "2794D9A3AD594F6A"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "26E3FA1008B6CB88"
+				item: "gtceu:amethyst_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2794D9A3AD594F6A"]
+			description: ["&6アメジストの粉&rから&6二酸化ケイ素の粉&rを分離しよう。芽生えたアメジストが十分にあれば、&eコブルワークス&rの産出量にも匹敵する。"]
+			id: "6F10BBD085BF7532"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電解槽\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "551C6F157CB6FA51"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E3CBC929557418F"]
+			description: ["まずは&e晶洞&rの中にある&6芽生えたアメジスト&rを見つけよう。このブロックは採掘すると劣化するので、その場で自動化を組むか、&3カット＆ペーストガジェット&rや&3空間ストレージ&rで運ぶといい。"]
+			hide_until_deps_visible: true
+			icon: "minecraft:budding_amethyst"
+			id: "014D28F123261D8D"
+			optional: true
+			tasks: [{
+				id: "5D3F46B55F0E9B1C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:budding_amethyst"
+				type: "observation"
+			}]
+			title: "芽生えたアメジスト"
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2794D9A3AD594F6A"]
+			description: ["&6アメジストの粉&rから&6鉄の粉&rを分離しよう。これは安価で手軽な&6鉄&rの入手源で、追加の材料なしで&6スチール&rに変えられる。"]
+			id: "2612A01CCC73DF1A"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電解槽\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "4B9B9E4581922FF1"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F10BBD085BF7532"]
+			description: ["&6二酸化ケイ素の粉&rを分解して&6シリコンの粉と酸素&rにしよう。&6二酸化ケイ素&rの電気分解は序盤における&6酸素&rの最良の入手源だが、状況によっては後で&6液体空気&rを蒸留するほうがよくなるかもしれない。"]
+			id: "7B4EB40F016DBD76"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電解槽\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "58C2B5EB1690BFE9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:silicon_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:oxygen_bucket"
+							}
+						]
+					}
+				}
+				title: "シリコンの粉または酸素入りバケツ"
+				type: "item"
+			}]
+			title: "シリコンと酸素"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7B4EB40F016DBD76"
+				"4EC63681CBC1CAD2"
+			]
+			description: ["&6二酸化ケイ素の粉&rから得た&9酸素&rで、&6鉄インゴット&rを&6錬鉄インゴット&rに変えよう。&6錬鉄&rの入手方法は他にもあるが、序盤ではこれが一番速い。"]
+			id: "7CFC483280B08A26"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"アーク炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "75938527A9D05C8B"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2612A01CCC73DF1A"]
+			description: ["&6鉄の粉&rを製錬して&6鉄インゴット&rにしよう。&bIron Furnaces&rの強化版かまどか&3電気かまど&rを使うといい。後で解禁されれば、&3大型製錬炉&rがこの用途に最適になる。"]
+			id: "4EC63681CBC1CAD2"
+			optional: true
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"かまど\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電気かまど\"},\".\"]"
+			tasks: [{
+				id: "42D25699329E820D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7CFC483280B08A26"
+				"7B4EB40F016DBD76"
+			]
+			description: ["&6錬鉄&rを高炉で&6スチール&rにしよう。この工程では副産物として&6灰&rが出る。遠心分離してさらに副産物を得てもいいし、単に廃棄してもいい。\n\n&6アメジスト&rだけで&6スチール&rが作れるなんて、なんて便利なんだ！"]
+			id: "031A5A2B3AA99782"
+			optional: true
+			size: 2.0d
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電気高炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"MV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "5851026225C2E439"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3380CBA4E4010EEC"]
+			description: ["&6砂&rを再構築して&6ソウルサンド&rにしよう。泡エレベーターや&eウィザー&rの召喚といったバニラの用途のほかに、ソウルサンドは&6ソウラリウム&rの合金に使え、遠心分離して資源も得られる。"]
+			id: "1E6CDC008C85D941"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"原子再構成機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"MV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "173EB624F12777AD"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1E6CDC008C85D941"]
+			description: ["&6ソウルサンド&rを遠心分離して&6硝酸カリウムの粉&r、&6石炭の粉&r、&9石油&r、そして元の&6砂&rの一部を得よう。これらの素材の主要な入手源としては電力を食ううえに遅いが、他の手段をうまく補ってくれる。"]
+			id: "1AFB2AD1A572E1D3"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"遠心分離機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"MV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "11CDB77540DAC85D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:saltpeter_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:coal_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:oil_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "硝酸カリウム、石炭、石油"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["59CC348BC6199793"]
+			description: [
+				"[\"\",{\"text\":\"必要な規模で \"},{\"color\":\"gold\",\"text\":\"木\"},{\"text\":\" を集めるには、まず \"},{\"color\":\"blue\",\"underlined\":true,\"text\":\"植物日照機\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2607F8404B56773B\"}},{\"text\":\" から始めて、解禁されたら \"},{\"color\":\"blue\",\"underlined\":true,\"text\":\"温室\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3A71D736AE5C17E2\"}},{\"text\":\" にアップグレードしよう。\"}]"
+				""
+				"どちらも稼働には&9水&rとエネルギーが必要で、&6無機肥料&rを入れると産出量が増える。&3温室&rのほうがはるかに速いだけだ。"
+			]
+			id: "0E8C258BD7E36154"
+			size: 2.0d
+			subtitle: "&o木を殴るだけじゃ足りない。&r"
+			tasks: [{
+				id: "10903B2BD99A6BDE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "木"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["&6苗木&rは、対応する種類の木の葉を壊すとドロップすることがある。\n\n特に&6ゴムの苗木&rを狙おう。収穫すると&6粘性樹脂&rが得られるからだ。"]
+			id: "59CC348BC6199793"
+			tasks: [{
+				id: "7FCB53B3E3E4F56C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				type: "item"
+			}]
+			title: "苗木"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"59CC348BC6199793"
+				"0E8C258BD7E36154"
+			]
+			description: ["&6ゴムの苗木&rを育てることにしたなら、生産物として&6粘性樹脂&rが得られる。手に入った&rゴムの木&rを&3遠心分離&rすれば、&6炭素の粉&rや&9メタン&rと一緒に追加で得られる。\n\nこの物質は、特に序盤では驚くほど用途が広い。ぜひ自動生産しよう。"]
+			id: "2BF1E9CC0D7F7C91"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"植物日照機\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"温室\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"遠心分離機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "2A48AD6742E0AF73"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"59CC348BC6199793"
+				"2BF1E9CC0D7F7C91"
+			]
+			description: ["ほとんどの植物は、クラフトや圧縮で&6プラントボール&rにできる。たいていは&3粉砕&rして&6バイオチャフ&rにしたほうが役に立つ。"]
+			id: "345470975C5570B7"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"圧縮機\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"遠心分離機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "03F9D0068CD89D92"
+				item: "gtceu:plant_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["345470975C5570B7"]
+			description: ["&eスライムチャンク&rが見つからないなら、&6プラントボール&rを製錬して&6スライムボール&rにできる。"]
+			id: "0C80D39012952549"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"かまど\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"電気かまど\"},\".\"]"
+			tasks: [{
+				id: "6BE7D65608B5E334"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["345470975C5570B7"]
+			description: ["&6プラントボール&rを粉砕して&6バイオチャフ&rにしよう。"]
+			id: "1FEC7E9025F6277A"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},\".\"]"
+			tasks: [{
+				id: "2A414D121B56DCC8"
+				item: "gtceu:bio_chaff"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2BF1E9CC0D7F7C91"]
+			description: ["生ゴムは&6粘性樹脂&rから&3遠心分離&rで得られるが、&9にかわ&rや&6プラントボール&rが目当てでないなら&3抽出機&rのほうが速い。"]
+			id: "5560E43D1B773B93"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"遠心分離機\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"抽出機\"},\".\"]"
+			tasks: [{
+				id: "0E95715740F8359B"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2BF1E9CC0D7F7C91"]
+			description: ["&9にかわ&rは&6粘性樹脂&rから遠心分離で得られる。これが最も単純なレシピで、特定の化学物質が余っていない限り最も安価でもある。\n\n&9にかわ&r自体にはいくつか用途があり、そのほとんどは&3作業台&rで行うレシピの&3組立機&r版だ。"]
+			icon: "gtceu:glue_bucket"
+			id: "519389755420A7A8"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"遠心分離機\"},\".\"]"
+			tasks: [
+				{
+					id: "48CAAA4DA3F8281C"
+					item: "gtceu:glue_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F873954A02F0209"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2AC7A8036CA65AF3"
+				"1FEC7E9025F6277A"
+			]
+			description: ["&9バイオマス&rはほとんどの植物から直接得られるが、&3醸造機&rに入れる前に植物を&6バイオチャフ&rに変えたほうが効率的だ。\n\n&3熱分解炉&rを使えば&6バイオチャフ&rから少し効率よく&9バイオマス&rを作れるが、かなり遅い。"]
+			icon: "gtceu:biomass_bucket"
+			id: "3B1873913255E7C0"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"醸造機\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"熱分解炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [
+				{
+					id: "64C7D02CF6242D24"
+					item: "gtceu:biomass_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "044264CD41C23764"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			description: ["&9水&rの入手方法はたくさんあるが、主なものは次のとおり。とても遅いが安価な&3Water Collector&r、少し高価だがはるかに速い&bThermalの&3水生成器&r、そしてずっと高価だがカバーなので場所を取らず、&3水生成器&rの16倍の速さで水を作れる&bGregTechの&3無限水源カバー&rだ。\n\n今のところは&3水生成器&rを使うのがいいだろう。"]
+			icon: "minecraft:water_bucket"
+			id: "2AC7A8036CA65AF3"
+			subtitle: "&oそう、&9水&rのクエストもある。"
+			tasks: [
+				{
+					id: "66EE299E0F4A6BF8"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44E8278736719DAE"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			title: "水"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FEC7E9025F6277A"]
+			description: ["大量の表土を剥ぎ取る気になれないなら、&6バイオチャフ&rを粉砕して&6土&rにできる。"]
+			id: "21CD97B41E37D290"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},\".\"]"
+			tasks: [{
+				id: "6B484201FA9B4D9E"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E8C258BD7E36154"]
+			description: ["&6原木&rを粉砕して&6木材パルプ&rにしよう。"]
+			id: "0C24E6D1F1D2A3AE"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"粉砕機\"},\".\"]"
+			tasks: [{
+				id: "5BB26CEAFE4B5113"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4A0D7BD20D857B73"
+				"21CD97B41E37D290"
+				"2AC7A8036CA65AF3"
+				"779632FC75C4FE6C"
+			]
+			description: [
+				"十分に加工すれば、&6苗木&r、&6原木&r、&9水&rから&6無機肥料&rを作れる。これで植物育成機械をブーストし、産出量を倍増させられる。"
+				""
+				"ただし、この方法で&6無機肥料&rを大量に生産するのは難しい。この方法で作れる以上の量が必要なら、別の方法を検討しよう。"
+			]
+			id: "483A64A744DA61C5"
+			subtitle: "命の循環"
+			tasks: [{
+				id: "202862FE2147DA1E"
+				item: "gtceu:fertilizer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21CD97B41E37D290"]
+			description: ["&6土&rを遠心分離して&6砂&rにできるが、この工程は&eコブルワークス&rで補うほうが楽かもしれない。最終的には自分で決めよう。"]
+			id: "4A0D7BD20D857B73"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"遠心分離機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"LV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "6A68E1D21F7FA886"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B1873913255E7C0"]
+			description: ["&9バイオマス&rから&9エタノール&rを得るときは、&3蒸留塔&rではなく&3蒸留機&rを使おう。副産物の&9水&rが増えても、設置面積の大きさと&6木材パルプ&rの産出量の減少に見合わない。"]
+			icon: "gtceu:ethanol_bucket"
+			id: "60A7102F5BA0DE19"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"蒸留機\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"MV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [
+				{
+					id: "794EFF38BC2B0474"
+					item: "gtceu:ethanol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69AB85ED2AAB7D29"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0E8C258BD7E36154"]
+			description: ["&6原木&rを焼いて&6木炭&rと&9クレオソート油&rにしよう。\n\n最初は&3コークス炉&rで十分だが、&3熱分解炉&rは数倍速く効率もいい。"]
+			id: "428C5BFD6A614FE2"
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"コークス炉\"},{\"italic\":\"true\",\"text\":\" か \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"熱分解炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"MV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [{
+				id: "24B053EBD3DD3EFB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:charcoal"
+							}
+							{
+								Count: 1b
+								id: "gtceu:creosote_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "木炭とクレオソート油"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E8C258BD7E36154"]
+			description: ["&3熱分解炉&rでは、&6原木&rを焼いて&9木炭副産物&rやその蒸留物を得られる。&6HV&rに到達すれば、これらをさらに蒸留・加工して&9トルエン&r、&9フェノール&r、&9ベンゼン&r、&9メタノール&r、&9アセトン&r、&9酢酸&rなどの有用な化学物質にできる。"]
+			icon: "gtceu:charcoal_byproducts_bucket"
+			id: "57C389A59CA5E00F"
+			size: 1.25d
+			subtitle: "[\"\",{\"italic\":\"true\",\"text\":\"このステップには \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"熱分解炉\"},{\"italic\":\"true\",\"text\":\" の \"},{\"italic\":\"true\",\"bold\":\"true\",\"text\":\"MV\"},{\"italic\":\"true\",\"text\":\" 以上が必要だ。\"}]"
+			tasks: [
+				{
+					id: "06604A48AED2B19B"
+					item: "gtceu:charcoal_byproducts_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "68C4CAB6B5F7F417"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1FEC7E9025F6277A"
+				"0C24E6D1F1D2A3AE"
+			]
+			description: ["&6コンポストミックス&rは&6木材パルプ&rと&6バイオチャフ&rを組み合わせたもので、有機物から&6無機肥料&rを生産したり、&3コンポスター&rなしで&6堆肥&rを作ったりするのに使える。"]
+			id: "779632FC75C4FE6C"
+			tasks: [{
+				id: "3173BEB39CD72C40"
+				item: "gtceu:compost_mix_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	title: "再生可能な生産"
+}

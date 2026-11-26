@@ -1,0 +1,11 @@
+{
+  "item.framing_templates.functional_storage_template": "Functional Storageフレーミングテンプレート",
+  "item.framing_templates.storage_drawers_template": "ドロワーフレーミングテンプレート",
+  "tooltip.framing_templates.applicable_to": "%sのフレーム付きドロワーに適用可能",
+  "tooltip.framing_templates.applied_decorations": "装飾:",
+  "tooltip.framing_templates.makes_copy": "(入力したテンプレートのコピーを作成する)",
+  "tooltip.framing_templates.sides.front": "正面",
+  "tooltip.framing_templates.sides.front_divider": "仕切り",
+  "tooltip.framing_templates.sides.side": "側面",
+  "tooltip.framing_templates.sides.trim": "トリム"
+}

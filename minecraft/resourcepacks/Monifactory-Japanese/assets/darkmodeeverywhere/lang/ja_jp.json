@@ -1,0 +1,13 @@
+{
+  "config.darkemodeeverywhere.button_position_x": "GUIの左端からのピクセル数 (X軸)",
+  "config.darkemodeeverywhere.button_position_y": "GUIの下端からのピクセル数 (Y軸)",
+  "config.darkemodeeverywhere.method_shader_blacklist": "class:method 形式の文字列 (描画メソッド) のリスト。ダークシェーダーを適用しないメソッドを指定する。\\n各文字列はクラスと、ブロックするメソッド (またはその一部) で構成される。\\n例えば 'renderHunger' だけで 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' をブロックできる (どちらでも動作する)",
+  "config.darkemodeeverywhere.method_shader_dump": "これを有効にすると、(5秒ごとに) ダークシェーダーが適用されたGUIの描画に使われたメソッドをダンプする。\\nダンプは class:method 形式の文字列のリストになる。例: 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'\\nブラックリストに入れたいGUIの描画メソッド文字列を探すのに使うといい。",
+  "config.darkmodeeverywhere.enabled": "有効",
+  "gui.darkmodeeverywhere.dark_mode": "ダークモード",
+  "gui.darkmodeeverywhere.less_perfect_dark": "レスパーフェクトダーク",
+  "gui.darkmodeeverywhere.light_mode": "ライトモード",
+  "gui.darkmodeeverywhere.perfect_dark": "パーフェクトダーク",
+  "gui.darkmodeeverywhere.toasted_light": "トーストライトモード",
+  "gui.tooltip.darkmodeeverywhere.shader_switch_tooltip": " * Shiftを押すとライトモードにスキップ"
+}

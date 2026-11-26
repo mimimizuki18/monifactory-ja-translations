@@ -1,0 +1,10 @@
+{
+  "block.craftingstation.crafting_station": "クラフトステーション",
+  "block.craftingstation.crafting_station_slab": "クラフティングステーション・ハーフブロック",
+  "text.crafting_station.clear": "クラフトグリッドを空にする\n(Shiftを押しながらで\n隣接インベントリを優先)",
+  "text.crafting_station.connected_resources.false": "接続リソースを使用: 無効",
+  "text.crafting_station.connected_resources.true": "接続リソースを使用: 有効",
+  "text.crafting_station.error": "不正なレシピ %s が見つかりました。詳細はログを確認してください",
+  "text.crafting_station.jei_nopull_output": "このコンテナにロックされたスロットがあります！\nJEIは、かまどの出力スロットのような出力専用スロットからリソースを取り出せなくなりました。\n\n使用するには、アイテムを通常のストレージスロットに移動してください！",
+  "title.crafting_station": "クラフティングステーション"
+}

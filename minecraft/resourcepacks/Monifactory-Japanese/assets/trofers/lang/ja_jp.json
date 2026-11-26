@@ -1,0 +1,19 @@
+{
+  "block.trofers.trophy": "トロフィー",
+  "message.trofers.reward_cooldown": "次の報酬まで: %s",
+  "text.autoconfig.trofers.option.general.enableTrophyEffects": "トロフィーの効果を有効化",
+  "text.autoconfig.trofers.option.general.enableTrophyEffects.@Tooltip": "右クリックしたときにトロフィーがポーション効果を付与するかどうか",
+  "text.autoconfig.trofers.option.general.enableTrophyLoot": "トロフィーのドロップ品を有効化",
+  "text.autoconfig.trofers.option.general.enableTrophyLoot.@Tooltip": "右クリックしたときにトロフィーがドロップ品を出すかどうか",
+  "text.autoconfig.trofers.option.general.trophyChance": "トロフィー出現率",
+  "text.autoconfig.trofers.option.general.trophyChance.@Tooltip": "エンティティを倒したときにトロフィーをドロップする確率",
+  "text.autoconfig.trofers.title": "Trofers 設定",
+  "time.trofers.hour": "1時間",
+  "time.trofers.hours": "%s時間",
+  "time.trofers.minute": "1分",
+  "time.trofers.minutes": "%s分",
+  "time.trofers.second": "1秒",
+  "time.trofers.seconds": "%s秒",
+  "trofers.creative_tab": "Trofers",
+  "trophy.trofers.composed": "%sのトロフィー"
+}

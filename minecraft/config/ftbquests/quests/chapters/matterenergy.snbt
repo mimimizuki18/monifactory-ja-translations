@@ -1,0 +1,1935 @@
+{
+	autofocus_id: "537C74D3CED36FC2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "matterenergy"
+	group: "0D5BFFD0A5E49312"
+	icon: "ae2:controller"
+	id: "118959024F296F70"
+	order_index: 0
+	quest_links: [
+		{
+			id: "14426BB19924AD5E"
+			linked_quest: "5C4E189A3E401566"
+			shape: "hexagon"
+			x: -1.25d
+			y: -5.5d
+		}
+		{
+			id: "18610CBC0D967EA8"
+			linked_quest: "6D03BB4A6A4BBA27"
+			shape: "hexagon"
+			size: 1.25d
+			x: 2.0d
+			y: -7.75d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["4174A6C6403DD245"]
+			description: [
+				"本来、このブロックは&eチャンネル&rの供給源として機能するが、&5Monifactory&rではその仕組みがデフォルトで無効になっている。"
+				""
+				"チャンネルが無効なら、ネットワークを動かすのにこれを作る必要はない。だが作れば、コントローラーがない場合より&eネットワークの消費電力が少なくなる&r。それに、ちょっとカッコいい。"
+				""
+				"考えるための糧。"
+			]
+			id: "7E59E0E33962D787"
+			rewards: [{
+				id: "6B2630325229A86A"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "&aMEコントローラー&rは&eMEネットワーク&rの「頭脳」として機能し、少しだが電力も蓄えられる。"
+			tasks: [{
+				id: "34FE8D1065808917"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "MEコントローラー"
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7E59E0E33962D787"]
+			description: ["&6MEターミナル&rの6種類はすべて&eマイクロパーツ&rなので、機能させるには&6MEケーブル&rに取り付ける必要がある点に注意しよう。"]
+			id: "41B4EA53D6D7AE37"
+			rewards: [{
+				id: "6BCE103B9FF87A10"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "すべてのアイテムに1つの画面からアクセスしよう。もうすぐできるようになる。"
+			tasks: [{
+				id: "25CB53FBDBE5C347"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			title: "ターミナル"
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"295E3D32083676E6"
+				"285052914EF655B9"
+			]
+			description: ["&3拡張型刻印機&rは最大4つの刻印作業を同時にこなせるので、自動化が楽になる。"]
+			id: "057D8689F19564AA"
+			rewards: [{
+				id: "56704F2D2C2EC831"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "発展型ではなく、拡張型"
+			tasks: [{
+				id: "58217F13FB40032C"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			title: "&9拡張型刻印"
+			x: -1.25d
+			y: -3.25d
+		}
+		{
+			dependencies: [
+				"7FC4297F2BC90F55"
+				"5C4E189A3E401566"
+			]
+			description: [
+				"&3刻印機&rは&bApplied Energistics&r用の&6刻印済み回路&rを作るための機械だ。"
+				""
+				"&9刻印機はアイテムの自動搬出設定ができ、内部に1スタックまでアイテムを保持できるほか、自動化を助けるさまざまな機能を備えている。"
+			]
+			id: "295E3D32083676E6"
+			rewards: [{
+				id: "0EE1CC6897B11687"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "怒れる光が岩に思考を強いる"
+			tasks: [{
+				id: "3C32EC54A06596C3"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "&9刻印"
+			x: 0.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["4174A6C6403DD245"]
+			description: [
+				"これは&3Applied Energistics&rがネットワーク接続を伝えるのに使う基本的なケーブルだ。エキスパートモード以外ではチャンネルが無効なので、高密度ケーブルではなく、おそらくこのケーブルがネットワーク接続を伝える主な手段になるだろう。\n&eAE2のチャンネルの仕組みはクエストブックの範囲外なので、触れるのはここだけだ。"
+				""
+				"このケーブルは他の Mod のケーブルとブロック空間を共有できないので、建築の際には少し扱いにくいかもしれない。だが&3Applied Energistics の&6外装&rを取り付けられるので、とても簡単に隠せる。外装を大量に使うと FPS が低下することは覚えておこう。"
+			]
+			id: "1D3A5DCCE1B40D29"
+			rewards: [{
+				id: "6756AC34ADC4D223"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "AEネットワーク"
+			tasks: [{
+				id: "13B1ADE4FC0B56A6"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			title: "MEケーブル"
+			x: 3.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["41B4EA53D6D7AE37"]
+			description: [
+				"これは初歩的なデジタルアイテム保管装置だ。中に&6ストレージセル&rを入れると、チェストを覗くように中身にアクセスできる。必要ならディスクを別の場所に持っていき、別のMEチェストに入れることもでき、アイテムも一緒についてくる。"
+				""
+				"&cストレージセルをサッチェルのような他の Mod の持ち運び可能なインベントリに入れないこと（逆も同様）。サッチェルとストレージセルの中身が壊れるおそれがある。&rこれには技術的な理由（NBT のオーバーフロー）があり、これらのアイテムに限った話でもないが、深入りするほどのことではない。"
+			]
+			id: "073533F489D121FF"
+			rewards: [{
+				id: "03C04EFD715AC3DF"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&aMEチェスト&rは単体で使うにはやや実用性に欠けるが、ずっと便利な&6MEドライブ&rを作るのに必要な材料だ。"
+			tasks: [{
+				id: "1DD4F411495C54D8"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["670C69611ECFF5C8"]
+			description: [
+				"探索が好きなら、&a隕石コンパス&rを使って隕石の中で見つけられる。"
+				""
+				"それが嫌なら、あるいは隕石がなかなか見つからないなら、&3レーザー刻印機&rで自分で刻んでしまっても構わない。"
+			]
+			id: "7FC4297F2BC90F55"
+			rewards: [{
+				id: "1FD63D376D9783AA"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&3刻印機&rには&a金型&rが必要だ。"
+			tasks: [
+				{
+					id: "15825F0D2F98105E"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "524DD7D7EB5460D9"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "1BA7A53037FC207D"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "446A3BF0043FF322"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+			]
+			title: "刻印用の金型"
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["6D03BB4A6A4BBA27"]
+			description: [
+				"このコンパスは最寄りの隕石の落下地点へ導いてくれる。お気に入りの採掘ツールで&6スカイストーン&rの殻を砕き、金型が入った&6神秘的なキューブ&rがある美味しい中心部までたどり着こう。"
+				""
+				"隕石はたいてい大きなクレーターの中にあるが、地中に埋まっていることもある。コンパスが激しく回転していたら、ちょうどその真上にいるということだ。"
+				""
+				"&2探索が性に合わないなら、&3MV レーザー刻印機&2で&6バナジウム鋼&2から金型を作れる。"
+			]
+			icon: "ae2:meteorite_compass"
+			id: "670C69611ECFF5C8"
+			rewards: [{
+				id: "7A90E3799F7D52FF"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&bApplied Energistics&rでは、隕石の中心にある立方体の中で見つかる&a金型&rを&3刻印機&rのテンプレートとして使い、&6刻印された回路&rを作る。"
+			tasks: [
+				{
+					id: "0B6706026E84DC3C"
+					item: "ae2:meteorite_compass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40398224818E775D"
+					optional_task: true
+					title: "レーザー刻印機のほうが好き"
+					type: "checkmark"
+				}
+			]
+			title: "隕石ハンター"
+			x: 0.0d
+			y: -7.75d
+		}
+		{
+			dependencies: [
+				"073533F489D121FF"
+				"3781AD70E71CA0D7"
+			]
+			description: [
+				"ストレージセル用のスロットが10個あるので、この1ブロックの中に膨大な数のアイテムを保管でき、&6ターミナル&rからそのすべてを検索できる。あとはストレージセルを全部作るだけだ。"
+				""
+				"もし容量が足りなくなったら、MEドライブをもう1台作ればさらにスロットが増える！ セルもアイテムも山ほど！"
+			]
+			id: "52837FD72580F141"
+			rewards: [{
+				id: "77DBDCDC57147C89"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "*&6MEドライブ&rをポンと叩く* こいつには&6ストレージセル&rがめちゃくちゃたくさん入るぞ！"
+			tasks: [{
+				id: "4A88B561BC4FC5F7"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "デジタルストレージ使い放題"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"2823D7B4C8F900CA"
+				"7E59E0E33962D787"
+			]
+			description: [
+				"&6P2Pトンネル&r（&aポイント・トゥ・ポイントトンネル&r）は&bApplied Energistics 2&rの強力なツールで、セルの保管容量を一切使わずに、MEシステムを使ってアイテム、レッドストーン、液体をある場所から別の場所へ送れる。"
+				""
+				"各P2Pトンネル系統には&c入力は1つだけ&rだが、&e出力はいくつでも&r設定できる。1つのネットワークに設置できるP2Pトンネルや、P2Pトンネル系統の数に制限はない。"
+				""
+				"デフォルトでは、P2Pトンネルは&6MEトンネル&rで、Applied Energistics のチャンネルと電力を伝送する。チャンネルは無効なので、デフォルトのトンネルを使う機会はあまりないだろう。&bEMI&rで確認できる対応アイテムでトンネルを右クリックすれば、P2Pトンネルのモードを変更できる。"
+				"{@pagebreak}"
+				"P2Pトンネルを設定するには、&6メモリーカード&rを用意しよう。メモリーカードを持った状態で、未設定のトンネルを&aShift+右クリック&rすると、入力の周波数が設定され、その周波数がメモリーカードに保存される。最初のトンネルをこうして設定し、メモリーカードに周波数が記録されたら、以降メモリーカードで&a右クリック&rしたトンネルは、直近に使った周波数の出力として設定される。"
+				""
+				"メモリーカードは&6インターフェース&rや&6ストレージバス&rといったMEブロックやタイルエンティティの設定をコピーするのにも使える。MEブロックを&aShift+右クリック&rすると設定をコピーし、&a右クリック&rで貼り付ける。ブロックに適用したアップグレードはコピーされない点に注意しよう。"
+				""
+				"&aShift+右クリック&rで、カードに記録された周波数やMEブロックの設定を消去することもできる。"
+			]
+			id: "410EA68D6EF15CEC"
+			rewards: [{
+				id: "47DF33E6869012F7"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "ネットワークの再帰"
+			tasks: [{
+				id: "10CF79220AE28192"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "P2Pトンネルとメモリーカード"
+			x: 4.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["1040D941027962B1"]
+			description: [
+				"この便利なターミナルを使えば、ネットワーク内のすべての&aMEパターンプロバイダー&rのパターンスロットを一か所で確認できる。"
+				""
+				"つまり、新しいパターンを作るたびにMEパターンプロバイダーまで走っていく必要がなくなる。"
+			]
+			id: "2E079747A46D48CF"
+			rewards: [{
+				id: "6C75FCFA33334E30"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F7F08A819F2F81A"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			title: "パターンアクセスターミナル"
+			x: 5.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6F32A8739D8E792A"]
+			description: [
+				"まあ、パターンも必要だろうね。"
+				""
+				"自動クラフトの詳細は後のクエストで説明する。"
+			]
+			id: "4A96659253CCFACF"
+			rewards: [{
+				id: "065F8DA1DEBFC21B"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "ついに自動クラフト。"
+			tasks: [{
+				id: "4C488203562AD601"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			title: "クラフトユニット"
+			x: -0.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["1040D941027962B1"]
+			description: ["このバージョンのパターンプロバイダーはパターン容量が9から36に増える。直接作ることも、&6パターンプロバイダーアップグレード&rでアップグレードすることもできる。"]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "0FA4CAD4F68BC0F8"
+			rewards: [{
+				id: "7E1FD3C5FF6DCCAC"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "パターンプロバイダーのとても便利なアップグレード。"
+			tasks: [{
+				id: "1FE9B2CBA70D22B9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_provider_part"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_provider"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:pattern_provider_upgrade"
+							}
+						]
+					}
+				}
+				title: "任意の拡張型パターンプロバイダー"
+				type: "item"
+			}]
+			title: "&9拡張型パターンプロバイダー"
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6F32A8739D8E792A"]
+			description: [
+				"&aMEパターンプロバイダー&rは&aMEインターフェース&rと同様、自動化に欠かせない極めて重要なものだ。このパックを正しく遊んでいるなら、これを大量に作ることになる。"
+				""
+				"エンコード済みの&aパターン&rを入れると、オンデマンドの自動クラフトを行える。&aMEパターンプロバイダー&rに押し込まれたアイテムはすべてデジタル化され、MEネットワークのストレージに格納される。"
+				""
+				"1つ以上の&a分子組立機&rに隣接していると、&3作業台&rと&3石切台&rのパターンをクラフトできる。隣接する&a分子組立機&rを可能な限り使用するが、空き状況とクラフトCPUマルチブロック内の&a並列クラフトユニット&rの数によって制限される。"
+				"{@pagebreak}"
+				"それ以外のブロックに隣接している場合は、&a処理パターン&rを使って機械にアイテムを搬入できる。処理パターンでは、完成したアイテムを&aインターフェース&rか&aパターンプロバイダー&rを通じてMEネットワークに戻す必要がある。"
+				""
+				"&aMEパターンプロバイダー&rはレンチで叩くと特定の隣接ブロックとだけやり取りするようにでき、またマイクロパーツ形態にクラフトすれば同じブロック空間に複数設置できる（各マイクロパーツは隣接する面のブロックとだけやり取りする）。"
+			]
+			icon: "ae2:pattern_provider"
+			id: "1040D941027962B1"
+			rewards: [{
+				id: "09745ACBA6FCC9E9"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "インターフェースでは&lない&r"
+			tasks: [{
+				id: "24069DF90AE106FD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:pattern_provider"
+					}
+				}
+				title: "任意のパターンプロバイダー"
+				type: "item"
+			}]
+			title: "&9パターンプロバイダー"
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"417D97D9E3562F45"
+				"6169C04DF463502F"
+			]
+			description: [
+				"&aパターンエンコーディングターミナル&rでエンコードしよう。"
+				""
+				"代替品（Substitutions）をオンにしてエンコードしたレシピは既存の同等アイテムを使用するが、&e自動でクラフトするのはレシピで指定された正確なアイテムだけ&rである点に注意しよう。"
+				""
+				"&2手持ちツールを使うレシピはエンコードしないこと。&rさもないと、耐久値や NBT の不一致でシステムが詰まるおそれがある。"
+				""
+				"代わりに機械を使うレシピを使おう！"
+			]
+			id: "6F32A8739D8E792A"
+			rewards: [{
+				id: "23AA5139279F5F80"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&aパターン&rは、&bApplied Energistics&rでオンデマンドの自動化を行うために、作業台のレシピや加工レシピを1つエンコードするのに使われる。"
+			tasks: [{
+				id: "384964EBBD93B59C"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			title: "自動クラフトのパターン"
+			x: 2.0d
+			y: 4.25d
+		}
+		{
+			dependencies: [
+				"6F32A8739D8E792A"
+				"0874A0191325CFDB"
+			]
+			description: [
+				"&bPackagedAuto&rは&bApplied Energistics 2&rのアドオンだ。&5Monifactory&rでの主な目的は&bExtended Crafting&rのレシピを自動化する別の手段を提供することだが、ほかにも面白い使い道を思いつくかもしれない。"
+				""
+				"古い Minecraft のバージョンでは、&eApplied Energistics 2&rの&3処理パターン&rは最大9スタック（各64個まで）のアイテムしか保持できなかった。この制限はとうに撤廃されており、PackagedAuto はほぼ時代遅れになったが、ニッチな場面ではまだ役に立つ。\n\n各&6梱包レシピホルダー&rには&e最大20種類のレシピ&rを保存できる。ホルダーは&3梱包レシピエンコーダー&rでエンコードする必要がある。"
+				""
+				"以下の機械は連携して動くので、ほとんどの場合は同じ内容をエンコードしたホルダーが2つ必要になる。"
+				"{@pagebreak}"
+				"&3梱包機&rは、特定のレシピの材料を&6レシピ梱包&rのセットに圧縮する機械だ。セット内の各梱包には材料アイテムを最大9スタックまで入れられる。単純なレシピなら梱包1つで済むが、複雑なレシピではセットに最大9個の梱包（合計81スタック）が含まれることもある。"
+				""
+				"&3開梱機&rは、梱包機で作られたレシピ梱包の完全なセットから材料アイテムを取り出し、隣接するインベントリに排出する機械だ。&eセット内のすべての梱包が揃っている&r場合にのみ取り出す。"
+				"{@pagebreak}"
+				"梱包機と開梱機の両方がMEネットワークに接続され、同じレシピを持っていると、完成品が&aターミナル&rでクラフト可能として表示される。"
+				""
+				"&3梱包機拡張&rは隣接する梱包機の複製のように機能し（その梱包レシピホルダー内のパターンへのアクセスも含む）、レシピ梱包をより速く作れるようになる。梱包機の周りに梱包機拡張を置くだけだ。梱包機を囲む3x3x3の立方体内に最大26個の拡張を設置できる。\n\n&9PackagedAuto はかなり負荷が高い点に注意しよう。ゲームやサーバーの処理が追いつかないなら、PackagedAuto の代替手段を探すと良いかもしれない。&r"
+			]
+			icon: "packagedauto:package"
+			id: "74469710D910C19D"
+			optional: true
+			rewards: [{
+				id: "64AEDBCBECE58A67"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2FB7DE1FC8FC9930"
+					item: "packagedauto:packager"
+					type: "item"
+				}
+				{
+					id: "44A92E6F6F2A5B63"
+					item: "packagedauto:unpackager"
+					type: "item"
+				}
+				{
+					id: "32BDAB7E3A798043"
+					item: "packagedauto:recipe_holder"
+					type: "item"
+				}
+				{
+					id: "2F3530FE06870CCA"
+					item: "packagedauto:encoder"
+					type: "item"
+				}
+			]
+			title: "PackagedAuto"
+			x: 0.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4174A6C6403DD245"]
+			description: [
+				"大量のアイテムを素早く出し入れしようとすると、MEネットワークが一瞬&eオフラインになってちらつく&rことに気づくかもしれない。これはアイテムのデジタル化と再物質化にエネルギーが必要だからだ！"
+				""
+				"ネットワーク自体はあまりエネルギーを蓄えられず、&6エナジーアクセプター&rは断続的にしかネットワークの電力を補充しない。安定させるには、&6エナジーセル&rを使ってネットワークにエネルギー貯蔵を追加する必要がある。"
+				""
+				"ネットワークのどこかに1つ置くだけで、エナジーアクセプターから受け取ったAEエネルギーで満たされていく。これで、こうした電力切れを防ぐのに十分なエネルギーがネットワークに確保できるはずだ。それでも問題が続くなら、エナジーセルを追加するか、&6濃縮エナジーセル&rにアップグレードしよう。"
+				""
+				"AE2 の設定でチャンネルを有効にしているか、エキスパートモードで遊んでいる場合は、&3MEコントローラー&rによって元からある程度のエネルギー貯蔵があるが、その段階ならもう自分が何をしているか分かっているはずだ。&eAE2のチャンネルの仕組みはクエストブックの範囲外なので、触れるのはここだけだ。"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:energy_cell"
+				tag: { }
+			}
+			id: "5A83E1115F965393"
+			shape: "hexagon"
+			subtitle: "おっと…停電だ！"
+			tasks: [{
+				id: "714C125E0ED99334"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:energy_cell"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:dense_energy_cell"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:creative_energy_cell"
+							}
+						]
+					}
+				}
+				title: "任意のエナジーセル"
+				type: "item"
+			}]
+			title: "エナジーセル"
+			x: 3.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["073533F489D121FF"]
+			description: [
+				"フォーマットされていないストレージセルはすべて、保存できるアイテムの種類が最大63種類に制限されている。新しい種類の最初のアイテムはセルの総容量のうち一定のバイト数を占め、既存の種類のアイテムはその後わずかなバイト数しか消費しない。"
+				""
+				"&61k MEストレージセル&rはアイテムを保管するための最初の、そして最小のセルだ。ネットワークに多種多様なアイテムを保管するなら、&6MEドライブ&rを作って複数のストレージセルを入れる必要がある。"
+				""
+				"&64k MEストレージセル&rはその1つ上のサイズだ。バイト数が4倍なので種類ごとに保持できるアイテムがかなり多くなるが、より高度な技術が必要になる。&3刻印機&rで作るAEの&6プロセッサ&rだ。"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
+			id: "680C4363C268B223"
+			rewards: [{
+				id: "01567E99538B18BD"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&bApplied Energistics&rでは、アイテムや液体をデジタルで保管する主な手段として&6ストレージセル&rを使う。"
+			tasks: [{
+				id: "631B9DD6D42ECBE4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_256k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "任意のストレージセル"
+				type: "item"
+			}]
+			title: "ついにデジタルストレージ"
+			x: -1.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["285052914EF655B9"]
+			description: ["フォーマットされていないディスクには常に63種類という上限があるが、1段階上がるごとに総容量はおよそ4倍になる。"]
+			id: "72AFBEFCEAE86EC1"
+			rewards: [{
+				id: "7906B965172DE5A6"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "主に大きな&6ストレージセル&rを作るのに使われる部品。"
+			tasks: [{
+				id: "6A0C5DAC7C23F6C1"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			title: "4kアイテムストレージ"
+			x: -1.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["72AFBEFCEAE86EC1"]
+			id: "15AE607E2EDD0369"
+			rewards: [{
+				id: "428DE4E3DC126510"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "AEの&6ストレージセル&r用の3番目の部品。"
+			tasks: [{
+				id: "25D1BDBF3A962C46"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			title: "16kアイテムストレージ"
+			x: -3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["15AE607E2EDD0369"]
+			description: ["&664k MEストレージセル&rのように、本当に大量の物を保管するのに使う。"]
+			id: "60BC08DE447E5007"
+			rewards: [{
+				id: "7417C31CB32C97BC"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "&bApplied Energistics&rの、最後から2番目のアイテムストレージ部品。"
+			tasks: [{
+				id: "6A51C195328840CF"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			title: "64kアイテムストレージ"
+			x: -4.25d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"60BC08DE447E5007"
+				"1175ED9EF0AB82F6"
+				"00203B07F8A930DA"
+			]
+			description: [
+				"まず、&3マターコンデンサー&rが必要だ。&664k MEストレージコンポーネント&rを差し込み、モードを「シンギュラリティ」に変更し、大量のアイテム（または液体）を詰め込もう。&9これは無限セルを使えば簡単にできる&r。"
+				""
+				"それがなければ、普通の&6水&rや&6丸石&rの生成手段の出力を供給してもいい。"
+				"{@pagebreak}"
+				"&3マターコンデンサー&rで必要な&eシンギュラリティ&rを作ったら、&aクァンタムリングのマルチブロック&rを組む必要がある。&6クァンタムリング&rで中央に穴を空けた3x3の垂直なリングを作ろう。最後に、その穴に&6クァンタムリンクチェンバー&rをはめ込み、MEシステムに接続する。正しく組めていれば、リングのテクスチャが結合して&aマルチブロック&rになる。"
+				""
+				"次に、エンダーダストとシンギュラリティを爆発の近くに投げ込んで、&e量子フラックスシンギュラリティ&rのペアを作ろう。後でどのシンギュラリティがリンクしているか分かるよう、名前を付けておくと良いだろう。"
+				""
+				"&9量子フラックスシンギュラリティができたら、片方を&r&aクァンタムリング&r&9の&r&6クァンタムリンクチェンバー&r&9に入れ、もう片方を&6無線ターミナル&9の専用スロットに入れよう！&r"
+				""
+				"これで準備完了！ 別のディメンションも含め、どこからでもAE2にアクセスできるようになった！"
+			]
+			icon: "ae2wtlib:quantum_bridge_card"
+			id: "553F85782265C350"
+			rewards: [{
+				count: 3
+				id: "7AB59D7B8BAD3529"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "どこからでもAE2にアクセスするのは少し高価で複雑だが、その苦労に見合う価値は十分にある。"
+			tasks: [
+				{
+					count: 3L
+					id: "65D3CCCAFE21F394"
+					item: "ae2:singularity"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "681C32866E09B6BC"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "788789B1F39AF853"
+					item: "ae2wtlib:quantum_bridge_card"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "39A413759D0B9F08"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "599291E42129E9D7"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "&9どこでもAE2！"
+			x: -4.25d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"41B4EA53D6D7AE37"
+				"11154356854B64DA"
+			]
+			description: [
+				"&bApplied Energistics 2&rに無線でアクセスできると膨大な時間の節約になるので、ぜひ構築しておこう。"
+				""
+				"まず、&6ME無線アクセスポイント&rが必要だ。これをネットワークに接続しよう。&6ターミナル&rと同様、無線アクセスポイントは&eマイクロパーツ&rなので、&6MEケーブル&rの上に設置しなければならない。"
+				""
+				"次に、&6無線ターミナル&rかその派生型のいずれかが必要だ。無線ターミナルはシステムにいくつでも接続できる。"
+				""
+				"最後に、&6無線ターミナル&rを&6ME無線アクセスポイント&rに入れよう。これでシステムに接続される。 "
+				"{@pagebreak}"
+				"これらは Curio として装備でき、&3ホットキーで開ける&r。&eカテゴリ&rとして「&3Applied Energistics&r」を検索すると、これらのホットキーを確認・編集できる。"
+				""
+				"デフォルトの範囲はわずか16ブロックだ。だが&6ME無線アクセスポイント&rに&6無線ブースター&rを入れると範囲を広げられる。どこからでもアクセスできる、より優れた（ただし高価な）方法は、次のクエスト「AE2 Everywhere!」で説明する。"
+				""
+				"&9建築ガジェットは、オンラインのME無線アクセスポイントに入れることでMEシステムにバインドできる。&r"
+			]
+			id: "1175ED9EF0AB82F6"
+			shape: "hexagon"
+			subtitle: "どこからでもAE2…ほぼ。"
+			tasks: [{
+				id: "564AFB42CC6805FF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:wireless_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:wireless_crafting_terminal"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:wireless_pattern_encoding_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:wireless_pattern_access_terminal"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:wireless_ex_pat"
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:wireless_universal_terminal"
+							}
+						]
+					}
+				}
+				title: "任意の無線ターミナル"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "無線ターミナル"
+			x: -4.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["60BC08DE447E5007"]
+			description: [
+				"素の&bApplied Energistics&rにおける究極のアイテムストレージコンポーネント。"
+				""
+				"これは&61k MEストレージコンポーネント&rの数百倍という膨大な容量を持つ。"
+			]
+			id: "241FADD2C751BE74"
+			rewards: [{
+				id: "20873793A4876A70"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "&9Monifactoryの新要素！&r"
+			tasks: [{
+				id: "11828E352A22BA71"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			title: "&9256kアイテムストレージ"
+			x: -5.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"6F32A8739D8E792A"
+				"4A96659253CCFACF"
+			]
+			description: [
+				"このクエストでは&bApplied Energistics 2&rの自動クラフトの基本を学ぶ。この Mod が初めてなら、動画を見るか&3&l内蔵ガイドを読む&r&rことを強くおすすめする。このパックではデフォルトでチャンネルが無効になっていることだけ覚えておこう。"
+				""
+				"ここまでに、&6MEパターンプロバイダー、&6分子組立機、クラフトユニット、パターン&r、そして&6パターンエンコーディングターミナル&rを揃えているはずだ。 "
+				"{@pagebreak}"
+				"まず、どのクラフトにも&eクラフトCPU&rが必要だ。これは以下のブロックで構成された、隙間のない直方体の構造物でなければならない。"
+				""
+				"&6* クラフトストレージ&r: クラフトの規模の上限を決める。今のところは&64k クラフトストレージ&rで十分だろう。CPU ごとに最低1つは必要。"
+				""
+				"&6* 並列クラフトユニット&r: システムが複数のクラフト工程を同時に開始できるようにする。必須ではないが、機械の速度が追いつくようになればクラフトを大幅に高速化してくれる。"
+				""
+				"&6* クラフトモニター&r: 何をクラフトしているか確認するのに使う。必須ではないし、どのみちCPUを右クリックすればクラフト中の内容は分かるので、ほぼ飾りだ。"
+				""
+				"&6* クラフトユニット&r: まったく必要なく、素材が足りないときに隙間を埋めるためだけに使う。"
+				"{@pagebreak}"
+				"次に、自動クラフトを行う場所が必要だ。作業台のレシピには&6分子組立機&rが必要になる。その隣に&6パターンプロバイダー&rを設置する。&bGregTech&rでの自動クラフトについては、このクエストの次のクエストで説明する。"
+				""
+				"最後に、&6パターン&rが必要だ。これを作るには、空の&6パターン&rを&6パターンエンコーディングターミナル&rに入れ、&6パターンエンコーディングターミナル&rを開いたまま&bEMI&rでレシピを探す。そして&bEMI&rで「+」をクリックし、矢印を押してレシピをエンコードする。これを前の手順で設置した&6パターンプロバイダー&rに入れよう。&6パターンアクセスターミナル&rを使えば&6パターンプロバイダーの&rパターンスロットにアクセスできる。\n&2エンコーディングターミナルの各スロットにアイテムを置いて手動でパターンをエンコードすることもできるが、その用途はあまりない。&r"
+				""
+				"いずれは大量の&6パターン&r、たくさんのCPU、より容量の大きいCPU、そして大量の&6&6&6パターンプロバイダー&r&r&rが必要になる。&6パターンプロバイダー&rのパターンスロットが足りなくなったら、&6パターンプロバイダー&rを増やすか、スロットが36個ある&6ME拡張型パターンプロバイダー&rを使おう。"
+			]
+			icon: "ae2:crafting_monitor"
+			id: "0EF85170074E70B3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "584BEA5276908468"
+				title: "自動クラフトの設定"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"41B4EA53D6D7AE37"
+				"6F32A8739D8E792A"
+			]
+			description: [
+				"これはマイクロパーツなので、&6MEケーブル&rの上に設置する必要がある。"
+				""
+				"処理パターンをエンコードするときは左側のスクロールバーに注目しよう。最大81種類のアイテムと液体をエンコードできる！"
+			]
+			id: "480EE330E12084E8"
+			rewards: [{
+				id: "26AC32A839C6603B"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "その名のとおり、このターミナルでは&aブランクパターン&rにレシピをエンコードできる。"
+			tasks: [{
+				id: "39CFFF1B37F39741"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			title: "パターンエンコーディングターミナル"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"74469710D910C19D"
+				"53EC3831D66769CA"
+			]
+			description: [
+				"&6HSS-G&rを手に入れたので、以前より簡単な方法で&bExtended Crafting&rのレシピの自動化を始められる。 "
+				""
+				"まず、上に挙げた拡張版の&3梱包クラフター&rをそれぞれ1つずつクラフトする必要がある。それぞれの上に&3開梱機&rを置き、&3梱包機&rは好きな場所に置こう。これらはすべてAE2の装置なので、MEネットワークに接続する必要がある。"
+				"{@pagebreak}"
+				"次に、&3梱包レシピエンコーダー&rを右クリックすると、\"Processing\" と書かれたボタンが見えるはずだ。このボタンでレシピの種類を切り替えられ、Extended Crafting の各種作業台も含まれている。エンコードしたいレシピに合った作業台を選ぶ必要がある。"
+				""
+				"&6ホルダー&rはペアでエンコードしなければならない。1つは梱包機用、もう1つは開梱機用だ。レシピに合った作業台を選び、エンコードしたいレシピを調べ、&bEMI&rで&6[+]&rを押して内容を入力する。左上のスロットにホルダーを2つ入れ、Save を押すと両方にレシピがエンコードされる。最後に、それぞれのホルダーを対応する機械に入れよう。"
+				"{@pagebreak}"
+				"すべて正しくできていれば、ターミナルでそのアイテムがクラフト可能として表示されるはずだ。"
+				""
+				"クラフト処理は&3&6オートクラフトテーブル&rを使うよりかなり遅いが、&ePackagedAuto は簡単に並列化できる&r。開梱機の周りをクラフターで囲めば、そのすべてを使ってくれる。ホルダーがすべて同じである限り、クラフター付きの開梱機を増やして梱包機に追いつかせることもできる。"
+				""
+				"これが分かりにくすぎるなら、こちらを試してみよう:"
+				"[\"\",{\"underlined\":true,\"text\":\"自動作業台\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0DB8063A7972E1C0\"}}]"
+			]
+			icon: "packagedexcrafting:ultimate_crafter"
+			id: "70D9B3C6539720DE"
+			optional: true
+			rewards: [{
+				id: "083A8F49762A37FE"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6CEACB6992E7F9D9"
+					item: "packagedexcrafting:advanced_crafter"
+					type: "item"
+				}
+				{
+					id: "0F4C64194342AA5E"
+					item: "packagedexcrafting:elite_crafter"
+					type: "item"
+				}
+				{
+					id: "55E2CB3E78077651"
+					item: "packagedexcrafting:ultimate_crafter"
+					type: "item"
+				}
+				{
+					id: "702A5745B9568FA0"
+					item: "packagedauto:unpackager"
+					type: "item"
+				}
+				{
+					id: "2648C42313B6B935"
+					item: "packagedauto:packager"
+					type: "item"
+				}
+				{
+					id: "028285C508794CDC"
+					item: "packagedauto:recipe_holder"
+					type: "item"
+				}
+			]
+			title: "&9Extended Craftingの自動化"
+			x: -1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EF85170074E70B3"]
+			description: [
+				"序盤から、機械の自動搬出機能を使えば、&aMEパターンプロバイダー&rと処理&aパターン&rでほとんどの&bGregTech&r機械を簡単に自動化できる。"
+				""
+				"&9機械の GUI&rで機械の出力面を好きな位置に移し、\"&3自動出力&r\" と \"&3出力面からの入力を許可&r\" のボタンを押してから、機械のその面にMEパターンプロバイダーを設置しよう。"
+				""
+				"機械のグリッド表示から出力面をドライバーで Shift+右クリックしても、出力面からの入力を許可できる。"
+				""
+				"機械を右クリックして、アイテムの自動搬出（GUI 左下の&6オレンジの枠&r）を有効にしよう。"
+				"{@pagebreak}"
+				"あとは&6MEパターンプロバイダー&rに処理パターンを詰め込もう。次にアイテムを注文すると、MEパターンプロバイダーが機械に材料を押し込み、完成した出力を機械がパターンプロバイダーに押し戻してクラフトが完了する。ノードもインポートバスも必要ない！"
+				""
+				"さらに、&3ブロッキングモード&rを使うと、インベントリにアイテムが残っていないことを確認してから搬入するので、競合を防ぐのに便利だ。&2しかも、ブロッキングモードはプログラム回路と金型を無視してくれる！&r\n&2非消費アイテムは機械の中に置いたままにし、作るパターンには含めないこと。そう、少なくとも&3大型機械&2を手に入れるまでは、非消費アイテムごとに機械を分けるべきということだ。&r"
+			]
+			icon: "minecraft:book"
+			id: "6E27B9938B280291"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "363E7C6EC336B44C"
+				title: "簡単なGregTechの自動化"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F32A8739D8E792A"]
+			description: [
+				"&6パターン&rの扱いはすぐに面倒になる。何十枚もまとめて動かすにはスロットが足りないし、&3大型機械&rをアップグレードする際にはパターンを倍増させなければならない。&3並列制御ハッチ&rを装着した大型機械の性能を最大限に引き出すには、一度に複数のアイテムを供給する必要があるかもしれないからだ。"
+				""
+				"&3大型ワイヤーファクトリー&rが一度に&eインゴット64個&rを受け取って&eワイヤー128本&rを作れるのに、インゴット1個を渡してワイヤー2本を得るなんて嫌だろう？"
+				""
+				"そこで役立つのが&6クラフトパターン修正キット&rだ。これを使えば&eパターンをまとめて移動・倍増・分割・消去&rできる。 "
+				""
+				"&c注意: パターンの倍増機能は&o処理パターン&rにしか使えない。"
+			]
+			id: "73908E06B75B9C9E"
+			rewards: [{
+				id: "2C0AE427B898F09B"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C87128CBD93E0A8"
+				item: "expatternprovider:pattern_modifier"
+				type: "item"
+			}]
+			title: "&9パターンを極める"
+			x: 3.75d
+			y: 4.25d
+		}
+		{
+			dependencies: [
+				"15AE607E2EDD0369"
+				"6169C04DF463502F"
+			]
+			description: ["これを&6MEドライブ&rに入れると、MEネットワークに&a無限&rの水や丸石が供給される。&6インターフェース&rや&6出力バス&rを使って、必要な場所へ供給しよう。"]
+			id: "26C9F1514FD08C81"
+			rewards: [{
+				id: "144A810C0576A3E0"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "これより速いものはない。"
+			tasks: [
+				{
+					id: "4EFDB9B627864D5D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "215932AC4E4A4995"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "&9究極に無限の水と石"
+			x: -3.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3C3E015DFA8FDECE"]
+			description: ["&6拡張型分子組立機&rは&a一度に8回のクラフト&rを行え、しかもそれぞれを&a2倍の速さ&rでこなすので、この組立機はかなりの仕事量をこなせる。ただし、パッシブクラフト用にパターンを保持する能力は失われている。"]
+			id: "631F5DFF43F7A289"
+			rewards: [{
+				count: 2
+				id: "5192D40270BCED13"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "さらなる並列クラフト"
+			tasks: [{
+				id: "0671F628E93E9BA6"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			title: "&9拡張型組立"
+			x: 3.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["491180694DA10086"]
+			description: [
+				"&6ケルタスクォーツ&rは&6芽生えたケルタスクォーツ&rブロックから育てられる！"
+				""
+				"設置方法の詳細は&9&lゲーム内ガイド&r&rを確認するか、アイテムにカーソルを合わせて&eG&rを押そう。"
+				""
+				"十分な電力があれば、劣化することのない&6完璧な芽生えたケルタスクォーツ&rを自分で作ることもできる！"
+			]
+			icon: "ae2:flawless_budding_quartz"
+			id: "62356B88D5366D33"
+			rewards: [{
+				id: "09657E2A5EDEAD21"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "アメジストと同じように"
+			tasks: [
+				{
+					id: "3EBBAF2494BBA8A8"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:flawless_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:flawed_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:chipped_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:damaged_budding_quartz"
+								}
+							]
+						}
+					}
+					title: "任意の芽生えたケルタスクォーツ"
+					type: "item"
+				}
+				{
+					id: "6EBAD6BD1B9AEAF8"
+					item: "ae2:growth_accelerator"
+					type: "item"
+				}
+			]
+			title: "&9結晶の育成"
+			x: 3.25d
+			y: -6.25d
+		}
+		{
+			dependencies: ["7E59E0E33962D787"]
+			description: ["これらは&99スタック（576個）のアイテム&rや&936バケツ（9種類、各4バケツ）&rまで在庫を保つよう設定でき、パッシブな自動クラフトや他のインベントリへの搬入に使える&r。&aMEインターフェース&rに押し込まれたアイテムはすべてデジタル化され、MEネットワークのストレージに格納される。"]
+			icon: "ae2:interface"
+			id: "3A26187DC3FAD6B1"
+			rewards: [{
+				id: "11FCD1E7CB0591FD"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&9パターンは保持しないよ！"
+			tasks: [{
+				id: "713C7B1C67D4771E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+				title: "任意のインターフェース"
+				type: "item"
+			}]
+			title: "インターフェース"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A26187DC3FAD6B1"]
+			description: ["このバージョンの&aMEインターフェース&rは4つ分として機能し、36スタックのアイテム、または144バケツの液体を扱える。\n&2ME拡張型インターフェースには2つのページがあり、矢印ボタンで切り替えられる点に注意しよう。&r"]
+			icon: "expatternprovider:ex_interface"
+			id: "5B3AF79FBDF80C51"
+			rewards: [{
+				id: "2A1749A1B9A9A568"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "こっちもだ。いとこの拡張型パターンプロバイダーを見てくれ"
+			tasks: [{
+				id: "53C8B8B483EF6121"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:ex_interface"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_interface_part"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:interface_upgrade"
+							}
+						]
+					}
+				}
+				title: "任意の拡張型インターフェース"
+				type: "item"
+			}]
+			title: "&9拡張型インターフェース"
+			x: 5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41B4EA53D6D7AE37"]
+			description: [
+				"原始的な木の作業台を長く使ってきた後だと、デジタルグリッドでのクラフトは天国だ。"
+				""
+				"これはマイクロパーツなので、&6MEケーブル&rの上に設置する必要がある。"
+			]
+			id: "4BEC129D530376BF"
+			rewards: [{
+				id: "4550C9AD2B35E845"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "さよなら作業台"
+			tasks: [{
+				id: "391327778690A86F"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			title: "クラフトターミナル"
+			x: 3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3A26187DC3FAD6B1"]
+			description: [
+				"&aI/Oバス&rと&aMEインターフェース&rを1つのブロックにまとめたもので、GregTech のマルチブロックで&a入力バス&rや&a出力バス&rの代わりに使い、AE2ネットワークに直接接続できる。\n&9ちなみに、MEバスとその在庫バス版はMEパーツの優先度に対応していない。普段は問題にならないが、優先度を設定する必要があるなら通常の&6MEインターフェース&9を使うと良いだろう。&r"
+				""
+				"MEネットワークに接続されるのは、独自のテクスチャを持つ面だけである点に注意しよう。"
+			]
+			id: "7C0A37EEA3C63B16"
+			rewards: [{
+				id: "7DF64C08A341B4AF"
+				item: "kubejs:moni_quarter"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "67018C3628F6AA24"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "6A6D12DC7ADBC535"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "19211C6E40FAAE15"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7EDACCC96A13BFB0"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			title: "&2MEマルチブロックバス"
+			x: 5.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["52837FD72580F141"]
+			description: ["&aME拡張型ドライブ&rにはストレージセルを最大20個まで収納できる。"]
+			icon: "expatternprovider:ex_drive"
+			id: "58F73E3D1069F52C"
+			rewards: [{
+				count: 2
+				id: "4B04D0BB11CF2389"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "高密度ストレージ"
+			tasks: [{
+				id: "2DE418578F762ADE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:ex_drive"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:drive_upgrade"
+							}
+						]
+					}
+				}
+				title: "任意のME拡張型ドライブ"
+				type: "item"
+			}]
+			title: "&9ME拡張型ドライブ"
+			x: 1.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6E27B9938B280291"]
+			description: [
+				"&bApplied Energistics&rでは&6処理パターン&rを作るときにタグを使えない。これは&bGregtech&rの回路を使うレシピを扱う際に厄介で、通常は新しいティアの回路を解禁するたびにパターンを作り直さなければならない。"
+				""
+				"&eこれが問題になるなら、本来 GregTech の回路を使う処理パターンには&9ユニバーサル回路&eを使おう。&r"
+				""
+				"通常の回路はすべて対応する&9ユニバーサル回路&rに変換できるので、より効率的な回路が作れるようになったときは&9ユニバーサル回路&rのレシピだけを変更すれば済む。"
+			]
+			icon: "kubejs:hv_universal_circuit"
+			id: "0D1A64EBBA742196"
+			shape: "hexagon"
+			tasks: [{
+				id: "2EEC0D825A18FE85"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:ulv_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:lv_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:mv_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:hv_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:ev_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:iv_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:luv_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:zpm_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:uv_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:uhv_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:uev_universal_circuit"
+							}
+							{
+								Count: 1b
+								id: "kubejs:uiv_universal_circuit"
+							}
+						]
+					}
+				}
+				title: "任意のユニバーサル回路"
+				type: "item"
+			}]
+			title: "&9ユニバーサル回路"
+			x: 2.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["410EA68D6EF15CEC"]
+			description: ["P2Pトンネルが大量になると管理が大変だ。ありがたいことに、&6アドバンスドメモリーカード&rがこれを解決してくれる。1枚のカードですべての接続を管理でき、その場でのバインドやバインド解除など、さまざまな機能を備えている。"]
+			id: "1AC8700C190E84BC"
+			rewards: [{
+				count: 3
+				id: "2143755D5F938861"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "今や本当に何にでもGUIがあるんだな"
+			tasks: [{
+				id: "75CE8F67A574D433"
+				item: {
+					Count: 1
+					id: "betterp2p:advanced_memory_card"
+					tag: {
+						gui: 3b
+						selectedIndex: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&9より良いP2P管理"
+			x: 5.0d
+			y: -0.25d
+		}
+		{
+			dependencies: [
+				"1040D941027962B1"
+				"410EA68D6EF15CEC"
+			]
+			description: [
+				"&3パターンP2P&rは他の&aP2P&rと似ているが、パターンプロバイダーのパターンをすべての出力にコピーできる。"
+				""
+				"例えば、パターンプロバイダーにパターンP2Pの入力を1つ設置し、同じIDの出力を5つ組立機に設置したとする。すると5台の組立機はすべて&6それぞれがたまたままったく同じパターンを持つ専用のパターンプロバイダーを持っているかのように動作&rし、ブロッキングのルールに従い、並列化なども行う。 "
+			]
+			id: "6646E6DBEF368924"
+			rewards: [{
+				count: 3
+				id: "033E426A87F3FC76"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "3D2DBB6C527CF870"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mae2:pattern_p2p_tunnel"
+							}
+							{
+								Count: 1b
+								id: "mae2:pattern_multi_p2p_tunnel"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&9パターンP2P"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"241FADD2C751BE74"
+				"4FAFF184242F5EB8"
+			]
+			description: [
+				"1つの&9256k MEアイテムストレージセル&rに100万個以上のアイテムを保管できてもまだ足りないなら、今度は&9MEGAセル&rがある！"
+				""
+				"&eMEGAセル&rは最大256Mバイトまであり、とてつもない量のアイテムを保管できる。これらのセルのハウジングを作るには高級素材が必要になる。"
+			]
+			id: "31A4355401B03644"
+			rewards: [{
+				id: "51D92E40EA9356F3"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "125C5CCA8906DC11"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			title: "&9MEGAセル"
+			x: -6.75d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"295E3D32083676E6"
+				"6169C04DF463502F"
+			]
+			description: ["プレートをそれぞれの&3刻印機&rで&a金型&rとともに加工して印刷済みプレートを作り、そのプレートと回路を組み合わせて蓄積プロセッサを作ろう。"]
+			id: "4FAFF184242F5EB8"
+			rewards: [{
+				id: "444FF1C6F8EEB5AF"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			subtitle: "&6蓄積プロセッサ&rは&6ブラックスチールプレート&r、&6シリコンプレート&r、そして任意の&6HV&r回路から作られる。"
+			tasks: [{
+				id: "4B2E214B3A13DCD5"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
+			title: "&9蓄積プロセッサ"
+			x: -7.5d
+			y: -4.25d
+		}
+		{
+			dependencies: [
+				"4FAFF184242F5EB8"
+				"4A96659253CCFACF"
+			]
+			description: [
+				"大規模な自動クラフト向け。 "
+				""
+				"これらのクラフトユニットは&eMEGAセルのストレージコンポーネント&rとクラフトすることで、さらに大きなクラフトユニットにできる。"
+			]
+			id: "0C08F09EBCDFDAD0"
+			rewards: [{
+				id: "23F41A3707BE058F"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DE29491688CFFFB"
+				item: "megacells:mega_crafting_unit"
+				type: "item"
+			}]
+			title: "&9MEGAクラフト"
+			x: -7.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["1040D941027962B1"]
+			description: ["&9ME梱包テープ&rを使えば、&6MEドライブ&rや&6パターンプロバイダー&rを梱包して簡単に移動でき、セルやパターンなどの中身もそのまま保持される。 "]
+			id: "5BE41497CBA97FE5"
+			rewards: [{
+				id: "738B2A17684F1318"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "梱包しよう！"
+			tasks: [{
+				id: "110002C8135222FC"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&9ME梱包テープ"
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2E079747A46D48CF"]
+			description: ["これはパターンアクセスターミナルと同じように機能するが、&9パターンの検索&rや、&9ワールド内の&6パターンプロバイダー&9のハイライト表示&rもできる。"]
+			id: "2341171A4123D584"
+			rewards: [{
+				id: "28AC866654AE9C02"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6BD68985130DD924"
+				item: "expatternprovider:ex_pattern_access_part"
+				type: "item"
+			}]
+			title: "&9ME拡張型パターンアクセスターミナル"
+			x: 6.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6F32A8739D8E792A"]
+			description: [
+				"&6分子組立機&rは、本来&3作業台&r、&3石切台&r、&3鍛冶台&rで行うレシピを自動クラフトする最も柔軟な方法だ。"
+				""
+				"対応する&6パターン&rを入れた&6パターンプロバイダー&rの隣に置けば、要求に応じてそれらの種類のレシピを実行してくれる。それ以上の設定は不要だ。"
+				""
+				"対応する&6パターン&rと&aAE&r電力を供給すれば、パッシブにレシピをクラフトすることもできる。"
+			]
+			id: "3C3E015DFA8FDECE"
+			shape: "hexagon"
+			tasks: [{
+				id: "1FE22A73493AA6D9"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4FF4697A8AF10731"
+				"605062720747B482"
+			]
+			description: [
+				"&6MEパターンバッファ&rは&9IV&rで解禁される。このブロックは&6パターンプロバイダー&rとよく似た働きをするが、いくつか大きな違いがある。マルチブロックの構造内でバス／ハッチとして使用する。バッファ内のパターンから供給されたアイテム／液体は、無限の容量を持つ内部ストレージに保管される。パターンごとに個別のバッファがあるので、異なるパターン同士で材料が混ざることはない。さらに、触媒となるアイテム／液体はバッファ内のすべてのパターンで共有できる。"
+				"&9パターンバッファはブロッキングモードに対応していない点に注意。普段は問題にならないが、何らかのブロッキングモードが必要なら通常の&6パターンプロバイダー&9を使うといい。&r"
+				""
+				"後に&3組立ライン&rと&3核融合炉&rを建てて稼働させると、&6MEパターンバッファプロキシ&rが作れるようになる。&6データスティック&rを持ってバッファをShift + 右クリックし、続けてプロキシを右クリックすると、親のMEパターンバッファにリンクできる。これでバッファの内部インベントリがプロキシからも使えるようになり、別のマルチブロックで利用できる。"
+			]
+			id: "436707C1C1A6A9DC"
+			shape: "hexagon"
+			tasks: [{
+				id: "6533101146563E11"
+				item: "gtceu:me_pattern_buffer"
+				type: "item"
+			}]
+			title: "MEパターンバッファとプロキシ"
+			x: 7.75d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"7C0A37EEA3C63B16"
+				"785C6332FC7A07A5"
+			]
+			description: [
+				"これらのブロックは&6ME入力バス&r/&6ハッチ&rと似た働きをする。保持する量を指定する代わりに、そのバス/ハッチはネットワーク内にある同じ種類のアイテム/液体をすべてマルチブロックから利用可能にする。実際にネットワークからアイテムを引き抜くわけではないので、ネットワーク上の他の場所でも引き続き使える。"
+				""
+				"「自動取得」モードを有効にすると、ネットワーク上の最初の16種類のアイテム/液体がマルチブロックから利用可能になる。"
+			]
+			id: "4FF4697A8AF10731"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6A607A8AF587BBE5"
+					item: "gtceu:me_stocking_input_bus"
+					type: "item"
+				}
+				{
+					id: "72872891101D9254"
+					item: "gtceu:me_stocking_input_hatch"
+					type: "item"
+				}
+			]
+			title: "ME在庫バス"
+			x: 6.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["7E59E0E33962D787"]
+			description: [
+				"&6レベルエミッター&rは、接続されたネットワーク内の選択したアイテムが一定量より多い/少ないときにレッドストーン信号を出す。アイテムを選択しない場合は、ネットワーク内の全アイテムの合計量を読み取る。"
+				""
+				"&6マシンコントローラ&rを使って機械をオン/オフするのにとても便利だ。"
+			]
+			id: "6D2CFBF365E052D5"
+			shape: "hexagon"
+			tasks: [{
+				id: "39E7EB00A6D4EB9E"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"521977C7165229F1"
+				"6E27B9938B280291"
+				"6DAB13A7BDECE94E"
+			]
+			description: [
+				"&6ME Requester&rでは、在庫が指定量を下回ったときに自動で要求するアイテムを選べる。一度に要求するバッチの大きさも設定できる。"
+				""
+				"&6MEリクエスターターミナル&rを使えば、ネットワーク上のすべてのRequesterを確認・編集できる。"
+			]
+			id: "24312649E417990B"
+			shape: "hexagon"
+			tasks: [{
+				id: "73884B63227783BD"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			title: "ME Requester"
+			x: 0.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6D03BB4A6A4BBA27"]
+			description: ["フルーシュはワールド内クラフトで作れる。&6レッドストーン&r、&6ネザークォーツ&r、&6チャージ済みケルタスクオーツの水晶&rを同じ&9水&rのブロックに投げ込もう。また、&3ミキサー&rで電力を使って作るレシピもある。"]
+			id: "491180694DA10086"
+			shape: "hexagon"
+			tasks: [{
+				id: "68188F6A8A7F508F"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "フルーシュの水晶"
+			x: 2.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["491180694DA10086"]
+			description: [
+				"フルーシュは最初はワールド内クラフトで作る。&6レッドストーン&r、&6ネザークォーツ&r、&6チャージ済みケルタスクオーツの水晶&rを同じ&9水&rのブロックに投げ込もう。火花が散った後、アイテムが融合して&6フルーシュの水晶&rになる。近くのアイテムマグネットや回収装置はオフにしておくこと。クラフトの邪魔をされるかもしれない。&3ミキサー&rのレシピもある。"
+				""
+				"&3エナジーアクセプター&rはGTの電力をApplied Energisticsが使うAEパワーに、1 EU対2 AEの比率で変換する。この電力は隣接するフルブロックのMEネットワーク機器や、接続されたすべての&6MEケーブル&rと&6クォーツファイバー&rを通じて伝わる。"
+				""
+				"クォーツファイバーはMEケーブルとMEネットワークブロック、または別のMEケーブルの間に設置できる&eマイクロパーツ&rだ。AEパワーは伝えるがデータは伝えないので、データ的に分離された複数のMEネットワークで同じ電源を共有するのに役立つ。"
+				"{@pagebreak}"
+				"Applied Energistics 2は初心者には複雑なので、必要に応じて&l&3ゲーム内ガイドを使う&r&e(対応アイテムにカーソルを合わせてGを押す)&rか、動画をこの章の補足として参照するのがおすすめだ。 "
+				""
+				"[\"\",{\"text\":\"他にも、 \"},{\"color\":\"blue\",\"underlined\":true,\"text\":\"PansmithによるApplied Energistics 2ガイド\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\"https://www.youtube.com/watch?v=u0ouTWgdcXk\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"クリックしてクリップボードにコピー！\"}}},{\"text\":\"も参考になる。AE2の1.12版向けに書かれたものだが、ほとんどの情報はバージョン間でまったく同じだ。\"}]"
+			]
+			icon: "ae2:energy_acceptor"
+			id: "4174A6C6403DD245"
+			rewards: [
+				{
+					id: "67642A41B1F7F4E8"
+					item: "kubejs:moni_nickel"
+					type: "item"
+				}
+				{
+					id: "2EAC8635F1C7A8DB"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "652709622C84E4CC"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["295E3D32083676E6"]
+			description: ["&6シリコン基板&r、&6LV回路&r、そして3種類の&6プリント回路&rのいずれかを&3刻印機&rで組み合わせるとプロセッサーが得られる。これらはApplied Energisticsのさまざまなブロックやアイテムに使われる。"]
+			id: "285052914EF655B9"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1B6744F5468437C5"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "18AC4CA06CFF73A8"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "1AAA2579648FF6CC"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "プロセッサの刻印"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5B3AF79FBDF80C51"]
+			description: ["&6ME特大インターフェース&rは&6ME拡張型インターフェース&rと同じスロット数を持つが、各スロットに最大1024個のアイテムまたは64バケツ分の液体を入れられる。"]
+			icon: "expatternprovider:oversize_interface"
+			id: "06794F93613F1496"
+			shape: "hexagon"
+			tasks: [{
+				id: "230CBD50A43483BC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:oversize_interface"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:oversize_interface_part"
+							}
+						]
+					}
+				}
+				title: "任意のME特大インターフェース"
+				type: "item"
+			}]
+			title: "ME特大インターフェース"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D3A5DCCE1B40D29"]
+			description: ["任意のブロックと&6ケーブルアンカー&r4個をクラフトすると、そのブロックの&6外装&rが4個手に入る。外装はどの種類のMEケーブルにも取り付けられる。ケーブルは外装を通り抜けられる。"]
+			icon: {
+				Count: 1
+				id: "ae2:facade"
+				tag: {
+					item: "minecraft:smooth_stone"
+				}
+			}
+			id: "7D622F83549C2387"
+			shape: "hexagon"
+			tasks: [{
+				id: "11152693DB3C2B47"
+				type: "checkmark"
+			}]
+			title: "外装ケーブル"
+			x: 4.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["6E27B9938B280291"]
+			description: [
+				"同じ種類のアイテムでも、名前が違うとスタックしない。この性質とアイテムの名前変更を自動化できることを組み合わせると、複雑な自動化に大いに役立つ。"
+				""
+				"方法の一つは、&bGT&rの&6金型 (名札)&rを&3圧縮成型機&rで使うことだ。金床で金型の名前を変えて、付けたい名前を設定しよう。"
+				""
+				"もう一つの方法は、&bAE2&rの&6名称銘記プレス&rを&3刻印機&rで使うことだ。名前を設定するには、&6ナイフ&rのいずれかを持って何もない空間を右クリックしてメニューを開く。付けたい名前を入力し、&a#ae2:metal_ingots&rタグを持つインゴット(鉄など)を入れる。そしてメニューからプレスを取り出そう。"
+				""
+				"どちらの方法でも、名前を変えたいアイテムを機械に入れれば名前が変わる。金型もプレスも消費されない。"
+			]
+			id: "6F1530D71AA11FFE"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7F1541F5CD18775D"
+					item: "gtceu:name_casting_mold"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5B364010E6B59B09"
+					item: {
+						Count: 1
+						id: "ae2:name_press"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "アイテムの自動改名"
+			x: 1.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["0EF85170074E70B3"]
+			description: [
+				"&6並列クラフトユニット&rは&6クラフトCPU&rの一部として使い、自動クラフトの速度を上げる。並列クラフトユニット1つごとに、CPUが並列で処理できるクラフトタスクが増える。"
+				""
+				"&n&4&l警告&r&r&r\n&6並列クラフトユニット&rを多く積みすぎた&6クラフトCPU&rを作ると、クラフトを予約したときに&c大きなラグスパイク&rが発生する。ラグの程度はプレイヤーの環境によって異なるが、&7&o1つのCPUに256並列以上は使わないほうがいいだろう。&r&r"
+			]
+			id: "51134C49D26C6D4A"
+			rewards: [{
+				id: "483CC2BCF13CD238"
+				item: "kubejs:moni_nickel"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "並列クラフトユニット"
+			tasks: [{
+				id: "1C29AFE0918CBC8E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:4x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:16x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:64x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "mae2:256x_crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "megacells:mega_crafting_accelerator"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "並列クラフト"
+			x: 0.75d
+			y: 6.0d
+		}
+	]
+	title: "物質とエネルギー"
+}

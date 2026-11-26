@@ -1,0 +1,20 @@
+{
+  "ccl.commands.count.fail": "エンティティが見つからなかった。",
+  "ccl.commands.count.total": "%s 体のエンティティが見つかった。",
+  "ccl.commands.gc.after": "後：",
+  "ccl.commands.gc.before": "前：",
+  "ccl.commands.gc.performing": "GC を実行中..",
+  "ccl.commands.killall.fail": "エンティティが見つからなかった。",
+  "ccl.commands.killall.fail.player": "このコマンドではプレイヤーを倒せない。",
+  "ccl.commands.killall.success": "%s 体のエンティティを倒した。",
+  "ccl.commands.killall.success.line": "%s を倒した",
+  "ccl.energy_bar.capacity": "容量:",
+  "ccl.energy_bar.energy_storage": "蓄電容量",
+  "ccl.energy_bar.rf": "RF",
+  "ccl.energy_bar.stored": "容量:",
+  "ccl.fluid_tank.capacity": "容量:",
+  "ccl.fluid_tank.contains": "含有物:",
+  "ccl.fluid_tank.fluid_storage": "流体ストレージ",
+  "ccl.fluid_tank.mb": "mB",
+  "ccl.fluid_tank.stored": "容量:"
+}

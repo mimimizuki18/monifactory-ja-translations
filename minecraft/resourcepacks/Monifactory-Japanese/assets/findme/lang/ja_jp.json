@@ -1,0 +1,6 @@
+{
+  "key.findme.category": "Find Me",
+  "key.findme.pull_one": "周辺のインベントリからアイテムを1個引き出す",
+  "key.findme.pull_stack": "周辺のインベントリからアイテムを1スタック引き出す",
+  "key.findme.search": "周辺のインベントリからアイテムを検索"
+}

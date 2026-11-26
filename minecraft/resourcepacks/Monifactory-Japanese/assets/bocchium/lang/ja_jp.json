@@ -1,0 +1,8 @@
+{
+  "bocchium.cull_bottom": "下面をカリングする",
+  "bocchium.cull_bottom.tooltip": "描画するブロックがディメンションの最下部にある場合、その下面の描画を無効にする。",
+  "bocchium.cull_top": "上面をカリングする",
+  "bocchium.cull_top.tooltip": "描画するブロックがネザーのようなディメンションの最上部にある場合、その上面の描画を無効にする。",
+  "bocchium.desc": "Bocchium は、ディメンションの最下部と最上部の岩盤をカリングして FPS を向上させるパフォーマンス Mod だ。",
+  "bocchium.enable": "Bocchium を有効化"
+}
